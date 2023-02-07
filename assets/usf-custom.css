@@ -559,3 +559,7 @@ input:focus-visible {
 .usf-views {
     display: none;
 }
+
+.usf-refineby__body{
+     font-size: 14px;
+}
