@@ -563,3 +563,7 @@ input:focus-visible {
 .usf-refineby__body{
      font-size: 14px;
 }
+
+.usf-sr-config {
+    justify-content: flex-end;
+}

@@ -564,7 +564,16 @@ input:focus-visible {
     display: none;
 }
 
+.usf-refineby__body{
+     font-size: 14px;
+}
+
+.usf-sr-config {
+    justify-content: flex-end;
+}
+
 /* End custom theme code */
+
 
 
 
