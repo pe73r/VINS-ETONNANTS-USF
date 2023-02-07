@@ -571,3 +571,6 @@ input:focus-visible {
 .usf-mobile .usf-grid .usf-sr-product {
     width: 100%;
 }
+.usf-mobile .usf-views {
+    display: none;
+}
