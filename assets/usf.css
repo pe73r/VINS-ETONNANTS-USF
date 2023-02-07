@@ -572,6 +572,10 @@ input:focus-visible {
     justify-content: flex-end;
 }
 
+.usf-mobile .usf-grid .usf-sr-product {
+    width: 100%;
+}
+
 /* End custom theme code */
 
 

@@ -567,3 +567,7 @@ input:focus-visible {
 .usf-sr-config {
     justify-content: flex-end;
 }
+
+.usf-mobile .usf-grid .usf-sr-product {
+    width: 100%;
+}
