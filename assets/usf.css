@@ -541,7 +541,13 @@ a.usf-checkout-btn:hover{
 .usf-c-select__list{
     font-size: 14px;
 }
+
+input:focus-visible {
+    outline: none;
+}
+
 /* End custom theme code */
+
 
 
 

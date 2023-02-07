@@ -541,3 +541,7 @@ a.usf-checkout-btn:hover{
 input:focus-visible {
     outline: none;
 }
+
+.usf-facet-value-single{
+     font-size: 14px;
+}
