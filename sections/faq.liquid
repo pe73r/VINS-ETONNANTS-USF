@@ -1,0 +1,84 @@
+<section class="my-10 md:my-10">
+  <div class="w-11/12 max-w-2xl mx-auto">
+    <div class="text-center text-[15px] mx-5 md:mx-36 mt-[62px] ">
+      {% if section.settings.title != blank %}
+        <h2 class="text-center text-[28px] md:text-[32px] font-bold mb-6" style="color:{{ section.settings.title_color }}">
+          {{ section.settings.title }}
+        </h2>
+      {% endif %}
+    </div>
+    <accordion-group>
+      {% for block in section.blocks %}
+        {% render 'faq', block: block %}
+      {% endfor %}
+    </accordion-group>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "FAQ",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "default": "FAQ",
+        "label": "Title FAQ"
+      },
+      {
+        "type": "header",
+        "content": "colors"
+      },
+      {
+        "type": "color",
+        "id": "title_color",
+        "label": "Title color",
+        "default": "#201A1C"
+      },
+      {
+        "type": "color",
+        "id": "title_accordion_color",
+        "label": "Title accordion color",
+        "default": "#201A1C"
+      }, {
+        "type": "color",
+        "id": "content_accordion_color",
+        "label": "Text accordion color",
+        "default": "#201A1C"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "FAQ Accordion",
+        "type": "block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "question",
+            "default": "Est-ce que cette poudre est vegan ?",
+            "label": "FAQ Title"
+          }, {
+            "type": "text",
+            "id": "answer",
+            "default": "Non, cette poudre n'est pas vegan car nous avons mis du collagène marin issu de poissons.",
+            "label": "FAQ content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "FAQ",
+        "blocks": [
+          {
+            "type": "block"
+          }, {
+            "type": "block"
+          }, {
+            "type": "block"
+          }
+
+        ]
+      }
+    ]
+  }
+{% endschema %}

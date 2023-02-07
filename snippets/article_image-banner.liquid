@@ -1,0 +1,9 @@
+{%- assign image_mobile = article.metafields.custom.image_article.value -%}
+<img
+  class="{{ class }}  {% if image_mobile != blank %} hidden md:block {% endif %} h-[100px] md:h-[160px] w-full object-cover lazy"
+  src="{{ image | img_url: 'master' }}"
+  alt="{{ image.alt }}"
+  loading="lazy">
+{% if image_mobile != blank %}
+  {% render "image" image: image_mobile.image, class: "w-full object-contain mx-auto md:hidden" %}
+{% endif %}

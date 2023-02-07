@@ -1,0 +1,125 @@
+{% assign isDynamic = section.settings.dynamic_header %}
+{% assign isSticky = section.settings.sticky_header %}
+{% assign showAnnouncement = section.settings.show_announce_when_down %}
+
+  <header
+  class="hidden lg:flex justify-center items-center w-full mx-auto relative pt-5 pb-2"
+  data-dynamic="false"
+  data-sticky="true"
+  {% if showAnnouncement %}data-showAnnouncement="true"{% endif %}>
+
+  {% comment %} {% render "header-drawer", links: section.settings.menu_desktop.links %} {% endcomment %}
+  {% render "header-menu", links: section.settings.menu_desktop.links %}
+</header>
+
+{% schema %}
+  {
+    "name": "Header",
+    "settings": [
+
+      {
+        "type": "checkbox",
+        "id": "sticky_header",
+        "default": true,
+        "label": "Enable sticky header",
+        "info": "Show the header at the top of the page"
+      },
+      {
+        "type": "checkbox",
+        "id": "dynamic_header",
+        "default": true,
+        "label": "Enable dynamic header",
+        "info": "Show or hide the header relative to the user scroll."
+      },
+      {
+        "type": "checkbox",
+        "id": "show_announce_when_down",
+        "default": true,
+        "label": "Show announcement in dynamic header",
+        "info": "Show or hide the announcement bar when the dynamic header is scrolled down."
+      },
+      {
+        "type": "header",
+        "content": "Desktop navigation"
+      }, {
+        "type": "link_list",
+        "id": "menu_desktop",
+        "default": "main-menu",
+        "label": "Desktop menu"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Mega menu",
+        "type": "megamenu",
+        "settings": [
+          {
+            "type": "link_list",
+            "id": "megamenu",
+            "label": "Mega menu"
+          },
+          {
+            "type": "header",
+            "content": "Featured link 1"
+          },
+          {
+            "type": "url",
+            "id": "featured_link_1",
+            "label": "Featured link"
+          },
+          {
+            "type": "image_picker",
+            "id": "featured_link_image_1",
+            "label": "Featured link image"
+          }, {
+            "type": "text",
+            "id": "featured_link_subtitle_1",
+            "label": "Featured link subtitle"
+          }, {
+            "type": "richtext",
+            "id": "featured_link_title_1",
+            "label": "Featured link title"
+          }, {
+            "type": "header",
+            "content": "Featured link 2"
+          }, {
+            "type": "url",
+            "id": "featured_link_2",
+            "label": "Featured link"
+          }, {
+            "type": "image_picker",
+            "id": "featured_link_image_2",
+            "label": "Featured link image"
+          }, {
+            "type": "text",
+            "id": "featured_link_subtitle_2",
+            "label": "Featured link subtitle"
+          }, {
+            "type": "richtext",
+            "id": "featured_link_title_2",
+            "label": "Featured link title"
+          }, {
+            "type": "header",
+            "content": "Featured link 3"
+          }, {
+            "type": "url",
+            "id": "featured_link_3",
+            "label": "Featured link"
+          }, {
+            "type": "image_picker",
+            "id": "featured_link_image_3",
+            "label": "Featured link image"
+          }, {
+            "type": "text",
+            "id": "featured_link_subtitle_3",
+            "label": "Featured link subtitle"
+          }, {
+            "type": "richtext",
+            "id": "featured_link_title_3",
+            "label": "Featured link title"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

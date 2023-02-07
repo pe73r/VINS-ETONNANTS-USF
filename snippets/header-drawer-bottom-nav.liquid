@@ -1,0 +1,11 @@
+<div class="px-5">
+  <ul class="border-t border-b py-3">
+    {% for link in elements[0].settings.menu.links %}
+      <li class="py-2">
+        <a href="{{ link.url }}" class="text-left text-sm">
+          {{ link.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

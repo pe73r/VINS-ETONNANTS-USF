@@ -1,0 +1,119 @@
+<section class="py-10">
+  <div class="w-11/12 max-w-7xl mx-auto">
+
+  <div class="account__titles">
+    <h2  data-title="compte" role="title" class="text-3xl md:text-4xl mb-5 text-center">Bonjour {{ customer.first_name }}!</h2>
+    <h2 data-title="perso"  role="title" class="text-3xl md:text-4xl mb-5 text-center" hidden>Mes données personnelles</h2>
+    <h2 data-title="orders" role="title" class="text-3xl md:text-4xl mb-5 text-center" hidden>Mes commandes</h2>
+    <hr class="block border-b w-[40px] mx-auto border-black mb-5">
+  </div>
+
+  <!-- menu mobile -->
+  <div class="block md:hidden">
+    {% render 'account-mobile-modals', customer:customer %}
+  </div>
+  
+  <!-- tabs desktop-->
+    <div class="tabs hidden md:flex flex-col md:flex-row relative gap-8 justify-between mt-10">
+      <div class="w-full md:w-1/4 flex flex-col">
+        <div class="flex flex-col justify-start items-start text-left py-3 border-t border-b">
+          <button id="compte" role="tab" aria-selected="true" 
+              class="w-fit min-w-fit pt-2 pb-1 mb-2 font-light cursor-pointer selected:border-b border-black selected:font-bold"> 
+              <span class="block text-xs">MON COMPTE</span>
+          </button>
+          <button id="perso" role="tab" aria-selected="false" 
+              class="w-fit min-w-fit pt-2 pb-1 mb-2 font-light cursor-pointer selected:border-b border-black selected:font-bold"> 
+              <span class="block text-xs">DONNÉES PERSONNELLES</span>
+          </button>
+          <button id="orders" role="tab" aria-selected="false" 
+              class="w-fit min-w-fit pt-2 pb-1 font-light cursor-pointer selected:border-b border-black selected:font-bold"> 
+              <span class="block text-xs">MES COMMANDES</span>
+          </button>
+        </div>
+        <div class="mt-2">
+          <a href="/pages/faqs" class="block py-2 text-xs cursor-pointer">FAQS</a>
+          <a href="/pages/contact" class="block py-2 text-xs cursor-pointer">CONTACT</a>
+          <a href="{{ routes.account_logout_url }}" class="block py-2 text-xs cursor-pointer">DÉCONNEXION</a>
+        </div>
+      </div>
+      <div class="hidden w-full md:block md:w-3/4">
+      <!-- tab compte -->
+        <div aria-labelledby="compte" role="tabpanel">
+          <div class="flex gap-5">
+            <div class="p-5 bg-white rounded-lg w-full md:w-4/12">
+              <div class="rounded-lg bg-creme w-20 h-20 flex justify-center items-center mx-auto mb-4 text-black">
+                {{ customer.first_name | slice: 0 -}}
+              </div>
+              <h3 class="text-extrabold text-center">{{ customer.first_name -}}</h3>
+              <p class="text-center mt-2 text-gray-400 break-words">{{ customer.email -}}</p>
+            </div>
+            <div class="p-5 bg-white rounded-lg w-full md:w-8/12">
+              <p class="text-center">WISHLIST</p>
+            </div>
+          </div>
+          <!-- last orders -->
+          <div class="bg-white rounded-lg mt-5">
+            {%- if customer.orders.size > 0 -%}
+              <div class="px-3 pt-8 md:p-8">
+                <p class="text-xs pb-4 border-b border-gray-300 font-light">MES DERNIÈRES COMMANDES</p>
+              </div>
+             {% endif  %}
+            
+            {% render 'account-orders', customer:customer, orders_limit: 2 %}
+          </div> 
+        </div>
+        <!-- tab addresses -->
+        <div aria-labelledby="perso" role="tabpanel" hidden>
+          {% render 'account-addresses', customer:customer %}
+        </div>
+        <!-- tab orders -->
+        <div aria-labelledby="orders" role="tabpanel" hidden>
+          {% render 'account-orders', customer:customer %}
+        </div>
+      </div>
+    </div><!-- close tabs desktop -->
+  </div>
+</section>
+<script>
+     const tabs = document.querySelector('.tabs');
+     const titles = document.querySelector('.account__titles');
+     const tabButtons = document.querySelectorAll('[role="tab"]');
+     const tabPanels = document.querySelectorAll('[role="tabpanel"]');
+     const tabTitles = document.querySelectorAll('[role="title"]');
+     const tabPanelsArray = Array.from(tabs.querySelectorAll('[role="tabpanel"]'));
+
+     function handleTabClick(event){
+    
+      // hide tab panels
+      tabPanels.forEach(function(panel){
+        panel.hidden = true;
+      });
+
+      //mark all tabs unselected
+      tabButtons.forEach(function(tab){
+        //tab.ariaSelected = false;
+        tab.setAttribute('aria-selected', false);
+      });
+
+      // mark clicked tab selected
+        event.currentTarget.setAttribute('aria-selected', true);
+
+      // find and show the associated panel  method 1
+      const { id } = event.currentTarget;
+       const tabPanel = tabPanelsArray.find(panel => panel.getAttribute('aria-labelledby') === id);
+       console.log(tabPanel);
+       tabPanel.hidden = false;
+       
+
+       tabTitles.forEach(function(title){
+        title.hidden = true;
+      });
+
+       const tabTitle = titles.querySelector(`[data-title="${id}"]`);
+       console.log(tabTitle);
+       tabTitle.hidden = false;
+     }
+
+   tabButtons.forEach(button => button.addEventListener('click', handleTabClick));
+
+  </script>

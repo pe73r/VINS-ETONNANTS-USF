@@ -1,0 +1,78 @@
+{% if product.description != blank %}
+  <div class="py-10 md:py-10">
+    <div class="w-11/12 mx-auto md:max-w-{{ section.settings.container }}">
+      <div class="bg-white rounded-lg p-5 md:p-8">
+        {% if section.settings.title != blank %}
+          <h2 class="text-[20px] lg:text-[28px] leading-8 lg:leading-10 mb-5 text-center" style="color:{{ section.settings.header_color }};">{{ section.settings.title }}</h2>
+        {% endif %}
+        {% if section.settings.text != blank %}
+          <div class="text-[24px] lg:text-[28px] leading-[28px] md:leading-[33px] italic mb-10" style="color:{{ section.settings.text_color }};">{{ section.settings.text }}</div>
+        {% endif %}
+        {{ product.description }}
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Product info simple",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "select",
+        "id": "container",
+        "options": [
+          {
+            "value": "7xl",
+            "label": "large"
+          }, {
+            "value": "5xl",
+            "label": "medium"
+          }, {
+            "value": "3xl",
+            "label": "small"
+          }
+        ],
+        "default": "7xl",
+        "label": "Container desktop"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Description du vin 🍷",
+        "label": "Title"
+      },
+      {
+        "type": "image_picker",
+        "id": "picto",
+        "label": "Picto title"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "default": "<p>'Délicieusement mordante, sur la griotte, la grenade et la fumée, avec une pointe d'épices”</p>",
+        "label": "Text"
+      }, {
+        "type": "header",
+        "content": "colors"
+      }, {
+        "type": "color",
+        "id": "header_color",
+        "label": "Text color",
+        "default": "#201A1C"
+      }, {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#F84C55"
+      }, {
+        "type": "color",
+        "id": "background_left_color",
+        "label": "Background color",
+        "default": "#FFFFFE"
+      }
+
+    ]
+  }
+{% endschema %}

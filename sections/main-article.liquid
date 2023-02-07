@@ -1,0 +1,91 @@
+<!-- image banner with breadcrumbs -->
+<div class="w-11/12 max-w-7xl mx-auto my-10 relative">
+  {% render 'breadcrumbs', class: "mt-8 mb-5" %}
+  {% render 'article_image-banner', image: article.image, class: "rounded-lg" %}
+
+  <div class="mt-5">
+    <h1 class="text-3xl md:text-4xl mt-1 mb-2 text-center">{{ article.title }}</h1>
+
+    {%- if article.metafields.custom.subtitle != blank -%}
+      <div class="mt-4 text-base font-bold text-center">
+        {{ article.metafields.custom.subtitle }}
+      </div>
+    {%- endif -%}
+
+    {%- if section.settings.show_date -%}
+      <p class="mb-4 text-xs text-gray-500 text-center font-light">
+        {%- assign articleDate = 'now' | date: '%A %d %B %Y' -%}
+        {%- render 'date-translate', dateString: articleDate, language: 'French' -%}
+      </p>
+    {%- endif -%}
+
+    {%- if section.settings.show_author -%}
+      <p
+        class="block mt-2.5 text-xs text-center">{{ article.author }}</p>
+    {%- endif -%}
+  </div>
+
+  <!-- article content -->
+  {% if section.settings.show_content %}
+    <div class="text-sm mt-5 article_content">
+      {{ article.content }}
+    </div>
+  {% endif %}
+</div>
+
+{%- assign share_url = shop.url | append: article.url -%}
+
+{% if section.settings.show_share %}
+  <div class="my-10 flex justify-center gap-3 items-center">
+    <h3 class="uppercase text-[15px] mr-2">SHARE</h3>
+    <div class="w-[30px] h-[30px] roundex-full border border-black rounded-full flex justify-center items-center">
+      <a href="https://www.facebook.com/sharer.php?u={{ share_url }}" target="_blank">
+        {% render 'icon-facebook', fill: 'black' %}
+      </a>
+    </div>
+    <div class="w-[30px] h-[30px] roundex-full border border-black rounded-full flex justify-center items-center">
+      {% render 'icon-mail' %}
+    </div>
+    <div class="w-[30px] h-[30px] roundex-full border border-black rounded-full flex justify-center items-center">
+      <a href="sms://?&body=https://jollymama.com{{ product.url }}{{ page.url }}{{ article.url }}">
+        {% render 'icon-sms' %}
+      </a>
+    </div>
+    <div class="w-[30px] h-[30px] roundex-full border border-black rounded-full flex justify-center items-center">
+      <a href="whatsapp://send?text=https://jollymama.com{{ product.url }}{{ page.url }}{{ article.url }}">
+        {% render 'icon-whatsapp' %}
+      </a>
+    </div>
+  </div>
+{% endif %}
+
+
+{% schema %}
+  {
+    "name": "Article de blog",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_date",
+        "default": true,
+        "label": "Show date"
+      }, {
+        "type": "checkbox",
+        "id": "show_author",
+        "default": false,
+        "label": "Show author"
+      }, {
+        "type": "checkbox",
+        "id": "show_content",
+        "default": true,
+        "label": "Show article content"
+      }, {
+        "type": "checkbox",
+        "id": "show_share",
+        "default": true,
+        "label": "Show share"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,95 @@
+<tail-modal fit-page="true" class="bg-creme">
+    <modal-overlay>
+        <modal-content class="rounded-none group-entering:-translate-x-full group-in:translate-x-0 group-exiting:-translate-x-full bg-creme">
+            <modal-header class="justify-start items-center p-3 border-none">  
+                <modal-close>
+                  <span class="block text-[10px]"> < Retour </span>
+                </modal-close>
+            </modal-header>
+            <div class="bg-bg-creme">
+              <div class="text-center">
+                 <h3 class="text-3xl mt-2 mb-5 leading-5">Mon compte</h3>
+                 <hr class="block border-b w-[40px] mx-auto border-black mb-5">
+              </div>
+              <div class="w-11/12 m-auto mt-10">
+                <div class="p-5 bg-white rounded-lg w-full md:w-4/12">
+                  <div class="rounded-lg bg-creme w-20 h-20 flex justify-center items-center mx-auto mb-4 text-black">
+                    {{ customer.first_name | slice: 0 -}}
+                  </div>
+                  <h3 class="text-extrabold text-center">{{ customer.first_name -}}</h3>
+                  <p class="text-center mt-2 text-gray-400 break-words">{{ customer.email -}}</p>
+               </div>
+              </div>
+            </div>
+        </modal-content>
+    </modal-overlay>
+    <modal-trigger class="w-full flex items-center py-2 cursor-pointer text-sm font-light">  
+        <span>MON COMPTE</span>
+    </modal-trigger>
+</tail-modal>
+
+
+<tail-modal fit-page="true" class="bg-creme">
+    <modal-overlay>
+        <modal-content class="rounded-none group-entering:-translate-x-full group-in:translate-x-0 group-exiting:-translate-x-full bg-creme">
+            <modal-header class="justify-start items-center p-3 border-none">  
+                <modal-close>
+                  <span class="block text-[10px]"> < Retour </span>
+                </modal-close>
+            </modal-header>
+            <div class="bg-bg-creme">
+              <div class="text-center">
+                 <h3 class="text-3xl mt-2 mb-5 leading-5">Mon compte</h3>
+                 <hr class="block border-b w-[40px] mx-auto border-black mb-5">
+              </div>
+              <div class="w-11/12 m-auto mt-10">
+                {% render 'account-addresses', customer:customer %}
+              </div>
+            </div>
+        </modal-content>
+    </modal-overlay>
+    <modal-trigger class="w-full flex items-center py-2 cursor-pointer text-sm font-light">  
+        <span>DONNÉES PERSONNELLES</span>
+    </modal-trigger>
+</tail-modal>
+
+
+<!-- modal orders -->
+<tail-modal fit-page="true" class="bg-creme">
+    <modal-overlay>
+        <modal-content class="rounded-none group-entering:-translate-x-full group-in:translate-x-0 group-exiting:-translate-x-full bg-creme">
+            <modal-header class="justify-start items-center p-3 border-none">
+                
+                <modal-close>
+                  <span class="block text-[10px]"> < Retour </span>
+                </modal-close>
+            </modal-header>
+            <div class="bg-bg-creme">
+              <div class="text-center">
+                <h3 class="text-3xl mt-2 mb-5 leading-5">Mes commandes</h3>
+                <hr class="block border-b w-[40px] mx-auto border-black mb-5">
+              </div>
+              <div class="w-11/12 m-auto mt-10">
+                {% render 'account-orders', customer:customer %}
+              </div>
+            </div>
+        </modal-content>
+    </modal-overlay>
+    <modal-trigger class="w-full flex items-center py-2 cursor-pointer text-sm font-light">  
+        <span>MES COMMANDES</span>
+    </modal-trigger>
+</tail-modal>
+
+<div class="border-t border-b border-gray-light py-2 mt-2">
+  <a href="/pages/faq" class="w-full flex items-center py-2 cursor-pointer text-sm font-light">
+    <span>FAQ</span>
+  </a>
+
+  <a href="pages/contact" class="w-full flex items-center py-2 cursor-pointer text-sm font-light">
+    <span>CONTACT</span>
+  </a>
+   <!-- Logout -->
+  <a href="{{ routes.account_logout_url }}" class="w-full flex items-center py-2 cursor-pointer text-sm font-light">
+    <span>DÉCONNEXION</span>
+  </a>
+</div>

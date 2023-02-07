@@ -1,0 +1,43 @@
+<a href="{{ article.url }}" class="block w-full">
+  <img
+    class="mb-2 lazy object-cover h-[180px] md:h-[270px] w-full rounded-lg"
+    src="{{ article.image | image_url }}"
+    alt="{{ article.image.alt }}"
+    loading="lazy">
+  <div class="">
+    {%- if show_date -%}
+      <p class="my-2 text-xs">
+        {{ article.published_at | date: "%d.%m.%C" }}
+      </p>
+    {%- endif -%}
+
+    {%- if show_author -%}
+      <span class="block mt-1 text-xs capitalize">{{ article.author }}
+      </span>
+    {%- endif -%}
+
+    {%- if show_title -%}
+      <h3 class="text-lg line-clamp-1">
+        {{ article.title | truncate: 100 | escape }}
+      </h3>
+    {% endif %}
+
+    {%- if show_excerpt -%}
+      {% if article.excerpt != blank %}
+        <p class="mt-2 text-sm line-clamp-3">
+          {{ article.excerpt }}
+        </p>
+      {% else %}
+        <p class="mt-2 text-sm line-clamp-3">
+          {{ article.content | truncate: 100 }}
+        </p>
+      {% endif %}
+    {% endif %}
+
+    {%- if show_button -%}
+      <a href="{{ article.url }}" class="block mt-3 underline text-sm font-bold accent-color">
+        {{ 'blogs.article.read_more' | t }}
+      </a>
+    {% endif %}
+  </div>
+</a>

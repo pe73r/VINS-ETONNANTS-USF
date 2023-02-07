@@ -1,0 +1,25 @@
+<div class="flex justify-center items-center overflow-visible gap-5">
+    {% for link in links %}
+       <!-- GET THE SUBMENU -->
+       {% assign submenu = blank %}
+       {% assign block = blank %}
+       {% for block in section.blocks %}
+           {% if block.settings.megamenu.title == link.title %}
+               {% assign submenu = block.settings.megamenu %}
+               {% assign block = block.settings %}
+           {% endif %}
+       {% endfor %}
+
+       <div class="group h-full flex items-center">
+           <{% if submenu != blank %}div {% else %}a href="{{ link.url }}"{% endif %} 
+           class="link-item relative heading-color block cursor-pointer text-sm hover:font-bold {% if link.title contains 'Promotion' or link.title contains 'PROMOTION' %} text-orange font-bold {% endif %}">
+               {{ link.title }}
+           </{% if submenu != blank %}div{% else %}a{% endif %}>
+           {% if submenu != blank %}
+               <div class="absolute left-0 top-[52px] w-screen py-10 px-[5%] bg-beige z-10 opacity-0 group-hover:block group-hover:opacity-100 overflow-hidden hidden">
+                   {% render 'megamenu' block: block, submenu: submenu, class: "grid gap-4 max-w-3xl grid-cols-3 px-20 mx-auto" %}
+               </div>
+           {% endif %}
+       </div>
+   {% endfor %}
+</div>

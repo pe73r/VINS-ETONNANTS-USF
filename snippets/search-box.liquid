@@ -1,0 +1,16 @@
+<form class="relative flex justify-between items-center md:w-[320px] rounded-2xl w-full text-sm py-2 px-3 border-[0.5px] ring-0 border-gray-medium focus:outline-none transition-all focus:ring-1 ring-capucine" action="{{ routes.search_url }}">
+  <input
+    name="q"
+    value="{{ search.terms | escape }}"
+    class=""
+    type="text"
+    placeholder="Rechercher" />
+  <label>
+    <input
+      type="submit"
+      value="Search"
+      class="hidden"
+      tra>
+    {% render 'icon-search' %}
+  </label>
+</form>

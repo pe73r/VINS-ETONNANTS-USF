@@ -1,0 +1,31 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "show_date": true,
+        "show_author": false,
+        "show_content": true,
+        "show_share": true
+      }
+    },
+    "540a9e67-38a2-4b96-854c-2e2c725f7f35": {
+      "type": "products-carousel",
+      "settings": {
+        "container": "7xl",
+        "collection": "vins-bio",
+        "limit": 6,
+        "title": "Nos vins à découvrir",
+        "collection_link": "Voir tout",
+        "url": "",
+        "show_secondary_image": false,
+        "show_arrows": true,
+        "show_dots": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "540a9e67-38a2-4b96-854c-2e2c725f7f35"
+  ]
+}

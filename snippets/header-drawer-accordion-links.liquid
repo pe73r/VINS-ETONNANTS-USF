@@ -1,0 +1,58 @@
+<accordion-group class="mt-2 w-11/12 mx-auto">
+  {%- for link in menu_mobile.links -%}
+    <accordion-element data-open="false">
+      {%- if link.links != blank -%}
+        <accordion-trigger class="group hover:bg-slate-200">
+          <accordion-header class="flex justify-between items-center py-2">
+            <div class="text-sm font-bold">
+              {{ link.title }}
+            </div>
+            <accordion-icon class="group-expanded:rotate-180 transition-all origin-center h-[fit-content]">
+              {% render 'icon-arrow-accordion' %}
+            </accordion-icon>
+          </accordion-header>
+
+        </accordion-trigger>
+        <accordion-content>
+          <ul class="mb-5 list-none">
+            {%- for child_link in link.links -%}
+              <li class="mb-2">
+                <a href="{{ link.url }}" class="text-sm {% if link.active %} font-bold {% endif %}">
+                  {{ child_link.title }}
+                </a>
+              </li>
+            {%- endfor -%}
+          </ul>
+
+          {% for block in section.blocks %}
+            {% if block.type == "megamenu" %}
+              {% assign menu_name = block.settings.menu_name %}
+
+              {% if link.title == menu_name %}
+                <div class="flex md:justify-center relative overflow-hidden overflow-x-scroll snap-mandatory snap-x gap-3 md:gap-10 scrollbar-none pr">
+                  {% if block.settings.image != blank %}
+                    <div class="min-w-[110px] md:min-w-0">
+                      <img src="{{ block.settings.image | img_url:'master' }}" alt="{{ block.settings.image.alt  }}">
+                      <h2>{{ block.settings.title }}</h2>
+                    </div>
+                  {% endif %}
+                  {% if block.settings.image_2 != blank %}
+                    <div class="min-w-[110px] md:min-w-0">
+                      <img src="{{ block.settings.image_2 | img_url:'master' }}" alt="{{ block.settings.image.alt  }}">
+                      <h2>{{ block.settings.title_2 }}</h2>
+                    </div>
+                  {% endif %}
+                </div>
+              {% endif %}
+
+            {% endif %}
+
+          {% endfor %}
+
+        </accordion-content>
+      {%- else -%}
+        {%- render "header-drawer-accordion-link", childLink: link -%}
+      {%- endif -%}
+    </accordion-element>
+  {%- endfor -%}
+</accordion-group>
