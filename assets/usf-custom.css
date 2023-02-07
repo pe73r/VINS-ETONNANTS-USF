@@ -542,6 +542,7 @@ input:focus-visible {
     outline: none;
 }
 
-.usf-facet-value-single{
+.usf-facet-value-single,
+.usf-label{
      font-size: 14px;
 }
