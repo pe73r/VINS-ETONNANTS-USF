@@ -555,3 +555,7 @@ input:focus-visible {
 .usf-sr-summary{
     display: none;
 }
+
+.usf-views {
+    display: none;
+}

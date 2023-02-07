@@ -556,7 +556,12 @@ input:focus-visible {
      font-size: 14px;
 }
 
+.usf-sr-summary{
+    display: none;
+}
+
 /* End custom theme code */
+
 
 
 
