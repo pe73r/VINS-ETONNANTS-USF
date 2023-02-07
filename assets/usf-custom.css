@@ -547,6 +547,7 @@ input:focus-visible {
      font-size: 14px;
 }
 
-.usf-slider-inputs {
+.usf-slider-inputs,
+.usf-c-slider {
      font-size: 14px;
 }
