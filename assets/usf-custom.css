@@ -551,3 +551,7 @@ input:focus-visible {
 .usf-c-slider {
      font-size: 14px;
 }
+
+.usf-sr-summary{
+    display: none;
+}
