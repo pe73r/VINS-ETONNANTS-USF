@@ -574,3 +574,11 @@ input:focus-visible {
 .usf-mobile .usf-views {
     display: none;
 }
+
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+  .usf-grid .usf-sr-product {
+    width: calc(50% - 10px);
+}
+}
+
+
