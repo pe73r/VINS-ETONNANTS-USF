@@ -82,11 +82,69 @@
       ],
       "settings": {
       }
+    },
+    "1edcc50e-e7d4-45cc-afd2-65c87d84bfef": {
+      "type": "carousel-cards",
+      "blocks": {
+        "68fe4325-6b4e-4507-a74e-edb742a3058f": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dan-meyers-IQVFVH0ajag-unsplash.jpg",
+            "title": "Vins",
+            "collection_link": "Je décrouve",
+            "url": ""
+          }
+        },
+        "a3aecefd-83c6-4fe1-aeff-c7003418c75a": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/johny-goerend-pnigODapPek-unsplash.jpg",
+            "title": "Vins",
+            "collection_link": "Je décrouve",
+            "url": ""
+          }
+        },
+        "6911b016-8b6c-49e9-97d6-6b8bf6f4eada": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_1_2.png",
+            "title": "Vins",
+            "collection_link": "Je décrouve",
+            "url": ""
+          }
+        },
+        "b14c3513-4ad4-459f-ae2b-87d6c1e17c4a": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_1.png",
+            "title": "Vins",
+            "collection_link": "Je décrouve",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "68fe4325-6b4e-4507-a74e-edb742a3058f",
+        "a3aecefd-83c6-4fe1-aeff-c7003418c75a",
+        "6911b016-8b6c-49e9-97d6-6b8bf6f4eada",
+        "b14c3513-4ad4-459f-ae2b-87d6c1e17c4a"
+      ],
+      "settings": {
+        "container": "7xl",
+        "title": "Nos catégories",
+        "collection_link": "Voir tout",
+        "url": "",
+        "show_title": true,
+        "show_arrows": false,
+        "show_dots": true,
+        "color": "#FFFFFF"
+      }
     }
   },
   "order": [
     "main",
     "46bac22b-e888-49cd-bfa7-cd3299d67ba8",
-    "92f667c6-6e6b-4370-804c-a957e1df9881"
+    "92f667c6-6e6b-4370-804c-a957e1df9881",
+    "1edcc50e-e7d4-45cc-afd2-65c87d84bfef"
   ]
 }
