@@ -1,12 +1,72 @@
+<section class="py-10 md:py-16 w-11/12 max-w-7xl mx-auto">
+  <div class="mb-10 text-center">
+    {% if section.settings.show_hr %}
+      <h1 class="font-bold text-3xl md:text-4xl mb-5">{{ section.settings.title | escape }}</h1>
+    {% endif %}
+
+    {% if section.settings.show_hr %}
+      <hr class="block border-b w-[40px] mx-auto border-black mb-5">
+    {% endif %}
+
+    {%- if section.settings.text != blank -%}
+      <tail-details class="text-sm max-w-3xl mx-auto">
+        <details-part>
+          <div class="text-sm">
+            {{ section.settings.text }}
+          </div>
+        </details-part>
+        <details-part>
+          <div class="text-sm mt-3">
+            {{ section.settings.more_text }}
+          </div>
+        </details-part>
+        <see-more class="block mt-3 text-sm underline capitalize accent-color">Lire plus</see-more>
+        <div class="text-center mt-2">
+          <see-less class="hidden justify-center mt-5 text-sm underline capitalize accent-color">Lire moins</see-less>
+        </div>
+      </tail-details>
+    {%- endif -%}
+  </div>
+  {%- paginate collections by paginate_by -%}
+    <ul class="collection-list grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" role="list">
+      {%- for collection in collections -%}
+        <li class="collection-list__item grid__item">
+          {% render 'card-collection', card_collection: collection %}
+        </li>
+      {%- endfor -%}
+    </ul>
+    <div class="mt-10">
+      {% render 'pagination', paginate: paginate %}
+    </div>
+
+  {%- endpaginate -%}
+</section>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "collection list",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Toutes les collections"
+      }, {
+        "type": "checkbox",
+        "id": "show_hr",
+        "label": "Show separator?",
+        "default": true
+      }, {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+      }, {
+        "type": "richtext",
+        "id": "more_text",
+        "label": "More Text",
+        "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+      }
+
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
