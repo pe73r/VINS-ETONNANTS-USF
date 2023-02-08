@@ -41,24 +41,23 @@
 
   <!-- collection title and description -->
   <div class="text-center max-w-2xl mx-auto mt-5">
-    {%- if section.settings.show_collection_title and isSearch == false -%}
-      <h1 class="text-[28px] leading-[37px] mb-3">
+    {%- if section.settings.title != blank -%}
+      <h2 class="text-[28px] leading-[37px] mb-3">
         {{- section.settings.title | escape -}}
-      </h1>
+      </h2>
       <hr class="block border-b w-[40px] mx-auto border-[#201A1C] mb-5">
     {% endif %}
 
-    {%- if section.settings.description contains "<!--split-->" and isSearch == false -%}
-      {%- assign collection_description = section.settings.description | split: "<!--split-->" -%}
+    {%- if section.settings.more_text != blank -%}
       <tail-details class="text-sm">
         <details-part>
           <div class="text-sm">
-            {{ collection_description | first }}
+            {{ section.settings.text }}
           </div>
         </details-part>
         <details-part>
           <div class="text-sm mt-3">
-            {{ collection_description | last }}
+            {{ section.settings.more_text }}
           </div>
         </details-part>
         <see-more class="block mt-5 text-sm underline capitalize accent-color">Lire plus</see-more>
@@ -67,9 +66,9 @@
         </div>
       </tail-details>
 
-    {% elsif section.settings.show_collection_description and isSearch == false -%}
+    {% elsif section.settings.text != blank -%}
       <div class="text-base mt-5">
-        {{ section.settings.description }}
+        {{ section.settings.text }}
       </div>
     {%- endif -%}
   </div>
@@ -84,14 +83,32 @@
         "id": "show_breadcrumbs",
         "default": true,
         "label": "Show breadcrumbs ?"
-      }, {
+      },
+      {
         "type": "image_picker",
         "id": "image",
         "label": "Image desktop"
-      }, {
+      },
+      {
         "type": "image_picker",
         "id": "image_mobile",
         "label": "Image mobile"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Title"
+      }, {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.</p>"
+      }, {
+        "type": "richtext",
+        "id": "more_text",
+        "label": "More text",
+        "default": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.</p>"
       }
 
     ],
