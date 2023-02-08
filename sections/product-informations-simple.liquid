@@ -1,7 +1,7 @@
 {% if product.description != blank %}
   <div class="py-10 md:py-10">
     <div class="w-11/12 mx-auto md:max-w-{{ section.settings.container }}">
-      <div class="bg-white rounded-lg p-5 md:p-8">
+      <div class="bg-white rounded-lg p-5 md:p-8 product-description">
         {% if section.settings.title != blank %}
           <h2 class="text-[20px] lg:text-[28px] leading-8 lg:leading-10 mb-5 text-center" style="color:{{ section.settings.header_color }};">{{ section.settings.title }}</h2>
         {% endif %}
@@ -13,6 +13,11 @@
     </div>
   </div>
 {% endif %}
+<style>
+  .product-description p {
+    font-size: 16px;
+  }
+</style>
 
 {% schema %}
   {

@@ -1,0 +1,104 @@
+<section class="w-11/12 max-w-7xl mx-auto main-collection">
+  {%- if section.settings.show_breadcrumbs -%}
+    <div class="my-5">
+      {% render 'breadcrumbs' %}
+    </div>
+  {% endif %}
+
+  {%- if section.settings.image -%}
+    <div class="w-full {%- if image_mobile != blank -%} md:block hidden {% endif %}">
+      <img
+        srcset="{%- if section.settings.image.width >= 165 -%}
+        {{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+      {%- if section.settings.image.width >= 360 -%}
+        {{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+      {%- if section.settings.image.width >= 535 -%}
+        {{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+      {%- if section.settings.image.width >= 750 -%}
+        {{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+      {%- if section.settings.image.width >= 1070 -%}
+        {{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+      {%- if section.settings.image.width >= 1500 -%}
+        {{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+      {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
+      src="{{ section.settings.image | image_url: width: 750 }}"
+      alt="{{ section.settings.title | escape }}"
+      width="{{ section.settings.image.width }}"
+      height="{{ section.settings.image.height }}"
+      class="w-full max-h-[200px] object-cover rounded-md"
+      loading="lazy">
+    </div>
+  {%- endif -%}
+
+  <!-- collection image mobile -->
+  {%- if image_mobile != blank -%}
+    <img
+      class="md:hidden w-full lazy"
+      src="{{ section.settings.image_mobile | img_url: 'master' }}"
+      alt="{{ section.settings.image_mobile.alt }}"
+      loading="lazy">
+  {%- endif -%}
+
+  <!-- collection title and description -->
+  <div class="text-center max-w-2xl mx-auto mt-5">
+    {%- if section.settings.show_collection_title and isSearch == false -%}
+      <h1 class="text-[28px] leading-[37px] mb-3">
+        {{- section.settings.title | escape -}}
+      </h1>
+      <hr class="block border-b w-[40px] mx-auto border-[#201A1C] mb-5">
+    {% endif %}
+
+    {%- if section.settings.description contains "<!--split-->" and isSearch == false -%}
+      {%- assign collection_description = section.settings.description | split: "<!--split-->" -%}
+      <tail-details class="text-sm">
+        <details-part>
+          <div class="text-sm">
+            {{ collection_description | first }}
+          </div>
+        </details-part>
+        <details-part>
+          <div class="text-sm mt-3">
+            {{ collection_description | last }}
+          </div>
+        </details-part>
+        <see-more class="block mt-5 text-sm underline capitalize accent-color">Lire plus</see-more>
+        <div class="text-center mt-3">
+          <see-less class="hidden justify-center mt-5 text-sm underline capitalize accent-color">Lire moins</see-less>
+        </div>
+      </tail-details>
+
+    {% elsif section.settings.show_collection_description and isSearch == false -%}
+      <div class="text-base mt-5">
+        {{ section.settings.description }}
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Page banner",
+    "settings": [
+
+      {
+        "type": "checkbox",
+        "id": "show_breadcrumbs",
+        "default": true,
+        "label": "Show breadcrumbs ?"
+      }, {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image desktop"
+      }, {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Image mobile"
+      }
+
+    ],
+    "presets": [
+      {
+        "name": "Page banner"
+      }
+    ]
+  }
+{% endschema %}
