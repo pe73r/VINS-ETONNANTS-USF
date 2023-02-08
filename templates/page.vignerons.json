@@ -7,9 +7,86 @@
         "display_page_title": true,
         "display_page_content": true
       }
+    },
+    "46bac22b-e888-49cd-bfa7-cd3299d67ba8": {
+      "type": "page-banner",
+      "settings": {
+        "show_breadcrumbs": true,
+        "image": "shopify:\/\/shop_images\/Sans_titre.jpg",
+        "title": "Tous les vignerons",
+        "text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.<\/p>",
+        "more_text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.<\/p>"
+      }
+    },
+    "92f667c6-6e6b-4370-804c-a957e1df9881": {
+      "type": "collections-blocks",
+      "blocks": {
+        "template--17932494569786__92f667c6-6e6b-4370-804c-a957e1df9881-167588680785d6ce32-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "aloxe-corton"
+          }
+        },
+        "template--17932494569786__92f667c6-6e6b-4370-804c-a957e1df9881-167588680785d6ce32-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "aubun"
+          }
+        },
+        "template--17932494569786__92f667c6-6e6b-4370-804c-a957e1df9881-167588680785d6ce32-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17932494569786__92f667c6-6e6b-4370-804c-a957e1df9881-167588680785d6ce32-3": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "d60a9eb0-e343-4363-975e-096832cf32f3": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "fd6937e4-fbad-4f65-9d5e-9cc4d86150ce": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1a09783d-a942-4dea-b8b2-7516050720c9": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "2eedd2e0-37fd-4927-a43b-892d91ce6629": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17932494569786__92f667c6-6e6b-4370-804c-a957e1df9881-167588680785d6ce32-0",
+        "template--17932494569786__92f667c6-6e6b-4370-804c-a957e1df9881-167588680785d6ce32-1",
+        "template--17932494569786__92f667c6-6e6b-4370-804c-a957e1df9881-167588680785d6ce32-2",
+        "template--17932494569786__92f667c6-6e6b-4370-804c-a957e1df9881-167588680785d6ce32-3",
+        "d60a9eb0-e343-4363-975e-096832cf32f3",
+        "fd6937e4-fbad-4f65-9d5e-9cc4d86150ce",
+        "1a09783d-a942-4dea-b8b2-7516050720c9",
+        "2eedd2e0-37fd-4927-a43b-892d91ce6629"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "46bac22b-e888-49cd-bfa7-cd3299d67ba8",
+    "92f667c6-6e6b-4370-804c-a957e1df9881"
   ]
 }
