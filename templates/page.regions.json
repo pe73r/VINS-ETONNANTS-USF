@@ -126,12 +126,26 @@
         "title": "Title",
         "color": "#fff"
       }
+    },
+    "5f2958eb-34b3-45d9-8518-7f035fd35f21": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201A1C",
+        "title": "Que signigie l’appelation bio ?",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+        "more_text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+        "text_mobile": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
+        "more_text_mobile": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+        "text_link": "Lire plus",
+        "text_less": "Lire moins"
+      }
     }
   },
   "order": [
     "main",
     "4403eeb5-ab09-4b58-887a-f471ea34a069",
     "b0ed7216-aa9e-401d-b643-186e17be4805",
-    "efb50d24-5406-4aff-9469-b94a9cabd1c3"
+    "efb50d24-5406-4aff-9469-b94a9cabd1c3",
+    "5f2958eb-34b3-45d9-8518-7f035fd35f21"
   ]
 }
