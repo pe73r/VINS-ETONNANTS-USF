@@ -12,12 +12,74 @@
       "type": "page-banner",
       "settings": {
         "show_breadcrumbs": true,
-        "image": "shopify:\/\/shop_images\/johny-goerend-pnigODapPek-unsplash.jpg"
+        "image": "shopify:\/\/shop_images\/johny-goerend-pnigODapPek-unsplash.jpg",
+        "title": "Title",
+        "text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.<\/p>",
+        "more_text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.<\/p>"
+      }
+    },
+    "b0ed7216-aa9e-401d-b643-186e17be4805": {
+      "type": "collections-blocks",
+      "blocks": {
+        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "bordeaux"
+          }
+        },
+        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "cotes-du-rhone"
+          }
+        },
+        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-3": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "d8d1b79e-a624-4225-8e79-95f293e1b932": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "ec035fb5-427a-4f62-8c78-0786a80818c2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "b0fc4799-9ee4-470f-aac2-e958ee264c80": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-0",
+        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-1",
+        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-2",
+        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-3",
+        "d8d1b79e-a624-4225-8e79-95f293e1b932",
+        "ec035fb5-427a-4f62-8c78-0786a80818c2",
+        "b0fc4799-9ee4-470f-aac2-e958ee264c80"
+      ],
+      "settings": {
       }
     }
   },
   "order": [
     "main",
-    "4403eeb5-ab09-4b58-887a-f471ea34a069"
+    "4403eeb5-ab09-4b58-887a-f471ea34a069",
+    "b0ed7216-aa9e-401d-b643-186e17be4805"
   ]
 }
