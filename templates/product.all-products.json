@@ -149,9 +149,9 @@
       ],
       "settings": {
         "title": "FAQ",
-        "title_color": "#733E2B",
-        "title_accordion_color": "#733E2B",
-        "content_accordion_color": "#927254"
+        "title_color": "#201a1c",
+        "title_accordion_color": "#201a1c",
+        "content_accordion_color": "#201a1c"
       }
     },
     "20c2f30e-d3b8-4c88-b885-f4760a1b1c1b": {
