@@ -1,0 +1,25 @@
+{% if product.tags contains "syrah" %}
+  Syrah
+{% elsif product.tags contains "pinot-noir" %}
+  Pinot-noir
+{% elsif product.tags contains "pinot-blanc" %}
+  Pinot blanc
+{% elsif product.tags contains "grenache" %}
+  Grenache
+{% elsif product.tags contains "merlot" %}
+  merlot
+{% elsif product.tags contains "chardonnay" %}
+  Chardonnay
+{% elsif product.tags contains "carignan" %}
+  Carignan
+{% elsif product.tags contains "cabernet" %}
+  Cabernet
+{% elsif product.tags contains "cabernet-sauvignon" %}
+  Cabernet-sauvignon
+{% elsif product.tags contains "ugni" %}
+  Ugni
+{% elsif product.tags contains "savagnin" %}
+  Savagnin
+{% else %}
+  Assemblage
+{% endif %}

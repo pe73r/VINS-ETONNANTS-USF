@@ -28,23 +28,31 @@
             </div>
 
             <!-- Metafield producer -->
+            {%- comment -%}
             <div class="mt-5">
               <p class="text-xs uppercase font-light">PRODUCTEUR</p>
               <p class="text-base line-clamp-2 min-h-[32px]">Laguerre (Domaine)</p>
-              {%- comment -%} <p class="my-2 text-base line-clamp-1 max-h-[32px]">{{ card_product.metafields.product.producer  }}</p> {%- endcomment -%}
+               <p class="my-2 text-base line-clamp-1 max-h-[32px]">{{ card_product.metafields.product.producer  }}</p> 
             </div>
+            {%- endcomment -%}
 
             <!-- Metafield region -->
+            {% if product.tags contains "france" %}
             <div class="mt-3">
               <p class="text-xs uppercase font-light">RÉGION</p>
-              <p class="text-base line-clamp-1">Bourgogne</p>
+              <p class="text-base line-clamp-1">
+                {% render 'tags-regions' product: card_product %}
+              </p>
               {%- comment -%} <p class="my-2 text-base line-clamp-1 max-h-[32px]">{{ card_product.metafields.product.region }}</p> {%- endcomment -%}
             </div>
+            {% endif %}
 
             <!-- Metafield grade -->
             <div class="mt-3">
               <p class="text-xs uppercase font-light">CÉPAGE</p>
-              <p class="text-base line-clamp-1">Syrah</p>
+              <p class="text-base line-clamp-1">
+                {% render 'tags-cepage' product: card_product %}
+              </p>
               {%- comment -%} <p class="my-2 text-base line-clamp-1 max-h-[32px]">{{ card_product.metafields.product.grade }}</p> {%- endcomment -%}
             </div>
         </div>
