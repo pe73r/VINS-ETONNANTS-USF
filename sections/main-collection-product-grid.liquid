@@ -64,39 +64,66 @@
     visibility:hidden;
 }
 </style>
-           <div class="text-center max-w-2xl mx-auto mt-5">
-        {%- if section.settings.show_collection_title  -%}
-            <h1 class="text-[28px] leading-[37px] mb-3">
-              {{- collection.title | escape -}}
-            </h1>
-            <hr class="block border-b w-[40px] mx-auto border-[#201A1C] mb-5">
-        {% endif %}
+     {% if template.suffix == 'vigneron' %}
+        <div class="my-8 w-11/12 max-w-7xl mx-auto">
+          <div class="mb-6">
+            {% render 'breadcrumbs' %}
+          </div>
 
-        {%- if collection.description contains "<!--split-->" and isSearch == false  -%}
-          {%- assign collection_description = collection.description | split: "<!--split-->" -%}
-          <tail-details class="text-sm">
-            <details-part >
-               <div class="text-sm">
-                 {{ collection_description | first }}
-               </div>
-            </details-part>
-            <details-part>
-                <div class="text-sm mt-3">
-                  {{ collection_description | last }}
-                </div>
-            </details-part>
-            <see-more class="block mt-5 text-sm underline capitalize accent-color">Lire plus</see-more>
-            <div class="text-center mt-3">
-              <see-less class="hidden justify-center mt-5 text-sm underline capitalize accent-color">Lire moins</see-less>
-            </div>
-          </tail-details>
-
-        {% elsif section.settings.show_collection_description and isSearch == false -%}
-            <div class="text-base mt-5">
-              {{ collection.description }}
+         <div class="w-full bg-[#EAE0CD] rounded-lg p-3">
+          <div class="w-full bg-white rounded-lg p-7 flex gap-5 lg:gap-10 flex-col-reverse lg:flex-row">
+            <div class="w-full lg:w-8/12">
+              <h1 class="text-[28px] leading-[37px] mb-3">
+                {{- collection.title | escape -}}
+              </h1>
+              <hr class="block border-b w-[40px] border-[#201A1C] mb-5">
+              <div class="text-sm">
+                    {{ collection.description  }}
               </div>
-        {%- endif -%}   
-    </div>
+            </div>
+            {% if collection.image != blank %}
+              <div class="w-full lg:w-4/12 h-[300px] bg-cover rounded-lg" style="background-image: url({{ collection.image | img_url: 'master' }});" >  
+             </div>
+            {% endif %}
+          </div>
+         </div>
+        </div>
+     {% else  %}
+        <div class="text-center max-w-2xl mx-auto mt-5">
+          {%- if section.settings.show_collection_title  -%}
+              <h1 class="text-[28px] leading-[37px] mb-3">
+                {{- collection.title | escape -}}
+              </h1>
+              <hr class="block border-b w-[40px] mx-auto border-[#201A1C] mb-5">
+          {% endif %}
+
+          {%- if collection.description contains "<!--split-->" and isSearch == false  -%}
+            {%- assign collection_description = collection.description | split: "<!--split-->" -%}
+            <tail-details class="text-sm">
+              <details-part >
+                <div class="text-sm">
+                  {{ collection_description | first }}
+                </div>
+              </details-part>
+              <details-part>
+                  <div class="text-sm mt-3">
+                    {{ collection_description | last }}
+                  </div>
+              </details-part>
+              <see-more class="block mt-5 text-sm underline capitalize accent-color">Lire plus</see-more>
+              <div class="text-center mt-3">
+                <see-less class="hidden justify-center mt-5 text-sm underline capitalize accent-color">Lire moins</see-less>
+              </div>
+            </tail-details>
+
+          {% elsif section.settings.show_collection_description and isSearch == false -%}
+              <div class="text-base mt-5">
+                {{ collection.description }}
+                </div>
+          {%- endif -%}   
+      </div>
+     {% endif %}
+      
 <div id="usf_container"></div>
 <div class="usf-skeleton-container">
 	<style>              
