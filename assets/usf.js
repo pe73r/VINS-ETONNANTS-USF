@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/6/2023 2:27:34 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/10/2023 6:57:03 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -159,20 +159,20 @@ usf.templates = {
                <div class="flex gap-1 relative min-h-[60px]">
                   <h2 class="font-body-text text-[20px] font-extrabold line-clamp-2" :attrs="usf.plugins.invoke('getProductTitleAttrs', pluginData)" v-html="product.title"></h2>
                </div> 
-               <!-- Metafield producer USF -->
+               <!-- Metafield producer -->
                <div class="mt-5">
                   <p class="text-xs uppercase font-light">PRODUCTEUR</p>
-                  <p class="text-base line-clamp-2 min-h-[32px]">{{ product.metafields.global.marque }}</p>
+                  <p class="text-base line-clamp-2 min-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
                </div>
-               <!-- tag region -->
+               <!-- Metafield region -->
                <div class="mt-3">
                   <p class="text-xs uppercase font-light">RÉGION</p>
-                  <p class="text-base line-clamp-1">Bourgogne</p>
+                  <p class="text-base line-clamp-1" v-html="checkTags(product.tags)"></p>
                </div>
-               <!-- grade -->
+               <!-- Metafield grade -->
                <div class="mt-3">
                   <p class="text-xs uppercase font-light">CÉPAGE</p>
-                  <p class="text-base line-clamp-1">Syrah</p>
+                  <p class="text-base line-clamp-1" v-html="usf.utils.getMetafield(product,'global','description_courte').split('-')[0].replace('Cépage ','')"></p>
                </div>
             </div>
 
@@ -781,7 +781,41 @@ usf.templates = {
 </div>`
 /*inc_end_minicart*/,
 };
-
+function checkTags(vl){
+    if(vl.includes("loire")){
+        return "Pays de la loire"
+    }else if(vl.includes("bierzo")){
+        return "Bierzo"
+    }else if(vl.includes("anjou")){
+        return "Anjou"
+    }else if(vl.includes("languedoc")){
+        return "Languedoc"
+    }else if(vl.includes("bordeaux")){
+        return "Bordeaux"
+    }else if(vl.includes("pyrenees")){
+        return "Pyrenees"
+    }else if(vl.includes("occitanie")){
+        return "Occitanie"
+    }else if(vl.includes("bourgogne")){
+        return "Bourgogne"
+    }else if(vl.includes("jura")){
+        return "Jura"
+    }else if(vl.includes("auvergne")){
+        return "Auvergne"
+    }else if(vl.includes("alsace")){
+        return "Alsace"
+    }else if(vl.includes("rhone-alpes")){
+        return "Rhone-alpes"
+    }else if(vl.includes("sud-ouest")){
+        return "Sud-ouest"
+    }else if(vl.includes("rioja")){
+        return "Rioja"
+    }else if(vl.includes("aquitanie")){
+        return "Aquitanie"
+    }else if(vl.includes("corse")){
+        return "Corse"
+    }
+}
 usf.event.add('init', function () {    
 	// register or override components
     // ...    
