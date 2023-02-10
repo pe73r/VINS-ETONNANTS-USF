@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/10/2023 8:11:46 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/10/2023 8:13:53 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -172,7 +172,7 @@ usf.templates = {
                <!-- Metafield grade -->
                <div class="mt-3">
                   <p class="text-xs uppercase font-light">CÉPAGE</p>
-                  <p class="text-base line-clamp-1" v-html="usf.utils.getMetafield(product,'global','description_courte').split('-')[0].replace('Cépage : ','')"></p>
+                  <p class="text-base line-clamp-1" v-html="usf.utils.getMetafield(product,'global','description_courte').split('-')[0].replace('Cépage : ','').replace('Cépages','')"></p>
                </div>
             </div>
 
