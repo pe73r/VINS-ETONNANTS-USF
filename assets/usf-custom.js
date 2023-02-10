@@ -158,6 +158,7 @@ usf.templates = {
                   <h2 class="font-body-text text-[20px] font-extrabold line-clamp-2" :attrs="usf.plugins.invoke('getProductTitleAttrs', pluginData)" v-html="product.title"></h2>
                </div> 
                <!-- Metafield producer -->
+               
                <div class="mt-5">
                   <p class="text-xs uppercase font-light">PRODUCTEUR</p>
                   <p class="text-base line-clamp-2 min-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
