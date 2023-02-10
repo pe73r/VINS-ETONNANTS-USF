@@ -210,7 +210,7 @@ usf.templates = {
             <span v-if="hasDiscount" class="usf-price-savings text-[20px] font-extrabold" v-html="loc.save + ' ' + salePercent + '%'"></span>
         </div>
         <div class="group relative mt-3 flex gap-1">
-            <product-quantity data-max-quantity="0" :data-product="product.id" class="flex items-center justify-center m-auto quantity border border-gray-300 rounded-md py-[5px] px-2">
+            <product-quantity data-max-quantity="0" :data-product="product.id" class="flex items-center justify-between m-auto quantity border border-gray-300 rounded-md py-[5px] px-3">
                <button class="p-1 no-js-hidden" name="minus" type="button">
                   <svg width="13" height="2" viewBox="0 0 13 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H11.0024C11.5547 0 12.0024 0.447715 12.0024 1C12.0024 1.55228 11.5547 2 11.0024 2H1C0.447715 2 0 1.55228 0 1Z" fill="#201A1C"></path>
