@@ -16,6 +16,7 @@
 
 {%- if media.media_type == 'image' -%}
   <img
+    id="{{ id }}"
     class="global-media-settings global-media-settings--no-shadow border-none {{ class }}"
     srcset="{%- if media.preview_image.width >= 550 -%}{{ media.preview_image | image_url: width: 550 }} 550w,{%- endif -%}
             {%- if media.preview_image.width >= 1100 -%}{{ media.preview_image | image_url: width: 1100 }} 1100w,{%- endif -%}
