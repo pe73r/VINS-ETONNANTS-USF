@@ -1,6 +1,6 @@
 {% assign s = section.settings %}
 
-<tail-marquee class="flex relative overflow-hidden" style="min-height:{{ section.settings.height }}; color: {{ section.settings.text_color }}; background-color: {{ section.settings.background_color }}; {% if section.settings.border %} border-top: 2px solid {{ section.settings.text_color }}; border-bottom: 2px solid {{ section.settings.text_color }} {% endif %}">
+<tail-marquee class="flex relative overflow-hidden z-[-1]" style="min-height:{{ section.settings.height }}; color: {{ section.settings.text_color }}; background-color: {{ section.settings.background_color }}; {% if section.settings.border %} border-top: 2px solid {{ section.settings.text_color }}; border-bottom: 2px solid {{ section.settings.text_color }} {% endif %}">
   <marquee-content style="animation-duration:{{section.settings.animationDuration}}s; max-height:{{ section.settings.height }}" class="items-center flex py-3 animate-marquee whitespace-nowrap gap-10 pr-10">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
