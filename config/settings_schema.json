@@ -96,6 +96,36 @@
     ]
   },
   {
+    "name": "regions",
+    "settings": [
+      {
+        "type": "header",
+        "content": "REGIONS"
+      },
+      {
+        "type": "textarea",
+        "id": "regions",
+        "label": "List of regions",
+        "info": "Include a list of regions separated by a comma to match with the product tag"
+      }
+    ]
+  },
+  {
+    "name": "cepage",
+    "settings": [
+      {
+        "type": "header",
+        "content": "CEPAGE"
+      },
+      {
+        "type": "textarea",
+        "id": "cepages",
+        "label": "List of cepages",
+        "info": "Include a list of cepages separated by a comma to match with the product tag"
+      }
+    ]
+  },
+  {
     "name": "Social",
     "settings": [
       {
