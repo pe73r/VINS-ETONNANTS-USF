@@ -28,8 +28,8 @@
   {% endif %}
 {% endfor %}
 
-{% for pink_tag in pink_wines_tags %}
-  {% if product.tags contains white_tag %}
+{% for pink_tag in pink_wine_tags %}
+  {% if product.tags contains pink_tag %}
     {% assign pink = true %}
   {% endif %}
 {% endfor %}
@@ -147,6 +147,7 @@
       {% assign style = true %}
     {% endif %}
   {% endfor %}
+
   {% if style %}
     <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
       <div>
