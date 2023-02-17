@@ -26,9 +26,22 @@
             <div class="min-h-[15px]">
             </div>
 
-        
+            {% assign countries = "espagne,autriche,italie,allemagne,grece,croatie,japon,portugal,zelande,etats-unis" | split: "," %}
             {% assign cepages = settings.cepages | split: "," %}
             {% assign regions = settings.regions | split: "," %}
+
+            {% for country in countries %}
+              {% if card_product.tags contains country %}
+                {% assign country = true %}
+              {% endif %}
+            {% endfor %}
+
+            {% for cepage in cepages %}
+              {% assign cepage_down = cepage | downcase | replace: " ", "-" | replace: "é", "e" | replace: "í", "i" | replace: "ô", "o" %} 
+              {% if card_product.tags contains cepage_down %}
+                {% assign isCepage = true %}
+              {% endif %}
+            {% endfor %}
 
             <!-- Metafield producer -->    
             {% if  product.metafields.global.marque != blank %}
@@ -39,38 +52,47 @@
            {% endif %}
            
             <!-- Region --> 
-            <div class="mt-3">
-              <p class="text-xs uppercase font-light">RÉGION</p>
-              {% comment %} <p class="text-base line-clamp-1 capitalize">
-                {% render 'tags-regions' product: card_product %}
-              </p> {% endcomment %}
-             
-              <ul class="flex gap-1">
-                {% for region in regions %}
-                  {% assign region_down = region | downcase | replace: " ", "-" | replace: "é", "e" | replace: "í", "i" | replace: "ô", "o" %}
-                  {% if card_product.tags contains region_down %}
-                    <p class="text-base line-clamp-1 capitalize">{{ region_down }}</p>
-                  {% endif %}
-                {% endfor %}
-              </ul>
-            </div>
+            {% unless country %}
+              <div class="mt-3">
+                <p class="text-xs uppercase font-light">RÉGION</p>
+                {% comment %} <p class="text-base line-clamp-1 capitalize">
+                  {% render 'tags-regions' product: card_product %}
+                </p> {% endcomment %}
+              
+                <ul class="flex gap-1">
+                  {% for region in regions %}
+                    {% assign region_down = region | downcase | replace: " ", "-" | replace: "é", "e" | replace: "í", "i" | replace: "ô", "o" %}
+                    {% if card_product.tags contains region_down %}
+                      <p class="text-base line-clamp-1 capitalize">{{ region_down }}</p>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </div>
+            {% else %} 
+              <div class="mt-3">
+                <p class="text-xs uppercase font-light">COUNTRY</p>
+                <p class="text-base line-clamp-1 capitalize">{% render 'tags-countries' product: card_product %}</p>
+              </div>
+            {% endunless %}
            
             <!-- Cepage -->
-            <div class="mt-3">
-              {% assign cepage = product.metafields.global.description_courte | split: '-' | first | remove: "Cépage" %}
-              <p class="text-xs uppercase font-light">CÉPAGE</p>
-              {% comment %} <p class="text-base line-clamp-1">
-                {{ cepage }}
-              </p> {% endcomment %}
-              <ul class="flex gap-1">
-                {% for cepage in cepages %}
-                  {% assign cepage_down = cepage | downcase | replace: " ", "-" | replace: "é", "e" | replace: "í", "i" | replace: "ô", "o" %} 
-                  {% if card_product.tags contains cepage_down %}
-                    <p class="text-base line-clamp-1 capitalize">{{ cepage_down }}</p>
-                  {% endif %}
-                {% endfor %}
-              </ul>
-            </div>
+            {% if isCepage %}
+              <div class="mt-3">
+                {% assign cepage = product.metafields.global.description_courte | split: '-' | first | remove: "Cépage" %}
+                <p class="text-xs uppercase font-light">CÉPAGE</p>
+                {% comment %} <p class="text-base line-clamp-1">
+                  {{ cepage }}
+                </p> {% endcomment %}
+                <ul class="flex gap-1">
+                  {% for cepage in cepages %}
+                    {% assign cepage_down = cepage | downcase | replace: " ", "-" | replace: "é", "e" | replace: "í", "i" | replace: "ô", "o" %} 
+                    {% if card_product.tags contains cepage_down %}
+                      <p class="text-base line-clamp-1 capitalize">{{ cepage_down }}</p>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </div>
+          {% endif %}
         </div>
 
           <!-- product image -->

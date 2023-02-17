@@ -1,46 +1,173 @@
+{% assign white_wines_tags = "anjou-blanc,blanc,blanc-sec-fruite-et-nerveux,blanc-sec-fruite-et-souple,blanc-sec-riche-et-rond,blanc-sec-riche-et-structure,bordeaux-blanc,bourgogne-hautes-cotes-de-beaune-blanc,brezeme-blanc,bugey-blanc,carignan-blanc,chenin-blanc,cheverny-blanc,clairette-blanche,cotes-de-provence-blanc,dona-blanca,folle-blanche,forcallat-blanc,gaillac-blanc-sec,gamay-noir-a-jus-blanc,grenache-blanc,ladoix-blanc,limoux-blanc,macon-blanc,mauzac-blanc,mondeuse-blanche,ondenc-blanc,pinot-blanc,piquepoul-blanc,sauvignon-blanc,semillon-blanc,tempranillo-blanc,terret-blanc,ugni-blanc" | split: "," %}
+{% assign red_wines_tags = "anjou-rouge,bordeaux-rouge,bourgogne-hautes-cotes-de-beaune-rouge,bourgogne-passetoutgrain-rouge,bugey-rouge,cheverny-rouge,cotes-de-provence-rouge,gaillac-rouge,ladoix-rouge-1er-cru,limoux-rouge,macon-rouge,melon-a-queue-rouge,rouge-elegant-et-raffine,rouge-peu-tannique-et-fruite,rouge-puissant-et-fruite,rouge-rond-et-fruite,rouge-rond-et-riche,rouge-structure-et-tannique" | split: "," %}
+{% assign pink_wine_tags = "bordeaux-rose,cabernet-danjou-rose-moelleux,clairette-rose,cotes-de-provence-rose,prosecco,roses-doux,savagnin-rose,vins-roses,vins-roses-effervescents,vins-roses-sec" | split: "," %}
+{% assign orange_wine_tags = "vins-oranges" %}
+{% assign sweet_wine_tags = "vins-doux" %}
+
+{% for orange_tag in orange_wine_tags %}
+  {% if product.tags contains orange_tag %}
+    {% assign orange = true %}
+  {% endif %}
+{% endfor %}
+
+{% for sweet_tag in sweet_wine_tags %}
+  {% if product.tags contains sweet_tag %}
+    {% assign sweet = true %}
+  {% endif %}
+{% endfor %}
+
+{% for red_tag in red_wines_tags %}
+  {% if product.tags contains red_tag %}
+    {% assign red = true %}
+  {% endif %}
+{% endfor %}
+
+{% for white_tag in white_wines_tags %}
+  {% if product.tags contains white_tag %}
+    {% assign white = true %}
+  {% endif %}
+{% endfor %}
+
+{% for pink_tag in pink_wines_tags %}
+  {% if product.tags contains white_tag %}
+    {% assign pink = true %}
+  {% endif %}
+{% endfor %}
+
+
 <div class="grid grid-cols-2 gap-2">
-   <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
-      <div>
-        <img class="mx-auto" src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/Ellipse_72.png?v=1670359613" alt="">
-         <span class="text-xs">VINS BIO</span>
-      </div>
-   </div>
-
-   <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
-    <div>
-      <img class="mx-auto" src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/Ellipse_72_2.png?v=1670359627" alt="">
-       <span class="text-xs">ROND & FRUITÉ</span>
-    </div>
-  </div>
-
-  {%- if product.tags contains "rose" -%}
+  {% if product.tags contains "vins-bio" or product.tags contains "vins-en-biodynamie" or product.tags contains "sans-sulfites-ajoutes" or product.tags contains "vin-methode-nature" or product.tags contains "sulfites-tres-raisonnes" %}
     <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
-        <div>
-          <img class="mx-auto" src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/drop-rose.svg?v=1670359831" alt="">
-          <span class="text-xs">VIN ROSÉ</span>
-        </div>
+      <div>
+        <img
+          class="mx-auto"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/Ellipse_72.png?v=1670359613"
+          alt="">
+        {% if product.tags contains "vins-bio" %}
+          <span class="text-xs uppercase">bio</span>
+        {% elsif product.tags contains "vins-en-biodynamie" %}
+          <span class="text-xs uppercase">vin biodynamique</span>
+        {% elsif product.tags contains "sans-sulfites-ajoutes" %}
+          <span class="text-xs uppercase">sans sulfites</span>
+        {% elsif product.tags contains "vin-methode-nature" %}
+          <span class="text-xs uppercase">vin nature</span>
+        {% elsif product.tags contains "sulfites-tres-raisonnes" %}
+          <span class="text-xs uppercase">sulfites très raisonnés</span>
+        {% endif %}
       </div>
-  {%- elsif product.tags contains "rouge" -%}   
-        <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
-          <div>
-            <img class="mx-auto" src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/drop-red.svg?v=1670360714" alt="">
-            <span class="text-xs">VIN ROUGE</span>
-          </div>
-        </div>
-  {%- elsif product.tags contains "blanc" -%}   
-        <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
-          <div>
-            <img class="mx-auto" src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/drop-white.png?v=1670360118" alt="">
-            <span class="text-xs">VIN BLANC</span>
-          </div>
-        </div>     
-  {%- endif -%}
-  
-
-  <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
-    <div>
-      <img class="mx-auto" src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/Ellipse_72_1.png?v=1670359613" alt="">
-       <span class="text-xs">COMPLEXE</span>
     </div>
-  </div>
+  {% endif %}
+
+  {% assign types = "rouge-rond-et-fruite,blanc-sec-riche-et-structure,rouge-puissant-et-fruite" | split: ',' %}
+  {% for wine_type in types %}
+    {% if product.tags contains wine_type %}
+      {% assign type = true %}
+    {% endif %}
+  {% endfor %}
+  {% if type %}
+    <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
+      <div>
+        <img
+          class="mx-auto"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/Ellipse_72_2.png?v=1670359627"
+          alt="">
+        {% if product.tags contains "rouge-rond-et-fruite" %}
+          <span class="text-xs uppercase">rond & fruité</span>
+        {% elsif product.tags contains "blanc-sec-riche-et-structure" %}
+          <span class="text-xs uppercase">riche et structure</span>
+        {% elsif product.tags contains "sans-sulfites-ajoutes" %}
+          <span class="text-xs uppercase">sans sulfites ajoutes</span>
+        {% elsif product.tags contains "vin-methode-nature" %}
+          <span class="text-xs uppercase">methode nature</span>
+        {% elsif product.tags contains "rouge-puissant-et-fruite" %}
+          <span class="text-xs uppercase">puissant et fruite</span>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
+
+
+  {%- if orange -%}
+    <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
+      <div>
+        <img
+          class="mx-auto"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/drop-orange.png?v=1676645558"
+          alt="">
+        <span class="text-xs">VIN ORANGE</span>
+      </div>
+    </div>
+  {%- elsif sweet -%}
+    <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
+      <div>
+        <img
+          class="mx-auto"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/drop-orange.png?v=1676645558"
+          alt="">
+        <span class="text-xs">VIN DOUX</span>
+      </div>
+    </div>
+  {%- elsif pink -%}
+    <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
+      <div>
+        <img
+          class="mx-auto"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/drop-rose.svg?v=1670359831"
+          alt="">
+        <span
+          class="text-xs">VIN ROSÉ</span>
+      </div>
+    </div>
+  {%- elsif red -%}
+    <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
+      <div>
+        <img
+          class="mx-auto"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/drop-red.svg?v=1670360714"
+          alt="">
+        <span class="text-xs">VIN ROUGE</span>
+      </div>
+    </div>
+  {%- elsif white -%}
+    <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
+      <div>
+        <img
+          class="mx-auto"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/drop-white.png?v=1670360118"
+          alt="">
+        <span class="text-xs">VIN BLANC</span>
+      </div>
+    </div>
+
+  {%- endif -%}
+
+  {% assign style_list = "vin-facile-et-gourmand,vin-plus-complexe,mais-accessible-a-tous,vin-classieux-excellent,vin-experimental-tres-etonnant,vin-decouverte-original" | split: ',' %}
+  {% for style in style_list %}
+    {% if product.tags contains style %}
+      {% assign style = true %}
+    {% endif %}
+  {% endfor %}
+  {% if style %}
+    <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
+      <div>
+        <img
+          class="mx-auto"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/Ellipse_72_1.png?v=1670359613"
+          alt="">
+        {% if product.tags contains "vin-facile-et-gourmand" %}
+          <span class="text-xs uppercase">facile et gourmand</span>
+        {% elsif product.tags contains "vin-plus-complexe" %}
+          <span class="text-xs uppercase">complexe</span>
+        {% elsif product.tags contains "mais-accessible-a-tous" %}
+          <span class="text-xs uppercase">accessible à tous</span>
+        {% elsif product.tags contains "vin-classieux-excellent" %}
+          <span class="text-xs uppercase">classieux</span>
+        {% elsif product.tags contains "vin-experimental-tres-etonnant" %}
+          <span class="text-xs uppercase">expérimental</span>
+        {% elsif product.tags contains "vin-decouverte-original" %}
+          <span class="text-xs uppercase">découverte/original</span>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
 </div>
