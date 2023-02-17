@@ -1,6 +1,6 @@
-{% if product.tags contains "france" %}
+{% if product.tags contains "france" or product.tags contains "vin-de-france" %}
   France
-{% elsif product.tags contains "espagne" %}
+{% elsif product.tags contains "espagne" or product.tags contains "ribera-del-duero" or product.tags contains "rioja" %}
   Espagne
 {% elsif product.tags contains "croatie" %}
   Croatie
@@ -20,6 +20,8 @@
   Nouvelle-zelande
 {% elsif product.tags contains "etats-unis" %}
   Etas-unis
+{% elsif product.tags contains "grece" %}
+  Gréce
 {% else %}
   France
 {% endif %}
