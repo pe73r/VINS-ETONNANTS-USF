@@ -180,6 +180,7 @@
           },
           "a8c986f1-2dc2-4084-94e7-b2071d712ca6": {
             "type": "megamenu",
+            "disabled": true,
             "settings": {
               "megamenu": "vins-rouges",
               "featured_link_1": "",
