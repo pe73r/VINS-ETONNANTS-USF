@@ -16,8 +16,8 @@ const js = [
   "./tail.megamenu.js",
   "./tail.filters.js",
   "./tail.variants.js",
-  "./tail.account.js",
-  "./tail.results.js"
+  "./tail.account.js"
+  // "./tail.results.js"
   // "./tail.algolia.js"
 ]
   .map((path) => fs.readFileSync("./assets/" + path).toString())
