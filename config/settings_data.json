@@ -150,9 +150,8 @@
           },
           "9361598a-ff81-4f8d-a8a3-71f39892e985": {
             "type": "megamenu",
-            "disabled": true,
             "settings": {
-              "megamenu": "vignerons",
+              "megamenu": "par-region",
               "featured_link_1": "shopify:\/\/blogs\/guide\/l-alimentation-en-postpartum-en-quoi-est-elle-essentielle",
               "featured_link_image_1": "shopify:\/\/shop_images\/Rectangle_1_1.png",
               "featured_link_subtitle_1": "",
