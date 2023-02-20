@@ -791,7 +791,7 @@ function checkCountries(vl){
 }
 
 function checkTags(vl){
-    var regionTags=['Afrique-du-Sud', 'Allemagne', 'Alsace', 'Angleterre', 'Anjou', 'Aquitaine', 'Argentine', 'Armenie', 'Australie', 'Autriche', 'Auvergne', 'Auvergne-Rhone-Alpes', 'Beaujolais', 'Bordeaux', 'Bourgogne', 'Bourgogne-Franche-Comte', 'Canada', 'Centre', 'Champagne', 'Chili', 'Chypre', 'Cidre', 'Corse', 'Croatie', 'Espagne', 'Etats-Unis', 'Franche-Comte', 'Georgie', 'Grece', 'Hongrie', 'Israel', 'Italie', 'Japon', 'Jura', 'Liban', 'Loire', 'Maroc', 'Mexique', 'Midi-Pyrenees', 'Muscadet/Vendee', 'Nouvelle-Zelande', 'Occitanie', 'Pays-de-Loire', 'Perou', 'Portugal', "Provence - Alpes - Cote d'Azur", 'Rhone', 'RhoneRoussillon', 'Savoie', 'Slovenie', 'Sud-Ouest', 'Suisse', 'Syrie', 'Uruguay']
+    var regionTags=['Afrique-du-Sud', 'Allemagne', 'Alsace', 'Angleterre', 'Anjou', 'Aquitaine', 'Argentine', 'Armenie', 'Australie', 'Autriche', 'Auvergne', 'Auvergne-Rhone-Alpes', 'Beaujolais', 'Bordeaux', 'Bourgogne', 'Bourgogne-Franche-Comte', 'Canada', 'Centre', 'Champagne', 'Chili', 'Chypre', 'Cidre', 'Corse', 'Croatie', 'Espagne', 'Etats-Unis', 'Franche-Comte', 'Georgie', 'Grece', 'Hongrie', 'Israel', 'Italie', 'Japon', 'Jura', 'Liban', 'Loire', 'Maroc', 'Mexique', 'Midi-Pyrenees', 'Muscadet/Vendee', 'Nouvelle-Zelande', 'Occitanie', 'pays-de-loire', 'Perou', 'Portugal', "Provence - Alpes - Cote d'Azur", 'Rhone', 'RhoneRoussillon', 'Savoie', 'Slovenie', 'Sud-Ouest', 'Suisse', 'Syrie', 'Uruguay']
     for(var i=0;i<regionTags.length;i++){
         if(vl.includes(regionTags[i])){
             return regionTags[i]
