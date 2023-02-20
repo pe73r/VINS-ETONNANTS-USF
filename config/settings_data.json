@@ -162,11 +162,27 @@
               "featured_link_subtitle_3": "",
               "featured_link_title_3": ""
             }
+          },
+          "fd038aa8-7095-4c6d-ac32-b3972d0e056a": {
+            "type": "megamenu",
+            "settings": {
+              "megamenu": "vins-blancs-et-oranges",
+              "featured_link_1": "",
+              "featured_link_subtitle_1": "",
+              "featured_link_title_1": "",
+              "featured_link_2": "",
+              "featured_link_subtitle_2": "",
+              "featured_link_title_2": "",
+              "featured_link_3": "",
+              "featured_link_subtitle_3": "",
+              "featured_link_title_3": ""
+            }
           }
         },
         "block_order": [
           "bbc724c6-30ab-4e7f-b250-da0bc7ceacfc",
-          "9361598a-ff81-4f8d-a8a3-71f39892e985"
+          "9361598a-ff81-4f8d-a8a3-71f39892e985",
+          "fd038aa8-7095-4c6d-ac32-b3972d0e056a"
         ],
         "settings": {
           "sticky_header": true,
