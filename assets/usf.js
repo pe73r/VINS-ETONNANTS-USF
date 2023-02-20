@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/10/2023 9:04:39 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/20/2023 3:37:57 PM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -163,12 +163,12 @@ usf.templates = {
                
                <div class="mt-5">
                   <p class="text-xs uppercase font-light">PRODUCTEUR</p>
-                  <p class="text-base line-clamp-2 min-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
+                  <p class="mb-2 text-base line-clamp-2 min-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
                </div>
                <!-- Metafield region -->
-               <div class="mt-3">
+               <div class="mt-3" v-if="checkCountries(product.tags)">
                   <p class="text-xs uppercase font-light">RÉGION</p>
-                  <p class="text-base line-clamp-1" v-html="checkTags(product.tags)"></p>
+                  <p class="text-base line-clamp-1 capitalize" v-html="checkTags(product.tags)"></p>
                </div>
                <!-- Metafield grade -->
                <div class="mt-3">
@@ -782,6 +782,24 @@ usf.templates = {
 </div>`
 /*inc_end_minicart*/,
 };
+
+function checkCountries(vl){
+    var countries = ["espagne","autriche","italie","allemagne","grece","croatie","japon","portugal","zelande","etats-unis"] 
+    for(var i=0;i<countries.length;i++){
+        if(vl.includes(countries[i])){
+            return 1
+        }
+    }
+}
+
+function checkTags(vl){
+    var regionTags=['Afrique-du-Sud', 'Allemagne', 'Alsace', 'Angleterre', 'Anjou', 'Aquitaine', 'Argentine', 'Armenie', 'Australie', 'Autriche', 'Auvergne', 'Auvergne-Rhone-Alpes', 'Beaujolais', 'Bordeaux', 'Bourgogne', 'Bourgogne-Franche-Comte', 'Canada', 'Centre', 'Champagne', 'Chili', 'Chypre', 'Cidre', 'Corse', 'Croatie', 'Espagne', 'Etats-Unis', 'Franche-Comte', 'Georgie', 'Grece', 'Hongrie', 'Israel', 'Italie', 'Japon', 'Jura', 'Liban', 'Loire', 'Maroc', 'Mexique', 'Midi-Pyrenees', 'Muscadet/Vendee', 'Nouvelle-Zelande', 'Occitanie', 'Pays-de-Loire', 'Perou', 'Portugal', "Provence - Alpes - Cote d'Azur", 'Rhone', 'RhoneRoussillon', 'Savoie', 'Slovenie', 'Sud-Ouest', 'Suisse', 'Syrie', 'Uruguay']
+    for(var i=0;i<regionTags.length;i++){
+        if(vl.includes(regionTags[i])){
+            return regionTags[i]
+        }
+    }
+}/*
 function checkTags(vl){
     if(vl.includes("loire")){
         return "Pays de la loire"
@@ -816,7 +834,7 @@ function checkTags(vl){
     }else if(vl.includes("corse")){
         return "Corse"
     }
-}
+}*/
 usf.event.add('init', function () {    
 	// register or override components
     // ...    
