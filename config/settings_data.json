@@ -153,6 +153,7 @@
             "settings": {
               "megamenu": "par-region",
               "featured_link_1": "shopify:\/\/blogs\/guide\/l-alimentation-en-postpartum-en-quoi-est-elle-essentielle",
+              "featured_link_image_1": "shopify:\/\/shop_images\/dan-meyers-IQVFVH0ajag-unsplash.jpg",
               "featured_link_subtitle_1": "",
               "featured_link_title_1": "",
               "featured_link_2": "shopify:\/\/blogs\/guide\/acide-folique-ou-folates-quelle-difference",
@@ -180,7 +181,6 @@
           },
           "a8c986f1-2dc2-4084-94e7-b2071d712ca6": {
             "type": "megamenu",
-            "disabled": true,
             "settings": {
               "megamenu": "vins-rouges",
               "featured_link_1": "",
