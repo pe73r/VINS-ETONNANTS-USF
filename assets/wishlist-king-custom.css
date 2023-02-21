@@ -89,8 +89,8 @@ wishlist-page .wk-grid {
 }
 
 .wk-floating{
-  top: -10px;
-  left: 10px;
+  top: -10px !important;
+  left: 10px !important;
 }
 @media (min-width: 400px) {
   wishlist-page .wk-grid {
