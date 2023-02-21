@@ -14,8 +14,19 @@
   </div>
 {% endif %}
 <style>
-  .product-description p {
+  .product-description p,
+  .product-description span,
+  .product-description a,
+  .product-description div {
     font-size: 16px;
+  }
+  @media screen(max-width: 1023px) {
+    .product-description p,
+    .product-description span,
+    .product-description a,
+    .product-description div {
+      font-size: 14px;
+    }
   }
 </style>
 
@@ -77,7 +88,6 @@
         "label": "Background color",
         "default": "#FFFFFE"
       }
-
     ]
   }
 {% endschema %}
