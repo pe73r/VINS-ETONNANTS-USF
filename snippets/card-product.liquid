@@ -37,7 +37,7 @@
 {%- if card_product and card_product != empty -%} 
   <div class="card-product p-5 rounded-md bg-white shadow-md {% unless template contains "collection" or width_fit == true %} hehe min-w-[300px] md:min-w-[320px] {% endunless %}">
     <div class="absolute top-2 right-2 z-10">
-      <wishlist-button data-product-handle="reduction-de-px" layout="icon-and-text" alignment="left" fullwidth="">
+      <wishlist-button data-product-handle="{{ product.handle }}" layout="icon-and-text" alignment="left" fullwidth="">
         <wk-button>
            <button type="button" aria-label="Add to Wishlist" class="wk-button wk-align-left wk-full-width">
              <wk-icon class="wk-icon" icon="wishlist">
