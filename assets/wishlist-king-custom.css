@@ -1,7 +1,7 @@
 wishlist-link .wk-button {
   --icon-size: 20px;
   --icon-stroke: black;
-  --icon-stroke-width: 1px;
+  --icon-stroke-width: 1.5px;
 
   height: 2.5rem;
   width: 2.5rem;
