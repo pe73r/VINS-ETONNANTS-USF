@@ -69,6 +69,10 @@ wishlist-product-card .wk-vendor {
 wishlist-product-card .wk-price {
 }
 
+wishlist-page .wk-header .wk-controls {
+  font-size: 14px;
+}
+
 wishlist-page .wk-grid {
   --columns: 1;
 }
