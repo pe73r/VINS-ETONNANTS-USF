@@ -86,7 +86,7 @@ const initComponents = ({ theme, routes }) => {
   // Product page
   theme.watch(
     {
-      selector: `.form[action="${routes.cartAddUrl}"] .product-form__buttons`,
+      selector: `#buy-buttons`,
       pageType: ["product"],
     },
     (target) => {
