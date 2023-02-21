@@ -18,8 +18,8 @@ wishlist-link .wk-button .wk-pill {
   font-weight: 700;
   color: white;
   background-color: rgb(var(--accent));
-  top: 8px;
-  right: 2px;
+  top: 7px;
+  right: 3px;
 }
 
 wishlist-button .wk-button,
