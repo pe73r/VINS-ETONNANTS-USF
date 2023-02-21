@@ -1,6 +1,6 @@
 {% assign limitOnSmallScreen = 3 %}
 {% if limit != blank %}
-  {% assign limitOnSmallScreen = limit %} 
+  {% assign limitOnSmallScreen = limit %}
 {% endif %}
 
 <div class="grid gap-4 grid-cols-{{ counter }}">
@@ -29,7 +29,11 @@
     -%}
     {% if image != blank %}
       <a class="relative lg:block text-sm text-center {% if forloop.index > limitOnSmallScreen %} hidden {% endif %}" href="{{ link.url }}">
-        <img class="w-full h-[300px] rounded-md object-fit" src="{{ image | img_url:'master' }}" alt="{{ image.alt }}" loading="lazy">  
+        <img
+          class="w-full h-[300px] 2xl:h-[400px] rounded-md object-fit"
+          src="{{ image | img_url:'master' }}"
+          alt="{{ image.alt }}"
+          loading="lazy">
         {% if subtitle != blank %}
           <p class="my-2 text-center tex-sm">{{ subtitle }}</p>
         {% endif %}
