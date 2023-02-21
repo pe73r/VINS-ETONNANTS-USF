@@ -103,5 +103,5 @@ wishlist-page .wk-grid {
 @media (min-width: 900px) {
   wishlist-page .wk-grid {
     --columns: 4;
-  }
+  } 
 }
