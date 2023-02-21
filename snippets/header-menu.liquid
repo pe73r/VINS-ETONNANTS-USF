@@ -12,7 +12,7 @@
 
        <div class="group h-full flex items-center py-2">
            <{% if submenu != blank %}div {% else %}a href="{{ link.url }}"{% endif %} 
-           class="link-item relative heading-color block cursor-pointer text-sm hover:font-bold {% if link.title contains 'Promotion' or link.title contains 'PROMOTION' or link.title contains 'PROMOTION'or link.title contains 'Nouveautés' %} text-orange font-bold {% endif %}">
+           class="link-item relative heading-color block cursor-pointer text-sm hover:font-bold {% if link.title contains 'Promotion' or link.title contains 'PROMOTION' or link.title contains 'PROMOTION'or link.title contains 'Nouveautés' %} text-orange font-bold {% elsif  link.title contains 'Vins bio' %} text-green-800 font-bold{% endif %}">
                {{ link.title }}
            </{% if submenu != blank %}div{% else %}a{% endif %}>
            {% if submenu != blank %}
