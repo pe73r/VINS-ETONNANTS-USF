@@ -37,25 +37,26 @@
 
 <div class="bg-white rounded-md pt-2 pb-4 px-4 md:px-5">
   <!-- product title -->
-  <div class="flex gap-1 relative min-h-[60px] items-center">
-    <h1 class="font-body-text text-[20px] leading-[24px] md:text-[28px] md:leading-[33px] font-bold line-clamp-2 tracking-tight">
-      {{ product.title }}
-    </h1>
-    {%- if rouge -%}
-      <div class="relative ml-1">
-        {% render 'icon-drop-red' %}
+   <div class="flex justify-between">
+      <div class="flex gap-1 relative min-h-[60px] items-center">
+        <h1 class="font-body-text text-[20px] leading-[24px] md:text-[28px] md:leading-[33px] font-bold line-clamp-2 tracking-tight">
+          {{ product.title }}
+        </h1>
+        {%- if rouge -%}
+          <div class="relative ml-1">
+            {% render 'icon-drop-red' %}
+          </div>
+        {%- elsif white -%}
+          <div class="relative ml-1">
+            {% render 'icon-drop-yellow' %}
+          </div>
+        {%- elsif pink -%}
+          <div class="relative ml-1">
+            {% render 'icon-drop-pink' %}
+          </div>
+        {%- endif -%}
       </div>
-    {%- elsif white -%}
-      <div class="relative ml-1">
-        {% render 'icon-drop-yellow' %}
-      </div>
-    {%- elsif pink -%}
-      <div class="relative ml-1">
-        {% render 'icon-drop-pink' %}
-      </div>
-    {%- endif -%}
-
-    <wishlist-button data-product-handle="reduction-de-px" layout="icon-and-text" alignment="left" fullwidth=""><!---->
+     <wishlist-button data-product-handle="reduction-de-px" layout="icon-and-text" alignment="left" fullwidth=""><!---->
       <wk-button><!---->
       <button type="button" aria-label="Add to Wishlist" class="wk-button wk-align-left wk-full-width">
         <!--?lit$606802882$--><wk-icon class="wk-icon" icon="wishlist"><!---->
@@ -65,7 +66,7 @@
   </wk-icon><!--?lit$606802882$--><span class="wk-text"><!--?lit$606802882$-->Add to Wishlist</span><!--?lit$606802882$-->
       </button>
     </wk-button>
-</wishlist-button>
+   </wishlist-button>
   </div>
 
   <div class="flex items-center justify-between">
