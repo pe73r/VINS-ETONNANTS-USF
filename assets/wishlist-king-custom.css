@@ -24,7 +24,7 @@ wishlist-link .wk-button .wk-pill {
 
 wishlist-button .wk-button,
 wishlist-button .wk-floating .wk-button {
-  --icon-stroke: #F84C55;
+  --icon-stroke: black;
 
   color: black;
   margin-top: 1em;
