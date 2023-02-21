@@ -25,6 +25,7 @@ wishlist-button .wk-floating .wk-button {
   --icon-stroke: black;
 
   color: black;
+  margin-top: 1em;
 }
 
 wishlist-button wk-button:not(.wk-floating) .wk-button {
