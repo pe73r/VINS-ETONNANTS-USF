@@ -586,8 +586,27 @@ input:focus-visible {
 }
 
 
+/* wishlist app */
 
+
+.wk-floating {
+  top: -10px !important;
+  left: 10px !important;
+}
+
+wishlist-button .wk-button,
+wishlist-button .wk-floating .wk-button {
+
+  margin-top: 0 !important;
+}
+
+
+.wk-button .wk-icon {
+  --fill: #F84C55 !important;
+  --stroke: #F84C55 !important;
+}
 /* End custom theme code */
+
 
 
 
