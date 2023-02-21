@@ -581,3 +581,13 @@ input:focus-visible {
 } 
 } 
 
+#ProductGridContainer{
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 639px) {
+  #ProductGridContainer{
+    margin-top: 30px;
+}
+} 
