@@ -131,6 +131,10 @@ wishlist-product-card .wk-form {
    display:none;
 }
 
+.product-info .wk-button{
+   display:none;
+}
+
 #sticktCart wishlist-button{
   display: none;
 }
