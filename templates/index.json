@@ -223,6 +223,7 @@
       ],
       "settings": {
         "container": "7xl",
+        "title": "Title",
         "color": "#ffffff"
       }
     },
@@ -235,7 +236,7 @@
             "image": "shopify:\/\/shop_images\/Rectangle_304_47d0ca59-3975-44a8-abbb-45e6139946d0.png",
             "title": "Vins rouges",
             "collection_link": "Je décrouve",
-            "url": "shopify:\/\/collections\/bordeaux-rouge"
+            "url": "shopify:\/\/collections\/vins-rouges"
           }
         },
         "b85bcbca-29d6-48aa-b0bb-c0c9ccfd33cb": {
