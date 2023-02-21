@@ -4,7 +4,7 @@
     {% for links in submenu.links %}
       {%- assign submenu_columns = submenu_columns | plus: 1 -%}
       <div>
-        <a href="{{ links.url }}" class="flex flex-row items-center gap-2 text-base">
+        <a href="{{ links.url }}" class="flex flex-row items-center gap-2 text-base font-bold">
           {% assign title = links.title | handle %}
           {% render 'icons-menu', title: title, submenu: submenu %}
           {%- liquid
