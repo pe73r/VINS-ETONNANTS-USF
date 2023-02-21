@@ -56,7 +56,7 @@ const initComponents = ({ theme, routes }) => {
   // Grid items
   theme.watch(
     {
-      selector: `.card__information a[href*="/products/"]`,
+      selector: `.usf-grid__item-link[href*="/products/"]`,
       pageType: ["home", "product", "collection"],
     },
     (target) => {
@@ -70,7 +70,7 @@ const initComponents = ({ theme, routes }) => {
             layout: "icon-only",
             alignment: "center",
             floating: {
-              reference: target.closest(".card--media"),
+              reference: target,
               position: {
                 placement: "top-end",
                 inset: true,
