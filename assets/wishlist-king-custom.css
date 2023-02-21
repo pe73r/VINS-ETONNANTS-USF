@@ -60,6 +60,7 @@ wishlist-product-card .wk-submit-button {
   color: rgb(var(--button_color_primary)) !important;
   font-size: 16px;
   border-radius: 0.375rem;
+  display: none;
 }
 
 wishlist-product-card .wk-meta {
