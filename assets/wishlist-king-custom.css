@@ -112,3 +112,9 @@ wishlist-button .wk-floating{
   top: -10px !important;
   left: 10px !important;
 }
+
+wishlist-product-card .wk-product-card {
+   background: white;
+    padding: 30px 20px 20px 20px;
+    border-radius: 10px;
+}
