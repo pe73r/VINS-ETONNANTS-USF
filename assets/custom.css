@@ -98,26 +98,3 @@ input:focus-visible {
   }
 }
 
-/* wishlist app */
-
-:root {
-  --icon-fill: #F84C55;
-  --icon-stroke: #F84C55;
-}
-
-.wk-floating {
-  top: -10px !important;
-  left: 10px !important;
-}
-
-wishlist-button .wk-button,
-wishlist-button .wk-floating .wk-button {
-
-  margin-top: 0 !important;
-}
-
-
-.wk-button .wk-icon {
-  --fill: var(--icon-fill) !important;
-  --stroke: var(--icon-stroke) !important;
-}
