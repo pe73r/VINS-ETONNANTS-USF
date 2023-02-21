@@ -118,3 +118,7 @@ wishlist-product-card .wk-product-card {
     padding: 30px 20px 20px 20px;
     border-radius: 10px;
 }
+
+wishlist-product-card .wk-form {
+    display:none;
+}
