@@ -90,7 +90,7 @@ const initComponents = ({ theme, routes }) => {
       pageType: ["product"],
     },
     (target) => {
-      target.append(
+      target.insertAfter(
         theme.createComponent("wishlist-button", {
           dataset: {
             productHandle: theme.getProductHandle(document.location.href),
