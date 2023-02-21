@@ -73,6 +73,10 @@ wishlist-page .wk-header .wk-controls {
   font-size: 14px;
 }
 
+wishlist-page .wk-login-callout {
+  font-size: 16px;
+}
+
 wishlist-page .wk-grid {
   --columns: 1;
 }
