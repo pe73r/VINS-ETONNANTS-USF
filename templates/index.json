@@ -270,7 +270,7 @@
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/kelsey-knight-udj2tD3WKsY-unsplash.jpg",
-            "title": "Vins de Bordeaux",
+            "title": "Vins de <br>Bordeaux",
             "collection_link": "Je décrouve",
             "url": "shopify:\/\/collections\/bordeaux-rouge"
           }
@@ -279,9 +279,9 @@
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_41_78b4c930-97d1-4c84-82cb-0f261638a3f4.png",
-            "title": "Vins",
+            "title": "Vins rouges <br> fruités",
             "collection_link": "Je décrouve",
-            "url": ""
+            "url": "shopify:\/\/collections\/rouge-puissant-et-fruite"
           }
         }
       },
