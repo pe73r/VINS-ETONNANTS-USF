@@ -245,7 +245,7 @@
             "image": "shopify:\/\/shop_images\/Rectangle_304_1.png",
             "title": "Vins blancs",
             "collection_link": "Je décrouve",
-            "url": ""
+            "url": "shopify:\/\/collections\/bordeaux-blanc"
           }
         },
         "597a64e8-0135-4bc4-a1f5-3c99ba04cf2a": {
@@ -254,7 +254,7 @@
             "image": "shopify:\/\/shop_images\/Rectangle_304_2.png",
             "title": "Vins<br>\neffervescents",
             "collection_link": "Je décrouve",
-            "url": ""
+            "url": "shopify:\/\/collections\/vins-effervescents"
           }
         },
         "319a33b3-1253-41dd-8239-26cd9e53c9ba": {
@@ -270,9 +270,9 @@
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/kelsey-knight-udj2tD3WKsY-unsplash.jpg",
-            "title": "Vins",
+            "title": "Vins de Bordeaux",
             "collection_link": "Je décrouve",
-            "url": ""
+            "url": "shopify:\/\/collections\/bordeaux-rouge"
           }
         },
         "da01d2da-c3f0-45a8-99f6-08e92824c387": {
