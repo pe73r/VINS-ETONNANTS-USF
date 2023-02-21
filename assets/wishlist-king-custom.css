@@ -127,6 +127,10 @@ wishlist-product-card .wk-form {
     grid-gap: 2em 1em !important;
 }
 
+.wk-button .wk-text{
+   display:none;
+}
+
 #sticktCart wishlist-button{
   display: none;
 }
