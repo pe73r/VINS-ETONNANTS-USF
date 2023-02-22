@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 8:09:55 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 8:10:21 PM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -11,7 +11,7 @@ var red_wines_tags = "anjou-rouge,bordeaux-rouge,bourgogne-hautes-cotes-de-beaun
 var pink_wine_tags = "bordeaux-rose,cabernet-danjou-rose-moelleux,clairette-rose,cotes-de-provence-rose,prosecco,roses-doux,savagnin-rose,vins-roses,vins-roses-effervescents,vins-roses-sec".split(',')
 var orange_wine_tags = ["vins-oranges"]
 var sweet_wine_tags = ["vins-doux"]
-function _usfIsDrop(product) {
+function _usfIsDrop(product) { 
     var tags = product.tags; 
     tags.forEach(tag => {
         if (red_wines_tags.includes(tag)) {
