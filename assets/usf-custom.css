@@ -617,3 +617,7 @@ input:focus-visible {
 .usf-is--compact .usf-is-product .usf-img-wrapper+div>div { 
     font-size: 14px !important;
 }
+
+.usf-is--compact .usf-is-match{
+    font-size: 14px !important;
+}
