@@ -884,7 +884,7 @@ usf.event.add('init', function () {
         },
         template:`
             <div class="relative top-1 left-1">
-            `+ _usfDrop[dropColor] + `
+            `+ _usfDrop[this.dropColor] + ` 
             </div>
         `
     }
