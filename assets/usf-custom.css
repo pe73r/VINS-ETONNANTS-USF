@@ -591,3 +591,12 @@ input:focus-visible {
     margin-top: 30px !important;
 }
 } 
+
+.usf-sr-more .usf-title{
+    font-size: 14px;
+}
+.usf-load-more{
+    text-transform: capitalize;
+    border: none !important;
+    text-decoration: underline;
+}
