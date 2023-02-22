@@ -877,7 +877,7 @@ usf.event.add('init', function () {
             product: Object,
         },
         data() {
-            var tags = this.product.tags;
+            var dropColor = _usfIsDrop(this.product)
         },
         template:`
             <div class="relative top-1 left-1">
