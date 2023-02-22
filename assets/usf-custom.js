@@ -878,13 +878,13 @@ usf.event.add('init', function () {
         },
         data() {
             var dropColor = _usfIsDrop(this.product)
+            var svg = _usfDrop[dropColor]
             return {
-                dropColor: dropColor,
+                svg: svg,
             }
         },
         template:`
-            <div class="relative top-1 left-1">
-            `+ _usfDrop[this.dropColor] + `
+            <div class="relative top-1 left-1" v-html="svg">
             </div>
         `
     }
