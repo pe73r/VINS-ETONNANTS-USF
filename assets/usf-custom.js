@@ -13,11 +13,12 @@ function _usfIsDrop(product) {
     var tags = product.tags;
     var result = '';
     tags.forEach(tag => {
-        if (red_wines_tags.includes(tag)) return 'red';
-        if (white_wines_tags.includes(tag)) return 'white'
-        if (orange_wine_tags.includes(tag)) return 'orange';
-        if (pink_wine_tags.includes(tag)) return 'pink';
+        if (red_wines_tags.includes(tag)) return result = 'red';
+        if (white_wines_tags.includes(tag)) return result = 'white'
+        if (orange_wine_tags.includes(tag)) return result = 'orange';
+        if (pink_wine_tags.includes(tag)) return result = 'pink';
     })
+    return result;
 }
 var _usfDrop = {
     red: `<svg
