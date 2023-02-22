@@ -4,7 +4,11 @@
 
 var _usfImageWidths;
 
-var _usfDrop = ``
+var _usfDrop = `
+    <div class="relative top-1 left-1">
+        
+    </div>
+`
 
 var _usfFilterBodyTemplate = /*inc_begin_filter-body*/
 `<!-- Range filter -->
