@@ -202,7 +202,6 @@ usf.templates = {
                <!-- Title and drop -->
                <div class="flex gap-1 relative min-h-[60px]">
                   <div v-if="drop = _usfIsDrop(product)" class="relative top-1 left-1">
-                    `+ _usfDrop[drop] + `
                   </div>
                   <h2 class="font-body-text text-[20px] font-extrabold line-clamp-2" :attrs="usf.plugins.invoke('getProductTitleAttrs', pluginData)" v-html="product.title"></h2>
                </div> 
