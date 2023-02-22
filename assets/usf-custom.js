@@ -16,6 +16,7 @@ function _usfIsDrop(product) {
         if (white_wines_tags.includes(tag)) return 'white';
         if (orange_wines_tags.includes(tag)) return 'orange';
         if (pink_wines_tags.includes(tag)) return 'pink';
+        return false;
     })
 }
 var _usfDrop = `
