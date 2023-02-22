@@ -9,8 +9,8 @@ var red_wines_tags = "anjou-rouge,bordeaux-rouge,bourgogne-hautes-cotes-de-beaun
 var pink_wine_tags = "bordeaux-rose,cabernet-danjou-rose-moelleux,clairette-rose,cotes-de-provence-rose,prosecco,roses-doux,savagnin-rose,vins-roses,vins-roses-effervescents,vins-roses-sec".split(',')
 var orange_wine_tags = ["vins-oranges"]
 var sweet_wine_tags = ["vins-doux"]
-function _usfIsDrop() {
-    
+function _usfIsDrop(product) {
+    var tags = product.tags;
 }
 var _usfDrop = `
     <div class="relative top-1 left-1">
