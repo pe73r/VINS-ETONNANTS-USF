@@ -13,13 +13,16 @@ wishlist-link .wk-selected {
 }
 
 wishlist-link .wk-button .wk-pill {
-  --size: 16px;
+  
   font-size: .75rem;
   font-weight: 700;
   color: white;
   background-color: rgb(var(--accent));
   top: 7px;
   right: 3px;
+  padding-left: 0.3rem;
+  padding-right: 0.25rem;
+  border-radius: 50%;
 }
 
 wishlist-button .wk-button,
