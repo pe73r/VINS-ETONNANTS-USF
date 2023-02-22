@@ -13,7 +13,10 @@ function _usfIsDrop(product) {
     var tags = product.tags;
     var result = '';
     tags.forEach(tag => {
-        if (red_wines_tags.includes(tag)) return result = 'red';
+        if (red_wines_tags.includes(tag)) {
+            result = 'red';
+            break;
+        }
         if (white_wines_tags.includes(tag)) return result = 'white'
         if (orange_wine_tags.includes(tag)) return result = 'orange';
         if (pink_wine_tags.includes(tag)) return result = 'pink';
