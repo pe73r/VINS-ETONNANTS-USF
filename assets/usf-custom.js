@@ -872,6 +872,19 @@ usf.event.add('init', function () {
     usf.register(SearchResultsGridItem2, usf.components.SearchResultsGridItem, "usf-sr-griditem");*/
     _usfImageWidths = _usfIsDynamicImage ? [200, 400, 600, 700, 800, 900, 1000, 1200] : [usf.settings.search.imageSize];
 
+    var usfDropRender = {
+        props: {
+            product: Object,
+        },
+        data() {
+            var tags = this.product.tags;
+        },
+        template:`
+        
+        `
+    }
+    usf.register(usfDropRender, null, 'usf-drop')
+
     /*inc_end_minicart-js*/
     // register to the `usfShowCartPanel` event to show the mini cart panel.
     document.addEventListener('usfShowCartPanel', async function () {

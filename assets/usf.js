@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 8:12:06 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 8:13:53 PM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -873,6 +873,19 @@ usf.event.add('init', function () {
     }
     usf.register(SearchResultsGridItem2, usf.components.SearchResultsGridItem, "usf-sr-griditem");*/
     _usfImageWidths = _usfIsDynamicImage ? [200, 400, 600, 700, 800, 900, 1000, 1200] : [usf.settings.search.imageSize];
+
+    var usfDropRender = {
+        props: {
+            product: Object,
+        },
+        data() {
+            var tags = this.product.tags;
+        },
+        template:`
+        
+        `
+    }
+    usf.register(usfDropRender, null, 'usf-drop')
 
     /*inc_end_minicart-js*/
     // register to the `usfShowCartPanel` event to show the mini cart panel.
