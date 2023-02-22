@@ -878,9 +878,12 @@ usf.event.add('init', function () {
         },
         data() {
             var dropColor = _usfIsDrop(this.product)
+            return {
+                dropColor: dropColor,
+            }
         },
         template:`
-            <div class="relative top-1 left-1">
+            <div class="relative top-1 left-1" v-html="dropColor">
             </div>
         `
     }
