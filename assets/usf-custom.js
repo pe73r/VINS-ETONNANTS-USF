@@ -201,7 +201,7 @@ usf.templates = {
                <div class="flex gap-1 relative min-h-[60px]">
 
                   <h2 class="font-body-text text-[20px] font-extrabold line-clamp-2" :attrs="usf.plugins.invoke('getProductTitleAttrs', pluginData)" v-html="product.title"></h2>
-                    <div class="relative top-1 left-1"></div>
+                    <div class="relative top-1 left-1" v-html="_usfIsDrop(product)"></div>
                </div> 
                <!-- Metafield producer -->
                
