@@ -883,7 +883,8 @@ usf.event.add('init', function () {
             }
         },
         template:`
-            <div class="relative top-1 left-1" v-html="dropColor">
+            <div class="relative top-1 left-1">
+            `+ _usfDrop[dropColor] + `
             </div>
         `
     }
