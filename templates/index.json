@@ -46,7 +46,7 @@
             "title_mobile": "Nouveautés",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <\/p>",
             "cta": "Je découvre",
-            "button_link": "shopify:\/\/collections",
+            "button_link": "shopify:\/\/collections\/all",
             "text_color": "#ffffff",
             "button_color": "#fcfaf8",
             "button_bg": "rgba(0,0,0,0)"
