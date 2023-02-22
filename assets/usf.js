@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 8:21:58 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/22/2023 12:51:23 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -232,7 +232,7 @@ usf.templates = {
             </div>
 
             <!-- product image -->
-            <div class="usf-img-wrapper usf-sr-product__image-container w-5/12 relative group" :class="{'usf-has-second-img': hoverImage}">
+            <div class="usf-img-wrapper usf-sr-product__image-container w-5/12 relative group">
                 <div class="usf-main-img usf-lazyload" :data-bgset="selectedImageUrl"></div>
                 <span class="usf-img-loader"></span>
                 <template v-if="hoverImage">
