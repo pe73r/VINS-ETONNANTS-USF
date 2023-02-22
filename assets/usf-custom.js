@@ -15,19 +15,19 @@ function _usfIsDrop(product) {
     tags.forEach(tag => {
         if (red_wines_tags.includes(tag)) {
             result = 'red';
-            break;
+            return result;
         }
         if (white_wines_tags.includes(tag)) {
             result = 'white'
-            break;
+            return result;
         } 
         if (orange_wine_tags.includes(tag)) {
             result = 'orange';
-            break;
+            return result;
         } 
         if (pink_wine_tags.includes(tag)) {
             result = 'pink';
-            break;
+            return result;
         } 
     })
     return result;
