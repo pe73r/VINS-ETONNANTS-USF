@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 7:52:03 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 7:52:23 PM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -14,10 +14,10 @@ var sweet_wine_tags = ["vins-doux"]
 function _usfIsDrop(product) {
     var tags = product.tags;
     tags.forEach(tag => {
-        if (red_wines_tags.includes(tag)) return 'red';
-        if (white_wines_tags.includes(tag)) return 'white';
-        if (orange_wines_tags.includes(tag)) return 'orange';
-        if (pink_wines_tags.includes(tag)) return 'pink';
+        if (red_wines_tags.includes(tag)) return _usfDrop.red;
+        if (white_wines_tags.includes(tag)) return _usfDrop.white;
+        if (orange_wines_tags.includes(tag)) return _usfDrop.orange;
+        if (pink_wines_tags.includes(tag)) return _usfDrop.pink;
         return false;
     })
 }
