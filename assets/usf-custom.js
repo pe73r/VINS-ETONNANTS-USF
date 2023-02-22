@@ -17,9 +17,18 @@ function _usfIsDrop(product) {
             result = 'red';
             break;
         }
-        if (white_wines_tags.includes(tag)) return result = 'white'
-        if (orange_wine_tags.includes(tag)) return result = 'orange';
-        if (pink_wine_tags.includes(tag)) return result = 'pink';
+        if (white_wines_tags.includes(tag)) {
+            result = 'white'
+            break;
+        } 
+        if (orange_wine_tags.includes(tag)) {
+            result = 'orange';
+            break;
+        } 
+        if (pink_wine_tags.includes(tag)) {
+            result = 'pink';
+            break;
+        } 
     })
     return result;
 }
