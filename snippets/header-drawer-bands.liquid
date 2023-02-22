@@ -1,9 +1,9 @@
-<div class="my-6 pb-3 flex md:justify-center relative overflow-hidden overflow-x-scroll snap-mandatory snap-x gap-3 px-4 scrollbar">
+<div class="my-6 pb-3 flex md:justify-center relative overflow-hidden overflow-x-scroll snap-mandatory snap-x gap-3 px-4 scrollbar scrollbar-none">
   {% for band in elements %}
     <a href="{{ band.settings.link.url }}" class="cursor-pointer min-w-[100px]">
       <img
-        src="{{band.settings.image | img_url: 'master' }}"
-        alt="{{band.settings.text}}"
+        src="{{ band.settings.image | image_url }}"
+        alt="{{ band.settings.text }}"
         class="object-fit first-of-type:mt-0">
       <p class="text-xs mt-2">{{ band.settings.text }}</p>
     </a>

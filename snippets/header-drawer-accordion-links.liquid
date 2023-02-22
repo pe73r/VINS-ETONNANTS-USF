@@ -3,7 +3,7 @@
     <accordion-element data-open="false">
       {%- if link.links != blank -%}
         <accordion-trigger class="group hover:bg-slate-200">
-          <accordion-header class="flex justify-between items-center py-2">
+          <accordion-header class="flex justify-between items-center py-3">
             <div class="text-sm font-bold">
               {{ link.title }}
             </div>
@@ -15,16 +15,52 @@
         </accordion-trigger>
         <accordion-content>
           <ul class="mb-5 list-none">
-            {%- for child_link in link.links -%}
-              <li class="mb-2">
-                <a href="{{ link.url }}" class="text-sm {% if link.active %} font-bold {% endif %}">
-                  {{ child_link.title }}
-                </a>
-              </li>
-            {%- endfor -%}
+              {% assign GrandChild = false %}
+                {%- for child_link in link.links -%}
+                  {% assign GrandChild = false %}
+                    {% if  child_link.links.size > 0 %}  
+                       {% assign GrandChild = true %}
+                    {% endif %}
+               
+                    {% if GrandChild %} 
+                        <accordion-group>
+                            <accordion-element>
+                              <accordion-trigger class="group hover:bg-slate-200">
+                                  <accordion-header class="flex justify-between items-center py-2">
+                                      <p class="ml-4 text-sm {% if link.active %} font-bold {% endif %}">
+                                        {{ child_link.title }}
+                                      </p>
+                                      <accordion-icon class="group-expanded:rotate-180 transition-all origin-center h-[fit-content]">
+                                        {% render 'icon-arrow-accordion' %}
+                                      </accordion-icon>
+                                  </accordion-header>
+                              </accordion-trigger>
+                              <accordion-content>
+                                <ul>
+                                  {%- for grandchildlink in child_link.links -%}
+                                    <li class="ml-8 py-2">
+                                      <a href="{{ grandchildlink.url }}" class="block text-xs menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                                        {{ grandchildlink.title | escape }}
+                                      </a>
+                                    </li> 
+                                  {%- endfor -%}
+                                </ul>
+                              </accordion-content>
+                          </accordion-element>  
+                          </accordion-group>
+                    {%  else  %} 
+                      <li class="ml-4 py-2">
+                        <a href="{{ link.url }}" class="block text-sm {% if link.active %} font-bold {% endif %}">
+                          {{ child_link.title }}
+                        </a>
+                      </li>
+                  {% endif %}  
+                {%- endfor -%}
+            
           </ul>
+          
 
-          {% for block in section.blocks %}
+          {% comment %} {% for block in section.blocks %}
             {% if block.type == "megamenu" %}
               {% assign menu_name = block.settings.menu_name %}
 
@@ -47,11 +83,13 @@
 
             {% endif %}
 
-          {% endfor %}
+          {% endfor %} {% endcomment %}
 
         </accordion-content>
       {%- else -%}
-        {%- render "header-drawer-accordion-link", childLink: link -%}
+            <a href="{{ link.url }}" class="block w-full py-2 text-sm font-bold {% if link.title contains 'Nouveautés' %} text-orange font-bold {% endif %}" {% if link.current %} aria-active="true" aria-current="page" {% endif %} ">
+                {{ link.title | escape }}
+            </a>
       {%- endif -%}
     </accordion-element>
   {%- endfor -%}
