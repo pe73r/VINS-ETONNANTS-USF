@@ -880,7 +880,9 @@ usf.event.add('init', function () {
             var tags = this.product.tags;
         },
         template:`
-            <div class="relative top-1 left-1"></div>
+            <div class="relative top-1 left-1">
+            `+ _usfDrop.white +`
+            </div>
         `
     }
     usf.register(usfDropRender, null, 'usf-drop')

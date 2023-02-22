@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 8:14:25 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 8:15:20 PM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -882,7 +882,9 @@ usf.event.add('init', function () {
             var tags = this.product.tags;
         },
         template:`
-            <div class="relative top-1 left-1"></div>
+            <div class="relative top-1 left-1">
+            `+ _usfDrop.white +`
+            </div>
         `
     }
     usf.register(usfDropRender, null, 'usf-drop')
