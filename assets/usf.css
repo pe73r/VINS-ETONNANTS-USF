@@ -596,8 +596,9 @@ input:focus-visible {
 }
 } 
 
-.usf-sr-more .usf-title{
-    font-size: 14px;
+
+.usf-sr-more .usf-title {
+    font-size: 14px !important;
 }
 .usf-load-more{
     text-transform: capitalize;
@@ -605,6 +606,7 @@ input:focus-visible {
     text-decoration: underline;
 }
 /* End custom theme code */
+
 
 
 
