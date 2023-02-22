@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 8:13:53 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 8:14:25 PM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -205,7 +205,7 @@ usf.templates = {
                <div class="flex gap-1 relative min-h-[60px]">
 
                   <h2 class="font-body-text text-[20px] font-extrabold line-clamp-2" :attrs="usf.plugins.invoke('getProductTitleAttrs', pluginData)" v-html="product.title"></h2>
-                    <div class="relative top-1 left-1"></div>
+                  <usf-drop :product="product"></usf-drop>
                </div> 
                <!-- Metafield producer -->
                
@@ -882,7 +882,7 @@ usf.event.add('init', function () {
             var tags = this.product.tags;
         },
         template:`
-        
+            <div class="relative top-1 left-1"></div>
         `
     }
     usf.register(usfDropRender, null, 'usf-drop')
