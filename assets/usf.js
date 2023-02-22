@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 7:35:02 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 7:35:46 PM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -6,9 +6,23 @@
 
 var _usfImageWidths;
 
+var white_wines_tags = "anjou-blanc,blanc,blanc-sec-fruite-et-nerveux,blanc-sec-fruite-et-souple,blanc-sec-riche-et-rond,blanc-sec-riche-et-structure,bordeaux-blanc,bourgogne-hautes-cotes-de-beaune-blanc,brezeme-blanc,bugey-blanc,carignan-blanc,chenin-blanc,cheverny-blanc,clairette-blanche,cotes-de-provence-blanc,dona-blanca,folle-blanche,forcallat-blanc,gaillac-blanc-sec,gamay-noir-a-jus-blanc,grenache-blanc,ladoix-blanc,limoux-blanc,macon-blanc,mauzac-blanc,mondeuse-blanche,ondenc-blanc,pinot-blanc,piquepoul-blanc,sauvignon-blanc,semillon-blanc,tempranillo-blanc,terret-blanc,ugni-blanc".split(',')
+var red_wines_tags = "anjou-rouge,bordeaux-rouge,bourgogne-hautes-cotes-de-beaune-rouge,bourgogne-passetoutgrain-rouge,bugey-rouge,cheverny-rouge,cotes-de-provence-rouge,gaillac-rouge,ladoix-rouge-1er-cru,limoux-rouge,macon-rouge,melon-a-queue-rouge,rouge-elegant-et-raffine,rouge-peu-tannique-et-fruite,rouge-puissant-et-fruite,rouge-rond-et-fruite,rouge-rond-et-riche,rouge-structure-et-tannique".split(',')
+var pink_wine_tags = "bordeaux-rose,cabernet-danjou-rose-moelleux,clairette-rose,cotes-de-provence-rose,prosecco,roses-doux,savagnin-rose,vins-roses,vins-roses-effervescents,vins-roses-sec".split(',')
+var orange_wine_tags = ["vins-oranges"]
+var sweet_wine_tags = ["vins-doux"]
 var _usfDrop = `
     <div class="relative top-1 left-1">
-        
+        <template>
+        </template>
+        <template>
+        </template>
+        <template>
+        </template>
+        <template>
+        </template>
+        <template>
+        </template>
     </div>
 `
 

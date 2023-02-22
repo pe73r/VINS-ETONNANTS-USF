@@ -11,7 +11,16 @@ var orange_wine_tags = ["vins-oranges"]
 var sweet_wine_tags = ["vins-doux"]
 var _usfDrop = `
     <div class="relative top-1 left-1">
-        
+        <template>
+        </template>
+        <template>
+        </template>
+        <template>
+        </template>
+        <template>
+        </template>
+        <template>
+        </template>
     </div>
 `
 
