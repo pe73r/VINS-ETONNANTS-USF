@@ -10,7 +10,8 @@ var pink_wine_tags = "bordeaux-rose,cabernet-danjou-rose-moelleux,clairette-rose
 var orange_wine_tags = ["vins-oranges"]
 var sweet_wine_tags = ["vins-doux"]
 function _usfIsDrop(product) { 
-    var tags = product.tags; 
+    var tags = product.tags;
+    var result = '';
     tags.forEach(tag => {
         if (red_wines_tags.includes(tag)) {
             return 'red'
@@ -22,7 +23,7 @@ function _usfIsDrop(product) {
         if (orange_wine_tags.includes(tag)) return 'orange';
         if (pink_wine_tags.includes(tag)) return 'pink';
     })
-    return 'test';
+    return result;
 }
 var _usfDrop = {
     red: `<svg
