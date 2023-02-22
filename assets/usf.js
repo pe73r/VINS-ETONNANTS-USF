@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 7:52:23 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 7:53:12 PM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -12,11 +12,11 @@ var pink_wine_tags = "bordeaux-rose,cabernet-danjou-rose-moelleux,clairette-rose
 var orange_wine_tags = ["vins-oranges"]
 var sweet_wine_tags = ["vins-doux"]
 function _usfIsDrop(product) {
-    var tags = product.tags;
+    var tags = product.tags; 
     tags.forEach(tag => {
         if (red_wines_tags.includes(tag)) return _usfDrop.red;
         if (white_wines_tags.includes(tag)) return _usfDrop.white;
-        if (orange_wines_tags.includes(tag)) return _usfDrop.orange;
+        if (orange_wine_tags.includes(tag)) return _usfDrop.orange;
         if (pink_wines_tags.includes(tag)) return _usfDrop.pink;
         return false;
     })
@@ -38,7 +38,7 @@ var _usfDrop = {
             xmlns="http://www.w3.org/2000/svg">
             <path d="M9.61558 0.12176C9.41525 -0.0405867 9.12854 -0.0405867 8.92822 0.12176C8.56281 0.421798 0 7.4633 0 14.7277C0 17.1868 0.97683 19.5452 2.71568 21.2843C4.45452 23.023 6.81285 24 9.27183 24C11.7308 24 14.0894 23.023 15.828 21.2843C17.5668 19.5455 18.5437 17.187 18.5437 14.7277C18.5437 7.46283 9.98102 0.421424 9.61543 0.12176H9.61558ZM9.27189 20.253C7.68077 20.253 6.15464 19.621 5.02956 18.4959C3.90449 17.3708 3.27244 15.8447 3.27244 14.2536H4.36319C4.36319 15.5554 4.88034 16.804 5.80093 17.7245C6.72147 18.6451 7.97001 19.1623 9.27189 19.1623V20.253Z" fill="#FFE194" />
             </svg>`,
-    yellow: `<svg
+    orange: `<svg
             width="19"
             height="24"
             viewBox="0 0 19 24"
@@ -203,7 +203,7 @@ usf.templates = {
             <div class="w-7/12 text-left">
                <!-- Title and drop -->
                <div class="flex gap-1 relative min-h-[60px]">
-                  <div v-if="drop = _usfIsDrop(product)" class="relative top-1 left-1">
+                  <div v-if="drop = _usfIsDrop(product)" class="relative top-1 left-1" v-html="drop">
                   </div>
                   <h2 class="font-body-text text-[20px] font-extrabold line-clamp-2" :attrs="usf.plugins.invoke('getProductTitleAttrs', pluginData)" v-html="product.title"></h2>
                </div> 
