@@ -13,28 +13,29 @@ wishlist-link .wk-selected {
 }
 
 wishlist-link .wk-button .wk-pill {
-  --size: 17px;
 
   font-size: .75rem;
   font-weight: 700;
   color: white;
   background-color: rgb(var(--accent));
-  top: 8px;
+  top: 7px;
+  right: 3px;
+  padding-left: 0.3rem;
+  padding-right: 0.25rem;
+  border-radius: 50%;
 }
 
 wishlist-button .wk-button,
 wishlist-button .wk-floating .wk-button {
-  --icon-stroke: black;
+  --icon-stroke: #F84C55;
 
   color: black;
-  margin-top: 1em;
+  margin-top: 0;
 }
 
-wishlist-button wk-button:not(.wk-floating) .wk-button {
-}
+wishlist-button wk-button:not(.wk-floating) .wk-button {}
 
-wishlist-button .wk-floating .wk-button {
-}
+wishlist-button .wk-floating .wk-button {}
 
 wishlist-button .wk-button {
   font-size: .875rem;
@@ -60,20 +61,18 @@ wishlist-product-card .wk-submit-button {
   color: rgb(var(--button_color_primary)) !important;
   font-size: 16px;
   border-radius: 0.375rem;
+  display: none;
 }
 
 wishlist-product-card .wk-meta {
   font-size: 16px;
 }
 
-wishlist-product-card .wk-product-title {
-}
+wishlist-product-card .wk-product-title {}
 
-wishlist-product-card .wk-vendor {
-}
+wishlist-product-card .wk-vendor {}
 
-wishlist-product-card .wk-price {
-}
+wishlist-product-card .wk-price {}
 
 wishlist-page .wk-header .wk-controls {
   font-size: 14px;
@@ -86,6 +85,7 @@ wishlist-page .wk-login-callout {
 wishlist-page .wk-grid {
   --columns: 1;
 }
+
 
 @media (min-width: 400px) {
   wishlist-page .wk-grid {
@@ -103,4 +103,36 @@ wishlist-page .wk-grid {
   wishlist-page .wk-grid {
     --columns: 4;
   }
+}
+
+/* dev fev 2022 */
+wishlist-button .wk-floating {
+  top: -10px !important;
+  left: 10px !important;
+}
+
+wishlist-product-card .wk-product-card {
+  background: white;
+  padding: 30px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+wishlist-product-card .wk-form {
+  display: none;
+}
+
+.wk-grid {
+  grid-gap: 2em 1em !important;
+}
+
+.wk-button .wk-text {
+  display: none;
+}
+
+.product-info .wk-button {
+  display: none;
+}
+
+#sticktCart wishlist-button {
+  display: none;
 }
