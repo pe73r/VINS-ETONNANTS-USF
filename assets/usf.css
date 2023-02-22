@@ -605,7 +605,18 @@ input:focus-visible {
     border: none !important;
     text-decoration: underline;
 }
+
+.usf-load-more:hover{
+    text-transform: capitalize;
+    border: none !important;
+    text-decoration: underline;
+}
+
+.usf-sr-more .usf-progress div {
+    background: #F84C55 !important;
+}
 /* End custom theme code */
+
 
 
 
