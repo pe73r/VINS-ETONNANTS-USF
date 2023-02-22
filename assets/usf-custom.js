@@ -18,7 +18,8 @@ function _usfIsDrop(product) {
         }
         if (white_wines_tags.includes(tag)) {
             console.log(_usfDrop.white)
-            return 'white';
+            result = 'white'
+            return result;
         }
         if (orange_wine_tags.includes(tag)) return 'orange';
         if (pink_wine_tags.includes(tag)) return 'pink';
