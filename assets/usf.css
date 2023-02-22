@@ -586,17 +586,40 @@ input:focus-visible {
 } 
 
 #ProductGridContainer{
-    margin-top: 50px;
+    margin-top: 50px !important;
 }
  
 
 @media screen and (max-width: 639px) {
   #ProductGridContainer{
-    margin-top: 30px;
+    margin-top: 30px !important;
 }
 } 
 
+
+.usf-sr-more .usf-title {
+    font-size: 14px !important;
+}
+.usf-load-more{
+    text-transform: capitalize;
+    border: none !important;
+    text-decoration: underline;
+}
+
+.usf-load-more:hover{
+    text-transform: capitalize;
+    border: none !important;
+    text-decoration: underline;
+}
+
+.usf-sr-more .usf-progress div {
+    background: #F84C55 !important;
+}
 /* End custom theme code */
+
+
+
+
 
 
 

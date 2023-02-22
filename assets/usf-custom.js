@@ -230,7 +230,7 @@ usf.templates = {
             </div>
 
             <!-- product image -->
-            <div class="usf-img-wrapper usf-sr-product__image-container w-5/12 relative group" :class="{'usf-has-second-img': hoverImage}">
+            <div class="usf-img-wrapper usf-sr-product__image-container w-5/12 relative group">
                 <div class="usf-main-img usf-lazyload" :data-bgset="selectedImageUrl"></div>
                 <span class="usf-img-loader"></span>
                 <template v-if="hoverImage">

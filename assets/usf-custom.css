@@ -591,3 +591,24 @@ input:focus-visible {
     margin-top: 30px !important;
 }
 } 
+
+
+.usf-sr-more .usf-title {
+    font-size: 14px !important;
+}
+.usf-load-more{
+    text-transform: capitalize;
+    border: none !important;
+    text-decoration: underline;
+}
+
+.usf-load-more:hover{
+    text-transform: capitalize;
+    border: none !important;
+    text-decoration: underline;
+}
+
+.usf-sr-more .usf-progress div {
+    background: #F84C55 !important;
+}
+
