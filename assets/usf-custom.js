@@ -11,6 +11,13 @@ var orange_wine_tags = ["vins-oranges"]
 var sweet_wine_tags = ["vins-doux"]
 function _usfIsDrop(product) {
     var tags = product.tags;
+    tags.forEach(tag => {
+        if (red_wines_tags.includes(tag)) return 'red';
+        if (red_wines_tags.includes(tag)) return 'red';
+        if (red_wines_tags.includes(tag)) return 'red';
+        if (red_wines_tags.includes(tag)) return 'red';
+        if (red_wines_tags.includes(tag)) return 'red';
+    })
 }
 var _usfDrop = `
     <div class="relative top-1 left-1">
