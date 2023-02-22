@@ -93,3 +93,63 @@
 
 
 </div>
+
+
+<accordion-group>
+        <accordion-element>
+            <accordion-trigger>
+                <accordion-header>
+                    <div>
+                        click me
+                    </div>
+                </accordion-header>
+            </accordion-trigger>
+            <accordion-content>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.
+            </accordion-content>
+        </accordion-element>    
+</accordion-group>
+
+
+
+{%- for grandchildlink in child_link.links -%}
+    <h3>hijos:{{ child_link.links.size }}</h3>
+    {% if  child_link.links.size > 0 %}  
+       {% assign GrandChild = true %}
+    {% endif %}
+  {% endfor %}
+
+
+{% if GrandChild %} 
+                       with drop
+                  {%  else  %} 
+                      <li class="mb-2">
+                        <a href="{{ link.url }}" class="text-sm {% if link.active %} font-bold {% endif %}">
+                          {{ child_link.title }}
+                        </a>
+                      </li>
+                  {% endif %}
+
+
+                  <accordion-element>
+                    <accordion-trigger>
+                        <accordion-header>
+                            <div>
+                              <li class="mb-2">
+                              <a href="{{ link.url }}" class="text-sm {% if link.active %} font-bold {% endif %}">
+                                {{ child_link.title }}
+                              </a>
+                            </li>
+                            </div>
+                        </accordion-header>
+                    </accordion-trigger>
+                    <accordion-content>
+                      {%- for grandchildlink in child_link.links -%}
+                        <li>
+                          <a href="{{ grandchildlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
+                            {{ grandchildlink.title | escape }}
+                          </a>
+                        </li> 
+                      {%- endfor -%}
+                    </accordion-content>
+                </accordion-element>  

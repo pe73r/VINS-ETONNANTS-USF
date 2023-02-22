@@ -56,9 +56,9 @@
 
             <!-- Title and drop -->
             <div class="flex gap-1 relative min-h-[60px]">
-              <{% if template contains 'collection' %}h2{% else %}h3{% endif %} class="font-body-text text-[20px] font-extrabold line-clamp-2">
+              <h3 class="font-body-text text-[20px] font-extrabold line-clamp-2">
                 {{ card_product.title }}
-              </{% if template contains 'collection' %}h2{% else %}h3{% endif %}>
+              </h3>
 
               {%- if red -%}
                 <div class="relative top-1 left-1">
@@ -123,8 +123,12 @@
                     {% assign region_down = region | downcase | replace: " ", "-" | replace: "é", "e" | replace: "í", "i" | replace: "ô", "o" %}
                     {% if card_product.tags contains region_down %}
                       <p class="text-base line-clamp-1 capitalize">{{ region_down }}</p>
+                      {% assign isRegion = true %}
                     {% endif %}
                   {% endfor %}
+                  {% unless isRegion %}  
+                    <p class="text-base">N/A</p>
+                  {% endunless %}
                 </ul>
               </div>
             {% else %} 
