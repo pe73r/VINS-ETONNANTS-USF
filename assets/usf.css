@@ -596,7 +596,16 @@ input:focus-visible {
 }
 } 
 
+.usf-sr-more .usf-title{
+    font-size: 14px;
+}
+.usf-load-more{
+    text-transform: capitalize;
+    border: none !important;
+    text-decoration: underline;
+}
 /* End custom theme code */
+
 
 
 
