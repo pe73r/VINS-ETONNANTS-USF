@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 8:17:46 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/21/2023 8:18:05 PM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -886,7 +886,7 @@ usf.event.add('init', function () {
         },
         template:`
             <div class="relative top-1 left-1">
-            `+ _usfDrop[dropColor] + `
+            `+ _usfDrop[this.dropColor] + `
             </div>
         `
     }
