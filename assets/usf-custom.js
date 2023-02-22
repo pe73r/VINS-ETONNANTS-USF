@@ -12,10 +12,10 @@ var sweet_wine_tags = ["vins-doux"]
 function _usfIsDrop(product) {
     var tags = product.tags;
     tags.forEach(tag => {
-        if (red_wines_tags.includes(tag)) return 'red';
-        if (white_wines_tags.includes(tag)) return 'white';
-        if (orange_wines_tags.includes(tag)) return 'orange';
-        if (pink_wines_tags.includes(tag)) return 'pink';
+        if (red_wines_tags.includes(tag)) return _usfDrop.red;
+        if (white_wines_tags.includes(tag)) return _usfDrop.white;
+        if (orange_wines_tags.includes(tag)) return _usfDrop.orange;
+        if (pink_wines_tags.includes(tag)) return _usfDrop.pink;
         return false;
     })
 }
