@@ -372,9 +372,9 @@
       "type": "products-carousel",
       "settings": {
         "container": "7xl",
-        "collection": "1985",
+        "collection": "rouge-puissant-et-fruite",
         "limit": 6,
-        "title": "Nos vins bio",
+        "title": "Rougés fruités",
         "collection_link": "Voir tout",
         "url": "",
         "show_secondary_image": false,
