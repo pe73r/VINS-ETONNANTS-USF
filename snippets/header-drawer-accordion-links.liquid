@@ -2,7 +2,7 @@
   {%- for link in menu_mobile.links -%}
     <accordion-element data-open="false">
       {%- if link.links != blank -%}
-        <accordion-trigger class="group hover:bg-slate-200">
+        <accordion-trigger class="group">
           <accordion-header class="flex justify-between items-center py-3">
             <div class="text-sm font-bold">
               {{ link.title }}
@@ -25,7 +25,7 @@
                     {% if GrandChild %} 
                         <accordion-group>
                             <accordion-element>
-                              <accordion-trigger class="group hover:bg-slate-200">
+                              <accordion-trigger class="group">
                                   <accordion-header class="flex justify-between items-center py-2">
                                       <p class="ml-4 text-sm {% if link.active %} font-bold {% endif %}">
                                         {{ child_link.title }}
