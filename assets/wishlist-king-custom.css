@@ -135,3 +135,7 @@ wishlist-product-card .wk-form {
 #sticktCart wishlist-button {
   display: none;
 }
+
+.card-product {
+  position: relative;
+}
