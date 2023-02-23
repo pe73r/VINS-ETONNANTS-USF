@@ -352,7 +352,7 @@
           "subtext": "<p>Des vins d'auteurs et d'artisans au naturel pour ne pas manquer une occasion de vous surprendre !<\/p><p><\/p><p><\/p>",
           "show_newsletter": true,
           "show_social": true,
-          "mention-legal": "<p>44439455500023 - Site déclaré sous le n°5\/R2003\/PUB au TGI Limoges - ©Vins étonnants<\/p>",
+          "mention-legal": "<p>Site déclaré sous le n°5\/R2003\/PUB au TGI Limoges - ©Vins étonnants<\/p>",
           "image_reviews": "shopify:\/\/shop_images\/Capture_d_ecran_2022-09-21_a_10.49_1.png",
           "banner_legal": "shopify:\/\/shop_images\/18ans.png",
           "bg_color": "#201a1c",
@@ -475,7 +475,8 @@
           "3f29f53f-6834-4e94-8c99-b7dd3804df8a"
         ],
         "settings": {
-          "menu_mobile": "menu-mobile"
+          "menu_mobile": "menu-mobile",
+          "bg_drawer": "#F8F2E7"
         }
       }
     },
