@@ -164,7 +164,7 @@
       "type": "products-carousel",
       "settings": {
         "container": "7xl",
-        "collection": "vins-rares",
+        "collection": "vins-bio",
         "limit": 25,
         "title": "Nos vins bio",
         "collection_link": "Voir tout",
