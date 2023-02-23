@@ -164,7 +164,7 @@
       "type": "products-carousel",
       "settings": {
         "container": "7xl",
-        "collection": "vins-bio",
+        "collection": "janvier-2023",
         "limit": 25,
         "title": "Nos vins bio",
         "collection_link": "Voir tout",
