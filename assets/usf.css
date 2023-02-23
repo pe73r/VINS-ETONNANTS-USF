@@ -530,7 +530,8 @@ a.usf-checkout-btn:hover{
 }
 
 
-/* custom css*/
+/* custom css feb 2023 */
+
 .page-width{
     width: 90%;
     max-width: 1280px;
@@ -615,7 +616,15 @@ input:focus-visible {
 .usf-sr-more .usf-progress div {
     background: #F84C55 !important;
 }
+
+
+.usf-is--compact .usf-is-product .usf-img-wrapper+div>div { 
+    font-size: 14px !important;
+}
+
 /* End custom theme code */
+
+
 
 
 

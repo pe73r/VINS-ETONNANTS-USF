@@ -27,11 +27,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/dan-meyers-0AgtPoAARtE-unsplash.jpg",
             "image_mobile": "shopify:\/\/shop_images\/dan-meyers-0AgtPoAARtE-unsplash_bda7ffec-2181-4970-b41f-479ab8b96cab.jpg",
-            "title": "Les vins bio",
-            "title_mobile": "Les vins bio",
+            "title": "Vins étonnants",
+            "title_mobile": "Vins étonnants",
             "text": "<p>Vins d'auteurs et vins d'artisans au naturel.<br\/>A votre service depuis 2003<\/p>",
             "cta": "Je découvre",
-            "button_link": "shopify:\/\/collections\/jolly-days-jusqua-40",
+            "button_link": "shopify:\/\/collections\/all",
             "text_color": "#ffffff",
             "button_color": "#fcfaf8",
             "button_bg": "rgba(0,0,0,0)"
@@ -46,7 +46,7 @@
             "title_mobile": "Nouveautés",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <\/p>",
             "cta": "Je découvre",
-            "button_link": "shopify:\/\/collections",
+            "button_link": "shopify:\/\/collections\/all",
             "text_color": "#ffffff",
             "button_color": "#fcfaf8",
             "button_bg": "rgba(0,0,0,0)"
@@ -184,7 +184,7 @@
         "title": "Nos vins bio",
         "collection_link": "Voir tout",
         "url": "shopify:\/\/collections\/vins-bio",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "show_arrows": true,
         "show_dots": true
       }
@@ -201,7 +201,7 @@
             "show_hr": true,
             "text": "<p>Vins d’auteur et vins d’artisans au naturel, depuis 2003.<\/p>",
             "cta": "Je découvre",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/janvier-2023"
           }
         },
         "3b35f979-2212-4301-9d49-79f08d3f6160": {
@@ -375,8 +375,8 @@
         "blog": "blog-vins-etonnants",
         "post_limit": 5,
         "show_dots": true,
-        "heading": "Tout savoir sur le vins avec nos articles",
-        "show_title": false,
+        "heading": "Notre blog<br>Ne manquez rien de nos dernières trouvailles !",
+        "show_title": true,
         "show_content": true,
         "show_author": false,
         "show_date": false,

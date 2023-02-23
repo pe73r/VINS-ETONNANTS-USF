@@ -41,6 +41,9 @@
     <!-- shopify fonts -->
     {% render 'css-variables' %}
 
+    <!-- custom css -->
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
+
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
       <link
         rel="preconnect"
@@ -56,22 +59,22 @@
       <script preload>
         (async () => {
         const [configRes, layoutRes, styleRes] = await Promise.all([
-                                                                                                    fetch("{{ 'tailwind.config.js' | asset_url }}"),
+                                                                                                            fetch("{{ 'tailwind.config.js' | asset_url }}"),
         fetch("{{ 'tail.layout.css' | asset_url }}"),
         fetch("{{ 'tail.style.css' | asset_url }}")
         ]);
-                                                                                                  const text = await configRes.text()
-                                                                                                  console.log({text});
-                                                                                                  tailwind.config = eval(`(${
-                                                                                                    text.replace("module.exports = ", "").replace("module.exports=", "").replace("};", "}")
-                                                                                                  })`);
-                                                                                                  const apply = document.createElement("style");
-                                                                                                  apply.setAttribute("type", "text/tailwindcss");
-                                                                                                  apply.innerHTML = `${
-                                                                                                    (await Promise.all([layoutRes.text(), styleRes.text()])).join("\n")
-                                                                                                  }`;
-                                                                                                  document.head.appendChild(apply);
-                                                                                                })()
+                                                                                                          const text = await configRes.text()
+                                                                                                          console.log({text});
+                                                                                                          tailwind.config = eval(`(${
+                                                                                                            text.replace("module.exports = ", "").replace("module.exports=", "").replace("};", "}")
+                                                                                                          })`);
+                                                                                                          const apply = document.createElement("style");
+                                                                                                          apply.setAttribute("type", "text/tailwindcss");
+                                                                                                          apply.innerHTML = `${
+                                                                                                            (await Promise.all([layoutRes.text(), styleRes.text()])).join("\n")
+                                                                                                          }`;
+                                                                                                          document.head.appendChild(apply);
+                                                                                                        })()
       </script>
 
 
@@ -138,7 +141,22 @@
     {{ content_for_header }}
     {% render 'usf' %}
 
-    <script>window.WishlistKingEmbed={config:{customerId:`{{ customer.id }}`,customerEmail:`{{ customer.email }}`,shopName:`{{ shop.name | replace: '&amp;', '&' }}`,shopDomain:`{{ shop.domain }}`,shopPermanentDomain:`{{ shop.permanent_domain }}`,shopCurrency:`{{ shop.currency }}`,shopMoneyFormat:`{{ shop.money_format | replace: "$", "\$" }}`,shopCustomerAccountsEnabled:`{{ shop.customer_accounts_enabled }}`,fileUrl:`{{ '' | file_url }}`}};window.litDisableBundleWarning=true;</script>
+    <script>
+      window.WishlistKingEmbed = {
+        config: {
+          customerId: `{{ customer.id }}`,
+          customerEmail: `{{ customer.email }}`,
+          shopName: `{{ shop.name | replace: '&amp;', '&' }}`,
+          shopDomain: `{{ shop.domain }}`,
+          shopPermanentDomain: `{{ shop.permanent_domain }}`,
+          shopCurrency: `{{ shop.currency }}`,
+          shopMoneyFormat: `{{ shop.money_format | replace: "$", "\$" }}`,
+          shopCustomerAccountsEnabled: `{{ shop.customer_accounts_enabled }}`,
+          fileUrl: `{{ '' | file_url }}`
+        }
+      };
+      window.litDisableBundleWarning = true;
+    </script>
     <script type="module">window.WishlistKingEmbed && Promise.all([import("{{ 'wishlist-king-settings.js' | asset_url }}"),import("{{ 'wishlist-king.js' | asset_url }}"),]).then(([{ default: settings }, { createApp }]) => {window.WishlistKing = createApp({config: window.WishlistKingEmbed.config,locale: JSON.parse(`{{ 'app_wishlist-king' | t | replace: '&quot;', '"' | replace: '=&gt;', ':' | replace: '\"', "'" }}`),settings});});</script>
   </head>
   <body>
@@ -169,7 +187,7 @@
       id="MainContent"
       role="main"
       tabindex="-1">
-      {%- assign page_url = content_for_header | split: '"pageurl":"' | last | split: '"' | first | split: request.host | last | replace: '\/','/' | replace: '%20',' ' | replace: '\u0026', '&' -%}
+      {%- assign page_url = content_for_header | split: '"pageurl":"' | last | split: '"' | first | split: request.host | last | replace: '\/', '/' | replace: '%20', ' ' | replace: '\u0026', '&' -%}
       {% if template contains 'account' and page_url contains 'orders=true' %}
         {% render 'account-orders' %}
       {% else %}

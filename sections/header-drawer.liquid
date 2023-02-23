@@ -1,8 +1,8 @@
 <tail-drawer class="lg:hidden" data-full-height="true">
   <drawer-overlay class="p-0 bg-transparent overflow-visible top-[60px]">
     <drawer-content class="w-full bg-transparent relative">
-      <drawer-close class="absolute px-4 py-4 bg-white left-2 z-10 top-[-50px]">{% render 'icon-close' %}</drawer-close>
-      <drawer-inner class="justify-evenly relative" style="background-color: {{ section.settings.bg_drawer }};">
+      <drawer-close class="absolute px-4 py-4 bg-white left-2 z-10 top-[-55px]">{% render 'icon-close' %}</drawer-close>
+      <drawer-inner class="relative" style="background-color: {{ section.settings.bg_drawer }};">
         {%- liquid
         assign bands = section.blocks | where: "type", "mobile_band"
         assign bottoms = section.blocks | where: "type", "mobile_bottom"

@@ -349,11 +349,12 @@
         "settings": {
           "logo_svg": "",
           "title": "Les news étonnantes !",
-          "subtext": "<p>Notre équipe vous conseille<\/p><p>9h à 18h &gt; lundi au vendredi<\/p><p>+33 (0)9 80 94 42 62 (n° fixe non surtaxé)<\/p><p><\/p><p><\/p>",
+          "subtext": "<p>Des vins d'auteurs et d'artisans au naturel pour ne pas manquer une occasion de vous surprendre !<\/p><p><\/p><p><\/p>",
           "show_newsletter": true,
           "show_social": true,
           "mention-legal": "<p>44439455500023 - Site déclaré sous le n°5\/R2003\/PUB au TGI Limoges - ©Vins étonnants<\/p>",
-          "image-reviews": "shopify:\/\/shop_images\/Capture_d_ecran_2022-09-21_a_10.49_1.png",
+          "image_reviews": "shopify:\/\/shop_images\/Capture_d_ecran_2022-09-21_a_10.49_1.png",
+          "banner_legal": "shopify:\/\/shop_images\/18ans.png",
           "bg_color": "#201a1c",
           "color": "#ffffff"
         }
@@ -397,8 +398,8 @@
               "svg": "",
               "image": "shopify:\/\/shop_images\/aa1130bad5b0c5380f492b253cad63be_f7e65736-8658-415c-8f02-e3a474ce3b68.png",
               "title": "Une équipe à votre écoute",
-              "text_desktop": "Du lundi au vendredi de 9h à 18h",
-              "text_mobile": "Du lundi au vendredi de 9h à 18h"
+              "text_desktop": "Notre équipe vous conseille<br>\n9h à 18h > lundi au vendredi<br>\n+33 (0)9 80 94 42 62",
+              "text_mobile": ""
             }
           }
         },
