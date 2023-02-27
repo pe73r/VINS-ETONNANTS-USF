@@ -90,6 +90,10 @@ wishlist-page .wk-grid {
   --columns: 1;
 }
 
+.main-product-card wishlist-button .wk-button {
+    padding-right: 0;
+}
+
 
 @media (min-width: 400px) {
   wishlist-page .wk-grid {
