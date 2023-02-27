@@ -1,7 +1,8 @@
 
 <!-- BEGIN USF --> 
+{% assign regions = settings.regions | split: "," %}
 <script>
-  window._usfRegions= {{ settings.regions | split: "," }}
+  window._usfRegions= {{ regions  | json}}
 </script>
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
