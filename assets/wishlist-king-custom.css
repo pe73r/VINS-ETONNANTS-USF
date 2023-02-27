@@ -91,7 +91,7 @@ wishlist-page .wk-grid {
 }
 
 .main-product-card wishlist-button .wk-button {
-    padding-right: 0;
+    padding-right: 0 !important;
 }
 
 
