@@ -65,9 +65,12 @@ wishlist-product-card .wk-submit-button {
 
 wishlist-product-card .wk-meta {
   font-size: 16px;
+  margin-top: 10px;
 }
 
-wishlist-product-card .wk-product-title {}
+wishlist-product-card .wk-product-title {
+  margin-bottom: 5px;
+}
 
 wishlist-product-card .wk-vendor {}
 
@@ -75,6 +78,7 @@ wishlist-product-card .wk-price {}
 
 wishlist-page .wk-header .wk-controls {
   font-size: 14px;
+  display:none;
 }
 
 wishlist-page .wk-login-callout {
