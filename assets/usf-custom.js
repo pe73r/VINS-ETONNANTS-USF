@@ -214,7 +214,7 @@ usf.templates = {
                <!-- Metafield producer -->
                
                <div class="mt-5">
-                  <p class="text-xs uppercase font-light">PRODUCTEUR</p>
+                  <p v-if="usf.utils.getMetafield(product,'global','marque')" class="text-xs uppercase font-light">PRODUCTEUR</p>
                   <p class="text-base line-clamp-2 min-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
                </div>
                <!-- Metafield region -->
