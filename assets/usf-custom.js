@@ -222,9 +222,9 @@ usf.templates = {
                   <p v-if="checkTags(product.tags)" class="text-xs uppercase font-light">RÉGION</p>
                   <p class="text-base line-clamp-1" v-html="checkTags(product.tags)"></p>
                </div>
-               <!-- Metafield grade -->
+               <!-- Metafield grade --> 
                <div class="mt-3">
-                  <p class="text-xs uppercase font-light">CÉPAGE</p>
+                  <p v-if="usf.utils.getMetafield(product,'global','description_courte')" class="text-xs uppercase font-light">CÉPAGE</p>
                   <p class="text-base line-clamp-1" v-html="usf.utils.getMetafield(product,'global','description_courte').split('-')[0].replace('Cépage : ','').replace('Cépages ','')"></p>
                </div>
             </div>
@@ -868,7 +868,7 @@ function checkTags(vl){
     }else if(vl.includes("corse")){
         return "Corse"
     }
-    return false;
+    return ''; 
 }
 usf.event.add('init', function () {    
 	// register or override components
