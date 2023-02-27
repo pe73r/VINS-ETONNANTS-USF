@@ -219,7 +219,7 @@ usf.templates = {
                </div>
                <!-- Metafield region -->
                <div class="mt-3">
-                  <p class="text-xs uppercase font-light">RÉGION</p>
+                  <p v-if="checkTags(product.tags)" class="text-xs uppercase font-light">RÉGION</p>
                   <p class="text-base line-clamp-1" v-html="checkTags(product.tags)"></p>
                </div>
                <!-- Metafield grade -->
@@ -868,6 +868,7 @@ function checkTags(vl){
     }else if(vl.includes("corse")){
         return "Corse"
     }
+    return false;
 }
 usf.event.add('init', function () {    
 	// register or override components

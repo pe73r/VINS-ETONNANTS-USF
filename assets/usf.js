@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/27/2023 1:35:58 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/27/2023 1:36:37 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -216,12 +216,12 @@ usf.templates = {
                <!-- Metafield producer -->
                
                <div class="mt-5">
-                  <p class="text-xs uppercase font-light">PRODUCTEUR</p>
+                  <p v-if="usf.utils.getMetafield(product,'global','marque')" class="text-xs uppercase font-light">PRODUCTEUR</p>
                   <p class="text-base line-clamp-2 min-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
                </div>
                <!-- Metafield region -->
                <div class="mt-3">
-                  <p class="text-xs uppercase font-light">RÉGION</p>
+                  <p v-if="checkTags(product.tags)" class="text-xs uppercase font-light">RÉGION</p>
                   <p class="text-base line-clamp-1" v-html="checkTags(product.tags)"></p>
                </div>
                <!-- Metafield grade -->
@@ -870,6 +870,7 @@ function checkTags(vl){
     }else if(vl.includes("corse")){
         return "Corse"
     }
+    return false;
 }
 usf.event.add('init', function () {    
 	// register or override components
