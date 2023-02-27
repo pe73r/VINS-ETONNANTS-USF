@@ -66,6 +66,7 @@ wishlist-product-card .wk-submit-button {
 wishlist-product-card .wk-meta {
   font-size: 16px;
   margin-top: 10px;
+  margin-bottom:0;
 }
 
 wishlist-product-card .wk-product-title {
