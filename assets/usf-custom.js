@@ -838,7 +838,7 @@ usf.templates = {
 
 function checkTags(vl){
     for(var i=0;i<window._usfRegions.length;i++){
-        if(vl.includes(window._usfRegions[i])){
+        if(vl.includes(window._usfRegions[i].toLowerCase())){
             return window._usfRegions[i]
         }
     }
