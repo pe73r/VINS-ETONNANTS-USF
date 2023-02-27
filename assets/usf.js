@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/27/2023 1:38:43 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/27/2023 1:39:00 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -221,8 +221,9 @@ usf.templates = {
                </div>
                <!-- Metafield region -->
                <div class="mt-3">
-                  <p v-if="checkTags(product.tags)" class="text-xs uppercase font-light">RÉGION</p>
-                  <p class="text-base line-clamp-1" v-html="checkTags(product.tags)"></p>
+                  <p class="text-xs uppercase font-light">RÉGION</p>
+                  <p v-if="checkTags(product.tags)" class="text-base line-clamp-1" v-html="checkTags(product.tags)"></p>
+                  <p v-else class="text-base line-clamp-1" v-html="'N/A'"></p>
                </div>
                <!-- Metafield grade --> 
                <div class="mt-3">
