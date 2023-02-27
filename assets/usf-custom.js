@@ -835,6 +835,16 @@ usf.templates = {
 </div>`
 /*inc_end_minicart*/,
 };
+
+function checkTags(vl){
+    for(var i=0;i<window._usfRegions.length;i++){
+        if(vl.includes(window._usfRegions[i])){
+            return window._usfRegions[i]
+        }
+    }
+}
+
+/*
 function checkTags(vl){
     if(vl.includes("loire")){
         return "Pays de la loire"
@@ -870,7 +880,7 @@ function checkTags(vl){
         return "Corse"
     }
     return ''; 
-}
+}*/
 usf.event.add('init', function () {    
 	// register or override components
     // ...    

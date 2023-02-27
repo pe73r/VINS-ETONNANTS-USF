@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/27/2023 1:39:00 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/27/2023 3:18:14 PM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -221,7 +221,7 @@ usf.templates = {
                </div>
                <!-- Metafield region -->
                <div class="mt-3">
-                  <p class="text-xs uppercase font-light">RÉGION</p>
+                  <p class="text-xs uppercase font-light">RÉGION</p> 
                   <p v-if="checkTags(product.tags)" class="text-base line-clamp-1" v-html="checkTags(product.tags)"></p>
                   <p v-else class="text-base line-clamp-1" v-html="'N/A'"></p>
                </div>
@@ -837,6 +837,16 @@ usf.templates = {
 </div>`
 /*inc_end_minicart*/,
 };
+
+function checkTags(vl){
+    for(var i=0;i<window._usfRegions.length;i++){
+        if(vl.includes(window._usfRegions[i])){
+            return window._usfRegions[i]
+        }
+    }
+}
+
+/*
 function checkTags(vl){
     if(vl.includes("loire")){
         return "Pays de la loire"
@@ -872,7 +882,7 @@ function checkTags(vl){
         return "Corse"
     }
     return ''; 
-}
+}*/
 usf.event.add('init', function () {    
 	// register or override components
     // ...    
