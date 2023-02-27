@@ -224,7 +224,7 @@ usf.templates = {
                </div>
                <!-- Metafield grade -->
                <div class="mt-3">
-                  <p class="text-xs uppercase font-light">CÉPAGE</p>
+                  <p v-if="usf.utils.getMetafield(product,'global','description_courte')" class="text-xs uppercase font-light">CÉPAGE</p>
                   <p class="text-base line-clamp-1" v-html="usf.utils.getMetafield(product,'global','description_courte').split('-')[0].replace('Cépage : ','').replace('Cépages ','')"></p>
                </div>
             </div>
