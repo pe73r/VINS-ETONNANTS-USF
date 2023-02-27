@@ -1,6 +1,8 @@
 
-<!-- BEGIN USF -->
-
+<!-- BEGIN USF --> 
+<script>
+  window._usfRegions= {{ settings.regions | split: "," }}
+</script>
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
