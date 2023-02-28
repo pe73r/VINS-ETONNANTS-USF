@@ -265,7 +265,7 @@ usf.templates = {
             <span class="usf-discount text-[20px] font-extrabold" v-if="hasDiscount" v-html="displayDiscountedPrice"></span>
             <span v-if="hasDiscount" class="usf-price-savings text-[20px] font-extrabold" v-html="loc.save + ' ' + salePercent + '%'"></span>
         </div>
-        <div class="group relative mt-3 flex gap-1">
+        <div class="group relative mt-3 flex gap-1" v-if="!isSoldOut">
             <product-quantity data-max-quantity="0" :data-product="product.id" class="flex items-center justify-between m-auto quantity border border-gray-300 rounded-md py-[5px] px-3">
                <button class="p-1 no-js-hidden" name="minus" type="button">
                   <svg width="13" height="2" viewBox="0 0 13 2" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -285,6 +285,14 @@ usf.templates = {
                Ajouter au panier
                </button>
             </add-to-cart>
+        </div>
+        <div class="flex-1" v-else>
+            <div data-disabled="true">
+                <button disabled="true" class="w-full text-white cursor-pointer !px-0 bg-gray-medium 
+                    px-2 py-3.5 text-sm md:px-4 md:py-3.5  text-[] bg-[]  transition-all rounded-md font-bold">
+                Stocks épuisés
+                </button>
+            </div>
         </div>
         <!-- Product review -->
         <usf-plugin name="searchResultsProductReview" :data="pluginData"></usf-plugin>
