@@ -630,7 +630,11 @@ input:focus-visible {
     text-transform: capitalize !important;
 } 
 
+.usf-img-wrapper {
+  height: 280px !important;
+}
 /* End custom theme code */
+
 
 
 
