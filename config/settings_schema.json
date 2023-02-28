@@ -96,6 +96,21 @@
     ]
   },
   {
+    "name": "countries",
+    "settings": [
+      {
+        "type": "header",
+        "content": "COUNTRIES"
+      },
+      {
+        "type": "textarea",
+        "id": "countries",
+        "label": "List of countries",
+        "info": "Include a list of countries separated by a comma to match with the product tag"
+      }
+    ]
+  },
+  {
     "name": "regions",
     "settings": [
       {

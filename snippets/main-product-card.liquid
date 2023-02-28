@@ -84,8 +84,10 @@
         </p>
       </div>
 
-
-      {% assign countries = "espagne,autriche,italie,allemagne,grece,croatie,japon,portugal,zelande,etats-unis" | split: "," %}
+      {% comment %}
+        {% assign countries = "espagne,autriche,italie,allemagne,grece,croatie,japon,portugal,zelande,etats-unis" | split: "," %}
+      {% endcomment %}
+      {% assign countries = settings.countries | split: "," %}
       {% assign cepages = settings.cepages | split: "," %}
       {% assign regions = settings.regions | split: "," %}
       {% for country in countries %}
