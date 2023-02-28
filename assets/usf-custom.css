@@ -625,3 +625,7 @@ input:focus-visible {
 .usf-facet-values .usf-btn{
     text-transform: capitalize !important;
 } 
+
+.usf-img-wrapper {
+  height: 280px !important;
+}
