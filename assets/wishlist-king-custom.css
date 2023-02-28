@@ -65,9 +65,13 @@ wishlist-product-card .wk-submit-button {
 
 wishlist-product-card .wk-meta {
   font-size: 16px;
+  margin-top: 10px;
+  margin-bottom:0;
 }
 
-wishlist-product-card .wk-product-title {}
+wishlist-product-card .wk-product-title {
+  margin-bottom: 5px;
+}
 
 wishlist-product-card .wk-vendor {}
 
@@ -75,6 +79,7 @@ wishlist-product-card .wk-price {}
 
 wishlist-page .wk-header .wk-controls {
   font-size: 14px;
+  display:none;
 }
 
 wishlist-page .wk-login-callout {
@@ -83,6 +88,10 @@ wishlist-page .wk-login-callout {
 
 wishlist-page .wk-grid {
   --columns: 1;
+}
+
+.main-product-card wishlist-button .wk-button {
+    padding-right: 0 !important;
 }
 
 
@@ -106,8 +115,8 @@ wishlist-page .wk-grid {
 
 /* dev fev 2022 */
 wishlist-button .wk-floating {
-  top: -10px !important;
-  left: 10px !important;
+  top: -20px !important;
+  left: 15px !important;
 }
 
 wishlist-product-card .wk-product-card {

@@ -36,19 +36,6 @@
 
 {%- if card_product and card_product != empty -%} 
   <div class="card-product p-5 rounded-md bg-white shadow-md {% unless template contains "collection" or width_fit == true %} hehe min-w-[300px] md:min-w-[320px] {% endunless %}">
-    <div class="absolute top-2 right-2 z-10">
-      <wishlist-button data-product-handle="{{ product.handle }}" layout="icon-and-text" alignment="left" fullwidth="">
-        <wk-button>
-           <button type="button" aria-label="Add to Wishlist" class="wk-button wk-align-left wk-full-width">
-             <wk-icon class="wk-icon" icon="wishlist">
-            <svg viewBox="0 0 64 64">
-              <path d="M32.012,59.616c-1.119-.521-2.365-1.141-3.707-1.859a79.264,79.264,0,0,1-11.694-7.614C6.316,42,.266,32.6.254,22.076,0.244,12.358,7.871,4.506,17.232,4.5a16.661,16.661,0,0,1,11.891,4.99l2.837,2.889,2.827-2.9a16.639,16.639,0,0,1,11.874-5.02h0c9.368-.01,17.008,7.815,17.021,17.539,0.015,10.533-6.022,19.96-16.312,28.128a79.314,79.314,0,0,1-11.661,7.63C34.369,58.472,33.127,59.094,32.012,59.616Z"></path>
-            </svg>
-          </wk-icon>
-         </button>
-      </wk-button>
-     </wishlist-button>
-   </div>
     <a href="{{ card_product.url }}">
       <div class="flex gap-2">
          <!-- card info -->
@@ -81,11 +68,11 @@
 
 
 
-            <!-- Avis verifiés  -->
-            <div class="min-h-[15px]">
-            </div>
-
-            {% assign countries = "espagne,autriche,italie,allemagne,grece,croatie,japon,portugal,zelande,etats-unis" | split: "," %}
+          
+            {% comment  %}
+            {% assign countries = "espagne,autriche,italie,allemagne,georgie,grece,croatie,japon,portugal,zelande,etats-unis" | split: "," %}
+            {% endcomment %}
+            {% assign countries = settings.countries | split: "," %}
             {% assign cepages = settings.cepages | split: "," %}
             {% assign regions = settings.regions | split: "," %}
 

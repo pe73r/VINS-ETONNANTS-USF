@@ -51,26 +51,11 @@
             "button_color": "#fcfaf8",
             "button_bg": "rgba(0,0,0,0)"
           }
-        },
-        "be81d616-6b1a-4ea6-9fb4-6da40f8b3482": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/kelsey-knight-udj2tD3WKsY-unsplash.jpg",
-            "title": "NUTRITION POUR LES <br>FEMMES.<br>SCIENTIFIQUEMENT PROUVÉ",
-            "title_mobile": "NUTRITION POUR <br>LES FEMMES.<br>SCIENTIFIQUEMENT <br>PROUVÉ",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <\/p>",
-            "cta": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_color": "#201a1c",
-            "button_bg": "#ffffff"
-          }
         }
       },
       "block_order": [
         "16635863695bdbafb2-0",
-        "c5415137-2df9-4722-ac77-c9afd3473e5d",
-        "be81d616-6b1a-4ea6-9fb4-6da40f8b3482"
+        "c5415137-2df9-4722-ac77-c9afd3473e5d"
       ],
       "settings": {
       }
@@ -179,11 +164,11 @@
       "type": "products-carousel",
       "settings": {
         "container": "7xl",
-        "collection": "vins-rares",
+        "collection": "janvier-2023",
         "limit": 25,
-        "title": "Nos vins bio",
+        "title": "Nouveautés",
         "collection_link": "Voir tout",
-        "url": "shopify:\/\/collections\/vins-bio",
+        "url": "shopify:\/\/collections\/janvier-2023",
         "show_secondary_image": false,
         "show_arrows": true,
         "show_dots": true
@@ -387,9 +372,9 @@
       "type": "products-carousel",
       "settings": {
         "container": "7xl",
-        "collection": "1985",
+        "collection": "rouge-puissant-et-fruite",
         "limit": 6,
-        "title": "Nos vins bio",
+        "title": "Rougés fruités",
         "collection_link": "Voir tout",
         "url": "",
         "show_secondary_image": false,

@@ -214,17 +214,18 @@ usf.templates = {
                <!-- Metafield producer -->
                
                <div class="mt-5">
-                  <p class="text-xs uppercase font-light">PRODUCTEUR</p>
+                  <p v-if="usf.utils.getMetafield(product,'global','marque')" class="text-xs uppercase font-light">PRODUCTEUR</p>
                   <p class="text-base line-clamp-2 min-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
                </div>
                <!-- Metafield region -->
                <div class="mt-3">
-                  <p class="text-xs uppercase font-light">RÉGION</p>
-                  <p class="text-base line-clamp-1" v-html="checkTags(product.tags)"></p>
+                  <p class="text-xs uppercase font-light">RÉGION</p> 
+                  <p v-if="checkTags(product.tags)" class="text-base line-clamp-1" v-html="checkTags(product.tags)"></p>
+                  <p v-else class="text-base line-clamp-1" v-html="'N/A'"></p>
                </div>
-               <!-- Metafield grade -->
+               <!-- Metafield grade --> 
                <div class="mt-3">
-                  <p class="text-xs uppercase font-light">CÉPAGE</p>
+                  <p v-if="usf.utils.getMetafield(product,'global','description_courte')" class="text-xs uppercase font-light">CÉPAGE</p>
                   <p class="text-base line-clamp-1" v-html="usf.utils.getMetafield(product,'global','description_courte').split('-')[0].replace('Cépage : ','').replace('Cépages ','')"></p>
                </div>
             </div>
@@ -834,6 +835,16 @@ usf.templates = {
 </div>`
 /*inc_end_minicart*/,
 };
+
+function checkTags(vl){
+    for(var i=0;i<window._usfRegions.length;i++){
+        if(vl.includes(window._usfRegions[i].toLowerCase())){
+            return window._usfRegions[i]
+        }
+    }
+}
+
+/*
 function checkTags(vl){
     if(vl.includes("loire")){
         return "Pays de la loire"
@@ -868,7 +879,8 @@ function checkTags(vl){
     }else if(vl.includes("corse")){
         return "Corse"
     }
-}
+    return ''; 
+}*/
 usf.event.add('init', function () {    
 	// register or override components
     // ...    

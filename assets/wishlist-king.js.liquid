@@ -82,6 +82,35 @@ const initComponents = ({ theme, routes }) => {
       );
     }
   );
+  
+  theme.watch(
+    {
+      selector: `.card-product > a[href*="/products/"]`,
+      pageType: ["home", "product", "collection"],
+    },
+    (target) => {
+      target.insertAfter(
+        theme.createComponent("wishlist-button", {
+          dataset: {
+            productHandle: theme.getProductHandle(target.element.href),
+            variantId: theme.getVariantId(target.element.href),
+          },
+          props: {
+            layout: "icon-only",
+            alignment: "center",
+            floating: {
+              reference: target,
+              position: {
+                placement: "top-end",
+                inset: true,
+              },
+              offset: 0,
+            },
+          },
+        })
+      );
+    }
+  );
 
   // Product page
   theme.watch(
