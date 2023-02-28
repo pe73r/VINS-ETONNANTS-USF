@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/28/2023 7:42:34 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/28/2023 7:43:08 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -288,7 +288,7 @@ usf.templates = {
                </button>
             </add-to-cart>
         </div>
-        <div class="flex-1" v-else>
+        <div class="flex-1" v-else style="margin-top: 0.75rem;">
             <div data-disabled="true">
                 <button disabled="true" class="w-full text-white cursor-pointer !px-0 bg-gray-medium 
                     px-2 py-3.5 text-sm md:px-4 md:py-3.5  text-[] bg-[]  transition-all rounded-md font-bold">
