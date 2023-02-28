@@ -220,7 +220,7 @@ usf.templates = {
                <!-- Metafield region -->
                <div class="mt-3">
                   <p class="text-xs uppercase font-light">RÉGION</p> 
-                  <p v-if="checkTags(product.tags)" class="text-base line-clamp-1" v-html="checkTags(product.tags)"></p>
+                  <p v-if="checkTags(product.tags)" class="text-base line-clamp-1 capitalize" v-html="checkTags(product.tags)"></p>
                   <p v-else class="text-base line-clamp-1" v-html="'N/A'"></p>
                </div>
                <!-- Metafield grade --> 
