@@ -626,7 +626,12 @@ input:focus-visible {
     font-size: 14px !important;
 }
 
+.usf-facet-values .usf-btn{
+    text-transform: capitalize !important;
+}
+
 /* End custom theme code */
+
 
 
 
