@@ -622,7 +622,12 @@ input:focus-visible {
     font-size: 14px !important;
 }
 
+.usf-is--compact .usf-is-match{
+    font-size: 14px !important;
+}
+
 /* End custom theme code */
+
 
 
 
