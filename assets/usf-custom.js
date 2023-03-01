@@ -914,7 +914,8 @@ usf.event.add('init', function () {
                 this.checkQty();
             },
             qtyMinutes(){
-                this.usfQty--;
+                if(this.usfQty!=1)
+                    this.usfQty--;
                 this.checkQty(); 
             },
             checkQty(){
