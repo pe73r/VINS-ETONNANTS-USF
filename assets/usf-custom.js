@@ -905,7 +905,7 @@ usf.event.add('init', function () {
             return {
                 usfQty: 1,
                 qtyPlusShow:true,
-                qtyMinuteShow: false,
+                qtyMinuteShow: true,
             }
         },
         methods:{  
