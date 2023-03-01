@@ -908,7 +908,7 @@ usf.event.add('init', function () {
                 qtyMinuteShow: false,
             }
         },
-        methods:{ 
+        methods:{  
             qtyPlus(){
                 this.usfQty++;
                 this.checkQty();
