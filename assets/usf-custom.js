@@ -279,7 +279,7 @@ usf.templates = {
                   </svg>
                </button>
             </product-quantity>
-            <add-to-cart data-max-quantity="0" class="w-8/12 " :data-product="product.id" :data-title="product.title" :data-price="price" :data-variant="product.variants[0].id">
+            <add-to-cart data-max-quantity="0" :data-quantity="usfQty" class="w-8/12 " :data-product="product.id" :data-title="product.title" :data-price="price" :data-variant="product.variants[0].id">
                <button class="btn-primary 
                   px-[12px] py-[11px] text-sm  text-[#fff] bg-[#f84c55]  w-full  transition-all rounded-md font-bold">
                Ajouter au panier
