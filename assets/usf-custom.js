@@ -908,7 +908,7 @@ usf.event.add('init', function () {
                 qtyMinuteShow: true,
             }
         },
-        methods:{
+        methods:{ 
             qtyPlus(){
                 this.usfQty++;
                 if(this.usfQty >= this.selectedVariantForPrice.available && this.selectedVariantForPrice.available != -2147483648){
