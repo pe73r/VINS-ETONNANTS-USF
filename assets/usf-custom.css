@@ -621,3 +621,11 @@ input:focus-visible {
 .usf-is--compact .usf-is-match{
     font-size: 14px !important;
 }
+
+.usf-facet-values .usf-btn{
+    text-transform: capitalize !important;
+} 
+
+.usf-img-wrapper {
+  height: 280px !important; 
+}

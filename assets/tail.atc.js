@@ -24,12 +24,12 @@ defineCustomElement(
         const priceStrokeElement = this.querySelector("[data-price-stroke]");
         if (price && priceElement) {
           const newPrice = Number(newValue) * Number(price);
-          priceElement.textContent = `${newPrice}€`;
+          priceElement.textContent = `${newPrice.toFixed(2)}€`;
         }
         if (priceStrokeElement) {
           const priceStroke = this.getAttribute("data-price-stroke").replace("€", "").trim();
           const newPriceStroke = Number(newValue) * Number(priceStroke);
-          priceStrokeElement.textContent = `${newPriceStroke}€`;
+          priceStrokeElement.textContent = `${newPriceStroke.toFixed(2)}€`;
         }
       }
     }
