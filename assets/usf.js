@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/1/2023 6:36:47 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/1/2023 6:41:13 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -272,7 +272,7 @@ usf.templates = {
                <button v-if="qtyMinuteShow" class="p-1 no-js-hidden" name="minus" type="button" @click="qtyMinutes">
                   <svg width="13" height="2" viewBox="0 0 13 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H11.0024C11.5547 0 12.0024 0.447715 12.0024 1C12.0024 1.55228 11.5547 2 11.0024 2H1C0.447715 2 0 1.55228 0 1Z" fill="#201A1C"></path>
-                  </svg> 
+                  </svg>  
                </button>
                <input class="text-black bg-transparent text-[16px] md:text-[20px] font-extrabold md:max-w-[30px] max-w-[20px] text-center" type="number" name="quantity" min="1" @input="e => qtyInput(e)" :value="usfQty" form="">
                <button v-if="qtyPlusShow" class="p-1 no-js-hidden" name="plus" type="button" @click="qtyPlus">
@@ -930,9 +930,12 @@ usf.event.add('init', function () {
                 }else{
                      this.qtyMinuteShow = true;
                 }
-            },
+            }, 
             qtyInput(e){
                 console.log(e)
+                var val = e.target.value;
+                this.usfQty = parseInt(val);
+                this.checkQty(); 
             }
         } 
     }

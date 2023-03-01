@@ -928,9 +928,12 @@ usf.event.add('init', function () {
                 }else{
                      this.qtyMinuteShow = true;
                 }
-            },
+            }, 
             qtyInput(e){
                 console.log(e)
+                var val = e.target.value;
+                this.usfQty = parseInt(val);
+                this.checkQty(); 
             }
         } 
     }
