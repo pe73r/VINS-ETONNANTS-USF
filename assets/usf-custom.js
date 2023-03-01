@@ -911,14 +911,18 @@ usf.event.add('init', function () {
         methods:{ 
             qtyPlus(){
                 this.usfQty++;
+                this.checkQty();
+            },
+            qtyMinutes(){
+                this.usfQty--;
+                this.checkQty();
+            },
+            checkQty(){
                 if(this.usfQty >= this.selectedVariantForPrice.available && this.selectedVariantForPrice.available != -2147483648){
                     this.qtyPlusShow = false;
                 }else{ 
                     this.qtyPlusShow = true;
                 }
-            },
-            qtyMinutes(){
-                this.usfQty--;
                 if(this.usfQty <= 1){
                     this.qtyMinuteShow = false;
                 }else{
