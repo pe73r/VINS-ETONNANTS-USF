@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/1/2023 6:17:32 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/1/2023 6:22:19 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -269,13 +269,13 @@ usf.templates = {
         </div>
         <div class="group relative mt-3 flex gap-1" v-if="!isSoldOut">
             <product-quantity data-max-quantity="0" :data-product="product.id" class="flex items-center justify-between m-auto quantity border border-gray-300 rounded-md py-[5px] px-3">
-               <button class="p-1 no-js-hidden" name="minus" type="button" @click="qtyMinutes">
+               <button v-if="qtyMinuteShow" class="p-1 no-js-hidden" name="minus" type="button" @click="qtyMinutes">
                   <svg width="13" height="2" viewBox="0 0 13 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H11.0024C11.5547 0 12.0024 0.447715 12.0024 1C12.0024 1.55228 11.5547 2 11.0024 2H1C0.447715 2 0 1.55228 0 1Z" fill="#201A1C"></path>
-                  </svg>
+                  </svg> 
                </button>
                <input class="text-black bg-transparent text-[16px] md:text-[20px] font-extrabold md:max-w-[30px] max-w-[20px] text-center" type="number" name="quantity" min="1" :value="usfQty" form="">
-               <button class="p-1 no-js-hidden" name="plus" type="button" @click="qtyPlus">
+               <button v-if="qtyPlusShow" class="p-1 no-js-hidden" name="plus" type="button" @click="qtyPlus">
                   <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.00131 1C7.00131 0.447715 6.5536 0 6.00131 0C5.44903 0 5.00131 0.447715 5.00131 1V5.00107H1C0.447715 5.00107 0 5.44879 0 6.00107C0 6.55336 0.447715 7.00107 1 7.00107H5.00131V11.0022C5.00131 11.5545 5.44903 12.0022 6.00131 12.0022C6.5536 12.0022 7.00131 11.5545 7.00131 11.0022V7.00107H11.0023C11.5546 7.00107 12.0023 6.55336 12.0023 6.00107C12.0023 5.44879 11.5546 5.00107 11.0023 5.00107H7.00131V1Z" fill="#201A1C"></path>
                   </svg>
@@ -905,15 +905,23 @@ usf.event.add('init', function () {
         template: usf.templates.searchResultsGridViewItem,
         data(){
             return {
-                usfQty: 1
+                usfQty: 1,
+                qtyPlusShow:true,
+                qtyMinuteShow: true,
             }
         },
         methods:{
             qtyPlus(){
                 this.usfQty++;
+                if(this.usfQty >= this.selectedVariantForPrice.available){
+                    this.qtyPlusShow = false;
+                }
             },
             qtyMinutes(){
                 this.usfQty--;
+                if(this.usfQty <= 1){
+                    this.qtyMinuteShow = false;
+                }
             }
         }
     }

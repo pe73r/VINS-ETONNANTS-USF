@@ -911,7 +911,7 @@ usf.event.add('init', function () {
         methods:{
             qtyPlus(){
                 this.usfQty++;
-                if(this.usfQty >= this.selectedVariantForPrice.available){
+                if(this.usfQty >= this.selectedVariantForPrice.available && this.selectedVariantForPrice.available != -2147483648){
                     this.qtyPlusShow = false;
                 }
             },
@@ -919,7 +919,7 @@ usf.event.add('init', function () {
                 this.usfQty--;
                 if(this.usfQty <= 1){
                     this.qtyMinuteShow = false;
-                }
+                } 
             }
         }
     }
