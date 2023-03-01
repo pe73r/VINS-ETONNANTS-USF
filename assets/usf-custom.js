@@ -924,7 +924,7 @@ usf.event.add('init', function () {
                     this.qtyPlusShow = true;
                 }
                 if(this.usfQty <= 1){
-                    this.qtyMinuteShow = false;
+                    this.qtyMinuteShow = true;
                 }else{
                      this.qtyMinuteShow = true;
                 }
