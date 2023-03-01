@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/1/2023 6:26:27 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/1/2023 6:29:05 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -910,18 +910,22 @@ usf.event.add('init', function () {
                 qtyMinuteShow: true,
             }
         },
-        methods:{
+        methods:{ 
             qtyPlus(){
                 this.usfQty++;
                 if(this.usfQty >= this.selectedVariantForPrice.available && this.selectedVariantForPrice.available != -2147483648){
                     this.qtyPlusShow = false;
+                }else{ 
+                    this.qtyPlusShow = true;
                 }
             },
             qtyMinutes(){
                 this.usfQty--;
                 if(this.usfQty <= 1){
                     this.qtyMinuteShow = false;
-                } 
+                }else{
+                     this.qtyMinuteShow = true;
+                }
             }
         }
     }

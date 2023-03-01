@@ -913,13 +913,17 @@ usf.event.add('init', function () {
                 this.usfQty++;
                 if(this.usfQty >= this.selectedVariantForPrice.available && this.selectedVariantForPrice.available != -2147483648){
                     this.qtyPlusShow = false;
+                }else{ 
+                    this.qtyPlusShow = true;
                 }
             },
             qtyMinutes(){
                 this.usfQty--;
                 if(this.usfQty <= 1){
                     this.qtyMinuteShow = false;
-                } 
+                }else{
+                     this.qtyMinuteShow = true;
+                }
             }
         }
     }
