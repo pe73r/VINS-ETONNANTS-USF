@@ -905,7 +905,7 @@ usf.event.add('init', function () {
             return {
                 usfQty: 1,
                 qtyPlusShow:true,
-                qtyMinuteShow: true,
+                qtyMinuteShow: false,
             }
         },
         methods:{ 
@@ -915,7 +915,7 @@ usf.event.add('init', function () {
             },
             qtyMinutes(){
                 this.usfQty--;
-                this.checkQty();
+                this.checkQty(); 
             },
             checkQty(){
                 if(this.usfQty >= this.selectedVariantForPrice.available && this.selectedVariantForPrice.available != -2147483648){

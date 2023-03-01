@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/1/2023 6:33:25 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/1/2023 6:34:28 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -907,7 +907,7 @@ usf.event.add('init', function () {
             return {
                 usfQty: 1,
                 qtyPlusShow:true,
-                qtyMinuteShow: true,
+                qtyMinuteShow: false,
             }
         },
         methods:{ 
@@ -917,7 +917,7 @@ usf.event.add('init', function () {
             },
             qtyMinutes(){
                 this.usfQty--;
-                this.checkQty();
+                this.checkQty(); 
             },
             checkQty(){
                 if(this.usfQty >= this.selectedVariantForPrice.available && this.selectedVariantForPrice.available != -2147483648){
@@ -931,7 +931,7 @@ usf.event.add('init', function () {
                      this.qtyMinuteShow = true;
                 }
             }
-        }
+        } 
     }
     usf.register(SearchResultsGridItem, null, "usf-new-griditem");
 
