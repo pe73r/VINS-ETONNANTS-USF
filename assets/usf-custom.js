@@ -929,7 +929,7 @@ usf.event.add('init', function () {
                      this.qtyMinuteShow = true;
                 }
             }
-        }
+        } 
     }
     usf.register(SearchResultsGridItem, null, "usf-new-griditem");
 
