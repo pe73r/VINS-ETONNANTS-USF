@@ -289,7 +289,7 @@ usf.templates = {
         <div class="flex-1" v-else style="margin-top: 0.75rem;">
             <div data-disabled="true">
                 <button style="cursor: not-allowed;" disabled="true" class="w-full text-white cursor-pointer !px-0 bg-gray-medium 
-                    px-2 py-3.5 text-sm md:px-4 md:py-3.5  text-[] bg-[]  transition-all rounded-md font-bold">
+                    px-2 py-3 text-sm md:px-4 md:py-3  text-[] bg-[]  transition-all rounded-md font-bold">
                 Stocks épuisés
                 </button>
             </div>
