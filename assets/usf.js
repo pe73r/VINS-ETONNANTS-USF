@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/2/2023 1:38:40 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/2/2023 4:56:43 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -291,7 +291,7 @@ usf.templates = {
         <div class="flex-1" v-else style="margin-top: 0.75rem;">
             <div data-disabled="true">
                 <button style="cursor: not-allowed;" disabled="true" class="w-full text-white cursor-pointer !px-0 bg-gray-medium 
-                    px-2 py-3 text-sm md:px-4 md:py-3  text-[] bg-[]  transition-all rounded-md font-bold">
+                    px-2 py-3 text-sm md:px-4 md:py-3 transition-all rounded-md font-bold">
                 Stocks épuisés
                 </button>
             </div>
