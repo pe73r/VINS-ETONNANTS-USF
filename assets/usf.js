@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 2/28/2023 7:44:51 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/2/2023 5:13:41 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -167,7 +167,7 @@ usf.templates = {
         <template v-else>
             <template v-if="hasResults">
                 <template v-if="view === 'grid'">
-                    <template v-for="p in result.items"><usf-sr-griditem :product="p" :result="result" :key="p.id"></usf-sr-griditem></template>
+                    <template v-for="p in result.items"><usf-new-griditem :product="p" :result="result" :key="p.id"></usf-new-griditem></template>
                 </template>
                 <template v-else>
                     <template v-for="p in result.items"><usf-sr-listitem :product="p" :result="result" :key="p.id"></usf-sr-listitem></template>
@@ -269,19 +269,19 @@ usf.templates = {
         </div>
         <div class="group relative mt-3 flex gap-1" v-if="!isSoldOut">
             <product-quantity data-max-quantity="0" :data-product="product.id" class="flex items-center justify-between m-auto quantity border border-gray-300 rounded-md py-[5px] px-3">
-               <button class="p-1 no-js-hidden" name="minus" type="button">
+               <button v-if="qtyMinuteShow" class="p-1 no-js-hidden" name="minus" type="button" @click="qtyMinutes">
                   <svg width="13" height="2" viewBox="0 0 13 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H11.0024C11.5547 0 12.0024 0.447715 12.0024 1C12.0024 1.55228 11.5547 2 11.0024 2H1C0.447715 2 0 1.55228 0 1Z" fill="#201A1C"></path>
-                  </svg>
+                  </svg>  
                </button>
-               <input class="text-black bg-transparent text-[16px] md:text-[20px] font-extrabold md:max-w-[30px] max-w-[20px] text-center" type="number" name="quantity" min="1" value="1" form="">
-               <button class="p-1 no-js-hidden" name="plus" type="button">
+               <input class="text-black bg-transparent text-[16px] md:text-[20px] font-extrabold md:max-w-[30px] max-w-[20px] text-center" type="number" name="quantity" min="1" @input="e => qtyInput(e)" :value="usfQty" form="">
+               <button v-if="qtyPlusShow" class="p-1 no-js-hidden" name="plus" type="button" @click="qtyPlus">
                   <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.00131 1C7.00131 0.447715 6.5536 0 6.00131 0C5.44903 0 5.00131 0.447715 5.00131 1V5.00107H1C0.447715 5.00107 0 5.44879 0 6.00107C0 6.55336 0.447715 7.00107 1 7.00107H5.00131V11.0022C5.00131 11.5545 5.44903 12.0022 6.00131 12.0022C6.5536 12.0022 7.00131 11.5545 7.00131 11.0022V7.00107H11.0023C11.5546 7.00107 12.0023 6.55336 12.0023 6.00107C12.0023 5.44879 11.5546 5.00107 11.0023 5.00107H7.00131V1Z" fill="#201A1C"></path>
                   </svg>
                </button>
             </product-quantity>
-            <add-to-cart data-max-quantity="0" class="w-8/12 " :data-product="product.id" :data-title="product.title" :data-price="price" :data-variant="product.variants[0].id">
+            <add-to-cart data-max-quantity="0" :data-quantity="usfQty" class="w-8/12 " :data-product="product.id" :data-title="product.title" :data-price="price" :data-variant="product.variants[0].id">
                <button class="btn-primary 
                   px-[12px] py-[11px] text-sm  text-[#fff] bg-[#f84c55]  w-full  transition-all rounded-md font-bold">
                Ajouter au panier
@@ -291,7 +291,7 @@ usf.templates = {
         <div class="flex-1" v-else style="margin-top: 0.75rem;">
             <div data-disabled="true">
                 <button style="cursor: not-allowed;" disabled="true" class="w-full text-white cursor-pointer !px-0 bg-gray-medium 
-                    px-2 py-3.5 text-sm md:px-4 md:py-3.5  text-[] bg-[]  transition-all rounded-md font-bold">
+                    px-2 py-3 text-sm md:px-4 md:py-3 transition-all rounded-md font-bold">
                 Stocks épuisés
                 </button>
             </div>
@@ -899,6 +899,47 @@ usf.event.add('init', function () {
     }
     usf.register(SearchResultsGridItem2, usf.components.SearchResultsGridItem, "usf-sr-griditem");*/
     _usfImageWidths = _usfIsDynamicImage ? [200, 400, 600, 700, 800, 900, 1000, 1200] : [usf.settings.search.imageSize];
+
+    var SearchResultsGridItem = {
+        mixins: [usf.components.SearchResultsGridItem],
+        template: usf.templates.searchResultsGridViewItem,
+        data(){
+            return {
+                usfQty: 1,
+                qtyPlusShow:true,
+                qtyMinuteShow: true,
+            }
+        },
+        methods:{  
+            qtyPlus(){
+                this.usfQty++;
+                this.checkQty();
+            },
+            qtyMinutes(){
+                if(this.usfQty>1)
+                    this.usfQty--;
+                this.checkQty(); 
+            },
+            checkQty(){
+                if(this.usfQty >= this.selectedVariantForPrice.available && this.selectedVariantForPrice.available != -2147483648){
+                    this.qtyPlusShow = false;
+                }else{ 
+                    this.qtyPlusShow = true;
+                }
+                if(this.usfQty <= 1){
+                    this.qtyMinuteShow = true;
+                }else{
+                     this.qtyMinuteShow = true;
+                }
+            }, 
+            qtyInput(e){
+                var val = e.target.value;
+                this.usfQty = parseInt(val);
+                this.checkQty(); 
+            }
+        } 
+    }
+    usf.register(SearchResultsGridItem, null, "usf-new-griditem");
 
     var usfDropRender = {
         props: {
