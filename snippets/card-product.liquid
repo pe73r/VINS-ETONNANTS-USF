@@ -37,7 +37,7 @@
 {%- if card_product and card_product != empty -%} 
   <div class="card-product p-5 rounded-md bg-white shadow-md {% unless template contains "collection" or width_fit == true %} min-w-[300px] md:min-w-[320px] xl:min-h-[350px] {% endunless %}">
     <a href="{{ card_product.url }}">
-      <div class="flex gap-2 items-center">
+      <div class="flex gap-2">
          <!-- card info -->
           <div class="w-7/12 text-left">
 
