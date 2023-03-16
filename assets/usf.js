@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/2/2023 5:13:41 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/16/2023 7:48:38 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -263,7 +263,7 @@ usf.templates = {
         <usf-plugin name="searchResultsProductPrice" :data="pluginData"></usf-plugin>
 
         <div class="usf-price-wrapper flex items-center" :class="{'usf-price--sold-out': isSoldOut}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
-            <span class="usf-price text-[20px] font-extrabold" :class="{'usf-has-discount': hasDiscount}" v-html="displayPrice"></span>
+            <span class="usf-price text-[20px] font-extrabold" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="displayPrice"></span>
             <span class="usf-discount text-[20px] font-extrabold" v-if="hasDiscount" v-html="displayDiscountedPrice"></span>
             <span v-if="hasDiscount" class="usf-price-savings text-[20px] font-extrabold" v-html="loc.save + ' ' + salePercent + '%'"></span>
         </div>

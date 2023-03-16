@@ -261,7 +261,7 @@ usf.templates = {
         <usf-plugin name="searchResultsProductPrice" :data="pluginData"></usf-plugin>
 
         <div class="usf-price-wrapper flex items-center" :class="{'usf-price--sold-out': isSoldOut}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
-            <span class="usf-price text-[20px] font-extrabold" :class="{'usf-has-discount': hasDiscount}" v-html="displayPrice"></span>
+            <span class="usf-price text-[20px] font-extrabold" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="displayPrice"></span>
             <span class="usf-discount text-[20px] font-extrabold" v-if="hasDiscount" v-html="displayDiscountedPrice"></span>
             <span v-if="hasDiscount" class="usf-price-savings text-[20px] font-extrabold" v-html="loc.save + ' ' + salePercent + '%'"></span>
         </div>
