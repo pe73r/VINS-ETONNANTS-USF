@@ -196,11 +196,11 @@
       <!-- Price -->
       <div class="flex items-center">
         {% if card_product.compare_at_price == nil %}
-            <span class="text-[20px] font-extrabold">
+            <span class="text-[20px] font-extrabold"> 
                 {{ card_product.price | money }}
             </span>
         {% else %}
-          <span class="text-[20px] font-extrabold">
+          <span class="text-[20px] font-extrabold accent-color">
               {{ card_product.price | money }}
           </span>
             <span class="line-through text-base ml-2">
