@@ -345,7 +345,7 @@ usf.templates = {
         <!-- price -->
         <usf-plugin name="searchResultsProductPrice" :data="pluginData"></usf-plugin>
         <div class="usf-price-wrapper" :class="{'usf-price--sold-out': isSoldOut}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
-            <span class="usf-price" :class="{'usf-has-discount': hasDiscount}" v-html="displayPrice"></span>
+            <span class="usf-price" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="displayPrice"></span>
             <span class="usf-discount" v-if="hasDiscount" v-html="displayDiscountedPrice"></span>
             <span v-if="hasDiscount" class="usf-price-savings" v-html="loc.save + ' ' + salePercent + '%'"></span>
         </div>
@@ -425,7 +425,7 @@ usf.templates = {
 
                     <!--Prices -->
                     <div class="usf-preview__price-wrapper" :class="{'price--sold-out': isSoldOut}">
-                        <span class="usf-price" :class="{'usf-has-discount': hasDiscount}" v-html="usf.utils.getDisplayPrice(selectedVariant.compareAtPrice || selectedVariant.price)"></span>
+                        <span class="usf-price" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="usf.utils.getDisplayPrice(selectedVariant.compareAtPrice || selectedVariant.price)"></span>
                         <span v-if="hasDiscount" class="usf-discount" v-html="usf.utils.getDisplayPrice(selectedVariant.price)"></span>
 
                         <div v-if="false" class="price__badges price__badges--listing">
@@ -767,7 +767,7 @@ usf.templates = {
 
         <!-- Prices -->
         <div class="usf-price-wrapper">
-            <span class="usf-price" :class="{ 'usf-has-discount': hasDiscount }" v-html="displayPrice"></span>
+            <span class="usf-price" :class="{ 'usf-has-discount accent-color': hasDiscount }" v-html="displayPrice"></span>
             <span v-if="hasDiscount" class="usf-discount" v-html="displayDiscountedPrice"></span>
         </div>
     </div>
