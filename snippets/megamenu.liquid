@@ -32,6 +32,11 @@
                 <span class="{{ class }} ">{{ sublinks.title }}</span>
               </a>
             </div>
+            {% if forloop.last and links.title contains "originalité" %}
+                <a href="/collections/all" class="block text-sm underline mt-3 font-bold">
+                  Voir plus
+                </a>
+            {% endif %}
           {% endfor %}
         </div>
       </div>

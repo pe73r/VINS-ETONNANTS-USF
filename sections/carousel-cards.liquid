@@ -57,7 +57,7 @@
 
      <!-- carousel mobile -->
      <div class="block md:hidden">
-        <div class="flex relative overflow-hidden overflow-x-scroll snap-mandatory snap-x gap-2 scrollbar pb-6 ml-6">
+        <div class="flex relative overflow-hidden overflow-x-scroll snap-mandatory snap-x gap-4 scrollbar pb-6 ml-6">
             {% for block in section.blocks %}
                 <div class="w-[200px] min-w-[200px] py-6 h-[300px] flex flex-col justify-end bg-cover bg-no-repeat rounded-md" style="background-image: url({{block.settings.image | img_url: '1000x' }});">
                     <div class="text-center">

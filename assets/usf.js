@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/2/2023 5:13:41 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/16/2023 2:51:13 PM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -36,23 +36,23 @@ function _usfIsDrop(product) {
 }
 var _usfDrop = {
     red: `<svg
-            width="19"
+            width="16"
             height="24"
             viewBox="0 0 19 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path d="M9.61558 0.12176C9.41525 -0.0405867 9.12854 -0.0405867 8.92822 0.12176C8.56281 0.421798 0 7.4633 0 14.7277C0 17.1868 0.97683 19.5452 2.71568 21.2843C4.45452 23.023 6.81285 24 9.27183 24C11.7308 24 14.0894 23.023 15.828 21.2843C17.5668 19.5455 18.5437 17.187 18.5437 14.7277C18.5437 7.46283 9.98102 0.421424 9.61543 0.12176H9.61558ZM9.27189 20.253C7.68077 20.253 6.15464 19.621 5.02956 18.4959C3.90449 17.3708 3.27244 15.8447 3.27244 14.2536H4.36319C4.36319 15.5554 4.88034 16.804 5.80093 17.7245C6.72147 18.6451 7.97001 19.1623 9.27189 19.1623V20.253Z" fill="#B6132B" />
             </svg>`,
-    white: '<div><svg width="19" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.61558 0.12176C9.41525 -0.0405867 9.12854 -0.0405867 8.92822 0.12176C8.56281 0.421798 0 7.4633 0 14.7277C0 17.1868 0.97683 19.5452 2.71568 21.2843C4.45452 23.023 6.81285 24 9.27183 24C11.7308 24 14.0894 23.023 15.828 21.2843C17.5668 19.5455 18.5437 17.187 18.5437 14.7277C18.5437 7.46283 9.98102 0.421424 9.61543 0.12176H9.61558ZM9.27189 20.253C7.68077 20.253 6.15464 19.621 5.02956 18.4959C3.90449 17.3708 3.27244 15.8447 3.27244 14.2536H4.36319C4.36319 15.5554 4.88034 16.804 5.80093 17.7245C6.72147 18.6451 7.97001 19.1623 9.27189 19.1623V20.253Z" fill="#FFE194" /></svg></div>',
+    white: '<div><svg width="16" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.61558 0.12176C9.41525 -0.0405867 9.12854 -0.0405867 8.92822 0.12176C8.56281 0.421798 0 7.4633 0 14.7277C0 17.1868 0.97683 19.5452 2.71568 21.2843C4.45452 23.023 6.81285 24 9.27183 24C11.7308 24 14.0894 23.023 15.828 21.2843C17.5668 19.5455 18.5437 17.187 18.5437 14.7277C18.5437 7.46283 9.98102 0.421424 9.61543 0.12176H9.61558ZM9.27189 20.253C7.68077 20.253 6.15464 19.621 5.02956 18.4959C3.90449 17.3708 3.27244 15.8447 3.27244 14.2536H4.36319C4.36319 15.5554 4.88034 16.804 5.80093 17.7245C6.72147 18.6451 7.97001 19.1623 9.27189 19.1623V20.253Z" fill="#FFE194" /></svg></div>',
     orange: `<svg
-            width="19"
+            width="16"
             height="24"
             viewBox="0 0 19 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path d="M9.61558 0.12176C9.41525 -0.0405867 9.12854 -0.0405867 8.92822 0.12176C8.56281 0.421798 0 7.4633 0 14.7277C0 17.1868 0.97683 19.5452 2.71568 21.2843C4.45452 23.023 6.81285 24 9.27183 24C11.7308 24 14.0894 23.023 15.828 21.2843C17.5668 19.5455 18.5437 17.187 18.5437 14.7277C18.5437 7.46283 9.98102 0.421424 9.61543 0.12176H9.61558ZM9.27189 20.253C7.68077 20.253 6.15464 19.621 5.02956 18.4959C3.90449 17.3708 3.27244 15.8447 3.27244 14.2536H4.36319C4.36319 15.5554 4.88034 16.804 5.80093 17.7245C6.72147 18.6451 7.97001 19.1623 9.27189 19.1623V20.253Z" fill="#F7940E" />
             </svg>`,
-    pink: `<svg width="19" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    pink: `<svg width="16" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M9.61558 0.12176C9.41525 -0.0405867 9.12854 -0.0405867 8.92822 0.12176C8.56281 0.421798 0 7.4633 0 14.7277C0 17.1868 0.97683 19.5452 2.71568 21.2843C4.45452 23.023 6.81285 24 9.27183 24C11.7308 24 14.0894 23.023 15.828 21.2843C17.5668 19.5455 18.5437 17.187 18.5437 14.7277C18.5437 7.46283 9.98102 0.421424 9.61543 0.12176H9.61558ZM9.27189 20.253C7.68077 20.253 6.15464 19.621 5.02956 18.4959C3.90449 17.3708 3.27244 15.8447 3.27244 14.2536H4.36319C4.36319 15.5554 4.88034 16.804 5.80093 17.7245C6.72147 18.6451 7.97001 19.1623 9.27189 19.1623V20.253Z" fill="#DB99C0"/>
             </svg>`
 }
@@ -210,25 +210,25 @@ usf.templates = {
                <!-- Title and drop -->
                <div class="flex gap-1 relative min-h-[60px]">
 
-                  <h2 class="font-body-text text-[20px] font-extrabold line-clamp-2" :attrs="usf.plugins.invoke('getProductTitleAttrs', pluginData)" v-html="product.title"></h2>
+                  <h2 class="font-body-text text-[18px] font-extrabold line-clamp-2" :attrs="usf.plugins.invoke('getProductTitleAttrs', pluginData)" v-html="product.title"></h2>
                   <usf-drop :product="product"></usf-drop>
                </div> 
                <!-- Metafield producer -->
                
                <div class="mt-5">
                   <p v-if="usf.utils.getMetafield(product,'global','marque')" class="text-xs uppercase font-light">PRODUCTEUR</p>
-                  <p class="text-base line-clamp-2 min-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
+                  <p class="text-sm line-clamp-2 min-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
                </div>
                <!-- Metafield region -->
                <div class="mt-3">
                   <p class="text-xs uppercase font-light">RÉGION</p> 
-                  <p v-if="checkTags(product.tags)" class="text-base line-clamp-1 capitalize" v-html="checkTags(product.tags)"></p>
-                  <p v-else class="text-base line-clamp-1" v-html="'N/A'"></p>
+                  <p v-if="checkTags(product.tags)" class="text-sm line-clamp-1 capitalize" v-html="checkTags(product.tags)"></p>
+                  <p v-else class="text-sm line-clamp-1" v-html="'N/A'"></p>
                </div>
                <!-- Metafield grade --> 
                <div class="mt-3">
                   <p v-if="usf.utils.getMetafield(product,'global','description_courte')" class="text-xs uppercase font-light">CÉPAGE</p>
-                  <p class="text-base line-clamp-1" v-html="usf.utils.getMetafield(product,'global','description_courte').split('-')[0].replace('Cépage : ','').replace('Cépages ','')"></p>
+                  <p class="text-sm line-clamp-1" v-html="usf.utils.getMetafield(product,'global','description_courte').split('-')[0].replace('Cépage : ','').replace('Cépages ','')"></p>
                </div>
             </div>
 
@@ -263,7 +263,7 @@ usf.templates = {
         <usf-plugin name="searchResultsProductPrice" :data="pluginData"></usf-plugin>
 
         <div class="usf-price-wrapper flex items-center" :class="{'usf-price--sold-out': isSoldOut}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
-            <span class="usf-price text-[20px] font-extrabold" :class="{'usf-has-discount': hasDiscount}" v-html="displayPrice"></span>
+            <span class="usf-price text-[20px] font-extrabold" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="displayPrice"></span>
             <span class="usf-discount text-[20px] font-extrabold" v-if="hasDiscount" v-html="displayDiscountedPrice"></span>
             <span v-if="hasDiscount" class="usf-price-savings text-[20px] font-extrabold" v-html="loc.save + ' ' + salePercent + '%'"></span>
         </div>
@@ -347,7 +347,7 @@ usf.templates = {
         <!-- price -->
         <usf-plugin name="searchResultsProductPrice" :data="pluginData"></usf-plugin>
         <div class="usf-price-wrapper" :class="{'usf-price--sold-out': isSoldOut}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
-            <span class="usf-price" :class="{'usf-has-discount': hasDiscount}" v-html="displayPrice"></span>
+            <span class="usf-price" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="displayPrice"></span>
             <span class="usf-discount" v-if="hasDiscount" v-html="displayDiscountedPrice"></span>
             <span v-if="hasDiscount" class="usf-price-savings" v-html="loc.save + ' ' + salePercent + '%'"></span>
         </div>
@@ -427,7 +427,7 @@ usf.templates = {
 
                     <!--Prices -->
                     <div class="usf-preview__price-wrapper" :class="{'price--sold-out': isSoldOut}">
-                        <span class="usf-price" :class="{'usf-has-discount': hasDiscount}" v-html="usf.utils.getDisplayPrice(selectedVariant.compareAtPrice || selectedVariant.price)"></span>
+                        <span class="usf-price" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="usf.utils.getDisplayPrice(selectedVariant.compareAtPrice || selectedVariant.price)"></span>
                         <span v-if="hasDiscount" class="usf-discount" v-html="usf.utils.getDisplayPrice(selectedVariant.price)"></span>
 
                         <div v-if="false" class="price__badges price__badges--listing">
@@ -769,7 +769,7 @@ usf.templates = {
 
         <!-- Prices -->
         <div class="usf-price-wrapper">
-            <span class="usf-price" :class="{ 'usf-has-discount': hasDiscount }" v-html="displayPrice"></span>
+            <span class="usf-price" :class="{ 'usf-has-discount accent-color': hasDiscount }" v-html="displayPrice"></span>
             <span v-if="hasDiscount" class="usf-discount" v-html="displayDiscountedPrice"></span>
         </div>
     </div>

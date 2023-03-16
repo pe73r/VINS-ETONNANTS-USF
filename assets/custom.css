@@ -97,3 +97,8 @@ input:focus-visible {
     width: calc(50% - 10px);
   }
 }
+
+.article-excerpt p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}

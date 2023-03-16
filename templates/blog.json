@@ -6,13 +6,12 @@
         "show_breadcrumbs": true,
         "number_by_page": 8,
         "columns_desktop": 4,
+        "columns_mobile": 2,
         "show_date": false,
         "show_author": false,
-        "show_title": false,
+        "show_title": true,
         "show_excerpt": true,
-        "show_button": true,
-        "aside_title": "",
-        "aside_text": ""
+        "show_button": true
       }
     }
   },
