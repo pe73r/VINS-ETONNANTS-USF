@@ -15,71 +15,76 @@
         </accordion-trigger>
         <accordion-content>
           <ul class="mb-5 list-none">
+            {% assign GrandChild = false %}
+            {%- for child_link in link.links -%}
               {% assign GrandChild = false %}
-                {%- for child_link in link.links -%}
-                  {% assign GrandChild = false %}
-                    {% if  child_link.links.size > 0 %}  
-                       {% assign GrandChild = true %}
-                    {% endif %}
-               
-                    {% if GrandChild %} 
-                        <accordion-group>
-                            <accordion-element>
-                              <accordion-trigger class="group">
-                                  <accordion-header class="flex justify-between items-center py-2">
-                                      <p class="ml-4 text-sm {% if link.active %} font-bold {% endif %}">
-                                        {{ child_link.title }}
-                                      </p>
-                                      <accordion-icon class="group-expanded:rotate-180 transition-all origin-center h-[fit-content]">
-                                        {% render 'icon-arrow-accordion' %}
-                                      </accordion-icon>
-                                  </accordion-header>
-                              </accordion-trigger>
-                              <accordion-content>
-                                <ul>
-                                  {%- for grandchildlink in child_link.links -%}
-                                    <li class="ml-8 py-2">
-                                      <a href="{{ grandchildlink.url }}" class="block text-xs menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"{% if grandchildlink.current %} aria-current="page"{% endif %}>
-                                        {{ grandchildlink.title | escape }}
-                                      </a>
-                                    </li> 
-                                  {%- endfor -%}
-                                </ul>
-                              </accordion-content>
-                          </accordion-element>  
-                          </accordion-group>
-                    {%  else  %} 
-                      <li class="ml-4 py-2">
-                        <a href="{{ link.url }}" class="block text-sm {% if link.active %} font-bold {% endif %}">
+              {% if child_link.links.size > 0 %}
+                {% assign GrandChild = true %}
+              {% endif %}
+
+              {% if GrandChild %}
+                <accordion-group>
+                  <accordion-element>
+                    <accordion-trigger class="group">
+                      <accordion-header class="flex justify-between items-center py-2">
+                        <p class="ml-4 text-sm font-bold">
                           {{ child_link.title }}
-                        </a>
-                      </li>
-                  {% endif %}  
-                {%- endfor -%}
-            
+                        </p>
+                        <accordion-icon class="group-expanded:rotate-180 transition-all origin-center h-[fit-content]">
+                          {% render 'icon-arrow-accordion' %}
+                        </accordion-icon>
+                      </accordion-header>
+                    </accordion-trigger>
+                    <accordion-content>
+                      <ul>
+                        {%- for grandchildlink in child_link.links -%}
+                          <li class="ml-8 py-2">
+                            <a
+                              href="{{ grandchildlink.url }}"
+                              class="block text-xs menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"
+                              {% if grandchildlink.current %}
+                              aria-current="page"
+                              {% endif %}>
+                              {{ grandchildlink.title | escape }}
+                            </a>
+                          </li>
+                        {%- endfor -%}
+                      </ul>
+                    </accordion-content>
+                  </accordion-element>
+                </accordion-group>
+              {% else %}
+                <li class="ml-4 py-2">
+                  <a href="{{ link.url }}" class="block text-sm {% if link.active %} font-bold {% endif %}">
+                    {{ child_link.title }}
+                  </a>
+                </li>
+              {% endif %}
+            {%- endfor -%}
+
           </ul>
-          
+
 
           {% comment %} {% for block in section.blocks %}
             {% if block.type == "megamenu" %}
-              {% assign menu_name = block.settings.menu_name %}
+            {% assign menu_name = block.settings.menu_name %}
 
-              {% if link.title == menu_name %}
-                <div class="flex md:justify-center relative overflow-hidden overflow-x-scroll snap-mandatory snap-x gap-3 md:gap-10 scrollbar-none pr">
-                  {% if block.settings.image != blank %}
-                    <div class="min-w-[110px] md:min-w-0">
-                      <img src="{{ block.settings.image | img_url:'master' }}" alt="{{ block.settings.image.alt  }}">
-                      <h2>{{ block.settings.title }}</h2>
-                    </div>
-                  {% endif %}
-                  {% if block.settings.image_2 != blank %}
-                    <div class="min-w-[110px] md:min-w-0">
-                      <img src="{{ block.settings.image_2 | img_url:'master' }}" alt="{{ block.settings.image.alt  }}">
-                      <h2>{{ block.settings.title_2 }}</h2>
-                    </div>
-                  {% endif %}
-                </div>
-              {% endif %}
+            {% if link.title == menu_name %}
+            <div class="flex md:justify-center relative overflow-hidden overflow-x-scroll snap-mandatory snap-x gap-3 md:gap-10 scrollbar-none pr">
+            {% if block.settings.image != blank %}
+            <div class="min-w-[110px] md:min-w-0">
+            <img src="{{ block.settings.image | img_url:'master' }}" alt="{{ block.settings.image.alt  }}">
+            <h2>{{ block.settings.title }}</h2>
+            </div>
+            {% endif %}
+            {% if block.settings.image_2 != blank %}
+            <div class="min-w-[110px] md:min-w-0">
+            <img src="{{ block.settings.image_2 | img_url:'master' }}" alt="{{ block.settings.image.alt  }}">
+            <h2>{{ block.settings.title_2 }}</h2>
+            </div>
+            {% endif %}
+            </div>
+            {% endif %}
 
             {% endif %}
 
@@ -87,9 +92,16 @@
 
         </accordion-content>
       {%- else -%}
-            <a href="{{ link.url }}" class="block w-full py-2 text-sm font-bold {% if link.title contains 'Nouveautés' %} text-orange font-bold {% endif %}" {% if link.current %} aria-active="true" aria-current="page" {% endif %} ">
-                {{ link.title | escape }}
-            </a>
+        <a
+          href="{{ link.url }}"
+          class="block w-full py-2 text-sm font-bold {% if link.title contains 'Nouveautés' %} text-orange font-bold {% endif %}"
+          {% if link.current %}
+          aria-active="true"
+          aria-current="page"
+          {% endif %}
+          ">
+          {{ link.title | escape }}
+        </a>
       {%- endif -%}
     </accordion-element>
   {%- endfor -%}
