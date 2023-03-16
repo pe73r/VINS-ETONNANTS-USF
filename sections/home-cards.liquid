@@ -7,7 +7,7 @@
     {% endif %}
     <div class="flex flex-col md:flex-row gap-5 md:gap-6 lg:gap-10">
       {%- for block in section.blocks -%}
-        <div class="w-full md:1/2 bg-cover bg-no-repeat flex items-center justify-center rounded-md h-[370px] md:h-[500px] text-center p-5 {% if block.settings.card_width == "3/5" %} md:w-3/5 {% elsif block.settings.card_width == "2/5" %} md:w-2/5 {% endif %}" style="background-image: url({{block.settings.image | img_url: '1000x' }});">
+        <div class="w-full md:1/2 bg-cover bg-no-repeat flex items-center justify-center rounded-md h-[450px] md:h-[500px] text-center p-5 {% if block.settings.card_width == "3/5" %} md:w-3/5 {% elsif block.settings.card_width == "2/5" %} md:w-2/5 {% endif %}" style="background-image: url({{block.settings.image | img_url: '1000x' }});">
           <div>
             <h3 class="text-[28px] leading-8 md:text-[32px] md:leading-10 mb-5" style="color:{{ section.settings.color }};">{{ block.settings.title }}</h3>
             {% if block.settings.show_hr %}
