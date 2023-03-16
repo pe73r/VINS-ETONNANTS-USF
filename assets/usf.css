@@ -633,7 +633,11 @@ input:focus-visible {
 .usf-img-wrapper {
   height: 280px !important; 
 }
+.text-\[18px\] {
+    font-size: 18px;
+}
 /* End custom theme code */
+
 
 
 
