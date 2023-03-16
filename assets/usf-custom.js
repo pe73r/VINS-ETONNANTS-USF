@@ -215,18 +215,18 @@ usf.templates = {
                
                <div class="mt-5">
                   <p v-if="usf.utils.getMetafield(product,'global','marque')" class="text-xs uppercase font-light">PRODUCTEUR</p>
-                  <p class="text-base line-clamp-2 min-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
+                  <p class="text-sm line-clamp-2 min-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
                </div>
                <!-- Metafield region -->
                <div class="mt-3">
                   <p class="text-xs uppercase font-light">RÉGION</p> 
-                  <p v-if="checkTags(product.tags)" class="text-base line-clamp-1 capitalize" v-html="checkTags(product.tags)"></p>
-                  <p v-else class="text-base line-clamp-1" v-html="'N/A'"></p>
+                  <p v-if="checkTags(product.tags)" class="text-sm line-clamp-1 capitalize" v-html="checkTags(product.tags)"></p>
+                  <p v-else class="text-sm line-clamp-1" v-html="'N/A'"></p>
                </div>
                <!-- Metafield grade --> 
                <div class="mt-3">
                   <p v-if="usf.utils.getMetafield(product,'global','description_courte')" class="text-xs uppercase font-light">CÉPAGE</p>
-                  <p class="text-base line-clamp-1" v-html="usf.utils.getMetafield(product,'global','description_courte').split('-')[0].replace('Cépage : ','').replace('Cépages ','')"></p>
+                  <p class="text-sm line-clamp-1" v-html="usf.utils.getMetafield(product,'global','description_courte').split('-')[0].replace('Cépage : ','').replace('Cépages ','')"></p>
                </div>
             </div>
 
