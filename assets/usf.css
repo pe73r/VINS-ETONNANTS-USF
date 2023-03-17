@@ -636,15 +636,26 @@ input:focus-visible {
 .usf-grid__item-link .text-base{
     font-weight: 600; 
 }
-.usf-facets__body{
+body:not(.usf-mobile) .usf-facets__body{
     background: #fcf9f3;
     padding: 0px 10px;
     border-radius: 10px;
 }
+.usf-checkbox-inner{ 
+    background: white;
+}
+body:not(.usf-mobile) .usf-facet-values--List .usf-checkbox{
+    top: 5px !important;
+}
+ 
 .text-\[18px\] {
     font-size: 18px;
 } 
+
 /* End custom theme code */
+
+
+
 
 
 
