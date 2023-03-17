@@ -645,14 +645,16 @@ body:not(.usf-mobile) .usf-facets__body{
     background: white;
 }
 body:not(.usf-mobile) .usf-facet-values--List .usf-checkbox{
-    top: 5px !important;
+    top: 7px !important;
 }
- 
+  
 .text-\[18px\] {
     font-size: 18px;
 } 
 
 /* End custom theme code */
+
+
 
 
 
