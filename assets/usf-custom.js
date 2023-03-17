@@ -222,11 +222,11 @@ usf.templates = {
                   <p class="text-xs uppercase font-light">RÉGION</p> 
                   <p v-if="checkTags(product.tags)" class="text-sm line-clamp-1 capitalize" v-html="checkTags(product.tags)"></p>
                   <p v-else class="text-sm line-clamp-1" v-html="'N/A'"></p>
-               </div>
+               </div>  
                <!-- Metafield grade --> 
                <div class="mt-3">
                   <p v-if="usf.utils.getMetafield(product,'global','description_courte')" class="text-xs uppercase font-light">CÉPAGE</p>
-                  <p v-if="(description_courte = usf.utils.getMetafield(product,'global','description_courte')) != '' && description_courte.includes('-')" class="text-sm line-clamp-1" v-html="description_courte.split('-')[0].replace('Cépage : ','').replace('Cépages ','')"></p>
+                  <p v-if="(description_courte = usf.utils.getMetafield(product,'global','description_courte')) != '' && description_courte.includes('-')" class="text-sm line-clamp-1" v-html="description_courte.split('-')[0] ? description_courte.split('-')[0].replace('Cépage : ','').replace('Cépages ','') : ''"></p>
                </div>
             </div>
 
