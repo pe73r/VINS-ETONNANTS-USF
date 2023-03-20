@@ -59,22 +59,22 @@
       <script preload>
         (async () => {
         const [configRes, layoutRes, styleRes] = await Promise.all([
-                                                                                                                                                                                                                    fetch("{{ 'tailwind.config.js' | asset_url }}"),
+                                                                                                                                                                                                                                            fetch("{{ 'tailwind.config.js' | asset_url }}"),
         fetch("{{ 'tail.layout.css' | asset_url }}"),
         fetch("{{ 'tail.style.css' | asset_url }}")
         ]);
-                                                                                                                                                                                                                  const text = await configRes.text()
-                                                                                                                                                                                                                  console.log({text});
-                                                                                                                                                                                                                  tailwind.config = eval(`(${
-                                                                                                                                                                                                                    text.replace("module.exports = ", "").replace("module.exports=", "").replace("};", "}")
-                                                                                                                                                                                                                  })`);
-                                                                                                                                                                                                                  const apply = document.createElement("style");
-                                                                                                                                                                                                                  apply.setAttribute("type", "text/tailwindcss");
-                                                                                                                                                                                                                  apply.innerHTML = `${
-                                                                                                                                                                                                                    (await Promise.all([layoutRes.text(), styleRes.text()])).join("\n")
-                                                                                                                                                                                                                  }`;
-                                                                                                                                                                                                                  document.head.appendChild(apply);
-                                                                                                                                                                                                                })()
+                                                                                                                                                                                                                                          const text = await configRes.text()
+                                                                                                                                                                                                                                          console.log({text});
+                                                                                                                                                                                                                                          tailwind.config = eval(`(${
+                                                                                                                                                                                                                                            text.replace("module.exports = ", "").replace("module.exports=", "").replace("};", "}")
+                                                                                                                                                                                                                                          })`);
+                                                                                                                                                                                                                                          const apply = document.createElement("style");
+                                                                                                                                                                                                                                          apply.setAttribute("type", "text/tailwindcss");
+                                                                                                                                                                                                                                          apply.innerHTML = `${
+                                                                                                                                                                                                                                            (await Promise.all([layoutRes.text(), styleRes.text()])).join("\n")
+                                                                                                                                                                                                                                          }`;
+                                                                                                                                                                                                                                          document.head.appendChild(apply);
+                                                                                                                                                                                                                                        })()
       </script>
 
 
@@ -177,15 +177,12 @@
           <div class="flex items-center">
             {% section "header-drawer" %}
             <div class="block lg:hidden">
-              <div id="btn-search-mobile" class="p-3">
+              <a
+                href="/search"
+                id="btn-search-mobile"
+                class="p-3 block">
                 {% render 'icon-search-mobile' %}
-              </div>
-              <div
-                id="search-mobile"
-                style="display:none;"
-                class="bg-white left-0 top-[68px] w-full absolute p-5">
-                {% render "search-box" %}
-              </div>
+              </a>
             </div>
           </div>
 
@@ -225,19 +222,6 @@
       </li>
     </ul>
 
-
-    <script>
-      const toggleSearchBtn = document.getElementById('btn-search-mobile');
-      const SearchMobile = document.getElementById('search-mobile');
-
-      toggleSearchBtn.addEventListener('click', function() {
-        if (SearchMobile.style.display === 'none') {
-          SearchMobile.style.display = 'block';
-        } else {
-          SearchMobile.style.display = 'none';
-        }
-      });
-    </script>
     <script>
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
