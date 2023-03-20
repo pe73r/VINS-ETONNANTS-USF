@@ -640,6 +640,10 @@ body:not(.usf-mobile) .usf-facets__body{
 .usf-checkbox-inner{ 
     background: white;
 }
+body:not(.usf-mobile) .usf-facet-values--List .usf-checkbox{
+    top: 7px !important;
+}
+  
 .text-\[18px\] {
     font-size: 18px;
 } 

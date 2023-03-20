@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/16/2023 2:51:13 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/17/2023 2:21:18 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -209,26 +209,26 @@ usf.templates = {
             <div class="w-7/12 text-left">
                <!-- Title and drop -->
                <div class="flex gap-1 relative min-h-[60px]">
-
-                  <h2 class="font-body-text text-[18px] font-extrabold line-clamp-2" :attrs="usf.plugins.invoke('getProductTitleAttrs', pluginData)" v-html="product.title"></h2>
+ 
+                  <h2 class="font-body-text text-[18px] font-extrabold line-clamp-3" :attrs="usf.plugins.invoke('getProductTitleAttrs', pluginData)" v-html="product.title"></h2>
                   <usf-drop :product="product"></usf-drop>
                </div> 
                <!-- Metafield producer -->
                
                <div class="mt-5">
                   <p v-if="usf.utils.getMetafield(product,'global','marque')" class="text-xs uppercase font-light">PRODUCTEUR</p>
-                  <p class="text-sm line-clamp-2 min-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
+                  <p class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
                </div>
-               <!-- Metafield region -->
+               <!-- Metafield region --> 
                <div class="mt-3">
                   <p class="text-xs uppercase font-light">RÉGION</p> 
-                  <p v-if="checkTags(product.tags)" class="text-sm line-clamp-1 capitalize" v-html="checkTags(product.tags)"></p>
-                  <p v-else class="text-sm line-clamp-1" v-html="'N/A'"></p>
-               </div>
+                  <p v-if="checkTags(product.tags)" class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="checkTags(product.tags)"></p>
+                  <p v-else class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="'N/A'"></p>
+               </div>   
                <!-- Metafield grade --> 
                <div class="mt-3">
                   <p v-if="usf.utils.getMetafield(product,'global','description_courte')" class="text-xs uppercase font-light">CÉPAGE</p>
-                  <p class="text-sm line-clamp-1" v-html="usf.utils.getMetafield(product,'global','description_courte').split('-')[0].replace('Cépage : ','').replace('Cépages ','')"></p>
+                  <p v-if="(description_courte = usf.utils.getMetafield(product,'global','description_courte')) != '' && description_courte.includes('-')" class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="description_courte.split('-')[0] ? description_courte.split('-')[0].replace('Cépage : ','').replace('Cépages ','') : ''"></p>
                </div>
             </div>
 
