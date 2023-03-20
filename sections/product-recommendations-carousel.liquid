@@ -3,6 +3,7 @@
     <product-recommendations class="product-recommendations page-width section-{{ section.id }}-padding isolate" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4">
         {% if recommendations.performed and recommendations.products_count > 0 %}
         <h2 class="text-4xl text-center">{{ section.settings.heading | escape }}</h2>
+        <div class="md:w-11/12 md:max-w-{{ section.settings.container }} mx-auto">
         <tail-carousel slidesToShow="xs:1 sm:2 md:2 lg:3 xl:3"  class="py-5">
             <carousel-container class="py-2">
                 <carousel-content class="w-full">
@@ -22,18 +23,22 @@
 
                 </carousel-content>
             </carousel-container>
-            {% comment %} <carousel-next class=" md:flex hidden absolute top-0 bottom-0 z-[1] xl:-right-4 right-4 items-center justify-center w-8 h-8 p-2 my-auto bg-white rounded-full border-[1px]  cursor-pointer  disabled:opacity-50 disabled:cursor-not-allowed ">
-              {% render 'icon-arrow-right' %} 
-             </carousel-next>
-             <carousel-prev class=" md:flex hidden absolute top-0 bottom-0 xl:-left-4 left-4 z-[1] items-center justify-center w-8 h-8 p-2 my-auto bg-white rounded-full border-[1px] cursor-pointer  disabled:opacity-50 disabled:cursor-not-allowed">
-              {% render 'icon-arrow-left' %}
-            </carousel-prev>
-            {% endcomment %}
+            {% if section.settings.show_arrows %}
+              <carousel-next class="hidden md:block absolute right-[-40px] top-[50%] translate-y-[-50%] z-[1] cursor-pointer disabled:opacity-50 disabled:cursor-auto">
+                  {% render 'icon-arrow-right' %}
+              </carousel-next>
+              <carousel-prev class="hidden md:block absolute left-[-40px] top-[50%] translate-y-[-50%] z-[1] cursor-pointer disabled:opacity-50 disabled:cursor-auto">
+                  {% render 'icon-arrow-left' %}
+              </carousel-prev>
+              {% endif %}  
+              {% if section.settings.show_dots %}
             <carousel-dots class="relative flex justify-center mt-10">
                   <carousel-dot class="w-full h-[3px] transition-all bg-sable border-[1px] border-sable selected:bg-black selected:border-black selected:w-1/2">
                   </carousel-dot>
               </carousel-dots>
+            {% endif %}
         </tail-carousel>
+        </div>
         {% endif %}
     </product-recommendations>
  </div>
@@ -94,11 +99,17 @@
       "label": "Show second image on hover"
     },
     {
-      "type": "checkbox",
-      "id": "show_vendor",
-      "default": true,
-      "label": "Show vendor"
-    }
+          "type": "checkbox",
+          "id": "show_arrows",
+          "label": "Show arrows",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_dots",
+          "label": "Show bar",
+          "default": true
+        }
   ]
 }
 {% endschema %}
