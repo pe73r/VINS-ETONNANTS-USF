@@ -1,5 +1,5 @@
 <tail-drawer class="lg:hidden" data-full-height="true">
-  <drawer-overlay class="p-0 bg-transparent overflow-visible top-[60px]">
+  <drawer-overlay class="p-0 bg-transparent overflow-visible top-[68px] drawer-mobile">
     <drawer-content class="w-full bg-transparent relative">
       <drawer-close class="absolute px-4 py-4 bg-white left-2 z-10 top-[-55px]">{% render 'icon-close' %}</drawer-close>
       <drawer-inner class="bg-white ">
@@ -24,3 +24,8 @@
     {% render 'icon-hamburger' %}
   </drawer-trigger>
 </tail-drawer>
+<style>
+  .drawer-mobile {
+    top: 68px;
+  }
+</style>
