@@ -80,7 +80,7 @@
       {% if product.metafields.global.marque != blank %}
         <div class="mt-2 md:mt-5">
           <p class="text-xs uppercase font-light">PRODUCTEUR</p>
-          <p class="text-base line-clamp-2">
+          <p class="text-base line-clamp-2 font-semibold">
             {{ product.metafields.global.marque }}
           </p>
         </div>
@@ -124,7 +124,7 @@
               {% for region in regions %}
                 {% assign region_down = region | downcase | replace: " ", "-" | replace: "é", "e" | replace: "í", "i" | replace: "ô", "o" %}
                 {% if product.tags contains region_down %}
-                  <p class="text-base line-clamp-1 capitalize">{{ region_down }}</p>
+                  <p class="text-base line-clamp-1 capitalize font-semibold">{{ region_down }}</p>
                 {% endif %}
               {% endfor %}
             </ul>
@@ -135,7 +135,7 @@
             {% comment %} <p class="text-base line-clamp-1">
               {% render 'tags-regions' product: product %}
             </p> {% endcomment %}
-            <p class="text-base">
+            <p class="text-base font-semibold">
                N/A
             </p>
           </div>
@@ -153,7 +153,7 @@
             {% for cepage in cepages %}
               {% assign cepage_down = cepage | downcase | replace: " ", "-" | replace: "é", "e" | replace: "í", "i" | replace: "ô", "o" %}
               {% if product.tags contains cepage_down %}
-                <p class="text-base line-clamp-1 capitalize">{{ cepage_down }}</p>
+                <p class="text-base line-clamp-1 capitalize font-semibold">{{ cepage_down }}</p>
               {% endif %}
             {% endfor %}
           </ul>
@@ -164,7 +164,7 @@
       <!-- Metafield style -->
       <div class="mt-3">
         <p class="text-xs uppercase font-light">Pays</p>
-        <p class="text-base line-clamp-1 capitalize">
+        <p class="text-base line-clamp-1 capitalize font-semibold">
           {% render 'tags-countries' product: product %}
         </p>
         {%- comment -%} <p class="my-2 text-base line-clamp-1 max-h-[32px]">{{ product.metafields.product.style }}</p> {%- endcomment -%}
