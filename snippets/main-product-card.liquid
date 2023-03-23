@@ -38,7 +38,7 @@
 <div class="main-product-card bg-white rounded-md pt-2 pb-4 px-4 lg:pb-5 lg:px-5">
   <!-- product title -->
    <div class="flex justify-between">
-      <div class="flex gap-1 relative min-h-[60px] items-center">
+      <div class="flex gap-1 relative min-h-[80px] items-center">
         <h1 class="font-body-text text-[20px] leading-[24px] md:text-[28px] md:leading-[33px] font-bold line-clamp-2 tracking-tight">
           {{ product.title }}
         </h1>
@@ -80,7 +80,7 @@
       {% if product.metafields.global.marque != blank %}
         <div class="mt-2 md:mt-5">
           <p class="text-xs uppercase font-light">PRODUCTEUR</p>
-          <p class="text-base line-clamp-2">
+          <p class="text-base line-clamp-2 font-normal">
             {{ product.metafields.global.marque }}
           </p>
         </div>
@@ -115,7 +115,7 @@
 
    
         {% if isRegion %}
-          <div class="mt-3">
+          <div class="mt-4">
             <p class="text-xs uppercase font-light">RÉGION</p>
             {% comment %} <p class="text-base line-clamp-1">
               {% render 'tags-regions' product: product %}
@@ -124,18 +124,18 @@
               {% for region in regions %}
                 {% assign region_down = region | downcase | replace: " ", "-" | replace: "é", "e" | replace: "í", "i" | replace: "ô", "o" %}
                 {% if product.tags contains region_down %}
-                  <p class="text-base line-clamp-1 capitalize">{{ region_down }}</p>
+                  <p class="text-base line-clamp-1 capitalize font-normal">{{ region_down }}</p>
                 {% endif %}
               {% endfor %}
             </ul>
           </div>
         {% else %}  
-          <div class="mt-3">
+          <div class="mt-4">
             <p class="text-xs uppercase font-light">RÉGION</p>
             {% comment %} <p class="text-base line-clamp-1">
               {% render 'tags-regions' product: product %}
             </p> {% endcomment %}
-            <p class="text-base">
+            <p class="text-base font-normal">
                N/A
             </p>
           </div>
@@ -144,7 +144,7 @@
 
       <!-- Cepage -->
       {% if isCepage %}
-        <div class="mt-3">
+        <div class="mt-4">
           <p class="text-xs uppercase font-light">CÉPAGE</p>
           {% comment %} <p class="text-base line-clamp-1 capitalize">
             {% render 'tags-cepage' product: product %}
@@ -153,7 +153,7 @@
             {% for cepage in cepages %}
               {% assign cepage_down = cepage | downcase | replace: " ", "-" | replace: "é", "e" | replace: "í", "i" | replace: "ô", "o" %}
               {% if product.tags contains cepage_down %}
-                <p class="text-base line-clamp-1 capitalize">{{ cepage_down }}</p>
+                <p class="text-base line-clamp-1 capitalize font-normal">{{ cepage_down }}</p>
               {% endif %}
             {% endfor %}
           </ul>
@@ -162,9 +162,9 @@
 
 
       <!-- Metafield style -->
-      <div class="mt-3">
+      <div class="mt-4">
         <p class="text-xs uppercase font-light">Pays</p>
-        <p class="text-base line-clamp-1 capitalize">
+        <p class="text-base line-clamp-1 capitalize font-normal">
           {% render 'tags-countries' product: product %}
         </p>
         {%- comment -%} <p class="my-2 text-base line-clamp-1 max-h-[32px]">{{ product.metafields.product.style }}</p> {%- endcomment -%}
