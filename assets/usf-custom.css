@@ -630,7 +630,7 @@ input:focus-visible {
   height: 280px !important; 
 }
 .usf-grid__item-link .text-base{
-    font-weight: 400; 
+    font-weight: 400;  
 }
 
 body:not(.usf-mobile) .usf-facets__body{
