@@ -1,6 +1,6 @@
 <section
-  id="section-{{ section.id }}"
-  class="relative w-full"
+  id="announcement-bar"
+  class="relative w-full px-6"
   style="color: {{ section.settings.text_color }}; background-color: {{ section.settings.background_color }}">
   <tail-carousel
     data-auto-play="5000"
@@ -26,7 +26,25 @@
       </carousel-content>
     </carousel-container>
   </tail-carousel>
+  <button class="absolute text-white font-xl font-bold right-2 md:right-4 top-[50%] translate-y-[-50%]" id="close-bar-btn">
+    {% render 'icon-close', color: 'white' %}
+  </button>
 </section>
+<script>
+  const announcementBar = document.getElementById("announcement-bar");
+  const closeBtn = document.getElementById("close-bar-btn");
+
+  closeBtn.addEventListener("click", () => {
+    announcementBar.style.display = "none";
+    const now = new Date().getTime();
+    localStorage.setItem("announcementClosedTime", now);
+  });
+
+  const timeElapsed = new Date().getTime() - Number(localStorage.getItem("announcementClosedTime"));
+  if (!localStorage.getItem("announcementClosedTime") || timeElapsed > 24 * 60 * 60 * 1000) {
+    announcementBar.style.display = "block";
+  }
+</script>
 
 {% schema %}
   {
