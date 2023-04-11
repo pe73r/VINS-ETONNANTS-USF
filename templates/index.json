@@ -6,7 +6,7 @@
         "f798bfbf-f191-4238-afc1-18a73b6cbc35": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>OFFRE : -20% à partir de 100€ d'achat avec le code ETONNANTS20<\/strong><\/p>",
+            "text": "<p><strong>10% de remise<\/strong> sur votre première commande avec le code <strong>BIENVENUE<\/strong><\/p>",
             "url": ""
           }
         }
@@ -182,6 +182,7 @@
           "settings": {
             "card_width": "3\/5",
             "image": "shopify:\/\/shop_images\/5eec4b4341370ca7fc4654c0b3cbdb33.jpg",
+            "image_overlay": true,
             "title": "Notre sélection de vins d’exception !",
             "show_hr": true,
             "text": "<p>Vins d’auteur et vins d’artisans au naturel, depuis 2003.<\/p>",
@@ -194,6 +195,7 @@
           "settings": {
             "card_width": "2\/5",
             "image": "shopify:\/\/shop_images\/72aa89ac54c8985e8268196747c5552d.png",
+            "image_overlay": true,
             "title": "Le coup de projecteur vigneron",
             "show_hr": true,
             "text": "<p>Chaque mois, nous mettons en avant un de nos producteurs pour vous raconter son histoire.<\/p>",
