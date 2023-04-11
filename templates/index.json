@@ -171,7 +171,7 @@
             "show_hr": true,
             "text": "<p>Vins d’auteur et vins d’artisans au naturel, depuis 2003.<\/p>",
             "cta": "Je découvre",
-            "button_link": "shopify:\/\/collections\/janvier-2023"
+            "button_link": "shopify:\/\/collections"
           }
         },
         "3b35f979-2212-4301-9d49-79f08d3f6160": {
@@ -182,8 +182,8 @@
             "image_overlay": true,
             "title": "Le coup de projecteur vigneron",
             "show_hr": true,
-            "text": "<p>Chaque mois, nous mettons en avant un de nos producteurs pour vous raconter son histoire.<\/p>",
-            "cta": "Je découvre",
+            "text": "<p>Jean-Louis Denois, producteur atypique de la Haute-Vallée de l’Aude et devenu une référence en matière de vins effervescents.<\/p>",
+            "cta": "",
             "button_link": ""
           }
         }
@@ -194,7 +194,7 @@
       ],
       "settings": {
         "container": "7xl",
-        "title": "Title",
+        "title": "Focus sur",
         "color": "#ffffff"
       }
     },
@@ -280,6 +280,7 @@
       "blocks": {
         "template--17096559362362__704f44dd-a6c3-4bad-93ce-650afe5aedf6-16697480416e837ae3-0": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "svg": "",
             "image": "shopify:\/\/shop_images\/Forbes_Logo.png",
@@ -289,6 +290,7 @@
         },
         "template--17096559362362__704f44dd-a6c3-4bad-93ce-650afe5aedf6-16697480416e837ae3-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "svg": "",
             "image": "shopify:\/\/shop_images\/Capture_d_ecran_2022-11-30_a_15.18.35.png",
@@ -298,6 +300,7 @@
         },
         "template--17096559362362__704f44dd-a6c3-4bad-93ce-650afe5aedf6-16697480416e837ae3-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "svg": "",
             "image": "shopify:\/\/shop_images\/logo-vin-autan.png",
@@ -307,6 +310,7 @@
         },
         "8fddc1e7-6755-4acb-869d-87833df99be8": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "svg": "",
             "image": "shopify:\/\/shop_images\/Plan-de-travail-1_2x_c8fdf4ba-3b08-46a0-912b-642f16bc02da.png",
@@ -316,9 +320,136 @@
         },
         "8404415b-2f5f-4ad3-883b-3c66dbea862e": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "svg": "",
             "image": "shopify:\/\/shop_images\/frenchie-caviste-logo-noir.png",
+            "text": "",
+            "url": ""
+          }
+        },
+        "f5f39a90-6e98-4a3d-8087-9c89e1dfe68a": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/138.jpg",
+            "text": "",
+            "url": ""
+          }
+        },
+        "4330b454-ebb1-48e6-863c-bfbc632ef507": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/215-grandemarque.jpg",
+            "text": "",
+            "url": ""
+          }
+        },
+        "246ae737-eae4-4da7-9781-7976d3c5fa71": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/4872w180h180_logo.png",
+            "text": "",
+            "url": ""
+          }
+        },
+        "abeeb524-8ddd-43a3-a7c5-d4a84776dc8e": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/beaujolais.jpg",
+            "text": "",
+            "url": ""
+          }
+        },
+        "ebef7d5e-a10a-41c9-8e48-9be1ff4ff38c": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/domaine-chandon-de-briailles.png",
+            "text": "",
+            "url": ""
+          }
+        },
+        "b18f0925-06f6-4f3e-ad28-3805cd960fb9": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/domaine-tripoz-logo-banniere-300px.png",
+            "text": "",
+            "url": ""
+          }
+        },
+        "9ea11e86-d0ac-42fa-9a2e-f77abbe34336": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/images.jpg",
+            "text": "",
+            "url": ""
+          }
+        },
+        "45684de2-b3fc-4c66-9a4d-69c66966f978": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/logo_1.png",
+            "text": "",
+            "url": ""
+          }
+        },
+        "7dce71bc-1d47-4eda-83f1-534b11416d05": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/logo.png",
+            "text": "",
+            "url": ""
+          }
+        },
+        "14925429-49bc-462f-b401-e3aa207c5f11": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/logo-5.png",
+            "text": "",
+            "url": ""
+          }
+        },
+        "346f70e3-520c-49a9-bb8a-263faeabcb08": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/logodiaz.jpg",
+            "text": "",
+            "url": ""
+          }
+        },
+        "55643d85-85fa-4d9c-b730-fe452c343ca1": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/LOGO-RS-500X500-CAZES.jpg",
+            "text": "",
+            "url": ""
+          }
+        },
+        "e1a2a08c-f713-430e-9522-f82bcb48679a": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/logo-valentin-zusslin-2020.png",
+            "text": "",
+            "url": ""
+          }
+        },
+        "9879bca2-02c9-409a-b902-aef1dae7421a": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/telechargement.jpg",
             "text": "",
             "url": ""
           }
@@ -329,7 +460,21 @@
         "template--17096559362362__704f44dd-a6c3-4bad-93ce-650afe5aedf6-16697480416e837ae3-1",
         "template--17096559362362__704f44dd-a6c3-4bad-93ce-650afe5aedf6-16697480416e837ae3-2",
         "8fddc1e7-6755-4acb-869d-87833df99be8",
-        "8404415b-2f5f-4ad3-883b-3c66dbea862e"
+        "8404415b-2f5f-4ad3-883b-3c66dbea862e",
+        "f5f39a90-6e98-4a3d-8087-9c89e1dfe68a",
+        "4330b454-ebb1-48e6-863c-bfbc632ef507",
+        "246ae737-eae4-4da7-9781-7976d3c5fa71",
+        "abeeb524-8ddd-43a3-a7c5-d4a84776dc8e",
+        "ebef7d5e-a10a-41c9-8e48-9be1ff4ff38c",
+        "b18f0925-06f6-4f3e-ad28-3805cd960fb9",
+        "9ea11e86-d0ac-42fa-9a2e-f77abbe34336",
+        "45684de2-b3fc-4c66-9a4d-69c66966f978",
+        "7dce71bc-1d47-4eda-83f1-534b11416d05",
+        "14925429-49bc-462f-b401-e3aa207c5f11",
+        "346f70e3-520c-49a9-bb8a-263faeabcb08",
+        "55643d85-85fa-4d9c-b730-fe452c343ca1",
+        "e1a2a08c-f713-430e-9522-f82bcb48679a",
+        "9879bca2-02c9-409a-b902-aef1dae7421a"
       ],
       "settings": {
         "animationDuration": 30,
