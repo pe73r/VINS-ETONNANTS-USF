@@ -29,22 +29,7 @@
             "image_mobile": "shopify:\/\/shop_images\/dan-meyers-0AgtPoAARtE-unsplash_bda7ffec-2181-4970-b41f-479ab8b96cab.jpg",
             "title": "Vins étonnants",
             "title_mobile": "Vins étonnants",
-            "text": "<p>Vins d'auteurs et vins d'artisans au naturel.<br\/>A votre service depuis 2003<\/p>",
-            "cta": "Je découvre",
-            "button_link": "shopify:\/\/collections\/all",
-            "text_color": "#ffffff",
-            "button_color": "#fcfaf8",
-            "button_bg": "rgba(0,0,0,0)"
-          }
-        },
-        "c5415137-2df9-4722-ac77-c9afd3473e5d": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_41_c3972c16-0683-4f91-abf3-b6aae7ee0f7b.png",
-            "image_mobile": "shopify:\/\/shop_images\/Rectangle_41_c3972c16-0683-4f91-abf3-b6aae7ee0f7b.png",
-            "title": "Nouveautés",
-            "title_mobile": "Nouveautés",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <\/p>",
+            "text": "<p>Découvrez notre catalogue<\/p>",
             "cta": "Je découvre",
             "button_link": "shopify:\/\/collections\/all",
             "text_color": "#ffffff",
@@ -54,8 +39,7 @@
         }
       },
       "block_order": [
-        "16635863695bdbafb2-0",
-        "c5415137-2df9-4722-ac77-c9afd3473e5d"
+        "16635863695bdbafb2-0"
       ],
       "settings": {
       }
