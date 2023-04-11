@@ -147,7 +147,7 @@
     "ec1c9248-3ca2-483d-8370-8f7e3ce48d01": {
       "type": "products-carousel",
       "settings": {
-        "container": "7xl",
+        "container": "5xl",
         "collection": "vins-bio",
         "limit": 25,
         "title": "Nos vins certifiées Agriculture Biologique",
