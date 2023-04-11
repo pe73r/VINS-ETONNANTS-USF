@@ -378,9 +378,9 @@
             "settings": {
               "svg": "",
               "image": "shopify:\/\/shop_images\/1.png",
-              "title": "Paiement sécurisé",
-              "text_desktop": "Carte bancaire, visa, mastercard, choozeo, paypal ...",
-              "text_mobile": "Carte bancaire, visa, mastercard, choozeo, paypal ..."
+              "title": "Paiement sécurisé avec Mollie",
+              "text_desktop": "Carte bancaire, visa, mastercard, paypal...",
+              "text_mobile": "Carte bancaire, visa, mastercard, paypal..."
             }
           },
           "def1b450-0a09-4f6f-a381-121033fc96e2": {
@@ -399,8 +399,8 @@
               "svg": "",
               "image": "shopify:\/\/shop_images\/aa1130bad5b0c5380f492b253cad63be_f7e65736-8658-415c-8f02-e3a474ce3b68.png",
               "title": "Une équipe à votre écoute",
-              "text_desktop": "Notre équipe vous conseille<br>\n9h à 18h > lundi au vendredi<br>\n+33 (0)9 80 94 42 62",
-              "text_mobile": ""
+              "text_desktop": "Notre équipe vous conseille \ndu lundi au vendredi <br> 9h-17h30 <br> Tel +33 (0) 9 80 94 42 62",
+              "text_mobile": "Notre équipe vous conseille \ndu lundi au vendredi <br> 9h-17h30 <br> Tel +33 (0) 9 80 94 42 62"
             }
           }
         },
@@ -412,7 +412,7 @@
         ],
         "settings": {
           "add_margin": 0,
-          "header": "On s’occupe de tout pour vous !",
+          "header": "A votre service depuis 20 ans !",
           "bg_color": "#ffffff",
           "text_color": "#000000"
         }

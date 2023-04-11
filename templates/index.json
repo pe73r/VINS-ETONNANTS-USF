@@ -510,7 +510,7 @@
         "url": "",
         "show_secondary_image": false,
         "show_arrows": true,
-        "show_dots": true
+        "show_dots": false
       }
     }
   },
