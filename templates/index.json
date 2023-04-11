@@ -148,14 +148,14 @@
       "type": "products-carousel",
       "settings": {
         "container": "7xl",
-        "collection": "janvier-2023",
+        "collection": "vins-bio",
         "limit": 25,
-        "title": "Nouveautés",
+        "title": "Nos vins certifiées Agriculture Biologique",
         "collection_link": "Voir tout",
-        "url": "shopify:\/\/collections\/janvier-2023",
+        "url": "shopify:\/\/collections\/vins-bio",
         "show_secondary_image": false,
         "show_arrows": true,
-        "show_dots": true
+        "show_dots": false
       }
     },
     "a2af813b-b2b8-4547-ab03-9b058d70bbea": {
