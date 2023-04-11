@@ -278,56 +278,6 @@
     "704f44dd-a6c3-4bad-93ce-650afe5aedf6": {
       "type": "marquee",
       "blocks": {
-        "template--17096559362362__704f44dd-a6c3-4bad-93ce-650afe5aedf6-16697480416e837ae3-0": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "svg": "",
-            "image": "shopify:\/\/shop_images\/Forbes_Logo.png",
-            "text": "",
-            "url": ""
-          }
-        },
-        "template--17096559362362__704f44dd-a6c3-4bad-93ce-650afe5aedf6-16697480416e837ae3-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "svg": "",
-            "image": "shopify:\/\/shop_images\/Capture_d_ecran_2022-11-30_a_15.18.35.png",
-            "text": "",
-            "url": ""
-          }
-        },
-        "template--17096559362362__704f44dd-a6c3-4bad-93ce-650afe5aedf6-16697480416e837ae3-2": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "svg": "",
-            "image": "shopify:\/\/shop_images\/logo-vin-autan.png",
-            "text": "",
-            "url": ""
-          }
-        },
-        "8fddc1e7-6755-4acb-869d-87833df99be8": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "svg": "",
-            "image": "shopify:\/\/shop_images\/Plan-de-travail-1_2x_c8fdf4ba-3b08-46a0-912b-642f16bc02da.png",
-            "text": "",
-            "url": ""
-          }
-        },
-        "8404415b-2f5f-4ad3-883b-3c66dbea862e": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "svg": "",
-            "image": "shopify:\/\/shop_images\/frenchie-caviste-logo-noir.png",
-            "text": "",
-            "url": ""
-          }
-        },
         "f5f39a90-6e98-4a3d-8087-9c89e1dfe68a": {
           "type": "text",
           "settings": {
@@ -456,11 +406,6 @@
         }
       },
       "block_order": [
-        "template--17096559362362__704f44dd-a6c3-4bad-93ce-650afe5aedf6-16697480416e837ae3-0",
-        "template--17096559362362__704f44dd-a6c3-4bad-93ce-650afe5aedf6-16697480416e837ae3-1",
-        "template--17096559362362__704f44dd-a6c3-4bad-93ce-650afe5aedf6-16697480416e837ae3-2",
-        "8fddc1e7-6755-4acb-869d-87833df99be8",
-        "8404415b-2f5f-4ad3-883b-3c66dbea862e",
         "f5f39a90-6e98-4a3d-8087-9c89e1dfe68a",
         "4330b454-ebb1-48e6-863c-bfbc632ef507",
         "246ae737-eae4-4da7-9781-7976d3c5fa71",
