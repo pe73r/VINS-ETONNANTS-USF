@@ -32,8 +32,8 @@
         "b772b48a-9e88-44db-a874-d5d4fb97a412": {
           "type": "payment",
           "settings": {
-            "text": "Paiement 3x sans frais possible",
-            "more_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>"
+            "text": "Différentes méthodes de paiement disponible 💳",
+            "more_text": "<p>ApplePay, Paiement en 3 fois, Klarna, Virement, CB, Paypal<\/p>"
           }
         }
       },
