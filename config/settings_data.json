@@ -266,14 +266,14 @@
             "type": "reassurances",
             "settings": {
               "title": "🚚 Livraison prévue entre 3 et 6 jours",
-              "text": "<p>Frais de livraison gratuits a partir de 100 €<\/p>"
+              "text": "<p>Livraison rapide par UPS, Chronopost ou Fedex<\/p>"
             }
           },
           "5afa6dc1-80cf-4797-85cf-c5f99f7ad4c4": {
             "type": "reassurances",
             "settings": {
               "title": "🍷  La meilleure sélection de vins",
-              "text": "<p>Une bouteille de la sélection du mois dans votre colis<\/p>"
+              "text": "<p>Des vins en provenance directe des producteurs<\/p>"
             }
           }
         },
