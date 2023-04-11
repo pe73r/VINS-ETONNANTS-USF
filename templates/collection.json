@@ -27,11 +27,11 @@
       "type": "rich-text-expandable",
       "settings": {
         "text_color": "#201a1c",
-        "title": "Que signigie l’appelation bio ?",
-        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
-        "more_text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
-        "text_mobile": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
-        "more_text_mobile": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+        "title": "Que signifie l'appellation BIO ?",
+        "text": "<p>Les <strong>vins bio <\/strong>présentés respectent l'environnement et les hommes: absence de fertilisants non-naturels et de traitements chimiques autres que ceux autorisés en bio (soufre et bouillie bordelaise). <\/p>",
+        "more_text": "<p>Ces <strong>vins sans OGM<\/strong> sont donc produit dans des vignes de grandes qualités respectant la nature. Vins Etonnants vous propose de découvrir le vin biologique en dégustant des vins originaux et authentiques. Le <strong>vin bio <\/strong>est donc issu de raisins conduits dans le respect de l'agriculture biologique. Contrôlés et certifiés, les vins biologiques sont cultivés uniquement dans des vignobles respectant les principes de l'agriculture biologique<\/p>",
+        "text_mobile": "<p>Les <strong>vins bio <\/strong>présentés respectent l'environnement et les hommes: absence de fertilisants non-naturels et de traitements chimiques autres que ceux autorisés en bio (soufre et bouillie bordelaise). <\/p>",
+        "more_text_mobile": "<p>Ces <strong>vins sans OGM<\/strong> sont donc produit dans des vignes de grandes qualités respectant la nature. Vins Etonnants vous propose de découvrir le vin biologique en dégustant des vins originaux et authentiques. Le <strong>vin bio <\/strong>est donc issu de raisins conduits dans le respect de l'agriculture biologique. Contrôlés et certifiés, les vins biologiques sont cultivés uniquement dans des vignobles respectant les principes de l'agriculture biologique<\/p>",
         "text_link": "Lire plus",
         "text_less": "Lire moins"
       }
