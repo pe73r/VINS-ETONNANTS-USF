@@ -288,7 +288,7 @@
           "sub_total_text": "<p>📦 Livraison offerte dès 100€ - 💰 3x sans frais<\/p>",
           "validate_text": "Commander",
           "extra_text": "Code promo et frais de livraison à l’étape suivante",
-          "extra_text_2": "Frais de livraison et code promo à l’étape suivante.",
+          "extra_text_2": "En cas de difficultés de livraison, nous vous invitons à nous contacter en priorité.",
           "show_code_promo": false,
           "show_carousel_reassurance": true,
           "cart_title_when_empty": "Panier",
