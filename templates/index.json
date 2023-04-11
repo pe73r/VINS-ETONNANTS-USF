@@ -101,33 +101,32 @@
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Ellipse_74.png",
-            "text_desktop": "Des producteurs <br>\npassionnés",
-            "text_mobile": "Des producteurs <br>\npassionnés"
+            "text_desktop": "Des vignerons <br> authentiques",
+            "text_mobile": "Des vignerons <br> authentiques"
           }
         },
         "f7ec02ea-7e45-4959-a5f8-a49876ccab60": {
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Ellipse_74_1.png",
-            "text_desktop": "Une équipes d’experts à <br>\nvotre service",
-            "text_mobile": "Une équipes <br>\nd’experts <br>\nà votre service"
+            "text_desktop": "Une équipe d’experts <br> à votre service",
+            "text_mobile": "Une équipe d’experts <br> à votre service"
           }
         },
         "7c7cb104-dd56-4c7a-944b-cbe2c63bdfe6": {
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Ellipse_74_2.png",
-            "text_desktop": "Naturalité et respect des<br>\nvignes",
-            "text_mobile": "Naturalité et<br>\nrespect des <br>\nvignes"
+            "text_desktop": "Une viticulture <br> responsable",
+            "text_mobile": "Une viticulture <br> responsable"
           }
         },
         "3dc98c99-4d6b-4bf4-ac0d-a895c79edd86": {
           "type": "block",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_41_78b4c930-97d1-4c84-82cb-0f261638a3f4.png",
-            "text_desktop": "Naturalité et respect des<br>\nvignes",
-            "text_mobile": "Des producteurs passionnés"
+            "text_desktop": "20 ans d’expérience <br> dans la logistique",
+            "text_mobile": "20 ans d’expérience <br> dans la logistique"
           }
         }
       },
