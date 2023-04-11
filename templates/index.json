@@ -491,7 +491,7 @@
         "blog": "blog-vins-etonnants",
         "post_limit": 5,
         "show_dots": true,
-        "heading": "Notre blog<br>Ne manquez rien de nos dernières trouvailles !",
+        "heading": "Notre actualité et nos derniers articles",
         "show_title": true,
         "show_content": true,
         "show_author": false,
