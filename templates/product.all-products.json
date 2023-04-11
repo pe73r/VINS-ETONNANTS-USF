@@ -56,7 +56,7 @@
           "type": "text",
           "settings": {
             "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
-            "text": "<p>vins étonnants<\/p>",
+            "text": "<p>Maison fondée en 2003<\/p>",
             "url": ""
           }
         },
@@ -64,32 +64,14 @@
           "type": "text",
           "settings": {
             "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/stars.svg?v=1669648221",
-            "text": "<p>une occasion de vous surprendre<\/p>",
-            "url": ""
-          }
-        },
-        "template--17096559460666__48846409-d24b-4d84-bbc2-57b29e52395c-167043006680281c41-2": {
-          "type": "text",
-          "settings": {
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
-            "text": "<p>vins étonnants<\/p>",
-            "url": ""
-          }
-        },
-        "bd6fef33-9b05-4912-9e76-0d47abd96dd6": {
-          "type": "text",
-          "settings": {
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/stars.svg?v=1669648221",
-            "text": "<p>une occasion de vous surprendre<\/p>",
+            "text": "<p>Une des plus large sélections du web de vins d’auteurs et d’artisans <\/p>",
             "url": ""
           }
         }
       },
       "block_order": [
         "template--17096559460666__48846409-d24b-4d84-bbc2-57b29e52395c-167043006680281c41-0",
-        "template--17096559460666__48846409-d24b-4d84-bbc2-57b29e52395c-167043006680281c41-1",
-        "template--17096559460666__48846409-d24b-4d84-bbc2-57b29e52395c-167043006680281c41-2",
-        "bd6fef33-9b05-4912-9e76-0d47abd96dd6"
+        "template--17096559460666__48846409-d24b-4d84-bbc2-57b29e52395c-167043006680281c41-1"
       ],
       "settings": {
         "animationDuration": 30,
@@ -115,7 +97,8 @@
       "settings": {
         "heading": "Recommandations",
         "show_secondary_image": true,
-        "show_vendor": true
+        "show_arrows": true,
+        "show_dots": true
       }
     },
     "7cb25d7b-7bb5-43a9-98e9-386d541cb1bd": {
