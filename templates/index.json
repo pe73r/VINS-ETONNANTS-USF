@@ -431,6 +431,7 @@
     },
     "59445fe2-2d28-4270-94b2-48f55adf293b": {
       "type": "featured-blog-carousel",
+      "disabled": true,
       "settings": {
         "container": "5xl",
         "blog": "blog-vins-etonnants",
