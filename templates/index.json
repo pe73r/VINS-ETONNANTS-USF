@@ -451,11 +451,11 @@
       "type": "products-carousel",
       "settings": {
         "container": "7xl",
-        "collection": "rouge-puissant-et-fruite",
+        "collection": "vins-rouges",
         "limit": 6,
-        "title": "Rougés fruités",
+        "title": "Nos vins rouges",
         "collection_link": "Voir tout",
-        "url": "",
+        "url": "shopify:\/\/collections\/vins-rouges",
         "show_secondary_image": false,
         "show_arrows": true,
         "show_dots": false
