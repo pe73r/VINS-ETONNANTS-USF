@@ -432,6 +432,15 @@
             "text": "",
             "url": ""
           }
+        },
+        "61d6c22e-14ee-459b-a662-59ef9bbb8aea": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/Plageoles.png",
+            "text": "",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -451,7 +460,8 @@
         "9879bca2-02c9-409a-b902-aef1dae7421a",
         "3f5cbf08-754b-4e33-a032-cb69e419e49d",
         "926337d0-b76f-45a9-bd20-ff769eaf79bd",
-        "06b58eb3-b156-4ac7-a567-5cc9c7f78b31"
+        "06b58eb3-b156-4ac7-a567-5cc9c7f78b31",
+        "61d6c22e-14ee-459b-a662-59ef9bbb8aea"
       ],
       "settings": {
         "animationDuration": 30,
