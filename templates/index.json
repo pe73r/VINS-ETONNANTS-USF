@@ -78,13 +78,33 @@
             "text": "<p>A votre service depuis 2003<\/p>",
             "url": ""
           }
+        },
+        "37503631-494f-4e52-809b-a4174f22d428": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/telechargement_8c715f7c-abb3-46e7-a101-16db80e9b566.jpg",
+            "text": "",
+            "url": ""
+          }
+        },
+        "34e145ec-045d-47c7-bcd8-2c1e4319c635": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/telechargement_8c715f7c-abb3-46e7-a101-16db80e9b566.jpg",
+            "text": "",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "template--17096559362362__aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70-166971495940a8728a-0",
         "template--17096559362362__aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70-166971495940a8728a-1",
         "template--17096559362362__aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70-166971495940a8728a-2",
-        "b6586e3b-95bd-4010-bc1a-1ea4425db19f"
+        "b6586e3b-95bd-4010-bc1a-1ea4425db19f",
+        "37503631-494f-4e52-809b-a4174f22d428",
+        "34e145ec-045d-47c7-bcd8-2c1e4319c635"
       ],
       "settings": {
         "animationDuration": 30,
@@ -405,6 +425,15 @@
             "text": "",
             "url": ""
           }
+        },
+        "3f5cbf08-754b-4e33-a032-cb69e419e49d": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/telechargement_8c715f7c-abb3-46e7-a101-16db80e9b566.jpg",
+            "text": "",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -421,7 +450,8 @@
         "346f70e3-520c-49a9-bb8a-263faeabcb08",
         "55643d85-85fa-4d9c-b730-fe452c343ca1",
         "e1a2a08c-f713-430e-9522-f82bcb48679a",
-        "9879bca2-02c9-409a-b902-aef1dae7421a"
+        "9879bca2-02c9-409a-b902-aef1dae7421a",
+        "3f5cbf08-754b-4e33-a032-cb69e419e49d"
       ],
       "settings": {
         "animationDuration": 30,
