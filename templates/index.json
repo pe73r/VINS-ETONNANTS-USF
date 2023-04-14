@@ -477,6 +477,15 @@
             "text": "",
             "url": ""
           }
+        },
+        "6ff0e005-74f3-4c10-983b-2a9f956eba79": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/Domaine-bersan-jl-et-jc-complet-01.png",
+            "text": "",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -501,7 +510,8 @@
         "ffc72e88-aec1-43e5-b905-d5821684ca60",
         "1b1466ca-e662-4c5f-b4c9-4a00c1298c8b",
         "1b4272ea-29bd-4273-afe6-2cc7a941d721",
-        "018cc676-c536-4aa2-81d2-e7df30d5cdb0"
+        "018cc676-c536-4aa2-81d2-e7df30d5cdb0",
+        "6ff0e005-74f3-4c10-983b-2a9f956eba79"
       ],
       "settings": {
         "animationDuration": 30,
