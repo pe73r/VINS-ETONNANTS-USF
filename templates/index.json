@@ -272,7 +272,7 @@
         "collection_link": "Voir tout",
         "url": "",
         "show_title": true,
-        "show_arrows": true,
+        "show_arrows": false,
         "show_dots": false,
         "color": "#ffffff"
       }
