@@ -415,6 +415,15 @@
             "text": "",
             "url": ""
           }
+        },
+        "64f53cc4-b1de-4f71-b9f8-32cfc5626264": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/telechargement_8c715f7c-abb3-46e7-a101-16db80e9b566.jpg",
+            "text": "",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -431,7 +440,8 @@
         "346f70e3-520c-49a9-bb8a-263faeabcb08",
         "55643d85-85fa-4d9c-b730-fe452c343ca1",
         "e1a2a08c-f713-430e-9522-f82bcb48679a",
-        "9879bca2-02c9-409a-b902-aef1dae7421a"
+        "9879bca2-02c9-409a-b902-aef1dae7421a",
+        "64f53cc4-b1de-4f71-b9f8-32cfc5626264"
       ],
       "settings": {
         "animationDuration": 30,
