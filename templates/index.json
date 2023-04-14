@@ -234,11 +234,12 @@
             "image": "shopify:\/\/shop_images\/clarinta-subrata-kL5Ir1r9Ws0-unsplash.jpg",
             "title": "Spiritueux",
             "collection_link": "Je découvre",
-            "url": ""
+            "url": "shopify:\/\/collections\/eaux-de-vie"
           }
         },
         "143676e5-587b-4650-858d-517ed153a446": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/kelsey-knight-udj2tD3WKsY-unsplash.jpg",
             "title": "Vins de <br>Bordeaux",
@@ -248,6 +249,7 @@
         },
         "da01d2da-c3f0-45a8-99f6-08e92824c387": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_41_78b4c930-97d1-4c84-82cb-0f261638a3f4.png",
             "title": "Vins rouges <br> fruités",
@@ -271,7 +273,7 @@
         "url": "",
         "show_title": true,
         "show_arrows": true,
-        "show_dots": true,
+        "show_dots": false,
         "color": "#ffffff"
       }
     },
