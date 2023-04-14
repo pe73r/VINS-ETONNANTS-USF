@@ -414,6 +414,15 @@
             "text": "",
             "url": ""
           }
+        },
+        "926337d0-b76f-45a9-bd20-ff769eaf79bd": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/souhaut.jpg",
+            "text": "",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -431,7 +440,8 @@
         "55643d85-85fa-4d9c-b730-fe452c343ca1",
         "e1a2a08c-f713-430e-9522-f82bcb48679a",
         "9879bca2-02c9-409a-b902-aef1dae7421a",
-        "3f5cbf08-754b-4e33-a032-cb69e419e49d"
+        "3f5cbf08-754b-4e33-a032-cb69e419e49d",
+        "926337d0-b76f-45a9-bd20-ff769eaf79bd"
       ],
       "settings": {
         "animationDuration": 30,
