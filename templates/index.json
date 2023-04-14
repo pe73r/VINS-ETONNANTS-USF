@@ -167,9 +167,9 @@
             "card_width": "3\/5",
             "image": "shopify:\/\/shop_images\/5eec4b4341370ca7fc4654c0b3cbdb33.jpg",
             "image_overlay": true,
-            "title": "Notre sélection de vins d’exception !",
+            "title": "Notre sélection de vins rares !",
             "show_hr": true,
-            "text": "<p>Vins d’auteur et vins d’artisans au naturel, depuis 2003.<\/p>",
+            "text": "",
             "cta": "Je découvre",
             "button_link": "shopify:\/\/collections"
           }
