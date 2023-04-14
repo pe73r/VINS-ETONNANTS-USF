@@ -468,6 +468,15 @@
             "text": "",
             "url": ""
           }
+        },
+        "018cc676-c536-4aa2-81d2-e7df30d5cdb0": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/agrapart.png",
+            "text": "",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -491,7 +500,8 @@
         "61d6c22e-14ee-459b-a662-59ef9bbb8aea",
         "ffc72e88-aec1-43e5-b905-d5821684ca60",
         "1b1466ca-e662-4c5f-b4c9-4a00c1298c8b",
-        "1b4272ea-29bd-4273-afe6-2cc7a941d721"
+        "1b4272ea-29bd-4273-afe6-2cc7a941d721",
+        "018cc676-c536-4aa2-81d2-e7df30d5cdb0"
       ],
       "settings": {
         "animationDuration": 30,
