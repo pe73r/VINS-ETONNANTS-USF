@@ -450,6 +450,15 @@
             "text": "",
             "url": ""
           }
+        },
+        "1b1466ca-e662-4c5f-b4c9-4a00c1298c8b": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "image": "shopify:\/\/shop_images\/bobinet.png",
+            "text": "",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -471,7 +480,8 @@
         "926337d0-b76f-45a9-bd20-ff769eaf79bd",
         "06b58eb3-b156-4ac7-a567-5cc9c7f78b31",
         "61d6c22e-14ee-459b-a662-59ef9bbb8aea",
-        "ffc72e88-aec1-43e5-b905-d5821684ca60"
+        "ffc72e88-aec1-43e5-b905-d5821684ca60",
+        "1b1466ca-e662-4c5f-b4c9-4a00c1298c8b"
       ],
       "settings": {
         "animationDuration": 30,
