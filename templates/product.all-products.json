@@ -19,7 +19,7 @@
           "type": "delivery_note",
           "settings": {
             "title": "🚚 LIVRAISON",
-            "text": "<p>Livraison prévue entre 3 et 6 jours. Frais de livraison non inclus<\/p>"
+            "text": "<p>Livraison sous 4\/5 jours ouvrés, express par UPS, Chronopost ou Fedex à domicile, sur point relais ou par messagerie<\/p>"
           }
         },
         "3d1604f2-041f-42ef-8b6a-3c0b480b05f1": {
@@ -32,8 +32,8 @@
         "b772b48a-9e88-44db-a874-d5d4fb97a412": {
           "type": "payment",
           "settings": {
-            "text": "Paiement 3x sans frais possible",
-            "more_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>"
+            "text": "Différentes méthodes de paiement disponible 💳",
+            "more_text": "<p>ApplePay, Paiement en 3 fois, Klarna, Virement, CB, Paypal<\/p>"
           }
         }
       },
@@ -56,7 +56,7 @@
           "type": "text",
           "settings": {
             "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
-            "text": "<p>vins étonnants<\/p>",
+            "text": "<p>Maison fondée en 2003<\/p>",
             "url": ""
           }
         },
@@ -64,32 +64,14 @@
           "type": "text",
           "settings": {
             "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/stars.svg?v=1669648221",
-            "text": "<p>une occasion de vous surprendre<\/p>",
-            "url": ""
-          }
-        },
-        "template--17096559460666__48846409-d24b-4d84-bbc2-57b29e52395c-167043006680281c41-2": {
-          "type": "text",
-          "settings": {
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
-            "text": "<p>vins étonnants<\/p>",
-            "url": ""
-          }
-        },
-        "bd6fef33-9b05-4912-9e76-0d47abd96dd6": {
-          "type": "text",
-          "settings": {
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/stars.svg?v=1669648221",
-            "text": "<p>une occasion de vous surprendre<\/p>",
+            "text": "<p>Une des plus large sélections du web de vins d’auteurs et d’artisans <\/p>",
             "url": ""
           }
         }
       },
       "block_order": [
         "template--17096559460666__48846409-d24b-4d84-bbc2-57b29e52395c-167043006680281c41-0",
-        "template--17096559460666__48846409-d24b-4d84-bbc2-57b29e52395c-167043006680281c41-1",
-        "template--17096559460666__48846409-d24b-4d84-bbc2-57b29e52395c-167043006680281c41-2",
-        "bd6fef33-9b05-4912-9e76-0d47abd96dd6"
+        "template--17096559460666__48846409-d24b-4d84-bbc2-57b29e52395c-167043006680281c41-1"
       ],
       "settings": {
         "animationDuration": 30,
@@ -115,7 +97,8 @@
       "settings": {
         "heading": "Recommandations",
         "show_secondary_image": true,
-        "show_vendor": true
+        "show_arrows": true,
+        "show_dots": true
       }
     },
     "7cb25d7b-7bb5-43a9-98e9-386d541cb1bd": {

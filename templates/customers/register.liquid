@@ -28,7 +28,7 @@
       <input
         type="text"
         name="customer[first_name]"
-        class="border-b border-black border-solid text-sm placeholder-black placeholder-opacity-60 pr-4 py-1 leading-[22px] w-full bg-transparent focus:outline-none"
+        class="text-base w-full border border-gray-400 rounded-md p-2 focus-within:border-capucine focus-within:outline-none focus-within:shadow-none"
         id="RegisterForm-FirstName"
         {% if form.first_name %}value="{{ form.first_name }}"{% endif %}
         autocomplete="given-name"
@@ -44,7 +44,7 @@
       <input
         type="text"
         name="customer[last_name]"
-        class="border-b border-black border-solid text-sm placeholder-black placeholder-opacity-60 pr-4 py-1 leading-[22px] w-full bg-transparent focus:outline-none"
+        class="text-base w-full border border-gray-400 rounded-md p-2 focus-within:border-capucine focus-within:outline-none focus-within:shadow-none"
         id="RegisterForm-LastName"
         {% if form.last_name %}value="{{ form.last_name }}"{% endif %}
         autocomplete="family-name"
@@ -60,7 +60,7 @@
       <input
         type="email"
         name="customer[email]"
-        class="border-b border-black border-solid text-sm placeholder-black placeholder-opacity-60 pr-4 py-1 leading-[22px] w-full bg-transparent focus:outline-none"
+        class="text-base w-full border border-gray-400 rounded-md p-2 focus-within:border-capucine focus-within:outline-none focus-within:shadow-none"
         id="RegisterForm-email"
         {% if form.email %} value="{{ form.email }}"{% endif %}
         spellcheck="false"
@@ -82,7 +82,7 @@
       <input
         type="password"
         name="customer[password]"
-        class="text-sm border-b border-black border-solid placeholder-opacity-60 placeholder-black pr-4 py-1 leading-[22px]  w-full bg-transparent focus:outline-none"
+        class="text-base w-full border border-gray-400 rounded-md p-2 focus-within:border-capucine focus-within:outline-none focus-within:shadow-none"
         id="RegisterForm-password"
         aria-required="true"
         {% if form.errors contains 'password' %}
@@ -105,4 +105,8 @@
       Créer mon compte
     </button>
   {%- endform -%}
+
+  <a href="/account/login" class="block mt-5 text-sm underline text-center">
+          Je me connecte
+    </a>
 </div>

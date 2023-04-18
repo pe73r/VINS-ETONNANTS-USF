@@ -171,15 +171,13 @@
             "settings": {
               "megamenu": "vins-blancs-et-oranges",
               "featured_link_1": "",
-              "featured_link_image_1": "shopify:\/\/shop_images\/Capture_d_ecran_2023-02-20_a_18.58.11.png",
+              "featured_link_image_1": "shopify:\/\/shop_images\/Rectangle_1_2.png",
               "featured_link_subtitle_1": "",
               "featured_link_title_1": "",
               "featured_link_2": "",
-              "featured_link_image_2": "shopify:\/\/shop_images\/Capture_d_ecran_2023-02-20_a_18.58.30.png",
               "featured_link_subtitle_2": "",
               "featured_link_title_2": "",
               "featured_link_3": "",
-              "featured_link_image_3": "shopify:\/\/shop_images\/Capture_d_ecran_2023-02-21_a_11.01.30.png",
               "featured_link_subtitle_3": "",
               "featured_link_title_3": ""
             }
@@ -189,11 +187,9 @@
             "settings": {
               "megamenu": "vins-rouges",
               "featured_link_1": "",
-              "featured_link_image_1": "shopify:\/\/shop_images\/Capture_d_ecran_2023-02-20_a_18.14.04.png",
               "featured_link_subtitle_1": "",
               "featured_link_title_1": "",
               "featured_link_2": "",
-              "featured_link_image_2": "shopify:\/\/shop_images\/Capture_d_ecran_2023-02-21_a_10.23.54.png",
               "featured_link_subtitle_2": "",
               "featured_link_title_2": "",
               "featured_link_3": "",
@@ -266,14 +262,14 @@
             "type": "reassurances",
             "settings": {
               "title": "🚚 Livraison prévue entre 3 et 6 jours",
-              "text": "<p>Frais de livraison gratuits a partir de 100 €<\/p>"
+              "text": "<p>Livraison rapide par UPS, Chronopost ou Fedex<\/p>"
             }
           },
           "5afa6dc1-80cf-4797-85cf-c5f99f7ad4c4": {
             "type": "reassurances",
             "settings": {
               "title": "🍷  La meilleure sélection de vins",
-              "text": "<p>Une bouteille de la sélection du mois dans votre colis<\/p>"
+              "text": "<p>Des vins en provenance directe des producteurs<\/p>"
             }
           }
         },
@@ -288,7 +284,7 @@
           "sub_total_text": "<p>📦 Livraison offerte dès 100€ - 💰 3x sans frais<\/p>",
           "validate_text": "Commander",
           "extra_text": "Code promo et frais de livraison à l’étape suivante",
-          "extra_text_2": "Frais de livraison et code promo à l’étape suivante.",
+          "extra_text_2": "En cas de difficultés de livraison, nous vous invitons à nous contacter en priorité.",
           "show_code_promo": false,
           "show_carousel_reassurance": true,
           "cart_title_when_empty": "Panier",
@@ -319,13 +315,6 @@
               "menu": "nos-produits"
             }
           },
-          "a60a8e48-011b-433c-a9a4-ab46efd57ef9": {
-            "type": "link_list",
-            "settings": {
-              "heading": "BLOG",
-              "menu": "blog"
-            }
-          },
           "2f5128fc-ab49-4c8b-ad3d-d0240c1916a7": {
             "type": "link_list",
             "settings": {
@@ -343,17 +332,16 @@
         },
         "block_order": [
           "c30e5de2-0357-4258-aec3-1a38e7dfa88a",
-          "a60a8e48-011b-433c-a9a4-ab46efd57ef9",
           "2f5128fc-ab49-4c8b-ad3d-d0240c1916a7",
           "9f4aa598-1549-4004-8a0b-04b27f1eab98"
         ],
         "settings": {
           "logo_svg": "",
           "title": "Les news étonnantes !",
-          "subtext": "<p>Des vins d'auteurs et d'artisans au naturel pour ne pas manquer une occasion de vous surprendre !<\/p><p><\/p><p><\/p>",
+          "subtext": "<p>Pour rester informé de notre actualité et promotions<\/p><p>Nous vous invitons à nous transmettre votre adresse email<\/p>",
           "show_newsletter": true,
           "show_social": true,
-          "mention-legal": "<p>Site déclaré sous le n°5\/R2003\/PUB au TGI Limoges - ©Vins étonnants<\/p>",
+          "mention-legal": "<p>Siret 44439455500056 - Site déclaré sous le n°5\/R2003\/PUB au TGI Limoges ©Vins étonnants<\/p>",
           "image_reviews": "shopify:\/\/shop_images\/Capture_d_ecran_2022-09-21_a_10.49_1.png",
           "banner_legal": "shopify:\/\/shop_images\/18ans.png",
           "bg_color": "#201a1c",
@@ -378,9 +366,9 @@
             "settings": {
               "svg": "",
               "image": "shopify:\/\/shop_images\/1.png",
-              "title": "Paiement sécurisé",
-              "text_desktop": "Carte bancaire, visa, mastercard, choozeo, paypal ...",
-              "text_mobile": "Carte bancaire, visa, mastercard, choozeo, paypal ..."
+              "title": "Paiement sécurisé avec Mollie",
+              "text_desktop": "Carte bancaire, visa, mastercard, paypal...",
+              "text_mobile": "Carte bancaire, visa, mastercard, paypal..."
             }
           },
           "def1b450-0a09-4f6f-a381-121033fc96e2": {
@@ -399,8 +387,8 @@
               "svg": "",
               "image": "shopify:\/\/shop_images\/aa1130bad5b0c5380f492b253cad63be_f7e65736-8658-415c-8f02-e3a474ce3b68.png",
               "title": "Une équipe à votre écoute",
-              "text_desktop": "Notre équipe vous conseille<br>\n9h à 18h > lundi au vendredi<br>\n+33 (0)9 80 94 42 62",
-              "text_mobile": ""
+              "text_desktop": "Notre équipe vous conseille \ndu lundi au vendredi <br> 9h-17h30 <br> Tel +33 (0) 9 80 94 42 62",
+              "text_mobile": "Notre équipe vous conseille \ndu lundi au vendredi <br> 9h-17h30 <br> Tel +33 (0) 9 80 94 42 62"
             }
           }
         },
@@ -412,7 +400,7 @@
         ],
         "settings": {
           "add_margin": 0,
-          "header": "On s’occupe de tout pour vous !",
+          "header": "A votre service depuis 20 ans !",
           "bg_color": "#ffffff",
           "text_color": "#000000"
         }

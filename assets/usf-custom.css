@@ -630,8 +630,9 @@ input:focus-visible {
   height: 280px !important; 
 }
 .usf-grid__item-link .text-base{
-    font-weight: 600; 
+    font-weight: 400;  
 }
+
 body:not(.usf-mobile) .usf-facets__body{
     background: #fcf9f3;
     padding: 0px 10px;
