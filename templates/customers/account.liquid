@@ -31,7 +31,7 @@
           </button>
         </div>
         <div class="mt-2">
-          <a href="/pages/faqs" class="block py-2 text-xs cursor-pointer">FAQS</a>
+          <!-- <a href="/pages/faqs" class="block py-2 text-xs cursor-pointer">FAQS</a>-->
           <a href="/pages/contact" class="block py-2 text-xs cursor-pointer">CONTACT</a>
           <a href="{{ routes.account_logout_url }}" class="block py-2 text-xs cursor-pointer">DÉCONNEXION</a>
         </div>
@@ -40,16 +40,18 @@
       <!-- tab compte -->
         <div aria-labelledby="compte" role="tabpanel">
           <div class="flex gap-5">
-            <div class="p-5 bg-white rounded-lg w-full md:w-4/12">
+            <div class="p-5 bg-white rounded-lg w-full">
               <div class="rounded-lg bg-creme w-20 h-20 flex justify-center items-center mx-auto mb-4 text-black">
                 {{ customer.first_name | slice: 0 -}}
               </div>
               <h3 class="text-extrabold text-center">{{ customer.first_name -}}</h3>
               <p class="text-center mt-2 text-gray-400 break-words">{{ customer.email -}}</p>
             </div>
+            {% comment %}
             <div class="p-5 bg-white rounded-lg w-full md:w-8/12">
               <p class="text-center">WISHLIST</p>
             </div>
+            {% endcomment %}
           </div>
           <!-- last orders -->
           <div class="bg-white rounded-lg mt-5">
