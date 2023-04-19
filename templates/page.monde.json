@@ -8,23 +8,78 @@
         "display_page_content": true
       }
     },
-    "776232fe-07cc-4c31-93d9-d9b3fb75bd0c": {
-      "type": "contact-form",
+    "1b24dcdf-a265-40b5-b757-59270e566bbb": {
+      "type": "page-banner",
       "settings": {
-        "header": "Formulaire de contact",
-        "cta": "Envoyer ma demande",
-        "show_phone_input": false,
-        "show_select_input": false,
-        "title": "Sélectionne l’objet de ta demande",
-        "option_1": "Option 1",
-        "option_2": "Option 2",
-        "option_3": "Option 3",
-        "header_color": "#201a1c"
+        "show_breadcrumbs": true,
+        "image": "shopify:\/\/shop_images\/restaurant-entrance-with-wine-bottles-in-the-window.jpg",
+        "title": "Monde",
+        "text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.<\/p>",
+        "more_text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.<\/p>"
+      }
+    },
+    "8f4d099f-4f1b-496c-9494-09448a558fe2": {
+      "type": "collections-blocks",
+      "blocks": {
+        "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-3": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "6b792970-42c2-4681-9137-965f7d5e448b": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "beee595e-ca0b-406e-936b-b295ede4f358": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "983d2e0d-ca13-4d89-ab44-6aa58b02f703": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-0",
+        "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-1",
+        "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-2",
+        "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-3",
+        "6b792970-42c2-4681-9137-965f7d5e448b",
+        "beee595e-ca0b-406e-936b-b295ede4f358",
+        "983d2e0d-ca13-4d89-ab44-6aa58b02f703"
+      ],
+      "settings": {
       }
     }
   },
   "order": [
     "main",
-    "776232fe-07cc-4c31-93d9-d9b3fb75bd0c"
+    "1b24dcdf-a265-40b5-b757-59270e566bbb",
+    "8f4d099f-4f1b-496c-9494-09448a558fe2"
   ]
 }
