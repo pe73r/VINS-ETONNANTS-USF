@@ -115,10 +115,10 @@ input:focus-visible {
 
 
 .account .wishlist-page .wk-grid {
-    --columns: 3;
+    --columns: 3 !important;
 } 
 
 .account .wishlist-page .wk-page {
-    padding: 0;
+    padding: 0 !important;
 }
 
