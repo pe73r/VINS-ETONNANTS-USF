@@ -146,10 +146,6 @@ wishlist-product-card .wk-form {
 }
 
 
-.account-wishlist{
-  background-color:yellow;
-}
-
 .account-wishlist wishlist-page .wk-grid {
     --columns: 2 !important;
     gap: 20px !important;
