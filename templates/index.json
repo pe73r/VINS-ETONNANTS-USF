@@ -171,7 +171,7 @@
             "show_hr": true,
             "text": "",
             "cta": "Je découvre",
-            "button_link": "shopify:\/\/collections"
+            "button_link": "shopify:\/\/collections\/vins-rares"
           }
         },
         "3b35f979-2212-4301-9d49-79f08d3f6160": {
@@ -182,9 +182,9 @@
             "image_overlay": true,
             "title": "Le coup de projecteur vigneron",
             "show_hr": true,
-            "text": "<p>Jean-Louis Denois, producteur atypique de la Haute-Vallée de l’Aude et devenu une référence en matière de vins effervescents.<\/p>",
-            "cta": "",
-            "button_link": ""
+            "text": "<p>Jean-Louis Denois, producteur atypique de la Haute-Vallée de l’Aude et devenu une référence en matière de vins effervescents et un vinificateur surdoué.<\/p>",
+            "cta": "En savoir plus",
+            "button_link": "shopify:\/\/collections\/denois-jean-louis"
           }
         }
       },

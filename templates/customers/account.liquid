@@ -1,4 +1,4 @@
-<section class="py-10">
+<section class="py-10 account">
   <div class="w-11/12 max-w-7xl mx-auto">
 
   <div class="account__titles">
@@ -40,18 +40,20 @@
       <!-- tab compte -->
         <div aria-labelledby="compte" role="tabpanel">
           <div class="flex gap-5">
-            <div class="p-5 bg-white rounded-lg w-full">
+            <div class="p-5 bg-white rounded-lg w-full h-fit">
               <div class="rounded-lg bg-creme w-20 h-20 flex justify-center items-center mx-auto mb-4 text-black">
                 {{ customer.first_name | slice: 0 -}}
               </div>
               <h3 class="text-extrabold text-center">{{ customer.first_name -}}</h3>
               <p class="text-center mt-2 text-gray-400 break-words">{{ customer.email -}}</p>
             </div>
-            {% comment %}
-            <div class="p-5 bg-white rounded-lg w-full md:w-8/12">
-              <p class="text-center">WISHLIST</p>
+            
+            <div class="p-5 bg-white rounded-lg w-full md:w-8/12 account-wishlist">
+              <p class="text-center mb-3">WISHLIST</p>
+              <div id="wishlist-page">
+              </div>
             </div>
-            {% endcomment %}
+           
           </div>
           <!-- last orders -->
           <div class="bg-white rounded-lg mt-5">
@@ -119,3 +121,4 @@
    tabButtons.forEach(button => button.addEventListener('click', handleTabClick));
 
   </script>
+ 
