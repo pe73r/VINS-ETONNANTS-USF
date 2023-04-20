@@ -112,3 +112,13 @@ input:focus-visible {
   top: 0;
   background-image: linear-gradient(to top, rgba(4, 4, 4, .65), rgba(54, 54, 54, .2));
 }
+
+
+.account .wishlist-page .wk-grid {
+    --columns: 3;
+} 
+
+.account .wishlist-page .wk-page {
+    padding: 0;
+}
+
