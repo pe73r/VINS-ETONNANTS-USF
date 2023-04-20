@@ -114,11 +114,11 @@ input:focus-visible {
 }
 
 
-.account .wishlist-page .wk-grid {
+.account-wishlist .wishlist-page .wk-grid {
     --columns: 3 !important;
 } 
 
-.account .wishlist-page .wk-page {
+.account-wishlist .wishlist-page .wk-page {
     padding: 0 !important;
 }
 
