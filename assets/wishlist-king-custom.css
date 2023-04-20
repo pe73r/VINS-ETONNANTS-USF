@@ -159,3 +159,7 @@ wishlist-product-card .wk-form {
    display: none;
 }
 
+.account-wishlist wishlist-product-card .wk-product-card {
+   padding: 10px;
+}
+
