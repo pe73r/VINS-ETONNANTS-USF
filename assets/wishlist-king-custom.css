@@ -151,7 +151,8 @@ wishlist-product-card .wk-form {
 }
 
 .account-wishlist wishlist-page .wk-grid {
-    --columns: 3 !important;
+    --columns: 2 !important;
+    gap: 20px !important;
 } 
 
 .account-wishlist wishlist-page .wk-page {
