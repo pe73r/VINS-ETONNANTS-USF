@@ -144,3 +144,12 @@ wishlist-product-card .wk-form {
 #sticktCart wishlist-button {
   display: none;
 }
+
+.account-wishlist .wishlist-page .wk-grid {
+    --columns: 3 !important;
+} 
+
+.account-wishlist .wishlist-page .wk-page {
+    padding: 0 !important;
+}
+
