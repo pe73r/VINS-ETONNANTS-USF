@@ -146,15 +146,11 @@ wishlist-product-card .wk-form {
 }
 
 
-.account-wishlist{
-  background-color:yellow;
-}
-
-.account-wishlist .wishlist-page .wk-grid {
+.wishlist-page .wk-grid {
     --columns: 3 !important;
 } 
 
-.account-wishlist .wishlist-page .wk-page {
+ .wishlist-page .wk-page {
     padding: 0 !important;
 }
 
