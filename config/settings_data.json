@@ -297,12 +297,12 @@
           "free_shipping_limit": 100,
           "free_shipping_text_before": "Plus que ((rest)) pour une livraison en point relais offerte.",
           "free_shipping_text_after": "Vous bénéficiez de la livraison en point relais offerte.",
-          "product_1_limit": 150,
-          "product_1_text_before": "Plus que ((rest)) pour un cadeau.",
-          "product_1_text_after": "Vous bénéficiez du cadeau offert.",
+          "product_1_limit": 0,
+          "product_1_text_before": "",
+          "product_1_text_after": "",
           "product_2_limit": 0,
-          "product_2_text_before": "Plus que ((rest)) pour un deuxième cadeau.",
-          "product_2_text_after": "Vous bénéficiez du cadeau offert."
+          "product_2_text_before": "",
+          "product_2_text_after": ""
         }
       },
       "footer": {
