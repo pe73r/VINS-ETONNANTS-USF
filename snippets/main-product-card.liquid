@@ -81,6 +81,7 @@
         {% if product.metafields.global.marque contains "Domaine" %}
           yes
            {% assign marque_link = product.metafields.global.marque | downcase | replace: '(', '-' | replace: ')', '' | replace: ' ', '' | replace: '--', '-' %}
+         {% else %}
         {% endif %}
         
 
