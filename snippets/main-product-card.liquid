@@ -78,11 +78,14 @@
 
       <!-- Metafield producer -->
       {% if product.metafields.global.marque != blank %}
+        {% assign marque_link = product.metafields.global.marque | replace: '(', '-' | replace: ')', '-' %}
+
         <div class="mt-2 md:mt-5">
           <p class="text-xs uppercase font-light">PRODUCTEUR</p>
           <p class="text-base line-clamp-2 font-normal">
             {{ product.metafields.global.marque }}
           </p>
+          <a href="{{ marque_link }}" target="_blank">link</a>
         </div>
       {% endif %}
       
