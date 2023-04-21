@@ -35,10 +35,26 @@
         "text_link": "Lire plus",
         "text_less": "Lire moins"
       }
+    },
+    "b2cf4fcd-7250-40bc-a7e3-a982fad079fa": {
+      "type": "featured-blog-carousel",
+      "settings": {
+        "container": "5xl",
+        "blog": "",
+        "post_limit": 4,
+        "show_dots": true,
+        "heading": "À LIRE...",
+        "show_title": false,
+        "show_content": true,
+        "show_author": false,
+        "show_date": true,
+        "show_button": true
+      }
     }
   },
   "order": [
     "product-grid",
-    "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b"
+    "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
+    "b2cf4fcd-7250-40bc-a7e3-a982fad079fa"
   ]
 }
