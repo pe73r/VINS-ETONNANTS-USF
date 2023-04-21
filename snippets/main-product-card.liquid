@@ -78,8 +78,11 @@
 
       <!-- Metafield producer -->
       {% if product.metafields.global.marque != blank %}
-        {% assign marque_link = product.metafields.global.marque | replace: '(', '-' | replace: ')', '-' %}
-        {% assign marque_link = product.metafields.global.marque | downcase | replace: '(', '-' | replace: ')', '' | replace: ' ', '' | replace: '--', '-' %}
+        {% if product.metafields.global.marque contains "Domaine" %}
+          yes
+           {% assign marque_link = product.metafields.global.marque | downcase | replace: '(', '-' | replace: ')', '' | replace: ' ', '' | replace: '--', '-' %}
+        {% endif %}
+        
 
         <div class="mt-2 md:mt-5">
           <p class="text-xs uppercase font-light">PRODUCTEUR</p>
