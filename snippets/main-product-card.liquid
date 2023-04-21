@@ -80,7 +80,7 @@
       {% if product.metafields.global.marque != blank %}
         {% if product.metafields.global.marque contains "Domaine" %}
           yes
-           {% assign marque_link = product.metafields.global.marque | downcase | replace: '(', '-' | replace: ')', '' | replace: ' ', '' | replace: '--', '-' %}
+           {% assign marque_link = product.metafields.global.marque | downcase | replace: '(', '-' | replace: ')', '' | replace: ' ', '' | replace: '--', '-' | prepend: '/collections/'%}
          {% else %}
         {% endif %}
         
@@ -90,7 +90,7 @@
           <p class="text-base line-clamp-2 font-normal">
             {{ product.metafields.global.marque }}
           </p>
-          <a href="/collections/{{ marque_link }}" target="_blank">link</a>
+          <a href="{{ marque_link }}" target="_blank">link</a>
         </div>
       {% endif %}
       
