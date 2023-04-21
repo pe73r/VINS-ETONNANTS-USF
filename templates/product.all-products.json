@@ -111,6 +111,7 @@
     },
     "7cb25d7b-7bb5-43a9-98e9-386d541cb1bd": {
       "type": "faq",
+      "disabled": true,
       "blocks": {
         "template--17863555776826__7cb25d7b-7bb5-43a9-98e9-386d541cb1bd-1675347885a69893cb-0": {
           "type": "block",
