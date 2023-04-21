@@ -78,7 +78,7 @@
 
       <!-- Metafield producer -->
       {% if product.metafields.global.marque != blank %}
-        {% if product.metafields.global.marque contains "Domaine" %}
+        {% if product.metafields.global.marque contains "(" %}
            {% assign marque_link = product.metafields.global.marque | downcase | replace: '(', '-' | replace: ')', '' | replace: ' ', '' | replace: '--', '-' | prepend: '/collections/'%}
          {% else %}
         {% endif %}
