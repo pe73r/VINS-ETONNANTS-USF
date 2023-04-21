@@ -81,7 +81,7 @@
         {% if product.metafields.global.marque contains "(" %}
            {% assign marque_link = product.metafields.global.marque | downcase | replace: '(', '-' | replace: ')', '' | replace: ' ', '' | replace: '--', '-' | prepend: '/collections/'%}
          {% else %}
-          {% assign marque_link = product.metafields.global.marque | downcase | replace: '(', '-' | replace: ')', '' | replace: ' ', '' | replace: '--', '-' | prepend: '/collections/'%}
+          {% assign marque_link = product.metafields.global.marque | downcase | replace: '(', '-' | replace: ')', '' | replace: ' ', '-' | replace: '--', '-' | prepend: '/collections/'%}
         {% endif %}
         
 
