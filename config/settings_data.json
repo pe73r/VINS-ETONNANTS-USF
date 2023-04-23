@@ -253,6 +253,7 @@
         "blocks": {
           "429d0e67-9527-40e3-909c-41a156b9cf9f": {
             "type": "reassurances",
+            "disabled": true,
             "settings": {
               "title": "🎁 Une bouteille offerte à partir de 65€",
               "text": "<p>Une bouteille de la sélection du mois dans votre colis<\/p>"
@@ -268,7 +269,7 @@
           "5afa6dc1-80cf-4797-85cf-c5f99f7ad4c4": {
             "type": "reassurances",
             "settings": {
-              "title": "🍷  La meilleure sélection de vins",
+              "title": "🍷  Une sélection de vins originale",
               "text": "<p>Des vins en provenance directe des producteurs<\/p>"
             }
           }
