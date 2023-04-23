@@ -77,7 +77,6 @@
                                                                                                                                                                                                                                         })()
       </script>
 
-
       <script src="{{ 'tail.js' | asset_url }}" preload></script>
       <script src="{{ 'tail.modal.js' | asset_url }}" preload></script>
       <script src="{{ 'tail.drawer.js' | asset_url }}" preload></script>
@@ -164,7 +163,8 @@
       src="https://my-probance.one/vhj5r1xfzwcca2on/shopify.js"
       cust_email="{{ customer.email }}"
       product_id="{{ product.id }}"></script>
-  </head>
+  {%- render 'macas-aovbooster' -%}
+</head>
   <body>
     <tail-header class="shadow-none sticky top-0 z-50 py-1">
       <div class="flex justify-between items-center max-w-7xl w-11/12 mx-auto h-[60px]">
@@ -200,7 +200,6 @@
       {% section "header" %}
     </tail-header>
 
-
     <main
       id="MainContent"
       role="main"
@@ -212,7 +211,6 @@
         {{ content_for_layout }}
       {% endif %}
     </main>
-
 
     {% section 'reinsurance' %}
     {% section 'footer' %}
