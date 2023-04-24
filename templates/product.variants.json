@@ -8,6 +8,12 @@
           "settings": {
           }
         },
+        "91167e33-9087-4581-86a7-a3ebdf91c627": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
         "ce287ddd-56b4-4eae-92cf-5e6f08239886": {
           "type": "buy_buttons",
           "settings": {
@@ -39,6 +45,7 @@
       },
       "block_order": [
         "e774b8d8-3d27-4e0a-8a21-0181dfe3ce03",
+        "91167e33-9087-4581-86a7-a3ebdf91c627",
         "ce287ddd-56b4-4eae-92cf-5e6f08239886",
         "1e425230-6800-49eb-922c-18eab7fbfd55",
         "3d1604f2-041f-42ef-8b6a-3c0b480b05f1",
