@@ -40,7 +40,7 @@
           "type": "payment",
           "settings": {
             "text": "Différentes méthodes de paiement disponible 💳",
-            "more_text": "<p>ApplePay, Paiement en 3 fois, Klarna, Virement, CB, Paypal<\/p>"
+            "more_text": "<p>CB, ApplePay, Paiement en 3 fois, Klarna, Virement, Bancontact, CBC, Sofort, Giropay, iDEAL, EPS, PostePay, Maestro, American Express, paysafecard,...<\/p>"
           }
         }
       },
@@ -93,7 +93,7 @@
       "type": "product-informations-simple",
       "settings": {
         "container": "7xl",
-        "title": "Caracteristiques 🍷",
+        "title": "Caractéristiques",
         "text": "",
         "header_color": "#201a1c",
         "text_color": "#f84c55",
@@ -111,6 +111,7 @@
     },
     "7cb25d7b-7bb5-43a9-98e9-386d541cb1bd": {
       "type": "faq",
+      "disabled": true,
       "blocks": {
         "template--17863555776826__7cb25d7b-7bb5-43a9-98e9-386d541cb1bd-1675347885a69893cb-0": {
           "type": "block",

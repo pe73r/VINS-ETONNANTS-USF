@@ -253,6 +253,7 @@
         "blocks": {
           "429d0e67-9527-40e3-909c-41a156b9cf9f": {
             "type": "reassurances",
+            "disabled": true,
             "settings": {
               "title": "🎁 Une bouteille offerte à partir de 65€",
               "text": "<p>Une bouteille de la sélection du mois dans votre colis<\/p>"
@@ -268,7 +269,7 @@
           "5afa6dc1-80cf-4797-85cf-c5f99f7ad4c4": {
             "type": "reassurances",
             "settings": {
-              "title": "🍷  La meilleure sélection de vins",
+              "title": "🍷  Une sélection de vins originale",
               "text": "<p>Des vins en provenance directe des producteurs<\/p>"
             }
           }
@@ -355,9 +356,9 @@
             "type": "block",
             "settings": {
               "svg": "",
-              "image": "shopify:\/\/shop_images\/aa1130bad5b0c5380f492b253cad63be.png",
+              "image": "shopify:\/\/shop_images\/reshot-icon-delivery-2KDHG9LVT4.svg",
               "title": "Livraison express",
-              "text_desktop": "En point relais ou à domicile",
+              "text_desktop": "En point relais ou à domicile sur toute l'Europe et au-delà!",
               "text_mobile": "En point relais ou à\ndomicile"
             }
           },
@@ -365,9 +366,9 @@
             "type": "block",
             "settings": {
               "svg": "",
-              "image": "shopify:\/\/shop_images\/1.png",
+              "image": "shopify:\/\/shop_images\/reshot-icon-online-DRMW8Q5P32.svg",
               "title": "Paiement sécurisé avec Mollie",
-              "text_desktop": "Carte bancaire, visa, mastercard, paypal...",
+              "text_desktop": "CB, ApplePay, Paiement en 3 fois, Klarna, Virement, Bancontact, CBC, Sofort, Giropay, iDEAL, EPS, PostePay, Maestro, American Express, paysafecard,...",
               "text_mobile": "Carte bancaire, visa, mastercard, paypal..."
             }
           },
@@ -375,17 +376,17 @@
             "type": "block",
             "settings": {
               "svg": "",
-              "image": "shopify:\/\/shop_images\/2.png",
+              "image": "shopify:\/\/shop_images\/reshot-icon-truck-EKYSUQ2CZW.svg",
               "title": "Frais de port",
-              "text_desktop": "A partir de 250 € d’achat en France continentale",
-              "text_mobile": "A partir de 250 € d’achat en France continentale"
+              "text_desktop": "A partir de 250 € d’achat pour la France continentale. A partir de 500€ pour l'Europe.",
+              "text_mobile": "A partir de 250 € d’achat pour la France continentale. A partir de 500€ pour l'Europe."
             }
           },
           "fe310d27-2fae-4e6a-b658-13613bb25c68": {
             "type": "block",
             "settings": {
               "svg": "",
-              "image": "shopify:\/\/shop_images\/aa1130bad5b0c5380f492b253cad63be_f7e65736-8658-415c-8f02-e3a474ce3b68.png",
+              "image": "shopify:\/\/shop_images\/reshot-icon-phone-order-XPWNV8ZRDA.svg",
               "title": "Une équipe à votre écoute",
               "text_desktop": "Notre équipe vous conseille \ndu lundi au vendredi <br> 9h-17h30 <br> Tel +33 (0) 9 80 94 42 62",
               "text_mobile": "Notre équipe vous conseille \ndu lundi au vendredi <br> 9h-17h30 <br> Tel +33 (0) 9 80 94 42 62"

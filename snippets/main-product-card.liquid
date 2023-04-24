@@ -69,20 +69,21 @@
    </wishlist-button>
   </div>
 
-  <div class="flex md:items-center justify-between">
+  <div class="flex justify-between">
     <div class="w-7/12 text-left">
-      <!-- Avis verifiés  -->
-      <div class="min-h-[15px] max-w-[100px] md:max-w-none">
+      <!-- Avis -->
+      <!-- <div class="min-h-[15px] max-w-[100px] md:max-w-none">
         <img src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/Frame_574.png?v=1670359326" alt="">
-      </div>
+      </div>-->
 
       <!-- Metafield producer -->
       {% if product.metafields.global.marque != blank %}
+       
+        {% assign marque_link = product.metafields.global.marque | handleize | prepend: '/collections/'%}
+      
         <div class="mt-2 md:mt-5">
           <p class="text-xs uppercase font-light">PRODUCTEUR</p>
-          <p class="text-base line-clamp-2 font-normal">
-            {{ product.metafields.global.marque }}
-          </p>
+          <a href="{{ marque_link }}" target="_blank" class="text-base line-clamp-2 font-normal block">{{ product.metafields.global.marque }}</a>
         </div>
       {% endif %}
       
@@ -194,7 +195,7 @@
                     <img
                       src="{{ media | image_url }}"
                       alt="{{ media.alt }}"
-                      class="myImg">
+                      class="myImg max-h-[300px] object-cover mx-auto">
                   </carousel-panel>
                 {% endif %}
               {% endfor %}
