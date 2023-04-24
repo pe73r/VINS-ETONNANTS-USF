@@ -204,13 +204,13 @@
       {%- when 'variant_picker' -%}
       {%- unless product.has_only_default_variant -%}
         <variant-radios
-          class="mt-3 no-js-hidden variant-radios"
+          class="mt-4 no-js-hidden variant-radios"
           data-section="{{ section.id }}"
           data-url="{{ product.url }}">
           {%- for option in product.options_with_values -%}
+            <span class="min-w-fit block text-sm mb-1">{{ option.name }}:</span>
             <fieldset class="flex items-center">
-              <h4 class="mr-5 min-w-fit">{{ option.name }}:</h4>
-              <div class="flex flex-wrap">
+              <div class="flex flex-wrap gap-2">
                 {%- for value in option.values -%}
                   <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
                     <input
@@ -221,7 +221,7 @@
                       form="{{ product_form_id }}"
                       class="radio-variant"
                       {% if option.selected_value == value %}checked{% endif %}>
-                    <span class="block px-6 py-4 mb-5 mr-5 text-base border border-gray-300 rounded-md radio-variant-checked:border-sauge">{{ value }}</span>
+                    <span class="block px-6 py-2 text-sm border border-gray-300 rounded-md radio-variant-checked:border-orange cursor-pointer">{{ value }}</span>
                   </label>
                 {%- endfor -%}
               </div>
@@ -345,3 +345,19 @@
     {%- endcase -%}
   {%- endfor -%}
 </div>
+<style>
+  .variant-radios input[type="radio"] {
+  display: none;
+}
+
+.variant-radios input[type="radio"]:checked~div,
+.variant-radios input[type="radio"]:checked~span {
+  border-color: #F84C55;
+}
+
+/* .variant-radios input[type="radio"]:checked ~ div > span{
+  border-color: #343434;
+  border-width: 1px;
+  padding: 1px;
+} */
+</style>

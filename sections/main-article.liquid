@@ -3,7 +3,7 @@
   {% render 'breadcrumbs', class: "mt-8 mb-5" %}
   {% render 'article_image-banner', image: article.image, class: "rounded-lg" %}
 
-  <div class="mt-5">
+  <div class="mt-8">
     <h1 class="text-3xl md:text-4xl mt-1 mb-2 text-center">{{ article.title }}</h1>
 
     {%- if article.metafields.custom.subtitle != blank -%}
@@ -27,7 +27,7 @@
 
   <!-- article content -->
   {% if section.settings.show_content %}
-    <div class="text-sm mt-5 article_content">
+    <div class="text-sm mt-10 article_content max-w-5xl mx-auto">
       {{ article.content }}
     </div>
   {% endif %}
