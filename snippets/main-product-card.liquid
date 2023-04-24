@@ -69,7 +69,7 @@
    </wishlist-button>
   </div>
 
-  <div class="flex md:items-center justify-between">
+  <div class="flex justify-between">
     <div class="w-7/12 text-left">
       <!-- Avis -->
       <!-- <div class="min-h-[15px] max-w-[100px] md:max-w-none">
@@ -78,13 +78,9 @@
 
       <!-- Metafield producer -->
       {% if product.metafields.global.marque != blank %}
-        {% if product.metafields.global.marque contains "(" %}
-           {% assign marque_link = product.metafields.global.marque | downcase | replace: '(', '-' | replace: ')', '' | replace: ' ', '-' | replace: '--', '-' | prepend: '/collections/'%}
-         {% else %}
-          {% assign marque_link = product.metafields.global.marque | downcase | replace: '(', '-' | replace: ')', '' | replace: ' ', '-' | replace: '--', '-' | prepend: '/collections/'%}
-        {% endif %}
-        
-
+       
+        {% assign marque_link = product.metafields.global.marque | handleize | prepend: '/collections/'%}
+      
         <div class="mt-2 md:mt-5">
           <p class="text-xs uppercase font-light">PRODUCTEUR</p>
           <a href="{{ marque_link }}" target="_blank" class="text-base line-clamp-2 font-normal block">{{ product.metafields.global.marque }}</a>
@@ -199,7 +195,7 @@
                     <img
                       src="{{ media | image_url }}"
                       alt="{{ media.alt }}"
-                      class="myImg">
+                      class="myImg max-h-[300px] object-cover mx-auto">
                   </carousel-panel>
                 {% endif %}
               {% endfor %}
