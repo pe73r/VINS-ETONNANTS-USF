@@ -33,12 +33,6 @@
             "collection": "angleterre"
           }
         },
-        "e11c41e1-b319-49bc-b810-79013574613a": {
-          "type": "collection",
-          "settings": {
-            "collection": "autriche"
-          }
-        },
         "40b74368-aef1-49dc-bccd-fd0441fcec23": {
           "type": "collection",
           "settings": {
@@ -61,6 +55,12 @@
           "type": "collection",
           "settings": {
             "collection": "vin-de-france"
+          }
+        },
+        "7b5c3641-04b2-4293-8cca-8d08b7e9a9ba": {
+          "type": "collection",
+          "settings": {
+            "collection": "georgie"
           }
         },
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-2": {
@@ -103,11 +103,11 @@
       "block_order": [
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-1",
         "725909fa-8cc9-4f68-bdfc-e1c8695c2179",
-        "e11c41e1-b319-49bc-b810-79013574613a",
         "40b74368-aef1-49dc-bccd-fd0441fcec23",
         "cb800d43-e995-4aff-bfa7-2d7478932f7e",
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-0",
         "e7ea99ad-2fe1-43ee-9946-26a3e110953f",
+        "7b5c3641-04b2-4293-8cca-8d08b7e9a9ba",
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-2",
         "bd3c337f-bac6-4db7-a2ce-43912e79d023",
         "aa0ea8b5-d265-4660-bf4a-2ca968af551b",
