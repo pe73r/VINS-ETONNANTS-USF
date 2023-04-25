@@ -39,9 +39,9 @@
     "b2cf4fcd-7250-40bc-a7e3-a982fad079fa": {
       "type": "featured-blog-carousel",
       "settings": {
-        "container": "5xl",
+        "container": "7xl",
         "blog": "blog-vins-etonnants",
-        "post_limit": 4,
+        "post_limit": 8,
         "show_dots": true,
         "heading": "À LIRE...",
         "show_title": false,
