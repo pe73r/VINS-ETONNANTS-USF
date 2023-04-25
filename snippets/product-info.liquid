@@ -102,7 +102,6 @@
         data-product="{{ product.id }}"
         data-discount="{% if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price %}{{ product.selected_or_first_available_variant.compare_at_price | minus: product.selected_or_first_available_variant.price | divided_by: 100.00 }}{% else %}0.00{% endif %}"
         data-price="{{ product.selected_or_first_available_variant.price | divided_by: 100.00 }}"
-        data-product="{{ product.id }}"
         data-variant="{{ product.selected_or_first_available_variant.id }}">
 
         <button disabled="{% if product.available %}false{% else %}true{% endif %}" class="cursor-pointer min-w-[145px] btn-primary {% render "button", size: "small" %}">
@@ -110,7 +109,7 @@
             <div class="flex justify-center items-center">
               <span class="block">Ajouter</span>
               <span class="px-1">-</span>
-              <span data-price class="block">{{ product.price | money_without_trailing_zeros }}</span>
+              <span data-atc-price data-dynamic-price data-price class="block">{{ product.price | money_without_trailing_zeros }}</span>
               {%- comment -%} {%- if product.compare_at_price != blank -%}
                 <span data-price-stroke class="block ml-2 text-xs line-through">{{ product.compare_at_price | money_without_trailing_zeros }}</span>
               {%- endif -%} {%- endcomment -%}
@@ -203,10 +202,11 @@
 
       {%- when 'variant_picker' -%}
       {%- unless product.has_only_default_variant -%}
-        <variant-radios
-          class="mt-4 no-js-hidden variant-radios"
-          data-section="{{ section.id }}"
-          data-url="{{ product.url }}">
+      <tail-variants
+      data-product="{{ product.id }}"
+      class="block md:w-11/12 mx-auto my-5 no-js-hidden variant-radios"
+      data-section="{{ section.id }}"
+      data-url="{{ product.url }}">
           {%- for option in product.options_with_values -%}
             <span class="min-w-fit block text-sm mb-1">{{ option.name }}:</span>
             <fieldset class="flex items-center">
@@ -220,6 +220,7 @@
                       value="{{ value | escape }}"
                       form="{{ product_form_id }}"
                       class="radio-variant"
+                      data-position="{{ option.position }}"
                       {% if option.selected_value == value %}checked{% endif %}>
                     <span class="block px-6 py-2 text-sm border border-gray-300 rounded-md radio-variant-checked:border-orange cursor-pointer">{{ value }}</span>
                   </label>
@@ -227,10 +228,10 @@
               </div>
             </fieldset>
           {%- endfor -%}
-          <script type="application/json">
+          <script id="product-variants" type="application/json">
             {{ product.variants | json }}
           </script>
-        </variant-radios>
+        </tail-variants>
 
         <script type="application/json">
           {{ product.variants | json }}
@@ -323,7 +324,7 @@
                 <div class="flex justify-center items-center">
                   <span class="block">Ajouter au panier</span>
                   <span class="px-1">-</span>
-                  <span data-price class="block">{{ product.price | money_without_trailing_zeros }}</span>
+                  <span data-atc-price data-dynamic-price class="block">{{ product.price | money_without_trailing_zeros }}</span>
                   {%- if product.compare_at_price != blank -%}
                     <span data-price-stroke class="block ml-2 text-xs line-through">{{ product.compare_at_price | money_without_trailing_zeros }}</span>
                   {%- endif -%}
@@ -346,12 +347,12 @@
   {%- endfor -%}
 </div>
 <style>
-  .variant-radios input[type="radio"] {
+  tail-variants input[type="radio"] {
   display: none;
 }
 
-.variant-radios input[type="radio"]:checked~div,
-.variant-radios input[type="radio"]:checked~span {
+tail-variants input[type="radio"]:checked~div,
+tail-variants input[type="radio"]:checked~span {
   border-color: #F84C55;
 }
 
