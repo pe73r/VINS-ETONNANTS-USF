@@ -41,13 +41,13 @@
       "settings": {
         "container": "7xl",
         "blog": "blog-vins-etonnants",
-        "post_limit": 8,
-        "show_dots": true,
+        "post_limit": 4,
+        "show_dots": false,
         "heading": "À LIRE...",
-        "show_title": false,
+        "show_title": true,
         "show_content": true,
         "show_author": false,
-        "show_date": true,
+        "show_date": false,
         "show_button": true
       }
     }
