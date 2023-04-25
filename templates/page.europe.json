@@ -33,6 +33,12 @@
             "collection": "angleterre"
           }
         },
+        "e11c41e1-b319-49bc-b810-79013574613a": {
+          "type": "collection",
+          "settings": {
+            "collection": "autriche"
+          }
+        },
         "40b74368-aef1-49dc-bccd-fd0441fcec23": {
           "type": "collection",
           "settings": {
@@ -97,6 +103,7 @@
       "block_order": [
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-1",
         "725909fa-8cc9-4f68-bdfc-e1c8695c2179",
+        "e11c41e1-b319-49bc-b810-79013574613a",
         "40b74368-aef1-49dc-bccd-fd0441fcec23",
         "cb800d43-e995-4aff-bfa7-2d7478932f7e",
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-0",
