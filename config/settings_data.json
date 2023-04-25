@@ -199,6 +199,7 @@
           },
           "447de3a4-e170-448e-8ae8-4db1ea7d40e9": {
             "type": "megamenu",
+            "disabled": true,
             "settings": {
               "megamenu": "",
               "featured_link_1": "",
