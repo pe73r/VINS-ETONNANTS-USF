@@ -51,6 +51,12 @@
             "collection": "espagne"
           }
         },
+        "e7ea99ad-2fe1-43ee-9946-26a3e110953f": {
+          "type": "collection",
+          "settings": {
+            "collection": "vin-de-france"
+          }
+        },
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-2": {
           "type": "collection",
           "settings": {
@@ -94,6 +100,7 @@
         "40b74368-aef1-49dc-bccd-fd0441fcec23",
         "cb800d43-e995-4aff-bfa7-2d7478932f7e",
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-0",
+        "e7ea99ad-2fe1-43ee-9946-26a3e110953f",
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-2",
         "bd3c337f-bac6-4db7-a2ce-43912e79d023",
         "aa0ea8b5-d265-4660-bf4a-2ca968af551b",
