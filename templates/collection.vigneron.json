@@ -8,7 +8,7 @@
         "show_collection_title": true,
         "show_breadcrumbs": false,
         "show_collection_description": true,
-        "show_collection_size": false,
+        "show_collection_size": true,
         "show_secondary_image": true,
         "enable_filtering": true,
         "enable_sorting": true,
