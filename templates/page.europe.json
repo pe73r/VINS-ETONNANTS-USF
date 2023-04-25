@@ -21,36 +21,85 @@
     "c7cc2aa4-7922-456b-8659-fa523dff6169": {
       "type": "collections-blocks",
       "blocks": {
-        "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "espagne"
-          }
-        },
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-1": {
           "type": "collection",
           "settings": {
             "collection": "allemagne"
           }
         },
+        "725909fa-8cc9-4f68-bdfc-e1c8695c2179": {
+          "type": "collection",
+          "settings": {
+            "collection": "angleterre"
+          }
+        },
+        "40b74368-aef1-49dc-bccd-fd0441fcec23": {
+          "type": "collection",
+          "settings": {
+            "collection": "corse"
+          }
+        },
+        "cb800d43-e995-4aff-bfa7-2d7478932f7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "croatie"
+          }
+        },
+        "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "espagne"
+          }
+        },
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-2": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "grece"
+          }
+        },
+        "bd3c337f-bac6-4db7-a2ce-43912e79d023": {
+          "type": "collection",
+          "settings": {
+            "collection": "hongrie"
+          }
+        },
+        "aa0ea8b5-d265-4660-bf4a-2ca968af551b": {
+          "type": "collection",
+          "settings": {
+            "collection": "italie"
           }
         },
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-3": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "portugal"
+          }
+        },
+        "6d317dac-2ac8-48cd-a602-7d5180d3cec4": {
+          "type": "collection",
+          "settings": {
+            "collection": "slovenie"
+          }
+        },
+        "2efb1cc1-ca50-4115-af12-171a51a5be07": {
+          "type": "collection",
+          "settings": {
+            "collection": "suisse"
           }
         }
       },
       "block_order": [
-        "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-0",
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-1",
+        "725909fa-8cc9-4f68-bdfc-e1c8695c2179",
+        "40b74368-aef1-49dc-bccd-fd0441fcec23",
+        "cb800d43-e995-4aff-bfa7-2d7478932f7e",
+        "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-0",
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-2",
-        "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-3"
+        "bd3c337f-bac6-4db7-a2ce-43912e79d023",
+        "aa0ea8b5-d265-4660-bf4a-2ca968af551b",
+        "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-3",
+        "6d317dac-2ac8-48cd-a602-7d5180d3cec4",
+        "2efb1cc1-ca50-4115-af12-171a51a5be07"
       ],
       "settings": {
       }
