@@ -42,7 +42,7 @@
 <div
   id="sticktCart"
   style="z-index: 40; transform:translate(-50%,100%);"
-  class="fixed bottom-0 left-[50%] w-11/12 md:w-fit flex items-center justify-between gap-3 p-3 transition-all bg-white rounded-md max-w-[460px]">
+  class="fixed bottom-0 left-[50%] w-11/12 flex {% if template.suffix == 'variants' %} flex-col md:flex-row {% endif %} items-center justify-between gap-3 p-3 transition-all bg-white rounded-md max-w-[600px]">
   <div class="flex items-center gap-1">
     <img
       class="w-[60px]"
@@ -111,7 +111,7 @@
             href="#product-info"
             class="block cursor-pointer min-w-[145px] btn-primary {% render "button", size: "small" %}">
             <div class="flex justify-center items-center">
-              <span class="block">Ajouter</span>
+              <span class="block">Sélectionner votre offre</span>
               <span class="px-1">-</span>
               <span
                 data-atc-price
