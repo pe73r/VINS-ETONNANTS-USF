@@ -138,19 +138,20 @@
             "type": "megamenu",
             "settings": {
               "megamenu": "catalogue",
-              "featured_link_1": "shopify:\/\/products\/copy-of-copy-of-lag-2021",
+              "featured_link_1": "shopify:\/\/collections\/all",
               "featured_link_subtitle_1": "",
               "featured_link_title_1": "<p>Vins rosés<\/p>",
               "featured_link_2": "shopify:\/\/products\/apicula-2012",
               "featured_link_subtitle_2": "",
-              "featured_link_title_2": "<p>Vins rouges<\/p>",
+              "featured_link_title_2": "",
               "featured_link_3": "",
               "featured_link_subtitle_3": "",
-              "featured_link_title_3": "<p>Vins blancs<\/p>"
+              "featured_link_title_3": ""
             }
           },
           "9361598a-ff81-4f8d-a8a3-71f39892e985": {
             "type": "megamenu",
+            "disabled": true,
             "settings": {
               "megamenu": "par-region",
               "featured_link_1": "shopify:\/\/blogs\/guide\/l-alimentation-en-postpartum-en-quoi-est-elle-essentielle",
@@ -171,7 +172,6 @@
             "settings": {
               "megamenu": "vins-blancs-et-oranges",
               "featured_link_1": "",
-              "featured_link_image_1": "shopify:\/\/shop_images\/Rectangle_1_2.png",
               "featured_link_subtitle_1": "",
               "featured_link_title_1": "",
               "featured_link_2": "",
@@ -193,25 +193,22 @@
               "featured_link_subtitle_2": "",
               "featured_link_title_2": "",
               "featured_link_3": "",
-              "featured_link_image_3": "shopify:\/\/shop_images\/Capture_d_ecran_2023-02-21_a_10.23.33.png",
               "featured_link_subtitle_3": "",
               "featured_link_title_3": ""
             }
           },
           "447de3a4-e170-448e-8ae8-4db1ea7d40e9": {
             "type": "megamenu",
+            "disabled": true,
             "settings": {
-              "megamenu": "vins-ros-s",
+              "megamenu": "",
               "featured_link_1": "",
-              "featured_link_image_1": "shopify:\/\/shop_images\/Capture_d_ecran_2023-02-20_a_19.02.57.png",
               "featured_link_subtitle_1": "",
               "featured_link_title_1": "<p>rosés secs<\/p>",
               "featured_link_2": "",
-              "featured_link_image_2": "shopify:\/\/shop_images\/Capture_d_ecran_2023-02-20_a_19.03.21.png",
               "featured_link_subtitle_2": "rosés effervescents",
               "featured_link_title_2": "",
               "featured_link_3": "",
-              "featured_link_image_3": "shopify:\/\/shop_images\/Capture_d_ecran_2023-02-20_a_19.03.09.png",
               "featured_link_subtitle_3": "rosés doux",
               "featured_link_title_3": ""
             }

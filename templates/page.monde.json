@@ -12,10 +12,10 @@
       "type": "page-banner",
       "settings": {
         "show_breadcrumbs": true,
-        "image": "shopify:\/\/shop_images\/restaurant-entrance-with-wine-bottles-in-the-window.jpg",
+        "image": "shopify:\/\/shop_images\/large-curved-walkway-over-vineyard.jpg",
         "title": "Monde",
-        "text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.<\/p>",
-        "more_text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.<\/p>"
+        "text": "<p>Découvrez notre sélection de vins du monde, un voyage gustatifs aux quatre coins de la planète ! Des terroirs exotiques d'Amérique du Sud aux vignobles confidentiels d'Océanie, nos vins vous feront vivre une expérience œnologique unique.<\/p>",
+        "more_text": "<p>Au-delà des saveurs, nos vins du monde célèbrent la diversité des cultures viticoles et l'innovation en matière de vinification. Vous y trouverez des cépages autochtones, des méthodes ancestrales revisitées et des tendances émergentes qui repoussent les frontières de l'œnologie. Laissez-vous surprendre par ces joyaux internationaux et enrichissez votre palais en dégustant des vins d'exception. Osez l'aventure, et savourez le monde en une gorgée !<\/p>"
       }
     },
     "8f4d099f-4f1b-496c-9494-09448a558fe2": {
@@ -24,54 +24,132 @@
         "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-0": {
           "type": "collection",
           "settings": {
-            "collection": "aloxe-corton"
+            "collection": "afrique-du-sud"
+          }
+        },
+        "285126f8-6c32-4148-a250-16b829e7e141": {
+          "type": "collection",
+          "settings": {
+            "collection": "argentine"
+          }
+        },
+        "315d0ccf-b4f6-407e-b6c6-6a68159081e6": {
+          "type": "collection",
+          "settings": {
+            "collection": "armenie"
           }
         },
         "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "australie"
           }
         },
         "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-2": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "canada"
+          }
+        },
+        "117104d0-3717-41eb-86ba-2b3e49dc775e": {
+          "type": "collection",
+          "settings": {
+            "collection": "chili"
           }
         },
         "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-3": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "chypre"
           }
         },
         "6b792970-42c2-4681-9137-965f7d5e448b": {
           "type": "collection",
+          "disabled": true,
           "settings": {
-            "collection": ""
+            "collection": "espagne"
+          }
+        },
+        "1bf06bcb-8c9b-44db-afa8-332f31ae8f3d": {
+          "type": "collection",
+          "settings": {
+            "collection": "etats-unis"
+          }
+        },
+        "f9661067-c7e7-4eb4-b085-c7d072889070": {
+          "type": "collection",
+          "settings": {
+            "collection": "israel"
           }
         },
         "beee595e-ca0b-406e-936b-b295ede4f358": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "japon"
+          }
+        },
+        "37734b9c-33ce-47bd-8f06-6d2096fa9534": {
+          "type": "collection",
+          "settings": {
+            "collection": "liban-1"
           }
         },
         "983d2e0d-ca13-4d89-ab44-6aa58b02f703": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "maroc"
+          }
+        },
+        "5f614027-a0a6-4c86-bf38-cd768723eca7": {
+          "type": "collection",
+          "settings": {
+            "collection": "mexique"
+          }
+        },
+        "8caf1193-2ade-43a4-a857-35dff46f6b0b": {
+          "type": "collection",
+          "settings": {
+            "collection": "nouvelle-zelande"
+          }
+        },
+        "8977b84c-0b1a-4808-b4b4-3c1ace161ce0": {
+          "type": "collection",
+          "settings": {
+            "collection": "perou"
+          }
+        },
+        "f217c190-7cf4-4528-8787-27f5654bf8c7": {
+          "type": "collection",
+          "settings": {
+            "collection": "syrie"
+          }
+        },
+        "f8fa5e6a-3b17-4c9a-b07f-c7f28bf23dae": {
+          "type": "collection",
+          "settings": {
+            "collection": "uruguay"
           }
         }
       },
       "block_order": [
         "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-0",
+        "285126f8-6c32-4148-a250-16b829e7e141",
+        "315d0ccf-b4f6-407e-b6c6-6a68159081e6",
         "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-1",
         "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-2",
+        "117104d0-3717-41eb-86ba-2b3e49dc775e",
         "template--18574378369347__8f4d099f-4f1b-496c-9494-09448a558fe2-1681893304c8a2e016-3",
         "6b792970-42c2-4681-9137-965f7d5e448b",
+        "1bf06bcb-8c9b-44db-afa8-332f31ae8f3d",
+        "f9661067-c7e7-4eb4-b085-c7d072889070",
         "beee595e-ca0b-406e-936b-b295ede4f358",
-        "983d2e0d-ca13-4d89-ab44-6aa58b02f703"
+        "37734b9c-33ce-47bd-8f06-6d2096fa9534",
+        "983d2e0d-ca13-4d89-ab44-6aa58b02f703",
+        "5f614027-a0a6-4c86-bf38-cd768723eca7",
+        "8caf1193-2ade-43a4-a857-35dff46f6b0b",
+        "8977b84c-0b1a-4808-b4b4-3c1ace161ce0",
+        "f217c190-7cf4-4528-8787-27f5654bf8c7",
+        "f8fa5e6a-3b17-4c9a-b07f-c7f28bf23dae"
       ],
       "settings": {
       }

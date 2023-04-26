@@ -14,43 +14,106 @@
         "show_breadcrumbs": true,
         "image": "shopify:\/\/shop_images\/view-down-curved-city-street-between-buildings.jpg",
         "title": "Europe",
-        "text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.<\/p>",
-        "more_text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.<\/p>"
+        "text": "<p>Bienvenue dans notre sélection de vins d'Europe, une véritable mosaïque de saveurs et de terroirs uniques ! Découvrez la richesse des vignobles européens, où traditions ancestrales et innovations se rencontrent pour vous offrir une expérience gustative inoubliable.<\/p>",
+        "more_text": "<p>Laissez-vous tenter par nos vins d'auteurs, issus du travail passionné de vignerons visionnaires. Plongez dans l'histoire et l'héritage des vins classiques, représentatifs des cépages et terroirs les plus emblématiques. Explorez l'univers des vins bio et biodynamiques, reflets d'un profond respect pour la nature et d'un engagement envers une viticulture durable. <\/p><p>En cliquant sur les cards correspondant à chaque pays, vous serez transporté(e) dans un voyage œnologique à travers les paysages viticoles d'Europe. Des vignobles ensoleillés d'Espagne et d'Italie aux terres fertiles des vallées françaises, en passant par les pentes vertigineuses des coteaux allemands et les vastes étendues de l'Europe de l'Est, nos vins sauront éveiller vos sens et satisfaire toutes vos envies. <\/p><p>N'attendez plus et partez à la découverte de notre sélection de vins d'Europe. Cliquez sur les cards de chaque pays pour plonger dans un univers riche en saveurs et en émotions. Santé !<\/p>"
       }
     },
     "c7cc2aa4-7922-456b-8659-fa523dff6169": {
       "type": "collections-blocks",
       "blocks": {
+        "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "allemagne"
+          }
+        },
+        "725909fa-8cc9-4f68-bdfc-e1c8695c2179": {
+          "type": "collection",
+          "settings": {
+            "collection": "angleterre"
+          }
+        },
+        "40b74368-aef1-49dc-bccd-fd0441fcec23": {
+          "type": "collection",
+          "settings": {
+            "collection": "corse"
+          }
+        },
+        "cb800d43-e995-4aff-bfa7-2d7478932f7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "croatie"
+          }
+        },
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-0": {
           "type": "collection",
           "settings": {
             "collection": "espagne"
           }
         },
-        "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-1": {
+        "e7ea99ad-2fe1-43ee-9946-26a3e110953f": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "vin-de-france"
+          }
+        },
+        "7b5c3641-04b2-4293-8cca-8d08b7e9a9ba": {
+          "type": "collection",
+          "settings": {
+            "collection": "georgie"
           }
         },
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-2": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "grece"
+          }
+        },
+        "bd3c337f-bac6-4db7-a2ce-43912e79d023": {
+          "type": "collection",
+          "settings": {
+            "collection": "hongrie"
+          }
+        },
+        "aa0ea8b5-d265-4660-bf4a-2ca968af551b": {
+          "type": "collection",
+          "settings": {
+            "collection": "italie"
           }
         },
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-3": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "portugal"
+          }
+        },
+        "6d317dac-2ac8-48cd-a602-7d5180d3cec4": {
+          "type": "collection",
+          "settings": {
+            "collection": "slovenie"
+          }
+        },
+        "2efb1cc1-ca50-4115-af12-171a51a5be07": {
+          "type": "collection",
+          "settings": {
+            "collection": "suisse"
           }
         }
       },
       "block_order": [
-        "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-0",
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-1",
+        "725909fa-8cc9-4f68-bdfc-e1c8695c2179",
+        "40b74368-aef1-49dc-bccd-fd0441fcec23",
+        "cb800d43-e995-4aff-bfa7-2d7478932f7e",
+        "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-0",
+        "e7ea99ad-2fe1-43ee-9946-26a3e110953f",
+        "7b5c3641-04b2-4293-8cca-8d08b7e9a9ba",
         "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-2",
-        "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-3"
+        "bd3c337f-bac6-4db7-a2ce-43912e79d023",
+        "aa0ea8b5-d265-4660-bf4a-2ca968af551b",
+        "template--18574378303811__c7cc2aa4-7922-456b-8659-fa523dff6169-1681893304c8a2e016-3",
+        "6d317dac-2ac8-48cd-a602-7d5180d3cec4",
+        "2efb1cc1-ca50-4115-af12-171a51a5be07"
       ],
       "settings": {
       }

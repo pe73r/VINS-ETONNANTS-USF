@@ -1,0 +1,163 @@
+<script>
+  let stickyCart = document.querySelector('#sticktCart');
+  let referenceMobile = document.querySelector('#referenceMobile');
+  let referenceDesktop = document.querySelector('#referenceDesktop');
+  let reference;
+
+  window.addEventListener("scroll", () => {
+    function checkVisible() {
+      if (! referenceMobile) {
+        referenceMobile = document.querySelector('#referenceMobile');
+      }
+      if (! referenceDesktop) {
+        referenceDesktop = document.querySelector('#referenceDesktop');
+      }
+
+      reference = window.innerWidth < 768
+        ? referenceMobile
+        : referenceDesktop;
+
+      var rect = reference.getBoundingClientRect();
+      console.log(rect.top)
+      var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+      if (window.scrollY < rect.top) {
+        return true
+      }
+      return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+    }
+    if (! stickyCart) {
+      stickyCart = document.querySelector('#sticktCart');
+    }
+    console.log(checkVisible())
+    if (checkVisible()) {
+      stickyCart.style.transform = "translate(-50%,100%)"
+    } else {
+      stickyCart.style.transform = "translate(-50%,-15%)"
+    }
+
+  }, {passive: true})
+</script>
+
+<!-- sticky button -->
+<div
+  id="sticktCart"
+  style="z-index: 40; transform:translate(-50%,100%);"
+  class="fixed bottom-0 left-[50%] w-11/12 md:w-fit flex items-center justify-between gap-3 p-3 transition-all bg-white rounded-md max-w-[460px]">
+  <div class="flex items-center gap-1">
+    <img
+      class="w-[60px]"
+      src="{{ product.featured_image | image_url }}"
+      alt="{{ product.featured_image.alt }}">
+    <div class="">
+      <div class="line-clamp-1">
+        <p class="text-sm font-bold">{{ product.title }}</p>
+      </div>
+      <p>{{ product.metafields.global.contenance }}</p>
+    </div>
+  </div>
+  <div class="flex items-center justify-center gap-2">
+
+    {% if product.available == true %}
+      <div class="border-gray-300 border rounded-md w-fit h-fit py-2 px-3 hidden md:block" {{ block.shopify_attributes }}>
+        <product-quantity
+          data-max-quantity={{product.selected_or_first_available_variant.inventory_quantity}}
+          data-product="{{product.id}}"
+          class="flex items-center justify-center m-auto quantity">
+          <button
+            class="no-js-hidden"
+            name="minus"
+            type="button">
+            {% render 'icon-minus' %}
+          </button>
+          <input
+            class="bg-transparent text-base font-bold max-w-[50px] text-center"
+            type="number"
+            name="quantity"
+            id="Quantity-{{ section.id }}"
+            min="1"
+            value="1"
+            form="{{ product_form_id }}">
+          <button
+            class="no-js-hidden"
+            name="plus"
+            type="button">
+            {% render 'icon-plus' %}
+          </button>
+        </product-quantity>
+      </div>
+    {% endif %}
+
+    <div
+      id="buy-buttons"
+      {{ block.shopify_attributes }}
+      class="min-w-fit">
+      <add-to-cart
+        class="{% unless product.available %} hidden {% endunless %}"
+        data-max-quantity={{product.selected_or_first_available_variant.inventory_quantity}}
+        data-disabled="{% if product.available %}false{% else %}true{% endif %}"
+        data-price-stroke="{{ product.compare_at_price | money_without_trailing_zeros }}"
+        data-collection="{{ collection.title }}"
+        data-currency="{{ shop.currency }}"
+        data-title="{{ product.title }}"
+        data-product="{{ product.id }}"
+        data-discount="{% if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price %}{{ product.selected_or_first_available_variant.compare_at_price | minus: product.selected_or_first_available_variant.price | divided_by: 100.00 }}{% else %}0.00{% endif %}"
+        data-price="{{ product.selected_or_first_available_variant.price | divided_by: 100.00 }}"
+        data-variant="{{ product.selected_or_first_available_variant.id }}">
+
+
+        {% if template.suffix == 'variants' %}
+          <a
+            id="linkVariants"
+            href="#product-info"
+            class="block cursor-pointer min-w-[145px] btn-primary {% render "button", size: "small" %}">
+            <div class="flex justify-center items-center">
+              <span class="block">Ajouter</span>
+              <span class="px-1">-</span>
+              <span
+                data-atc-price
+                data-dynamic-price
+                data-price
+                class="block">{{ product.price | money_without_trailing_zeros }}</span>
+            </div>
+          </a>
+        {% else %}
+          <button disabled="{% if product.available %}false{% else %}true{% endif %}" class="cursor-pointer min-w-[145px] btn-primary {% render "button", size: "small" %}">
+            {% if product.available %}
+              <div class="flex justify-center items-center">
+                <span class="block">Ajouter</span>
+                <span class="px-1">-</span>
+                <span
+                  data-atc-price
+                  data-dynamic-price
+                  data-price
+                  class="block">{{ product.price | money_without_trailing_zeros }}</span>
+                {%- comment -%} {%- if product.compare_at_price != blank -%}
+                  <span data-price-stroke class="block ml-2 text-xs line-through">{{ product.compare_at_price | money_without_trailing_zeros }}</span>
+                {%- endif -%} {%- endcomment -%}
+              </div>
+            {% else %}
+              Stocks épuisés
+            {% endif %}
+          </button>
+        {% endif %}
+      </add-to-cart>
+      {% if block.settings.show_dynamic_checkout %}
+        {{ form | payment_button }}
+      {% endif %}
+
+    </div>
+  </div>
+</div>
+
+<script>
+  document.querySelector('#linkVariants').addEventListener('click', function(event) {
+    event.preventDefault();
+    var linkAnchor = document.querySelector('#product-info');
+    var distance = linkAnchor.offsetTop - window.scrollY;
+    window.scrollBy({
+      top: distance - 150,
+      left: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>

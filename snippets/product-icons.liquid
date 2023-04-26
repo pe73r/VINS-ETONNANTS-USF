@@ -36,23 +36,45 @@
 
 
 <div class="grid grid-cols-2 gap-3">
-  {% if product.tags contains "vins-bio" or product.tags contains "vins-en-biodynamie" or product.tags contains "sans-sulfites-ajoutes" or product.tags contains "vin-methode-nature" or product.tags contains "sulfites-tres-raisonnes" %}
+  {% if product.tags contains "vins-bio" or product.tags contains "vins-en-biodynamie" or product.tags contains "sans-sulfites-ajoutes" or product.tags contains "vin-methode-nature" or product.tags contains "sulfites-tres-raisonnes" or product.tags contains "vegan" %}
     <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
       <div>
-        <img
-          class="mx-auto"
-          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/Ellipse_72.png?v=1670359613"
-          alt="">
         {% if product.tags contains "vins-bio" %}
-          <span class="text-xs uppercase">bio</span>
+          <img
+          class="mx-auto max-w-[50px]"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/Euro_leaf_organic_agriculture_svg.png?v=1682499211"
+          alt="">
+          <span class="block text-xs uppercase mt-2">bio</span>
         {% elsif product.tags contains "vins-en-biodynamie" %}
-          <span class="text-xs uppercase">vin biodynamique</span>
+          <img
+          class="mx-auto max-w-[50px]"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/Logo_BioDynamie-v2-300x300x72dpi.png?v=1682499211"
+          alt="">
+          <span class="block text-xs uppercase mt-2">vin biodynamique</span>
+        {% elsif product.tags contains "vegan" %}
+          <img
+          class="mx-auto max-w-[50px]"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/vegan-logo-ACE43D0D9E-seeklogo.com.png?v=1682499208"
+          alt="">
+            <span class="block text-xs uppercase mt-2">vegan</span>
+        {% elsif product.tags contains "vin-methode-nature"%}
+            <img
+              class="mx-auto max-w-[50px]"
+              src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/logo_d694999c-3eee-4dd0-82b9-1a063c8ce67b.png?v=1682499211"
+              alt="">
+              <span class="block text-xs uppercase mt-2">vin méthode nature</span>
         {% elsif product.tags contains "sans-sulfites-ajoutes" %}
-          <span class="text-xs uppercase">sans sulfites</span>
-        {% elsif product.tags contains "vin-methode-nature" %}
-          <span class="text-xs uppercase">vin nature</span>
+          <img
+          class="mx-auto max-w-[50px]"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/Euro_leaf_organic_agriculture_svg.png?v=1682499211"
+          alt="">
+          <span class="block text-xs uppercase mt-2">sans sulfites</span>
         {% elsif product.tags contains "sulfites-tres-raisonnes" %}
-          <span class="text-xs uppercase">sulfites très raisonnés</span>
+          <img
+          class="mx-auto max-w-[50px]"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/Euro_leaf_organic_agriculture_svg.png?v=1682499211"
+          alt="">
+          <span class="block text-xs uppercase mt-2">sulfites très raisonnés</span>
         {% endif %}
       </div>
     </div>
@@ -151,22 +173,43 @@
   {% if style %}
     <div class=" bg-white p-3 text-center flex items-center justify-center rounded-md">
       <div>
-        <img
-          class="mx-auto"
-          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/Ellipse_72_1.png?v=1670359613"
-          alt="">
+        
         {% if product.tags contains "vin-facile-et-gourmand" %}
-          <span class="text-xs uppercase">facile et gourmand</span>
+          <img
+          class="mx-auto max-w-[40px]"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/yummy.png?v=1682499210"
+          alt="">
+          <span class="text-xs uppercase block mt-2">facile et gourmand</span>
         {% elsif product.tags contains "vin-plus-complexe" %}
-          <span class="text-xs uppercase">complexe</span>
+          <img
+          class="mx-auto max-w-[40px]"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/think.png?v=1682499211"
+          alt="">
+          <span class="text-xs uppercase block mt-2">complexe</span>
         {% elsif product.tags contains "mais-accessible-a-tous" %}
-          <span class="text-xs uppercase">accessible à tous</span>
+          <img
+          class="mx-auto max-w-[40px]"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/grapes.png?v=1682499211"
+          alt="">
+          <span class="text-xs uppercase block mt-2">accessible à tous</span>
         {% elsif product.tags contains "vin-classieux-excellent" %}
-          <span class="text-xs uppercase">classieux</span>
+          <img
+          class="mx-auto max-w-[40px]"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/grapes.png?v=1682499211"
+          alt="">
+          <span class="text-xs uppercase block mt-2">classieux</span>
         {% elsif product.tags contains "vin-experimental-tres-etonnant" %}
-          <span class="text-xs uppercase">expérimental</span>
+          <img
+          class="mx-auto max-w-[40px]"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/magic-wand_1fa84.png?v=1682499208"
+          alt="">
+          <span class="text-xs uppercase block mt-2">expérimental</span>
         {% elsif product.tags contains "vin-decouverte-original" %}
-          <span class="text-xs uppercase">découverte/original</span>
+          <img
+          class="mx-auto max-w-[40px]"
+          src="https://cdn.shopify.com/s/files/1/0682/9126/4826/files/yeux.png?v=1682499211"
+          alt="">
+          <span class="text-xs uppercase block mt-2">découverte/original</span>
         {% endif %}
       </div>
     </div>
