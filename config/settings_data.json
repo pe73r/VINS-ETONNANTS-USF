@@ -326,12 +326,20 @@
               "heading": "CONTACT",
               "menu": "contact"
             }
+          },
+          "61e4cda3-ed78-46cc-9422-807462a5864f": {
+            "type": "link_list",
+            "settings": {
+              "heading": "",
+              "menu": "footer"
+            }
           }
         },
         "block_order": [
           "c30e5de2-0357-4258-aec3-1a38e7dfa88a",
           "2f5128fc-ab49-4c8b-ad3d-d0240c1916a7",
-          "9f4aa598-1549-4004-8a0b-04b27f1eab98"
+          "9f4aa598-1549-4004-8a0b-04b27f1eab98",
+          "61e4cda3-ed78-46cc-9422-807462a5864f"
         ],
         "settings": {
           "logo_svg": "",
