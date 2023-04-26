@@ -75,9 +75,20 @@ defineCustomElement(
             element.classList.add("hidden");
           }
         });
-
+        console.log({ variant });
         this.atcs.forEach((el) => el.setAttribute("data-variant", String(variant.id)));
         console.log(this.atcs);
+        if (!variant.available) {
+          this.atcs.forEach((el) => {
+            el.setAttribute("data-disabled", true);
+            el.querySelector("button").setAttribute("disabled", true);
+          });
+        } else {
+          this.atcs.forEach((el) => {
+            el.setAttribute("data-disabled", false);
+            el.querySelector("button").removeAttribute("disabled");
+          });
+        }
         if (!variant?.featured_image?.src) {
           return;
         }
