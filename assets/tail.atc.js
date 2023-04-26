@@ -53,6 +53,9 @@ defineCustomElement(
      */
     onAddToCart = async (e) => {
       e.preventDefault();
+      if (this.getAttribute("data-loading") === "true" || this.getAttribute("data-disabled") === "true") {
+        return;
+      }
       const lightReRender = this.getAttribute("data-lightReRender") === "true";
 
       this.toggleLoading(true);
