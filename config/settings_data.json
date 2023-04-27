@@ -331,7 +331,7 @@
             "type": "link_list",
             "settings": {
               "heading": "LIVRAISON \/ PAIEMENT \/ INFORMATIONS PRATIQUES",
-              "menu": "footer"
+              "menu": "livraisons-paiement-infos-pratiques"
             }
           }
         },
