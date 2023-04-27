@@ -158,6 +158,21 @@
         "show_dots": false
       }
     },
+    "59445fe2-2d28-4270-94b2-48f55adf293b": {
+      "type": "featured-blog-carousel",
+      "settings": {
+        "container": "5xl",
+        "blog": "blog-vins-etonnants",
+        "post_limit": 5,
+        "show_dots": true,
+        "heading": "Notre actualité et nos derniers articles",
+        "show_title": true,
+        "show_content": true,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true
+      }
+    },
     "a2af813b-b2b8-4547-ab03-9b058d70bbea": {
       "type": "home-cards",
       "blocks": {
@@ -521,21 +536,6 @@
         "background_color": "#ffffff"
       }
     },
-    "59445fe2-2d28-4270-94b2-48f55adf293b": {
-      "type": "featured-blog-carousel",
-      "settings": {
-        "container": "5xl",
-        "blog": "blog-vins-etonnants",
-        "post_limit": 5,
-        "show_dots": true,
-        "heading": "Notre actualité et nos derniers articles",
-        "show_title": true,
-        "show_content": true,
-        "show_author": false,
-        "show_date": false,
-        "show_button": true
-      }
-    },
     "7fac6255-7c16-4756-be15-19d6e6bb5a14": {
       "type": "products-carousel",
       "settings": {
@@ -583,9 +583,9 @@
       ],
       "settings": {
         "title": "FAQ",
-        "title_color": "#201A1C",
-        "title_accordion_color": "#201A1C",
-        "content_accordion_color": "#201A1C"
+        "title_color": "#201a1c",
+        "title_accordion_color": "#201a1c",
+        "content_accordion_color": "#201a1c"
       }
     }
   },
@@ -595,10 +595,10 @@
     "aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70",
     "1db7442e-0ee1-495a-96a1-01f3969e95f2",
     "ec1c9248-3ca2-483d-8370-8f7e3ce48d01",
+    "59445fe2-2d28-4270-94b2-48f55adf293b",
     "a2af813b-b2b8-4547-ab03-9b058d70bbea",
     "4dc3e657-6ceb-433f-8455-055959184db0",
     "704f44dd-a6c3-4bad-93ce-650afe5aedf6",
-    "59445fe2-2d28-4270-94b2-48f55adf293b",
     "7fac6255-7c16-4756-be15-19d6e6bb5a14",
     "0fb03a6f-d8a5-42fb-9dd7-bf8e382aa9e8"
   ]
