@@ -209,6 +209,23 @@
         {% endif %}
       </div>
 
+      <!-- unit price -->
+      <div class="price__unit">
+        <div class="price-unit-price">
+          {%- capture unit_price_base_unit -%}
+            <span data-unit-price-base-unit>
+              {%- if card_product.unit_price_measurement -%}
+                {%- if card_product.unit_price_measurement.reference_value != 1 -%}
+                  {{- card_product.unit_price_measurement.reference_value -}}
+                {%- endif -%}
+                {{ card_product.unit_price_measurement.reference_unit }}
+              {%- endif -%}
+            </span>
+          {%- endcapture -%}
+          <p><span data-unit-price class="text-sm font-light">{{ card_product.unit_price | money }}</span>{{- unit_price_base_unit -}}</p>
+        </div>
+      </div>
+    
        <!-- cta  -->
       {% if card_product.available %}
           <div class="group relative mt-3 flex gap-3">
