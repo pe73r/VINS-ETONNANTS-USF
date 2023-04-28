@@ -106,6 +106,17 @@
         "background_color": "#201a1c"
       }
     },
+    "bf3c8f24-1604-4903-9be7-d62ccac04444": {
+      "type": "product-informations-simple",
+      "settings": {
+        "container": "7xl",
+        "title": "Description du vin 🍷",
+        "text": "<p>'Délicieusement mordante, sur la griotte, la grenade et la fumée, avec une pointe d'épices”<\/p>",
+        "header_color": "#201A1C",
+        "text_color": "#F84C55",
+        "background_left_color": "#FFFFFE"
+      }
+    },
     "product-informations-snap": {
       "type": "product-informations-snap",
       "disabled": true,
@@ -251,6 +262,7 @@
   "order": [
     "main",
     "48846409-d24b-4d84-bbc2-57b29e52395c",
+    "bf3c8f24-1604-4903-9be7-d62ccac04444",
     "product-informations-snap",
     "product-recommendations-carousel",
     "c81556f9-1731-4da3-bee9-3ca8bc137f71",
