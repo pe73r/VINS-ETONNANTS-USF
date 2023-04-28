@@ -14,9 +14,10 @@
       }
 
       reference = window.innerWidth < 768
-        ? referenceMobile
-        : referenceDesktop;
+        ? referenceMobile||referenceDesktop
+        : referenceDesktop ;
 
+        console.log({reference})
       var rect = reference.getBoundingClientRect();
       console.log(rect.top)
       var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
