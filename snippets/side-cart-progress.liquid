@@ -5,9 +5,9 @@
 {% assign progression = 20 %}
 {% assign firstStep = false %}
 {% assign secondStep = false %}
-{% assign total = cartTotal | divided_by: 250 %}
+{% assign total = cartTotal | divided_by: 100 %}
 
-{% if total >= 250 %}
+{% if total >= 100 %}
     {% assign progression = 55 %}
     {% assign firstStep = true %}
 
@@ -27,7 +27,7 @@
 
 
         {% if firstStep == true %}
-        {% assign progression = 250 %}
+        {% assign progression = 100 %}
         <span class="font-bold">Vous avez la livraison offerte </span>
     {% endif %}
     </div>
