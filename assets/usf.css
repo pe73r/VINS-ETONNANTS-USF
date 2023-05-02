@@ -2930,6 +2930,7 @@ body:not(.usf-mobile) .usf-popover .usf-body:before {
 
 .usf-sr-product .usf-price-savings {
   color: #ff4e4e;
+  margin-left: 0px !important;
   white-space: nowrap;
   text-transform: capitalize;
 }
