@@ -1,39 +1,1257 @@
 // define templates for the General theme
 //for usf lazyload
-!function(e,t){var r=t(e,e.document);e.lazySizes=r,"object"==typeof module&&module.exports&&(module.exports=r)}(window,function(e,t){"use strict";if(t.getElementsByClassName){var r,i,a=t.documentElement,n=e.Date,s=e.HTMLPictureElement,o="addEventListener",l="getAttribute",u=e[o],c=e.setTimeout,d=e.requestAnimationFrame||c,f=e.requestIdleCallback,g=/^picture$/i,p=["load","error","lazyincluded","_lazyloaded"],y={},z=Array.prototype.forEach,m=function(e,t){return y[t]||(y[t]=new RegExp("(\\s|^)"+t+"(\\s|$)")),y[t].test(e[l]("class")||"")&&y[t]},v=function(e,t){m(e,t)||e.setAttribute("class",(e[l]("class")||"").trim()+" "+t)},b=function(e,t){var r;(r=m(e,t))&&e.setAttribute("class",(e[l]("class")||"").replace(r," "))},A=function(e,t,r){var i=r?o:"removeEventListener";r&&A(e,t),p.forEach(function(r){e[i](r,t)})},h=function(e,i,a,n,s){var o=t.createEvent("CustomEvent");return a||(a={}),a.instance=r,o.initCustomEvent(i,!n,!s,a),e.dispatchEvent(o),o},E=function(t,r){var a;!s&&(a=e.picturefill||i.pf)?a({reevaluate:!0,elements:[t]}):r&&r.src&&(t.src=r.src)},C=function(e,t){return(getComputedStyle(e,null)||{})[t]},w=function(e,t,r){for(r=r||e.offsetWidth;r<i.minSize&&t&&!e._lazysizesWidth;)r=t.offsetWidth,t=t.parentNode;return r},_=function(){var e,r,i=[],a=[],n=i,s=function(){var t=n;for(n=i.length?a:i,e=!0,r=!1;t.length;)t.shift()();e=!1},o=function(i,a){e&&!a?i.apply(this,arguments):(n.push(i),r||(r=!0,(t.hidden?c:d)(s)))};return o._lsFlush=s,o}(),L=function(e,t){return t?function(){_(e)}:function(){var t=this,r=arguments;_(function(){e.apply(t,r)})}},S=function(e){var t,r=0,a=125,s=i.ricTimeout,o=function(){t=!1,r=n.now(),e()},l=f&&i.ricTimeout?function(){f(o,{timeout:s}),s!==i.ricTimeout&&(s=i.ricTimeout)}:L(function(){c(o)},!0);return function(e){var i;(e=e===!0)&&(s=33),t||(t=!0,i=a-(n.now()-r),0>i&&(i=0),e||9>i&&f?l():c(l,i))}},x=function(e){var t,r,i=99,a=function(){t=null,e()},s=function(){var e=n.now()-r;i>e?c(s,i-e):(f||a)(a)};return function(){r=n.now(),t||(t=c(s,i))}};!function(){var t,r={lazyClass:"usf-lazyload",loadedClass:"usf-lazyloaded",loadingClass:"usf-lazyloading",preloadClass:"usf-lazypreload",errorClass:"usf-lazyerror",autosizesClass:"usf-lazyautosizes",srcAttr:"data-usf-src",srcsetAttr:"data-srcset",sizesAttr:"data-sizes",minSize:40,customMedia:{},init:!0,expFactor:1.5,hFac:.8,loadMode:2,loadHidden:!0,ricTimeout:300};i=e.usfLazySizesConfig||e.usfLazySizesConfig||{};for(t in r)t in i||(i[t]=r[t]);e.usfLazySizesConfig=i,c(function(){i.init&&M()})}();var N=function(){var s,d,f,p,y,w,N,M,T,O,R,F,j,$,k=/^img$/i,W=/^iframe$/i,B="onscroll"in e&&!/glebot/.test(navigator.userAgent),I=0,q=0,U=0,H=-1,X=function(e){U--,e&&e.target&&A(e.target,X),(!e||0>U||!e.target)&&(U=0)},D=function(e,r){var i,n=e,s="hidden"==C(t.body,"visibility")||"hidden"!=C(e,"visibility");for(M-=r,R+=r,T-=r,O+=r;s&&(n=n.offsetParent)&&n!=t.body&&n!=a;)s=(C(n,"opacity")||1)>0,s&&"visible"!=C(n,"overflow")&&(i=n.getBoundingClientRect(),s=O>i.left&&T<i.right&&R>i.top-1&&M<i.bottom+1);return s},J=function(){var e,n,o,u,c,f,g,y,z,m=r.elements;if((p=i.loadMode)&&8>U&&(e=m.length)){n=0,H++,null==j&&("expand"in i||(i.expand=a.clientHeight>500&&a.clientWidth>500?500:370),F=i.expand,j=F*i.expFactor),j>q&&1>U&&H>2&&p>2&&!t.hidden?(q=j,H=0):q=p>1&&H>1&&6>U?F:I;for(;e>n;n++)if(m[n]&&!m[n]._lazyRace)if(B)if((y=m[n][l]("data-expand"))&&(f=1*y)||(f=q),z!==f&&(w=innerWidth+f*$,N=innerHeight+f,g=-1*f,z=f),o=m[n].getBoundingClientRect(),(R=o.bottom)>=g&&(M=o.top)<=N&&(O=o.right)>=g*$&&(T=o.left)<=w&&(R||O||T||M)&&(i.loadHidden||"hidden"!=C(m[n],"visibility"))&&(d&&3>U&&!y&&(3>p||4>H)||D(m[n],f))){if(te(m[n]),c=!0,U>9)break}else!c&&d&&!u&&4>U&&4>H&&p>2&&(s[0]||i.preloadAfterLoad)&&(s[0]||!y&&(R||O||T||M||"auto"!=m[n][l](i.sizesAttr)))&&(u=s[0]||m[n]);else te(m[n]);u&&!c&&te(u)}},V=S(J),G=function(e){v(e.target,i.loadedClass),b(e.target,i.loadingClass),A(e.target,Q),h(e.target,"usf-lazyloaded")},K=L(G),Q=function(e){K({target:e.target})},Y=function(e,t){try{e.contentWindow.location.replace(t)}catch(r){e.src=t}},Z=function(e){var t,r=e[l](i.srcsetAttr);(t=i.customMedia[e[l]("data-media")||e[l]("media")])&&e.setAttribute("media",t),r&&e.setAttribute("srcset",r)},ee=L(function(e,t,r,a,n){var s,o,u,d,p,y;(p=h(e,"lazybeforeunveil",t)).defaultPrevented||(a&&(r?v(e,i.autosizesClass):e.setAttribute("sizes",a)),o=e[l](i.srcsetAttr),s=e[l](i.srcAttr),n&&(u=e.parentNode,d=u&&g.test(u.nodeName||"")),y=t.firesLoad||"src"in e&&(o||s||d),p={target:e},y&&(A(e,X,!0),clearTimeout(f),f=c(X,2500),v(e,i.loadingClass),A(e,Q,!0)),d&&z.call(u.getElementsByTagName("source"),Z),o?e.setAttribute("srcset",o):s&&!d&&(W.test(e.nodeName)?Y(e,s):e.src=s),n&&(o||d)&&E(e,{src:s})),e._lazyRace&&delete e._lazyRace,b(e,i.lazyClass),_(function(){(!y||e.complete&&e.naturalWidth>1)&&(y?X(p):U--,G(p))},!0)}),te=function(e){var t,r=k.test(e.nodeName),a=r&&(e[l](i.sizesAttr)||e[l]("sizes")),n="auto"==a;(!n&&d||!r||!e[l]("src")&&!e.srcset||e.complete||m(e,i.errorClass)||!m(e,i.lazyClass))&&(t=h(e,"lazyunveilread").detail,n&&P.updateElem(e,!0,e.offsetWidth),e._lazyRace=!0,U++,ee(e,t,n,a,r))},re=function(){if(!d){if(n.now()-y<999)return void c(re,999);var e=x(function(){i.loadMode=3,V()});d=!0,i.loadMode=3,V(),u("scroll",function(){3==i.loadMode&&(i.loadMode=2),e()},!0)}};return{_:function(){y=n.now(),r.elements=t.getElementsByClassName(i.lazyClass),s=t.getElementsByClassName(i.lazyClass+" "+i.preloadClass),$=i.hFac,u("scroll",V,!0),u("resize",V,!0),e.MutationObserver?new MutationObserver(V).observe(a,{childList:!0,subtree:!0,attributes:!0}):(a[o]("DOMNodeInserted",V,!0),a[o]("DOMAttrModified",V,!0),setInterval(V,999)),u("hashchange",V,!0),["focus","mouseover","click","load","transitionend","animationend","webkitAnimationEnd"].forEach(function(e){t[o](e,V,!0)}),/d$|^c/.test(t.readyState)?re():(u("load",re),t[o]("DOMContentLoaded",V),c(re,2e4)),r.elements.length?(J(),_._lsFlush()):V()},checkElems:V,unveil:te}}(),P=function(){var e,r=L(function(e,t,r,i){var a,n,s;if(e._lazysizesWidth=i,i+="px",e.setAttribute("sizes",i),g.test(t.nodeName||""))for(a=t.getElementsByTagName("source"),n=0,s=a.length;s>n;n++)a[n].setAttribute("sizes",i);r.detail.dataAttr||E(e,r.detail)}),a=function(e,t,i){var a,n=e.parentNode;n&&(i=w(e,n,i),a=h(e,"lazybeforesizes",{width:i,dataAttr:!!t}),a.defaultPrevented||(i=a.detail.width,i&&i!==e._lazysizesWidth&&r(e,n,a,i)))},n=function(){var t,r=e.length;if(r)for(t=0;r>t;t++)a(e[t])},s=x(n);return{_:function(){e=t.getElementsByClassName(i.autosizesClass),u("resize",s)},checkElems:s,updateElem:a}}(),M=function(){M.i||(M.i=!0,P._(),N._())};return r={cfg:i,autoSizer:P,loader:N,init:M,uP:E,aC:v,rC:b,hC:m,fire:h,gW:w,rAF:_}}}),function(e,t){var r=function(){t(e.lazySizes),e.removeEventListener("lazyunveilread",r,!0)};t=t.bind(null,e,e.document),"object"==typeof module&&module.exports?t(require("lazysizes"),require("../fix-ios-sizes/fix-ios-sizes")):e.lazySizes?r():e.addEventListener("lazyunveilread",r,!0)}(window,function(e,t,r){"use strict";var i,a=r&&r.cfg||e.usfLazySizesConfig,n=t.createElement("img"),s="sizes"in n&&"srcset"in n,o=/\s+\d+h/g,l=function(){var e=/\s+(\d+)(w|h)\s+(\d+)(w|h)/,r=Array.prototype.forEach;return function(i){var a=t.createElement("img"),n=function(t){var r,i=t.getAttribute(usfLazySizesConfig.srcsetAttr);i&&(i.match(e)&&(r="w"==RegExp.$2?RegExp.$1/RegExp.$3:RegExp.$3/RegExp.$1,r&&t.setAttribute("data-aspectratio",r)),t.setAttribute(usfLazySizesConfig.srcsetAttr,i.replace(o,"")))},s=function(e){var t=e.target.parentNode;t&&"PICTURE"==t.nodeName&&r.call(t.getElementsByTagName("source"),n),n(e.target)},l=function(){a.currentSrc&&t.removeEventListener("lazybeforeunveil",s)};i[1]&&(t.addEventListener("lazybeforeunveil",s),a.onload=l,a.onerror=l,a.srcset="data:,a 1w 1h",a.complete&&l())}}();if(a||(a={},e.usfLazySizesConfig=a),a.supportsType||(a.supportsType=function(e){return!e}),!e.picturefill&&!a.pf){if(e.HTMLPictureElement&&s)return t.msElementsFromPoint&&l(navigator.userAgent.match(/Edge\/(\d+)/)),void(a.pf=function(){});a.pf=function(t){var r,a;if(!e.picturefill)for(r=0,a=t.elements.length;a>r;r++)i(t.elements[r])},i=function(){var n=function(e,t){return e.w-t.w},l=/^\s*\d+\.*\d*px\s*$/,u=function(e){var t,r,i=e.length,a=e[i-1],n=0;for(n;i>n;n++)if(a=e[n],a.d=a.w/e.w,a.d>=e.d){!a.cached&&(t=e[n-1])&&t.d>e.d-.13*Math.pow(e.d,2.2)&&(r=Math.pow(t.d-.6,1.6),t.cached&&(t.d+=.15*r),t.d+(a.d-e.d)*r>e.d&&(a=t));break}return a},c=function(){var e,t=/(([^,\s].[^\s]+)\s+(\d+)w)/g,r=/\s/,i=function(t,r,i,a){e.push({c:r,u:i,w:1*a})};return function(a){return e=[],a=a.trim(),a.replace(o,"").replace(t,i),e.length||!a||r.test(a)||e.push({c:a,u:a,w:99}),e}}(),d=function(){d.init||(d.init=!0,addEventListener("resize",function(){var e,r=t.getElementsByClassName("lazymatchmedia"),a=function(){var e,t;for(e=0,t=r.length;t>e;e++)i(r[e])};return function(){clearTimeout(e),e=setTimeout(a,66)}}()))},f=function(t,i){var n,s=t.getAttribute("srcset")||t.getAttribute(a.srcsetAttr);!s&&i&&(s=t._lazypolyfill?t._lazypolyfill._set:t.getAttribute(a.srcAttr)||t.getAttribute("src")),t._lazypolyfill&&t._lazypolyfill._set==s||(n=c(s||""),i&&t.parentNode&&(n.isPicture="PICTURE"==t.parentNode.nodeName.toUpperCase(),n.isPicture&&e.matchMedia&&(r.aC(t,"lazymatchmedia"),d())),n._set=s,Object.defineProperty(t,"_lazypolyfill",{value:n,writable:!0}))},g=function(t){var i=e.devicePixelRatio||1,a=r.getX&&r.getX(t);return Math.min(a||i,2.5,i)},p=function(t){return e.matchMedia?(p=function(e){return!e||(matchMedia(e)||{}).matches})(t):!t},y=function(e){var t,i,s,o,c,d,y;if(o=e,f(o,!0),c=o._lazypolyfill,c.isPicture)for(i=0,t=e.parentNode.getElementsByTagName("source"),s=t.length;s>i;i++)if(a.supportsType(t[i].getAttribute("type"),e)&&p(t[i].getAttribute("media"))){o=t[i],f(o),c=o._lazypolyfill;break}return c.length>1?(y=o.getAttribute("sizes")||"",y=l.test(y)&&parseInt(y,10)||r.gW(e,e.parentNode),c.d=g(e),!c.src||!c.w||c.w<y?(c.w=y,d=u(c.sort(n)),c.src=d):d=c.src):d=c[0],d},z=function(e){if(!s||!e.parentNode||"PICTURE"==e.parentNode.nodeName.toUpperCase()){var t=y(e);t&&t.u&&e._lazypolyfill.cur!=t.u&&(e._lazypolyfill.cur=t.u,t.cached=!0,e.setAttribute(a.srcAttr,t.u),e.setAttribute("src",t.u))}};return z.parse=c,z}(),a.loadedClass&&a.loadingClass&&!function(){var e=[];['img[sizes$="px"][srcset].',"picture > img:not([srcset])."].forEach(function(t){e.push(t+a.loadedClass),e.push(t+a.loadingClass)}),a.pf({elements:t.querySelectorAll(e.join(", "))})}()}}),function(e,t){var r=function(){t(e.lazySizes),e.removeEventListener("lazyunveilread",r,!0)};t=t.bind(null,e,e.document),"object"==typeof module&&module.exports?t(require("lazysizes")):e.lazySizes?r():e.addEventListener("lazyunveilread",r,!0)}(window,function(e,t,r){"use strict";if(e.addEventListener){var i,a=/^picture$/i,n=t.documentElement,s=function(){var e,t=/(([^,\s].[^\s]+)\s+(\d+)(w|h)(\s+(\d+)(w|h))?)/g,r=function(t,r,i,a,n,s,o,l){e.push({c:r,u:i,w:1*("w"==l?o:a)})};return function(i){return e=[],i.replace(t,r),e}}(),o=function(){var e=function(e,t){return e.w-t.w},t=function(t,i){var a={srcset:t.getAttribute(r.cfg.srcsetAttr)||""},n=s(a.srcset);return Object.defineProperty(t,i,{value:a,writable:!0}),a.cands=n,a.index=0,a.dirty=!1,n[0]&&n[0].w?(n.sort(e),a.cSrcset=[n[a.index].c]):(a.cSrcset=a.srcset?[a.srcset]:[],a.cands=[]),a};return function(e,r){var i,n,s,o;if(!e[r]&&(o=e.parentNode||{},e[r]=t(e,r),e[r].isImg=!0,a.test(o.nodeName||"")))for(e[r].picture=!0,i=o.getElementsByTagName("source"),n=0,s=i.length;s>n;n++)t(i[n],r).isImg=!1;return e[r]}}(),l={_lazyOptimumx:function(){var e=function(e,t,r){var i,a,n;return!e||!e.d||(n=r>.7?.6:.4,!(e.d>=r)&&(a=Math.pow(e.d-n,1.6)||.1,.1>a?a=.1:a>3&&(a=3),i=e.d+(t-r)*a,r>i))};return function(t,r,i){var a,n;for(a=0;a<t.cands.length;a++)if(n=t.cands[a],n.d=(n.w||1)/r,!(t.index>=a)){if(!(n.d<=i||e(t.cands[a-1],n.d,i)))break;t.cSrcset.push(n.c),t.index=a}}}()},u=function(){var e=function(e,t,r,i,a){var n,s=e[a];s&&(n=s.index,l[a](s,t,r),s.dirty&&n==s.index||(s.cSrcset.join(", "),e.setAttribute(i,s.cSrcset.join(", ")),s.dirty=!0))};return function(t,r,i,a,n){var s,o,l,u,c=t[n];if(c.width=r,c.picture&&(o=t.parentNode))for(s=o.getElementsByTagName("source"),u=0,l=s.length;l>u;u++)e(s[u],r,i,a,n);e(t,r,i,a,n)}}(),c=function(e){var t=e.getAttribute("data-optimumx")||e.getAttribute("data-maxdpr");return!t&&i.constrainPixelDensity&&(t="auto"),t&&(t="auto"==t?i.getOptimumX(e):parseFloat(t,10)),t},d=function(){r&&!r.getOptimumX&&(r.getX=c,r.pWS=s,n.removeEventListener("lazybeforeunveil",d))};n.addEventListener("lazybeforeunveil",d),setTimeout(d),i=r&&r.cfg||e.usfLazySizesConfig,i||(i={},e.usfLazySizesConfig=i),"function"!=typeof i.getOptimumX&&(i.getOptimumX=function(){var t=e.devicePixelRatio||1;return t>2.6?t*=.6:t>1.9?t*=.8:t-=.01,Math.min(Math.round(100*t)/100,2)}),e.devicePixelRatio&&addEventListener("lazybeforesizes",function(e){if(e.detail.instance==r){var t,a,n,s,l=e.target,d=e.detail,f=d.dataAttr;e.defaultPrevented||!(t=c(l))||t>=devicePixelRatio||(!f||!l._lazyOptimumx||d.reloaded||i.unloadedClass&&r.hC(l,i.unloadedClass)||(l._lazyOptimumx=null),a=o(l,"_lazyOptimumx"),n=d.width,n&&(a.width||0)<n&&(s=f?r.cfg.srcsetAttr:"srcset",r.rAF(function(){u(l,n,t,s,"_lazyOptimumx")})))}})}}),function(e,t){var r=function(){t(e.lazySizes),e.removeEventListener("lazyunveilread",r,!0)};t=t.bind(null,e,e.document),"object"==typeof module&&module.exports?t(require("lazysizes")):e.lazySizes?r():e.addEventListener("lazyunveilread",r,!0)}(window,function(e,t,r){"use strict";if(e.addEventListener){var i=/\s+/g,a=/\s*\|\s+|\s+\|\s*/g,n=/^(.+?)(?:\s+\[\s*(.+?)\s*\])?$/,s=/\(|\)|'/,o={contain:1,cover:1},l=function(e){var t=r.gW(e,e.parentNode);return(!e._lazysizesWidth||t>e._lazysizesWidth)&&(e._lazysizesWidth=t),e._lazysizesWidth},u=function(e){var t;return t=(getComputedStyle(e)||{getPropertyValue:function(){}}).getPropertyValue("background-size"),!o[t]&&o[e.style.backgroundSize]&&(t=e.style.backgroundSize),t},c=function(e,r,s){var o=t.createElement("picture"),l=r.getAttribute(usfLazySizesConfig.sizesAttr),u=r.getAttribute("data-ratio"),c=r.getAttribute("data-optimumx");r._lazybgset&&r._lazybgset.parentNode==r&&r.removeChild(r._lazybgset),Object.defineProperty(s,"_lazybgset",{value:r,writable:!0}),Object.defineProperty(r,"_lazybgset",{value:o,writable:!0}),e=e.replace(i," ").split(a),o.style.display="none",s.className=usfLazySizesConfig.lazyClass,1!=e.length||l||(l="auto"),e.forEach(function(e){var r=t.createElement("source");l&&"auto"!=l&&r.setAttribute("sizes",l),e.match(n)&&(r.setAttribute(usfLazySizesConfig.srcsetAttr,RegExp.$1),RegExp.$2&&r.setAttribute("media",usfLazySizesConfig.customMedia[RegExp.$2]||RegExp.$2)),o.appendChild(r)}),l&&(s.setAttribute(usfLazySizesConfig.sizesAttr,l),r.removeAttribute(usfLazySizesConfig.sizesAttr),r.removeAttribute("sizes")),c&&s.setAttribute("data-optimumx",c),u&&s.setAttribute("data-ratio",u),o.appendChild(s),r.appendChild(o)},d=function(e){if(e.target._lazybgset){var t=e.target,i=t._lazybgset,a=t.currentSrc||t.src;a&&(i.style.backgroundImage="url("+(s.test(a)?JSON.stringify(a):a)+")"),t._lazybgsetLoading&&(r.fire(i,"_lazyloaded",{},!1,!0),delete t._lazybgsetLoading)}};addEventListener("lazybeforeunveil",function(e){var i,a,n;!e.defaultPrevented&&(i=e.target.getAttribute("data-bgset"))&&(n=e.target,a=t.createElement("img"),a.alt="",a._lazybgsetLoading=!0,e.detail.firesLoad=!0,c(i,n,a),setTimeout(function(){r.loader.unveil(a),r.rAF(function(){r.fire(a,"_lazyloaded",{},!0,!0),a.complete&&d({target:a})})}))}),t.addEventListener("load",d,!0),e.addEventListener("lazybeforesizes",function(e){if(e.detail.instance==r&&e.target._lazybgset&&e.detail.dataAttr){var t=e.target._lazybgset,i=u(t);o[i]&&(e.target._lazysizesParentFit=i,r.rAF(function(){e.target.setAttribute("data-parent-fit",i),e.target._lazysizesParentFit&&delete e.target._lazysizesParentFit}))}},!0),t.documentElement.addEventListener("lazybeforesizes",function(e){!e.defaultPrevented&&e.target._lazybgset&&e.detail.instance==r&&(e.detail.width=l(e.target._lazybgset))})}}),function(e,t){var r=function(){t(e.lazySizes),e.removeEventListener("lazyunveilread",r,!0)};t=t.bind(null,e,e.document),"object"==typeof module&&module.exports?t(require("lazysizes")):e.lazySizes?r():e.addEventListener("lazyunveilread",r,!0)}(window,function(e,t,r){"use strict";function i(t,r){var i,a,n,s,o=e.getComputedStyle(t);a=t.parentNode,s={isPicture:!(!a||!f.test(a.nodeName||""))},n=function(e,r){var i=t.getAttribute("data-"+e);if(!i){var a=o.getPropertyValue("--ls-"+e);a&&(i=a.trim())}if(i){if("true"==i)i=!0;else if("false"==i)i=!1;else if(d.test(i))i=parseFloat(i);else if("function"==typeof u[e])i=u[e](t,i);else if(z.test(i))try{i=JSON.parse(i)}catch(n){}s[e]=i}else e in u&&"function"!=typeof u[e]?s[e]=u[e]:r&&"function"==typeof u[e]&&(s[e]=u[e](t,i))};for(i in u)n(i);return r.replace(y,function(e,t){t in s||n(t,!0)}),s}function a(e,t){var r=[],i=function(e,r){return c[typeof t[r]]?t[r]:e};return r.srcset=[],t.absUrl&&(v.setAttribute("href",e),e=v.href),e=((t.prefix||"")+e+(t.postfix||"")).replace(y,i),t.widths.forEach(function(i){var a=t.widthmap[i]||i,n={u:e.replace(g,a).replace(p,t.ratio?Math.round(i*t.ratio):""),w:i};r.push(n),r.srcset.push(n.c=n.u+" "+i+"w")}),r}function n(e,r,i){var n=0,s=0,o=i;if(e){if("container"===r.ratio){for(n=o.scrollWidth,s=o.scrollHeight;!(n&&s||o===t);)o=o.parentNode,n=o.scrollWidth,s=o.scrollHeight;n&&s&&(r.ratio=s/n)}e=a(e,r),e.isPicture=r.isPicture,A&&"IMG"==i.nodeName.toUpperCase()?i.removeAttribute(l.srcsetAttr):i.setAttribute(l.srcsetAttr,e.srcset.join(", ")),Object.defineProperty(i,"_lazyrias",{value:e,writable:!0})}}function s(e,t){var a=i(e,t);return u.modifyOptions.call(e,{target:e,details:a,detail:a}),r.fire(e,"lazyriasmodifyoptions",a),a}function o(e){return e.getAttribute(e.getAttribute("data-srcattr")||u.srcAttr)||e.getAttribute(l.srcsetAttr)||e.getAttribute(l.srcAttr)||e.getAttribute("data-pfsrcset")||""}var l,u,c={string:1,number:1},d=/^\-*\+*\d+\.*\d*$/,f=/^picture$/i,g=/\s*\{\s*width\s*\}\s*/i,p=/\s*\{\s*height\s*\}\s*/i,y=/\s*\{\s*([a-z0-9]+)\s*\}\s*/gi,z=/^\[.*\]|\{.*\}$/,m=/^(?:auto|\d+(px)?)$/,v=t.createElement("a"),b=t.createElement("img"),A="srcset"in b&&!("sizes"in b),h=!!e.HTMLPictureElement&&!A;!function(){var t,i=function(){},a={prefix:"",postfix:"",srcAttr:"data-usf-src",absUrl:!1,modifyOptions:i,widthmap:{},ratio:!1};l=r&&r.cfg||e.usfLazySizesConfig,l||(l={},e.usfLazySizesConfig=l),l.supportsType||(l.supportsType=function(e){return!e}),l.rias||(l.rias={}),u=l.rias,"widths"in u||(u.widths=[],function(e){for(var t,r=0;!t||3e3>t;)r+=5,r>30&&(r+=1),t=36*r,e.push(t)}(u.widths));for(t in a)t in u||(u[t]=a[t])}(),addEventListener("lazybeforesizes",function(e){if(e.detail.instance==r){var t,i,a,c,d,f,p,y,z,v,b,A,C;if(t=e.target,e.detail.dataAttr&&!e.defaultPrevented&&!u.disabled&&(z=t.getAttribute(l.sizesAttr)||t.getAttribute("sizes"))&&m.test(z)){if(i=o(t),a=s(t,i),b=g.test(a.prefix)||g.test(a.postfix),a.isPicture&&(c=t.parentNode))for(d=c.getElementsByTagName("source"),f=0,p=d.length;p>f;f++)(b||g.test(y=o(d[f])))&&(n(y,a,d[f]),A=!0);b||g.test(i)?(n(i,a,t),A=!0):A&&(C=[],C.srcset=[],C.isPicture=!0,Object.defineProperty(t,"_lazyrias",{value:C,writable:!0})),A&&(h?t.removeAttribute(l.srcAttr):"auto"!=z&&(v={width:parseInt(z,10)},E({target:t,detail:v})))}}},!0);var E=function(){var i=function(e,t){return e.w-t.w},a=function(e){var t,r,i=e.length,a=e[i-1],n=0;for(n;i>n;n++)if(a=e[n],a.d=a.w/e.w,a.d>=e.d){!a.cached&&(t=e[n-1])&&t.d>e.d-.13*Math.pow(e.d,2.2)&&(r=Math.pow(t.d-.6,1.6),t.cached&&(t.d+=.15*r),t.d+(a.d-e.d)*r>e.d&&(a=t));break}return a},n=function(e,t){var i;return!e._lazyrias&&r.pWS&&(i=r.pWS(e.getAttribute(l.srcsetAttr||""))).length&&(Object.defineProperty(e,"_lazyrias",{value:i,writable:!0}),t&&e.parentNode&&(i.isPicture="PICTURE"==e.parentNode.nodeName.toUpperCase())),e._lazyrias},s=function(t){var i=e.devicePixelRatio||1,a=r.getX&&r.getX(t);return Math.min(a||i,2.4,i)},o=function(t,r){var o,l,u,c,d,f;if(d=t._lazyrias,d.isPicture&&e.matchMedia)for(l=0,o=t.parentNode.getElementsByTagName("source"),u=o.length;u>l;l++)if(n(o[l])&&!o[l].getAttribute("type")&&(!(c=o[l].getAttribute("media"))||(matchMedia(c)||{}).matches)){d=o[l]._lazyrias;break}return(!d.w||d.w<r)&&(d.w=r,d.d=s(t),f=a(d.sort(i))),f},u=function(i){if(i.detail.instance==r){var a,s=i.target;return!A&&(e.respimage||e.picturefill||usfLazySizesConfig.pf)?void t.removeEventListener("lazybeforesizes",u):void(("_lazyrias"in s||i.detail.dataAttr&&n(s,!0))&&(a=o(s,i.detail.width),a&&a.u&&s._lazyrias.cur!=a.u&&(s._lazyrias.cur=a.u,a.cached=!0,r.rAF(function(){s.setAttribute(l.srcAttr,a.u),s.setAttribute("src",a.u)}))))}};return h?u=function(){}:addEventListener("lazybeforesizes",u),u}()}),function(e,t){var r=function(){t(e.lazySizes),e.removeEventListener("lazyunveilread",r,!0)};t=t.bind(null,e,e.document),"object"==typeof module&&module.exports?t(require("lazysizes")):e.lazySizes?r():e.addEventListener("lazyunveilread",r,!0)}(window,function(e,t,r){"use strict";function i(e,r){if(!s[e]){var i=t.createElement(r?"link":"script"),a=t.getElementsByTagName("script")[0];r?(i.rel="stylesheet",i.href=e):i.src=e,s[e]=!0,s[i.src||i.href]=!0,a.parentNode.insertBefore(i,a)}}var a,n,s={};t.addEventListener&&(n=/\(|\)|\s|'/,a=function(e,r){var i=t.createElement("img");i.onload=function(){i.onload=null,i.onerror=null,i=null,r()},i.onerror=i.onload,i.src=e,i&&i.complete&&i.onload&&i.onload()},addEventListener("lazybeforeunveil",function(e){if(e.detail.instance==r){var t,s,o,l;e.defaultPrevented||("none"==e.target.preload&&(e.target.preload="auto"),t=e.target.getAttribute("data-link"),t&&i(t,!0),t=e.target.getAttribute("data-script"),t&&i(t),t=e.target.getAttribute("data-require"),t&&(r.cfg.requireJs?r.cfg.requireJs([t]):i(t)),o=e.target.getAttribute("data-bg"),o&&(e.detail.firesLoad=!0,s=function(){e.target.style.backgroundImage="url("+(n.test(o)?JSON.stringify(o):o)+")",e.detail.firesLoad=!1,r.fire(e.target,"_lazyloaded",{},!0,!0)},a(o,s)),l=e.target.getAttribute("data-poster"),l&&(e.detail.firesLoad=!0,s=function(){e.target.poster=l,e.detail.firesLoad=!1,r.fire(e.target,"_lazyloaded",{},!0,!0)},a(l,s)))}},!1))}),function(e,t){var r=function(i){t(e.lazySizes,i),e.removeEventListener("lazyunveilread",r,!0)};t=t.bind(null,e,e.document),"object"==typeof module&&module.exports?t(require("lazysizes")):e.lazySizes?r():e.addEventListener("lazyunveilread",r,!0)}(window,function(e,t,r,i){"use strict";function a(e){var t=getComputedStyle(e,null)||{},r=t.fontFamily||"",i=r.match(u)||"",a=i&&r.match(c)||"";return a&&(a=a[1]),{fit:i&&i[1]||"",position:g[a]||a||"center"}}function n(e,t){var i,a,n=r.cfg,s=e.cloneNode(!1),o=s.style,l=function(){var t=e.currentSrc||e.src;t&&a!==t&&(a=t,o.backgroundImage="url("+(f.test(t)?JSON.stringify(t):t)+")",i||(i=!0,r.rC(s,n.loadingClass),r.aC(s,n.loadedClass)))},u=function(){r.rAF(l)};e._lazysizesParentFit=t.fit,e.addEventListener("usf-lazyloaded",u,!0),e.addEventListener("load",u,!0),s.addEventListener("load",function(){var e=s.currentSrc||s.src;e&&e!=d&&(s.src=d,s.srcset="")}),r.rAF(function(){var i=e,a=e.parentNode;"PICTURE"==a.nodeName.toUpperCase()&&(i=a,a=a.parentNode),r.rC(s,n.loadedClass),r.rC(s,n.lazyClass),r.aC(s,n.loadingClass),r.aC(s,n.objectFitClass||"lazysizes-display-clone"),s.getAttribute(n.srcsetAttr)&&s.setAttribute(n.srcsetAttr,""),s.getAttribute(n.srcAttr)&&s.setAttribute(n.srcAttr,""),s.src=d,s.srcset="",o.backgroundRepeat="no-repeat",o.backgroundPosition=t.position,o.backgroundSize=t.fit,i.style.display="none",e.setAttribute("data-parent-fit",t.fit),e.setAttribute("data-parent-container","prev"),a.insertBefore(s,i),e._lazysizesParentFit&&delete e._lazysizesParentFit,e.complete&&l()})}var s=t.createElement("a").style,o="objectFit"in s,l=o&&"objectPosition"in s,u=/object-fit["']*\s*:\s*["']*(contain|cover)/,c=/object-position["']*\s*:\s*["']*(.+?)(?=($|,|'|"|;))/,d="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",f=/\(|\)|'/,g={center:"center","50% 50%":"center"};if(!o||!l){var p=function(e){if(e.detail.instance==r){var t=e.target,i=a(t);!i.fit||o&&"center"==i.position||n(t,i)}};e.addEventListener("lazyunveilread",p,!0),i&&i.detail&&p(i)}});
+!(function (e, t) {
+  var r = t(e, e.document);
+  (e.lazySizes = r), "object" == typeof module && module.exports && (module.exports = r);
+})(window, function (e, t) {
+  "use strict";
+  if (t.getElementsByClassName) {
+    var r,
+      i,
+      a = t.documentElement,
+      n = e.Date,
+      s = e.HTMLPictureElement,
+      o = "addEventListener",
+      l = "getAttribute",
+      u = e[o],
+      c = e.setTimeout,
+      d = e.requestAnimationFrame || c,
+      f = e.requestIdleCallback,
+      g = /^picture$/i,
+      p = ["load", "error", "lazyincluded", "_lazyloaded"],
+      y = {},
+      z = Array.prototype.forEach,
+      m = function (e, t) {
+        return y[t] || (y[t] = new RegExp("(\\s|^)" + t + "(\\s|$)")), y[t].test(e[l]("class") || "") && y[t];
+      },
+      v = function (e, t) {
+        m(e, t) || e.setAttribute("class", (e[l]("class") || "").trim() + " " + t);
+      },
+      b = function (e, t) {
+        var r;
+        (r = m(e, t)) && e.setAttribute("class", (e[l]("class") || "").replace(r, " "));
+      },
+      A = function (e, t, r) {
+        var i = r ? o : "removeEventListener";
+        r && A(e, t),
+          p.forEach(function (r) {
+            e[i](r, t);
+          });
+      },
+      h = function (e, i, a, n, s) {
+        var o = t.createEvent("CustomEvent");
+        return a || (a = {}), (a.instance = r), o.initCustomEvent(i, !n, !s, a), e.dispatchEvent(o), o;
+      },
+      E = function (t, r) {
+        var a;
+        !s && (a = e.picturefill || i.pf) ? a({ reevaluate: !0, elements: [t] }) : r && r.src && (t.src = r.src);
+      },
+      C = function (e, t) {
+        return (getComputedStyle(e, null) || {})[t];
+      },
+      w = function (e, t, r) {
+        for (r = r || e.offsetWidth; r < i.minSize && t && !e._lazysizesWidth; )
+          (r = t.offsetWidth), (t = t.parentNode);
+        return r;
+      },
+      _ = (function () {
+        var e,
+          r,
+          i = [],
+          a = [],
+          n = i,
+          s = function () {
+            var t = n;
+            for (n = i.length ? a : i, e = !0, r = !1; t.length; ) t.shift()();
+            e = !1;
+          },
+          o = function (i, a) {
+            e && !a ? i.apply(this, arguments) : (n.push(i), r || ((r = !0), (t.hidden ? c : d)(s)));
+          };
+        return (o._lsFlush = s), o;
+      })(),
+      L = function (e, t) {
+        return t
+          ? function () {
+              _(e);
+            }
+          : function () {
+              var t = this,
+                r = arguments;
+              _(function () {
+                e.apply(t, r);
+              });
+            };
+      },
+      S = function (e) {
+        var t,
+          r = 0,
+          a = 125,
+          s = i.ricTimeout,
+          o = function () {
+            (t = !1), (r = n.now()), e();
+          },
+          l =
+            f && i.ricTimeout
+              ? function () {
+                  f(o, { timeout: s }), s !== i.ricTimeout && (s = i.ricTimeout);
+                }
+              : L(function () {
+                  c(o);
+                }, !0);
+        return function (e) {
+          var i;
+          (e = e === !0) && (s = 33),
+            t || ((t = !0), (i = a - (n.now() - r)), 0 > i && (i = 0), e || (9 > i && f) ? l() : c(l, i));
+        };
+      },
+      x = function (e) {
+        var t,
+          r,
+          i = 99,
+          a = function () {
+            (t = null), e();
+          },
+          s = function () {
+            var e = n.now() - r;
+            i > e ? c(s, i - e) : (f || a)(a);
+          };
+        return function () {
+          (r = n.now()), t || (t = c(s, i));
+        };
+      };
+    !(function () {
+      var t,
+        r = {
+          lazyClass: "usf-lazyload",
+          loadedClass: "usf-lazyloaded",
+          loadingClass: "usf-lazyloading",
+          preloadClass: "usf-lazypreload",
+          errorClass: "usf-lazyerror",
+          autosizesClass: "usf-lazyautosizes",
+          srcAttr: "data-usf-src",
+          srcsetAttr: "data-srcset",
+          sizesAttr: "data-sizes",
+          minSize: 40,
+          customMedia: {},
+          init: !0,
+          expFactor: 1.5,
+          hFac: 0.8,
+          loadMode: 2,
+          loadHidden: !0,
+          ricTimeout: 300
+        };
+      i = e.usfLazySizesConfig || e.usfLazySizesConfig || {};
+      for (t in r) t in i || (i[t] = r[t]);
+      (e.usfLazySizesConfig = i),
+        c(function () {
+          i.init && M();
+        });
+    })();
+    var N = (function () {
+        var s,
+          d,
+          f,
+          p,
+          y,
+          w,
+          N,
+          M,
+          T,
+          O,
+          R,
+          F,
+          j,
+          $,
+          k = /^img$/i,
+          W = /^iframe$/i,
+          B = "onscroll" in e && !/glebot/.test(navigator.userAgent),
+          I = 0,
+          q = 0,
+          U = 0,
+          H = -1,
+          X = function (e) {
+            U--, e && e.target && A(e.target, X), (!e || 0 > U || !e.target) && (U = 0);
+          },
+          D = function (e, r) {
+            var i,
+              n = e,
+              s = "hidden" == C(t.body, "visibility") || "hidden" != C(e, "visibility");
+            for (M -= r, R += r, T -= r, O += r; s && (n = n.offsetParent) && n != t.body && n != a; )
+              (s = (C(n, "opacity") || 1) > 0),
+                s &&
+                  "visible" != C(n, "overflow") &&
+                  ((i = n.getBoundingClientRect()),
+                  (s = O > i.left && T < i.right && R > i.top - 1 && M < i.bottom + 1));
+            return s;
+          },
+          J = function () {
+            var e,
+              n,
+              o,
+              u,
+              c,
+              f,
+              g,
+              y,
+              z,
+              m = r.elements;
+            if ((p = i.loadMode) && 8 > U && (e = m.length)) {
+              (n = 0),
+                H++,
+                null == j &&
+                  ("expand" in i || (i.expand = a.clientHeight > 500 && a.clientWidth > 500 ? 500 : 370),
+                  (F = i.expand),
+                  (j = F * i.expFactor)),
+                j > q && 1 > U && H > 2 && p > 2 && !t.hidden
+                  ? ((q = j), (H = 0))
+                  : (q = p > 1 && H > 1 && 6 > U ? F : I);
+              for (; e > n; n++)
+                if (m[n] && !m[n]._lazyRace)
+                  if (B)
+                    if (
+                      (((y = m[n][l]("data-expand")) && (f = 1 * y)) || (f = q),
+                      z !== f && ((w = innerWidth + f * $), (N = innerHeight + f), (g = -1 * f), (z = f)),
+                      (o = m[n].getBoundingClientRect()),
+                      (R = o.bottom) >= g &&
+                        (M = o.top) <= N &&
+                        (O = o.right) >= g * $ &&
+                        (T = o.left) <= w &&
+                        (R || O || T || M) &&
+                        (i.loadHidden || "hidden" != C(m[n], "visibility")) &&
+                        ((d && 3 > U && !y && (3 > p || 4 > H)) || D(m[n], f)))
+                    ) {
+                      if ((te(m[n]), (c = !0), U > 9)) break;
+                    } else
+                      !c &&
+                        d &&
+                        !u &&
+                        4 > U &&
+                        4 > H &&
+                        p > 2 &&
+                        (s[0] || i.preloadAfterLoad) &&
+                        (s[0] || (!y && (R || O || T || M || "auto" != m[n][l](i.sizesAttr)))) &&
+                        (u = s[0] || m[n]);
+                  else te(m[n]);
+              u && !c && te(u);
+            }
+          },
+          V = S(J),
+          G = function (e) {
+            v(e.target, i.loadedClass), b(e.target, i.loadingClass), A(e.target, Q), h(e.target, "usf-lazyloaded");
+          },
+          K = L(G),
+          Q = function (e) {
+            K({ target: e.target });
+          },
+          Y = function (e, t) {
+            try {
+              e.contentWindow.location.replace(t);
+            } catch (r) {
+              e.src = t;
+            }
+          },
+          Z = function (e) {
+            var t,
+              r = e[l](i.srcsetAttr);
+            (t = i.customMedia[e[l]("data-media") || e[l]("media")]) && e.setAttribute("media", t),
+              r && e.setAttribute("srcset", r);
+          },
+          ee = L(function (e, t, r, a, n) {
+            var s, o, u, d, p, y;
+            (p = h(e, "lazybeforeunveil", t)).defaultPrevented ||
+              (a && (r ? v(e, i.autosizesClass) : e.setAttribute("sizes", a)),
+              (o = e[l](i.srcsetAttr)),
+              (s = e[l](i.srcAttr)),
+              n && ((u = e.parentNode), (d = u && g.test(u.nodeName || ""))),
+              (y = t.firesLoad || ("src" in e && (o || s || d))),
+              (p = { target: e }),
+              y && (A(e, X, !0), clearTimeout(f), (f = c(X, 2500)), v(e, i.loadingClass), A(e, Q, !0)),
+              d && z.call(u.getElementsByTagName("source"), Z),
+              o ? e.setAttribute("srcset", o) : s && !d && (W.test(e.nodeName) ? Y(e, s) : (e.src = s)),
+              n && (o || d) && E(e, { src: s })),
+              e._lazyRace && delete e._lazyRace,
+              b(e, i.lazyClass),
+              _(function () {
+                (!y || (e.complete && e.naturalWidth > 1)) && (y ? X(p) : U--, G(p));
+              }, !0);
+          }),
+          te = function (e) {
+            var t,
+              r = k.test(e.nodeName),
+              a = r && (e[l](i.sizesAttr) || e[l]("sizes")),
+              n = "auto" == a;
+            ((!n && d) ||
+              !r ||
+              (!e[l]("src") && !e.srcset) ||
+              e.complete ||
+              m(e, i.errorClass) ||
+              !m(e, i.lazyClass)) &&
+              ((t = h(e, "lazyunveilread").detail),
+              n && P.updateElem(e, !0, e.offsetWidth),
+              (e._lazyRace = !0),
+              U++,
+              ee(e, t, n, a, r));
+          },
+          re = function () {
+            if (!d) {
+              if (n.now() - y < 999) return void c(re, 999);
+              var e = x(function () {
+                (i.loadMode = 3), V();
+              });
+              (d = !0),
+                (i.loadMode = 3),
+                V(),
+                u(
+                  "scroll",
+                  function () {
+                    3 == i.loadMode && (i.loadMode = 2), e();
+                  },
+                  !0
+                );
+            }
+          };
+        return {
+          _: function () {
+            (y = n.now()),
+              (r.elements = t.getElementsByClassName(i.lazyClass)),
+              (s = t.getElementsByClassName(i.lazyClass + " " + i.preloadClass)),
+              ($ = i.hFac),
+              u("scroll", V, !0),
+              u("resize", V, !0),
+              e.MutationObserver
+                ? new MutationObserver(V).observe(a, { childList: !0, subtree: !0, attributes: !0 })
+                : (a[o]("DOMNodeInserted", V, !0), a[o]("DOMAttrModified", V, !0), setInterval(V, 999)),
+              u("hashchange", V, !0),
+              ["focus", "mouseover", "click", "load", "transitionend", "animationend", "webkitAnimationEnd"].forEach(
+                function (e) {
+                  t[o](e, V, !0);
+                }
+              ),
+              /d$|^c/.test(t.readyState) ? re() : (u("load", re), t[o]("DOMContentLoaded", V), c(re, 2e4)),
+              r.elements.length ? (J(), _._lsFlush()) : V();
+          },
+          checkElems: V,
+          unveil: te
+        };
+      })(),
+      P = (function () {
+        var e,
+          r = L(function (e, t, r, i) {
+            var a, n, s;
+            if (((e._lazysizesWidth = i), (i += "px"), e.setAttribute("sizes", i), g.test(t.nodeName || "")))
+              for (a = t.getElementsByTagName("source"), n = 0, s = a.length; s > n; n++) a[n].setAttribute("sizes", i);
+            r.detail.dataAttr || E(e, r.detail);
+          }),
+          a = function (e, t, i) {
+            var a,
+              n = e.parentNode;
+            n &&
+              ((i = w(e, n, i)),
+              (a = h(e, "lazybeforesizes", { width: i, dataAttr: !!t })),
+              a.defaultPrevented || ((i = a.detail.width), i && i !== e._lazysizesWidth && r(e, n, a, i)));
+          },
+          n = function () {
+            var t,
+              r = e.length;
+            if (r) for (t = 0; r > t; t++) a(e[t]);
+          },
+          s = x(n);
+        return {
+          _: function () {
+            (e = t.getElementsByClassName(i.autosizesClass)), u("resize", s);
+          },
+          checkElems: s,
+          updateElem: a
+        };
+      })(),
+      M = function () {
+        M.i || ((M.i = !0), P._(), N._());
+      };
+    return (r = { cfg: i, autoSizer: P, loader: N, init: M, uP: E, aC: v, rC: b, hC: m, fire: h, gW: w, rAF: _ });
+  }
+}),
+  (function (e, t) {
+    var r = function () {
+      t(e.lazySizes), e.removeEventListener("lazyunveilread", r, !0);
+    };
+    (t = t.bind(null, e, e.document)),
+      "object" == typeof module && module.exports
+        ? t(require("lazysizes"), require("../fix-ios-sizes/fix-ios-sizes"))
+        : e.lazySizes
+        ? r()
+        : e.addEventListener("lazyunveilread", r, !0);
+  })(window, function (e, t, r) {
+    "use strict";
+    var i,
+      a = (r && r.cfg) || e.usfLazySizesConfig,
+      n = t.createElement("img"),
+      s = "sizes" in n && "srcset" in n,
+      o = /\s+\d+h/g,
+      l = (function () {
+        var e = /\s+(\d+)(w|h)\s+(\d+)(w|h)/,
+          r = Array.prototype.forEach;
+        return function (i) {
+          var a = t.createElement("img"),
+            n = function (t) {
+              var r,
+                i = t.getAttribute(usfLazySizesConfig.srcsetAttr);
+              i &&
+                (i.match(e) &&
+                  ((r = "w" == RegExp.$2 ? RegExp.$1 / RegExp.$3 : RegExp.$3 / RegExp.$1),
+                  r && t.setAttribute("data-aspectratio", r)),
+                t.setAttribute(usfLazySizesConfig.srcsetAttr, i.replace(o, "")));
+            },
+            s = function (e) {
+              var t = e.target.parentNode;
+              t && "PICTURE" == t.nodeName && r.call(t.getElementsByTagName("source"), n), n(e.target);
+            },
+            l = function () {
+              a.currentSrc && t.removeEventListener("lazybeforeunveil", s);
+            };
+          i[1] &&
+            (t.addEventListener("lazybeforeunveil", s),
+            (a.onload = l),
+            (a.onerror = l),
+            (a.srcset = "data:,a 1w 1h"),
+            a.complete && l());
+        };
+      })();
+    if (
+      (a || ((a = {}), (e.usfLazySizesConfig = a)),
+      a.supportsType ||
+        (a.supportsType = function (e) {
+          return !e;
+        }),
+      !e.picturefill && !a.pf)
+    ) {
+      if (e.HTMLPictureElement && s)
+        return t.msElementsFromPoint && l(navigator.userAgent.match(/Edge\/(\d+)/)), void (a.pf = function () {});
+      (a.pf = function (t) {
+        var r, a;
+        if (!e.picturefill) for (r = 0, a = t.elements.length; a > r; r++) i(t.elements[r]);
+      }),
+        (i = (function () {
+          var n = function (e, t) {
+              return e.w - t.w;
+            },
+            l = /^\s*\d+\.*\d*px\s*$/,
+            u = function (e) {
+              var t,
+                r,
+                i = e.length,
+                a = e[i - 1],
+                n = 0;
+              for (n; i > n; n++)
+                if (((a = e[n]), (a.d = a.w / e.w), a.d >= e.d)) {
+                  !a.cached &&
+                    (t = e[n - 1]) &&
+                    t.d > e.d - 0.13 * Math.pow(e.d, 2.2) &&
+                    ((r = Math.pow(t.d - 0.6, 1.6)),
+                    t.cached && (t.d += 0.15 * r),
+                    t.d + (a.d - e.d) * r > e.d && (a = t));
+                  break;
+                }
+              return a;
+            },
+            c = (function () {
+              var e,
+                t = /(([^,\s].[^\s]+)\s+(\d+)w)/g,
+                r = /\s/,
+                i = function (t, r, i, a) {
+                  e.push({ c: r, u: i, w: 1 * a });
+                };
+              return function (a) {
+                return (
+                  (e = []),
+                  (a = a.trim()),
+                  a.replace(o, "").replace(t, i),
+                  e.length || !a || r.test(a) || e.push({ c: a, u: a, w: 99 }),
+                  e
+                );
+              };
+            })(),
+            d = function () {
+              d.init ||
+                ((d.init = !0),
+                addEventListener(
+                  "resize",
+                  (function () {
+                    var e,
+                      r = t.getElementsByClassName("lazymatchmedia"),
+                      a = function () {
+                        var e, t;
+                        for (e = 0, t = r.length; t > e; e++) i(r[e]);
+                      };
+                    return function () {
+                      clearTimeout(e), (e = setTimeout(a, 66));
+                    };
+                  })()
+                ));
+            },
+            f = function (t, i) {
+              var n,
+                s = t.getAttribute("srcset") || t.getAttribute(a.srcsetAttr);
+              !s &&
+                i &&
+                (s = t._lazypolyfill ? t._lazypolyfill._set : t.getAttribute(a.srcAttr) || t.getAttribute("src")),
+                (t._lazypolyfill && t._lazypolyfill._set == s) ||
+                  ((n = c(s || "")),
+                  i &&
+                    t.parentNode &&
+                    ((n.isPicture = "PICTURE" == t.parentNode.nodeName.toUpperCase()),
+                    n.isPicture && e.matchMedia && (r.aC(t, "lazymatchmedia"), d())),
+                  (n._set = s),
+                  Object.defineProperty(t, "_lazypolyfill", { value: n, writable: !0 }));
+            },
+            g = function (t) {
+              var i = e.devicePixelRatio || 1,
+                a = r.getX && r.getX(t);
+              return Math.min(a || i, 2.5, i);
+            },
+            p = function (t) {
+              return e.matchMedia
+                ? (p = function (e) {
+                    return !e || (matchMedia(e) || {}).matches;
+                  })(t)
+                : !t;
+            },
+            y = function (e) {
+              var t, i, s, o, c, d, y;
+              if (((o = e), f(o, !0), (c = o._lazypolyfill), c.isPicture))
+                for (i = 0, t = e.parentNode.getElementsByTagName("source"), s = t.length; s > i; i++)
+                  if (a.supportsType(t[i].getAttribute("type"), e) && p(t[i].getAttribute("media"))) {
+                    (o = t[i]), f(o), (c = o._lazypolyfill);
+                    break;
+                  }
+              return (
+                c.length > 1
+                  ? ((y = o.getAttribute("sizes") || ""),
+                    (y = (l.test(y) && parseInt(y, 10)) || r.gW(e, e.parentNode)),
+                    (c.d = g(e)),
+                    !c.src || !c.w || c.w < y ? ((c.w = y), (d = u(c.sort(n))), (c.src = d)) : (d = c.src))
+                  : (d = c[0]),
+                d
+              );
+            },
+            z = function (e) {
+              if (!s || !e.parentNode || "PICTURE" == e.parentNode.nodeName.toUpperCase()) {
+                var t = y(e);
+                t &&
+                  t.u &&
+                  e._lazypolyfill.cur != t.u &&
+                  ((e._lazypolyfill.cur = t.u),
+                  (t.cached = !0),
+                  e.setAttribute(a.srcAttr, t.u),
+                  e.setAttribute("src", t.u));
+              }
+            };
+          return (z.parse = c), z;
+        })()),
+        a.loadedClass &&
+          a.loadingClass &&
+          !(function () {
+            var e = [];
+            ['img[sizes$="px"][srcset].', "picture > img:not([srcset])."].forEach(function (t) {
+              e.push(t + a.loadedClass), e.push(t + a.loadingClass);
+            }),
+              a.pf({ elements: t.querySelectorAll(e.join(", ")) });
+          })();
+    }
+  }),
+  (function (e, t) {
+    var r = function () {
+      t(e.lazySizes), e.removeEventListener("lazyunveilread", r, !0);
+    };
+    (t = t.bind(null, e, e.document)),
+      "object" == typeof module && module.exports
+        ? t(require("lazysizes"))
+        : e.lazySizes
+        ? r()
+        : e.addEventListener("lazyunveilread", r, !0);
+  })(window, function (e, t, r) {
+    "use strict";
+    if (e.addEventListener) {
+      var i,
+        a = /^picture$/i,
+        n = t.documentElement,
+        s = (function () {
+          var e,
+            t = /(([^,\s].[^\s]+)\s+(\d+)(w|h)(\s+(\d+)(w|h))?)/g,
+            r = function (t, r, i, a, n, s, o, l) {
+              e.push({ c: r, u: i, w: 1 * ("w" == l ? o : a) });
+            };
+          return function (i) {
+            return (e = []), i.replace(t, r), e;
+          };
+        })(),
+        o = (function () {
+          var e = function (e, t) {
+              return e.w - t.w;
+            },
+            t = function (t, i) {
+              var a = { srcset: t.getAttribute(r.cfg.srcsetAttr) || "" },
+                n = s(a.srcset);
+              return (
+                Object.defineProperty(t, i, { value: a, writable: !0 }),
+                (a.cands = n),
+                (a.index = 0),
+                (a.dirty = !1),
+                n[0] && n[0].w
+                  ? (n.sort(e), (a.cSrcset = [n[a.index].c]))
+                  : ((a.cSrcset = a.srcset ? [a.srcset] : []), (a.cands = [])),
+                a
+              );
+            };
+          return function (e, r) {
+            var i, n, s, o;
+            if (!e[r] && ((o = e.parentNode || {}), (e[r] = t(e, r)), (e[r].isImg = !0), a.test(o.nodeName || "")))
+              for (e[r].picture = !0, i = o.getElementsByTagName("source"), n = 0, s = i.length; s > n; n++)
+                t(i[n], r).isImg = !1;
+            return e[r];
+          };
+        })(),
+        l = {
+          _lazyOptimumx: (function () {
+            var e = function (e, t, r) {
+              var i, a, n;
+              return (
+                !e ||
+                !e.d ||
+                ((n = r > 0.7 ? 0.6 : 0.4),
+                !(e.d >= r) &&
+                  ((a = Math.pow(e.d - n, 1.6) || 0.1),
+                  0.1 > a ? (a = 0.1) : a > 3 && (a = 3),
+                  (i = e.d + (t - r) * a),
+                  r > i))
+              );
+            };
+            return function (t, r, i) {
+              var a, n;
+              for (a = 0; a < t.cands.length; a++)
+                if (((n = t.cands[a]), (n.d = (n.w || 1) / r), !(t.index >= a))) {
+                  if (!(n.d <= i || e(t.cands[a - 1], n.d, i))) break;
+                  t.cSrcset.push(n.c), (t.index = a);
+                }
+            };
+          })()
+        },
+        u = (function () {
+          var e = function (e, t, r, i, a) {
+            var n,
+              s = e[a];
+            s &&
+              ((n = s.index),
+              l[a](s, t, r),
+              (s.dirty && n == s.index) ||
+                (s.cSrcset.join(", "), e.setAttribute(i, s.cSrcset.join(", ")), (s.dirty = !0)));
+          };
+          return function (t, r, i, a, n) {
+            var s,
+              o,
+              l,
+              u,
+              c = t[n];
+            if (((c.width = r), c.picture && (o = t.parentNode)))
+              for (s = o.getElementsByTagName("source"), u = 0, l = s.length; l > u; u++) e(s[u], r, i, a, n);
+            e(t, r, i, a, n);
+          };
+        })(),
+        c = function (e) {
+          var t = e.getAttribute("data-optimumx") || e.getAttribute("data-maxdpr");
+          return (
+            !t && i.constrainPixelDensity && (t = "auto"),
+            t && (t = "auto" == t ? i.getOptimumX(e) : parseFloat(t, 10)),
+            t
+          );
+        },
+        d = function () {
+          r && !r.getOptimumX && ((r.getX = c), (r.pWS = s), n.removeEventListener("lazybeforeunveil", d));
+        };
+      n.addEventListener("lazybeforeunveil", d),
+        setTimeout(d),
+        (i = (r && r.cfg) || e.usfLazySizesConfig),
+        i || ((i = {}), (e.usfLazySizesConfig = i)),
+        "function" != typeof i.getOptimumX &&
+          (i.getOptimumX = function () {
+            var t = e.devicePixelRatio || 1;
+            return t > 2.6 ? (t *= 0.6) : t > 1.9 ? (t *= 0.8) : (t -= 0.01), Math.min(Math.round(100 * t) / 100, 2);
+          }),
+        e.devicePixelRatio &&
+          addEventListener("lazybeforesizes", function (e) {
+            if (e.detail.instance == r) {
+              var t,
+                a,
+                n,
+                s,
+                l = e.target,
+                d = e.detail,
+                f = d.dataAttr;
+              e.defaultPrevented ||
+                !(t = c(l)) ||
+                t >= devicePixelRatio ||
+                (!f ||
+                  !l._lazyOptimumx ||
+                  d.reloaded ||
+                  (i.unloadedClass && r.hC(l, i.unloadedClass)) ||
+                  (l._lazyOptimumx = null),
+                (a = o(l, "_lazyOptimumx")),
+                (n = d.width),
+                n &&
+                  (a.width || 0) < n &&
+                  ((s = f ? r.cfg.srcsetAttr : "srcset"),
+                  r.rAF(function () {
+                    u(l, n, t, s, "_lazyOptimumx");
+                  })));
+            }
+          });
+    }
+  }),
+  (function (e, t) {
+    var r = function () {
+      t(e.lazySizes), e.removeEventListener("lazyunveilread", r, !0);
+    };
+    (t = t.bind(null, e, e.document)),
+      "object" == typeof module && module.exports
+        ? t(require("lazysizes"))
+        : e.lazySizes
+        ? r()
+        : e.addEventListener("lazyunveilread", r, !0);
+  })(window, function (e, t, r) {
+    "use strict";
+    if (e.addEventListener) {
+      var i = /\s+/g,
+        a = /\s*\|\s+|\s+\|\s*/g,
+        n = /^(.+?)(?:\s+\[\s*(.+?)\s*\])?$/,
+        s = /\(|\)|'/,
+        o = { contain: 1, cover: 1 },
+        l = function (e) {
+          var t = r.gW(e, e.parentNode);
+          return (!e._lazysizesWidth || t > e._lazysizesWidth) && (e._lazysizesWidth = t), e._lazysizesWidth;
+        },
+        u = function (e) {
+          var t;
+          return (
+            (t = (getComputedStyle(e) || { getPropertyValue: function () {} }).getPropertyValue("background-size")),
+            !o[t] && o[e.style.backgroundSize] && (t = e.style.backgroundSize),
+            t
+          );
+        },
+        c = function (e, r, s) {
+          var o = t.createElement("picture"),
+            l = r.getAttribute(usfLazySizesConfig.sizesAttr),
+            u = r.getAttribute("data-ratio"),
+            c = r.getAttribute("data-optimumx");
+          r._lazybgset && r._lazybgset.parentNode == r && r.removeChild(r._lazybgset),
+            Object.defineProperty(s, "_lazybgset", { value: r, writable: !0 }),
+            Object.defineProperty(r, "_lazybgset", { value: o, writable: !0 }),
+            (e = e.replace(i, " ").split(a)),
+            (o.style.display = "none"),
+            (s.className = usfLazySizesConfig.lazyClass),
+            1 != e.length || l || (l = "auto"),
+            e.forEach(function (e) {
+              var r = t.createElement("source");
+              l && "auto" != l && r.setAttribute("sizes", l),
+                e.match(n) &&
+                  (r.setAttribute(usfLazySizesConfig.srcsetAttr, RegExp.$1),
+                  RegExp.$2 && r.setAttribute("media", usfLazySizesConfig.customMedia[RegExp.$2] || RegExp.$2)),
+                o.appendChild(r);
+            }),
+            l &&
+              (s.setAttribute(usfLazySizesConfig.sizesAttr, l),
+              r.removeAttribute(usfLazySizesConfig.sizesAttr),
+              r.removeAttribute("sizes")),
+            c && s.setAttribute("data-optimumx", c),
+            u && s.setAttribute("data-ratio", u),
+            o.appendChild(s),
+            r.appendChild(o);
+        },
+        d = function (e) {
+          if (e.target._lazybgset) {
+            var t = e.target,
+              i = t._lazybgset,
+              a = t.currentSrc || t.src;
+            a && (i.style.backgroundImage = "url(" + (s.test(a) ? JSON.stringify(a) : a) + ")"),
+              t._lazybgsetLoading && (r.fire(i, "_lazyloaded", {}, !1, !0), delete t._lazybgsetLoading);
+          }
+        };
+      addEventListener("lazybeforeunveil", function (e) {
+        var i, a, n;
+        !e.defaultPrevented &&
+          (i = e.target.getAttribute("data-bgset")) &&
+          ((n = e.target),
+          (a = t.createElement("img")),
+          (a.alt = ""),
+          (a._lazybgsetLoading = !0),
+          (e.detail.firesLoad = !0),
+          c(i, n, a),
+          setTimeout(function () {
+            r.loader.unveil(a),
+              r.rAF(function () {
+                r.fire(a, "_lazyloaded", {}, !0, !0), a.complete && d({ target: a });
+              });
+          }));
+      }),
+        t.addEventListener("load", d, !0),
+        e.addEventListener(
+          "lazybeforesizes",
+          function (e) {
+            if (e.detail.instance == r && e.target._lazybgset && e.detail.dataAttr) {
+              var t = e.target._lazybgset,
+                i = u(t);
+              o[i] &&
+                ((e.target._lazysizesParentFit = i),
+                r.rAF(function () {
+                  e.target.setAttribute("data-parent-fit", i),
+                    e.target._lazysizesParentFit && delete e.target._lazysizesParentFit;
+                }));
+            }
+          },
+          !0
+        ),
+        t.documentElement.addEventListener("lazybeforesizes", function (e) {
+          !e.defaultPrevented &&
+            e.target._lazybgset &&
+            e.detail.instance == r &&
+            (e.detail.width = l(e.target._lazybgset));
+        });
+    }
+  }),
+  (function (e, t) {
+    var r = function () {
+      t(e.lazySizes), e.removeEventListener("lazyunveilread", r, !0);
+    };
+    (t = t.bind(null, e, e.document)),
+      "object" == typeof module && module.exports
+        ? t(require("lazysizes"))
+        : e.lazySizes
+        ? r()
+        : e.addEventListener("lazyunveilread", r, !0);
+  })(window, function (e, t, r) {
+    "use strict";
+    function i(t, r) {
+      var i,
+        a,
+        n,
+        s,
+        o = e.getComputedStyle(t);
+      (a = t.parentNode),
+        (s = { isPicture: !(!a || !f.test(a.nodeName || "")) }),
+        (n = function (e, r) {
+          var i = t.getAttribute("data-" + e);
+          if (!i) {
+            var a = o.getPropertyValue("--ls-" + e);
+            a && (i = a.trim());
+          }
+          if (i) {
+            if ("true" == i) i = !0;
+            else if ("false" == i) i = !1;
+            else if (d.test(i)) i = parseFloat(i);
+            else if ("function" == typeof u[e]) i = u[e](t, i);
+            else if (z.test(i))
+              try {
+                i = JSON.parse(i);
+              } catch (n) {}
+            s[e] = i;
+          } else
+            e in u && "function" != typeof u[e] ? (s[e] = u[e]) : r && "function" == typeof u[e] && (s[e] = u[e](t, i));
+        });
+      for (i in u) n(i);
+      return (
+        r.replace(y, function (e, t) {
+          t in s || n(t, !0);
+        }),
+        s
+      );
+    }
+    function a(e, t) {
+      var r = [],
+        i = function (e, r) {
+          return c[typeof t[r]] ? t[r] : e;
+        };
+      return (
+        (r.srcset = []),
+        t.absUrl && (v.setAttribute("href", e), (e = v.href)),
+        (e = ((t.prefix || "") + e + (t.postfix || "")).replace(y, i)),
+        t.widths.forEach(function (i) {
+          var a = t.widthmap[i] || i,
+            n = { u: e.replace(g, a).replace(p, t.ratio ? Math.round(i * t.ratio) : ""), w: i };
+          r.push(n), r.srcset.push((n.c = n.u + " " + i + "w"));
+        }),
+        r
+      );
+    }
+    function n(e, r, i) {
+      var n = 0,
+        s = 0,
+        o = i;
+      if (e) {
+        if ("container" === r.ratio) {
+          for (n = o.scrollWidth, s = o.scrollHeight; !((n && s) || o === t); )
+            (o = o.parentNode), (n = o.scrollWidth), (s = o.scrollHeight);
+          n && s && (r.ratio = s / n);
+        }
+        (e = a(e, r)),
+          (e.isPicture = r.isPicture),
+          A && "IMG" == i.nodeName.toUpperCase()
+            ? i.removeAttribute(l.srcsetAttr)
+            : i.setAttribute(l.srcsetAttr, e.srcset.join(", ")),
+          Object.defineProperty(i, "_lazyrias", { value: e, writable: !0 });
+      }
+    }
+    function s(e, t) {
+      var a = i(e, t);
+      return u.modifyOptions.call(e, { target: e, details: a, detail: a }), r.fire(e, "lazyriasmodifyoptions", a), a;
+    }
+    function o(e) {
+      return (
+        e.getAttribute(e.getAttribute("data-srcattr") || u.srcAttr) ||
+        e.getAttribute(l.srcsetAttr) ||
+        e.getAttribute(l.srcAttr) ||
+        e.getAttribute("data-pfsrcset") ||
+        ""
+      );
+    }
+    var l,
+      u,
+      c = { string: 1, number: 1 },
+      d = /^\-*\+*\d+\.*\d*$/,
+      f = /^picture$/i,
+      g = /\s*\{\s*width\s*\}\s*/i,
+      p = /\s*\{\s*height\s*\}\s*/i,
+      y = /\s*\{\s*([a-z0-9]+)\s*\}\s*/gi,
+      z = /^\[.*\]|\{.*\}$/,
+      m = /^(?:auto|\d+(px)?)$/,
+      v = t.createElement("a"),
+      b = t.createElement("img"),
+      A = "srcset" in b && !("sizes" in b),
+      h = !!e.HTMLPictureElement && !A;
+    !(function () {
+      var t,
+        i = function () {},
+        a = { prefix: "", postfix: "", srcAttr: "data-usf-src", absUrl: !1, modifyOptions: i, widthmap: {}, ratio: !1 };
+      (l = (r && r.cfg) || e.usfLazySizesConfig),
+        l || ((l = {}), (e.usfLazySizesConfig = l)),
+        l.supportsType ||
+          (l.supportsType = function (e) {
+            return !e;
+          }),
+        l.rias || (l.rias = {}),
+        (u = l.rias),
+        "widths" in u ||
+          ((u.widths = []),
+          (function (e) {
+            for (var t, r = 0; !t || 3e3 > t; ) (r += 5), r > 30 && (r += 1), (t = 36 * r), e.push(t);
+          })(u.widths));
+      for (t in a) t in u || (u[t] = a[t]);
+    })(),
+      addEventListener(
+        "lazybeforesizes",
+        function (e) {
+          if (e.detail.instance == r) {
+            var t, i, a, c, d, f, p, y, z, v, b, A, C;
+            if (
+              ((t = e.target),
+              e.detail.dataAttr &&
+                !e.defaultPrevented &&
+                !u.disabled &&
+                (z = t.getAttribute(l.sizesAttr) || t.getAttribute("sizes")) &&
+                m.test(z))
+            ) {
+              if (
+                ((i = o(t)),
+                (a = s(t, i)),
+                (b = g.test(a.prefix) || g.test(a.postfix)),
+                a.isPicture && (c = t.parentNode))
+              )
+                for (d = c.getElementsByTagName("source"), f = 0, p = d.length; p > f; f++)
+                  (b || g.test((y = o(d[f])))) && (n(y, a, d[f]), (A = !0));
+              b || g.test(i)
+                ? (n(i, a, t), (A = !0))
+                : A &&
+                  ((C = []),
+                  (C.srcset = []),
+                  (C.isPicture = !0),
+                  Object.defineProperty(t, "_lazyrias", { value: C, writable: !0 })),
+                A &&
+                  (h
+                    ? t.removeAttribute(l.srcAttr)
+                    : "auto" != z && ((v = { width: parseInt(z, 10) }), E({ target: t, detail: v })));
+            }
+          }
+        },
+        !0
+      );
+    var E = (function () {
+      var i = function (e, t) {
+          return e.w - t.w;
+        },
+        a = function (e) {
+          var t,
+            r,
+            i = e.length,
+            a = e[i - 1],
+            n = 0;
+          for (n; i > n; n++)
+            if (((a = e[n]), (a.d = a.w / e.w), a.d >= e.d)) {
+              !a.cached &&
+                (t = e[n - 1]) &&
+                t.d > e.d - 0.13 * Math.pow(e.d, 2.2) &&
+                ((r = Math.pow(t.d - 0.6, 1.6)), t.cached && (t.d += 0.15 * r), t.d + (a.d - e.d) * r > e.d && (a = t));
+              break;
+            }
+          return a;
+        },
+        n = function (e, t) {
+          var i;
+          return (
+            !e._lazyrias &&
+              r.pWS &&
+              (i = r.pWS(e.getAttribute(l.srcsetAttr || ""))).length &&
+              (Object.defineProperty(e, "_lazyrias", { value: i, writable: !0 }),
+              t && e.parentNode && (i.isPicture = "PICTURE" == e.parentNode.nodeName.toUpperCase())),
+            e._lazyrias
+          );
+        },
+        s = function (t) {
+          var i = e.devicePixelRatio || 1,
+            a = r.getX && r.getX(t);
+          return Math.min(a || i, 2.4, i);
+        },
+        o = function (t, r) {
+          var o, l, u, c, d, f;
+          if (((d = t._lazyrias), d.isPicture && e.matchMedia))
+            for (l = 0, o = t.parentNode.getElementsByTagName("source"), u = o.length; u > l; l++)
+              if (
+                n(o[l]) &&
+                !o[l].getAttribute("type") &&
+                (!(c = o[l].getAttribute("media")) || (matchMedia(c) || {}).matches)
+              ) {
+                d = o[l]._lazyrias;
+                break;
+              }
+          return (!d.w || d.w < r) && ((d.w = r), (d.d = s(t)), (f = a(d.sort(i)))), f;
+        },
+        u = function (i) {
+          if (i.detail.instance == r) {
+            var a,
+              s = i.target;
+            return !A && (e.respimage || e.picturefill || usfLazySizesConfig.pf)
+              ? void t.removeEventListener("lazybeforesizes", u)
+              : void (
+                  ("_lazyrias" in s || (i.detail.dataAttr && n(s, !0))) &&
+                  ((a = o(s, i.detail.width)),
+                  a &&
+                    a.u &&
+                    s._lazyrias.cur != a.u &&
+                    ((s._lazyrias.cur = a.u),
+                    (a.cached = !0),
+                    r.rAF(function () {
+                      s.setAttribute(l.srcAttr, a.u), s.setAttribute("src", a.u);
+                    })))
+                );
+          }
+        };
+      return h ? (u = function () {}) : addEventListener("lazybeforesizes", u), u;
+    })();
+  }),
+  (function (e, t) {
+    var r = function () {
+      t(e.lazySizes), e.removeEventListener("lazyunveilread", r, !0);
+    };
+    (t = t.bind(null, e, e.document)),
+      "object" == typeof module && module.exports
+        ? t(require("lazysizes"))
+        : e.lazySizes
+        ? r()
+        : e.addEventListener("lazyunveilread", r, !0);
+  })(window, function (e, t, r) {
+    "use strict";
+    function i(e, r) {
+      if (!s[e]) {
+        var i = t.createElement(r ? "link" : "script"),
+          a = t.getElementsByTagName("script")[0];
+        r ? ((i.rel = "stylesheet"), (i.href = e)) : (i.src = e),
+          (s[e] = !0),
+          (s[i.src || i.href] = !0),
+          a.parentNode.insertBefore(i, a);
+      }
+    }
+    var a,
+      n,
+      s = {};
+    t.addEventListener &&
+      ((n = /\(|\)|\s|'/),
+      (a = function (e, r) {
+        var i = t.createElement("img");
+        (i.onload = function () {
+          (i.onload = null), (i.onerror = null), (i = null), r();
+        }),
+          (i.onerror = i.onload),
+          (i.src = e),
+          i && i.complete && i.onload && i.onload();
+      }),
+      addEventListener(
+        "lazybeforeunveil",
+        function (e) {
+          if (e.detail.instance == r) {
+            var t, s, o, l;
+            e.defaultPrevented ||
+              ("none" == e.target.preload && (e.target.preload = "auto"),
+              (t = e.target.getAttribute("data-link")),
+              t && i(t, !0),
+              (t = e.target.getAttribute("data-script")),
+              t && i(t),
+              (t = e.target.getAttribute("data-require")),
+              t && (r.cfg.requireJs ? r.cfg.requireJs([t]) : i(t)),
+              (o = e.target.getAttribute("data-bg")),
+              o &&
+                ((e.detail.firesLoad = !0),
+                (s = function () {
+                  (e.target.style.backgroundImage = "url(" + (n.test(o) ? JSON.stringify(o) : o) + ")"),
+                    (e.detail.firesLoad = !1),
+                    r.fire(e.target, "_lazyloaded", {}, !0, !0);
+                }),
+                a(o, s)),
+              (l = e.target.getAttribute("data-poster")),
+              l &&
+                ((e.detail.firesLoad = !0),
+                (s = function () {
+                  (e.target.poster = l), (e.detail.firesLoad = !1), r.fire(e.target, "_lazyloaded", {}, !0, !0);
+                }),
+                a(l, s)));
+          }
+        },
+        !1
+      ));
+  }),
+  (function (e, t) {
+    var r = function (i) {
+      t(e.lazySizes, i), e.removeEventListener("lazyunveilread", r, !0);
+    };
+    (t = t.bind(null, e, e.document)),
+      "object" == typeof module && module.exports
+        ? t(require("lazysizes"))
+        : e.lazySizes
+        ? r()
+        : e.addEventListener("lazyunveilread", r, !0);
+  })(window, function (e, t, r, i) {
+    "use strict";
+    function a(e) {
+      var t = getComputedStyle(e, null) || {},
+        r = t.fontFamily || "",
+        i = r.match(u) || "",
+        a = (i && r.match(c)) || "";
+      return a && (a = a[1]), { fit: (i && i[1]) || "", position: g[a] || a || "center" };
+    }
+    function n(e, t) {
+      var i,
+        a,
+        n = r.cfg,
+        s = e.cloneNode(!1),
+        o = s.style,
+        l = function () {
+          var t = e.currentSrc || e.src;
+          t &&
+            a !== t &&
+            ((a = t),
+            (o.backgroundImage = "url(" + (f.test(t) ? JSON.stringify(t) : t) + ")"),
+            i || ((i = !0), r.rC(s, n.loadingClass), r.aC(s, n.loadedClass)));
+        },
+        u = function () {
+          r.rAF(l);
+        };
+      (e._lazysizesParentFit = t.fit),
+        e.addEventListener("usf-lazyloaded", u, !0),
+        e.addEventListener("load", u, !0),
+        s.addEventListener("load", function () {
+          var e = s.currentSrc || s.src;
+          e && e != d && ((s.src = d), (s.srcset = ""));
+        }),
+        r.rAF(function () {
+          var i = e,
+            a = e.parentNode;
+          "PICTURE" == a.nodeName.toUpperCase() && ((i = a), (a = a.parentNode)),
+            r.rC(s, n.loadedClass),
+            r.rC(s, n.lazyClass),
+            r.aC(s, n.loadingClass),
+            r.aC(s, n.objectFitClass || "lazysizes-display-clone"),
+            s.getAttribute(n.srcsetAttr) && s.setAttribute(n.srcsetAttr, ""),
+            s.getAttribute(n.srcAttr) && s.setAttribute(n.srcAttr, ""),
+            (s.src = d),
+            (s.srcset = ""),
+            (o.backgroundRepeat = "no-repeat"),
+            (o.backgroundPosition = t.position),
+            (o.backgroundSize = t.fit),
+            (i.style.display = "none"),
+            e.setAttribute("data-parent-fit", t.fit),
+            e.setAttribute("data-parent-container", "prev"),
+            a.insertBefore(s, i),
+            e._lazysizesParentFit && delete e._lazysizesParentFit,
+            e.complete && l();
+        });
+    }
+    var s = t.createElement("a").style,
+      o = "objectFit" in s,
+      l = o && "objectPosition" in s,
+      u = /object-fit["']*\s*:\s*["']*(contain|cover)/,
+      c = /object-position["']*\s*:\s*["']*(.+?)(?=($|,|'|"|;))/,
+      d = "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      f = /\(|\)|'/,
+      g = { center: "center", "50% 50%": "center" };
+    if (!o || !l) {
+      var p = function (e) {
+        if (e.detail.instance == r) {
+          var t = e.target,
+            i = a(t);
+          !i.fit || (o && "center" == i.position) || n(t, i);
+        }
+      };
+      e.addEventListener("lazyunveilread", p, !0), i && i.detail && p(i);
+    }
+  });
 
 var _usfImageWidths;
 usf.platform.useProductsUrl = true;
-var white_wines_tags = "anjou-blanc,blanc,blanc-sec-fruite-et-nerveux,blanc-sec-fruite-et-souple,blanc-sec-riche-et-rond,blanc-sec-riche-et-structure,bordeaux-blanc,bourgogne-hautes-cotes-de-beaune-blanc,brezeme-blanc,bugey-blanc,carignan-blanc,chenin-blanc,cheverny-blanc,clairette-blanche,cotes-de-provence-blanc,dona-blanca,folle-blanche,forcallat-blanc,gaillac-blanc-sec,gamay-noir-a-jus-blanc,grenache-blanc,ladoix-blanc,limoux-blanc,macon-blanc,mauzac-blanc,mondeuse-blanche,ondenc-blanc,pinot-blanc,piquepoul-blanc,sauvignon-blanc,semillon-blanc,tempranillo-blanc,terret-blanc,ugni-blanc".split(',')
-var red_wines_tags = "anjou-rouge,bordeaux-rouge,bourgogne-hautes-cotes-de-beaune-rouge,bourgogne-passetoutgrain-rouge,bugey-rouge,cheverny-rouge,cotes-de-provence-rouge,gaillac-rouge,ladoix-rouge-1er-cru,limoux-rouge,macon-rouge,melon-a-queue-rouge,rouge-elegant-et-raffine,rouge-peu-tannique-et-fruite,rouge-puissant-et-fruite,rouge-rond-et-fruite,rouge-rond-et-riche,rouge-structure-et-tannique".split(',')
-var pink_wine_tags = "bordeaux-rose,cabernet-danjou-rose-moelleux,clairette-rose,cotes-de-provence-rose,prosecco,roses-doux,savagnin-rose,vins-roses,vins-roses-effervescents,vins-roses-sec".split(',')
-var orange_wine_tags = ["vins-oranges"]
-var sweet_wine_tags = ["vins-doux"]
-function _usfIsDrop(product) { 
-    var tags = product.tags;
-    var result = '';
-    tags.forEach(tag => {
-        if (red_wines_tags.includes(tag)) {
-            result = 'red';
-            return result;
-        }
-        if (white_wines_tags.includes(tag)) {
-            result = 'white'
-            return result;
-        } 
-        if (orange_wine_tags.includes(tag)) {
-            result = 'orange';
-            return result;
-        } 
-        if (pink_wine_tags.includes(tag)) {
-            result = 'pink';
-            return result;
-        } 
-    })
-    return result;
+var white_wines_tags =
+  "anjou-blanc,blanc,blanc-sec-fruite-et-nerveux,blanc-sec-fruite-et-souple,blanc-sec-riche-et-rond,blanc-sec-riche-et-structure,bordeaux-blanc,bourgogne-hautes-cotes-de-beaune-blanc,brezeme-blanc,bugey-blanc,carignan-blanc,chenin-blanc,cheverny-blanc,clairette-blanche,cotes-de-provence-blanc,dona-blanca,folle-blanche,forcallat-blanc,gaillac-blanc-sec,gamay-noir-a-jus-blanc,grenache-blanc,ladoix-blanc,limoux-blanc,macon-blanc,mauzac-blanc,mondeuse-blanche,ondenc-blanc,pinot-blanc,piquepoul-blanc,sauvignon-blanc,semillon-blanc,tempranillo-blanc,terret-blanc,ugni-blanc".split(
+    ","
+  );
+var red_wines_tags =
+  "anjou-rouge,bordeaux-rouge,bourgogne-hautes-cotes-de-beaune-rouge,bourgogne-passetoutgrain-rouge,bugey-rouge,cheverny-rouge,cotes-de-provence-rouge,gaillac-rouge,ladoix-rouge-1er-cru,limoux-rouge,macon-rouge,melon-a-queue-rouge,rouge-elegant-et-raffine,rouge-peu-tannique-et-fruite,rouge-puissant-et-fruite,rouge-rond-et-fruite,rouge-rond-et-riche,rouge-structure-et-tannique".split(
+    ","
+  );
+var pink_wine_tags =
+  "bordeaux-rose,cabernet-danjou-rose-moelleux,clairette-rose,cotes-de-provence-rose,prosecco,roses-doux,savagnin-rose,vins-roses,vins-roses-effervescents,vins-roses-sec".split(
+    ","
+  );
+var orange_wine_tags = ["vins-oranges"];
+var sweet_wine_tags = ["vins-doux"];
+function _usfIsDrop(product) {
+  var tags = product.tags;
+  var result = "";
+  tags.forEach((tag) => {
+    if (red_wines_tags.includes(tag)) {
+      result = "red";
+      return result;
+    }
+    if (white_wines_tags.includes(tag)) {
+      result = "white";
+      return result;
+    }
+    if (orange_wine_tags.includes(tag)) {
+      result = "orange";
+      return result;
+    }
+    if (pink_wine_tags.includes(tag)) {
+      result = "pink";
+      return result;
+    }
+  });
+  return result;
 }
 var _usfDrop = {
-    red: `<svg
+  red: `<svg
             width="16"
             height="24"
             viewBox="0 0 19 24"
@@ -41,8 +1259,9 @@ var _usfDrop = {
             xmlns="http://www.w3.org/2000/svg">
             <path d="M9.61558 0.12176C9.41525 -0.0405867 9.12854 -0.0405867 8.92822 0.12176C8.56281 0.421798 0 7.4633 0 14.7277C0 17.1868 0.97683 19.5452 2.71568 21.2843C4.45452 23.023 6.81285 24 9.27183 24C11.7308 24 14.0894 23.023 15.828 21.2843C17.5668 19.5455 18.5437 17.187 18.5437 14.7277C18.5437 7.46283 9.98102 0.421424 9.61543 0.12176H9.61558ZM9.27189 20.253C7.68077 20.253 6.15464 19.621 5.02956 18.4959C3.90449 17.3708 3.27244 15.8447 3.27244 14.2536H4.36319C4.36319 15.5554 4.88034 16.804 5.80093 17.7245C6.72147 18.6451 7.97001 19.1623 9.27189 19.1623V20.253Z" fill="#B6132B" />
             </svg>`,
-    white: '<div><svg width="16" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.61558 0.12176C9.41525 -0.0405867 9.12854 -0.0405867 8.92822 0.12176C8.56281 0.421798 0 7.4633 0 14.7277C0 17.1868 0.97683 19.5452 2.71568 21.2843C4.45452 23.023 6.81285 24 9.27183 24C11.7308 24 14.0894 23.023 15.828 21.2843C17.5668 19.5455 18.5437 17.187 18.5437 14.7277C18.5437 7.46283 9.98102 0.421424 9.61543 0.12176H9.61558ZM9.27189 20.253C7.68077 20.253 6.15464 19.621 5.02956 18.4959C3.90449 17.3708 3.27244 15.8447 3.27244 14.2536H4.36319C4.36319 15.5554 4.88034 16.804 5.80093 17.7245C6.72147 18.6451 7.97001 19.1623 9.27189 19.1623V20.253Z" fill="#FFE194" /></svg></div>',
-    orange: `<svg
+  white:
+    '<div><svg width="16" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.61558 0.12176C9.41525 -0.0405867 9.12854 -0.0405867 8.92822 0.12176C8.56281 0.421798 0 7.4633 0 14.7277C0 17.1868 0.97683 19.5452 2.71568 21.2843C4.45452 23.023 6.81285 24 9.27183 24C11.7308 24 14.0894 23.023 15.828 21.2843C17.5668 19.5455 18.5437 17.187 18.5437 14.7277C18.5437 7.46283 9.98102 0.421424 9.61543 0.12176H9.61558ZM9.27189 20.253C7.68077 20.253 6.15464 19.621 5.02956 18.4959C3.90449 17.3708 3.27244 15.8447 3.27244 14.2536H4.36319C4.36319 15.5554 4.88034 16.804 5.80093 17.7245C6.72147 18.6451 7.97001 19.1623 9.27189 19.1623V20.253Z" fill="#FFE194" /></svg></div>',
+  orange: `<svg
             width="16"
             height="24"
             viewBox="0 0 19 24"
@@ -50,13 +1269,14 @@ var _usfDrop = {
             xmlns="http://www.w3.org/2000/svg">
             <path d="M9.61558 0.12176C9.41525 -0.0405867 9.12854 -0.0405867 8.92822 0.12176C8.56281 0.421798 0 7.4633 0 14.7277C0 17.1868 0.97683 19.5452 2.71568 21.2843C4.45452 23.023 6.81285 24 9.27183 24C11.7308 24 14.0894 23.023 15.828 21.2843C17.5668 19.5455 18.5437 17.187 18.5437 14.7277C18.5437 7.46283 9.98102 0.421424 9.61543 0.12176H9.61558ZM9.27189 20.253C7.68077 20.253 6.15464 19.621 5.02956 18.4959C3.90449 17.3708 3.27244 15.8447 3.27244 14.2536H4.36319C4.36319 15.5554 4.88034 16.804 5.80093 17.7245C6.72147 18.6451 7.97001 19.1623 9.27189 19.1623V20.253Z" fill="#F7940E" />
             </svg>`,
-    pink: `<svg width="16" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  pink: `<svg width="16" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M9.61558 0.12176C9.41525 -0.0405867 9.12854 -0.0405867 8.92822 0.12176C8.56281 0.421798 0 7.4633 0 14.7277C0 17.1868 0.97683 19.5452 2.71568 21.2843C4.45452 23.023 6.81285 24 9.27183 24C11.7308 24 14.0894 23.023 15.828 21.2843C17.5668 19.5455 18.5437 17.187 18.5437 14.7277C18.5437 7.46283 9.98102 0.421424 9.61543 0.12176H9.61558ZM9.27189 20.253C7.68077 20.253 6.15464 19.621 5.02956 18.4959C3.90449 17.3708 3.27244 15.8447 3.27244 14.2536H4.36319C4.36319 15.5554 4.88034 16.804 5.80093 17.7245C6.72147 18.6451 7.97001 19.1623 9.27189 19.1623V20.253Z" fill="#DB99C0"/>
             </svg>`
-}
+};
 
-var _usfFilterBodyTemplate = /*inc_begin_filter-body*/
-`<!-- Range filter -->
+var _usfFilterBodyTemplate =
+  /*inc_begin_filter-body*/
+  `<!-- Range filter -->
 <div v-if="isRange" class="usf-facet-values usf-facet-range">
     <!-- Range inputs -->
     <div class="usf-slider-inputs usf-clear">
@@ -77,16 +1297,15 @@ var _usfFilterBodyTemplate = /*inc_begin_filter-body*/
 </div>
 <!-- List + Swatch filter -->
 <div v-else ref="values" :class="'usf-facet-values usf-scrollbar usf-facet-values--' + facet.display + (facet.navigationCollections ? ' usf-navigation' : '') + (facet.valuesTransformation ? (' usf-' + facet.valuesTransformation.toLowerCase()) : '') + (facet.circleSwatch ? ' usf-facet-values--circle' : '')" :style="!usf.isMobileFilter && facet.maxHeight ? { maxHeight: facet.maxHeight } : null">
-    <!-- Filter options -->                
+    <!-- Filter options -->
     <usf-filter-option v-for="o in visibleOptions" :facet="facet" :option="o" :key="o.label"></usf-filter-option>
 </div>
 
 <!-- More -->
-<div v-if="isMoreVisible" class="usf-more" @click="onShowMore" v-html="loc.more"></div>`
-/*inc_end_filter-body*/;
-
-var _usfSearchResultsSkeletonItemTpl = /*inc_begin_search-skeleton-item*/
-`<div v-if="view === 'grid'" class="usf-sr-product usf-skeleton">
+<div v-if="isMoreVisible" class="usf-more" @click="onShowMore" v-html="loc.more"></div>`;
+/*inc_end_filter-body*/ var _usfSearchResultsSkeletonItemTpl =
+  /*inc_begin_search-skeleton-item*/
+  `<div v-if="view === 'grid'" class="usf-sr-product usf-skeleton">
     <div class="usf-img"></div>
     <div class="usf-meta"></div>
 </div>
@@ -102,37 +1321,31 @@ var _usfSearchResultsSkeletonItemTpl = /*inc_begin_search-skeleton-item*/
         <div class="usf-vendor"></div>
         <div class="usf-price-wrapper"></div>
     </div>
-</div>`
-/*inc_end_search-skeleton-item*/;
-
-var _usfSearchResultsSummaryTpl = /*inc_begin_search-summary*/
-`<span class="usf-sr-summary" v-html="loader === true ? '&nbsp;' : usf.utils.format(term ? loc.productSearchResultWithTermSummary : loc.productSearchResultSummary, result.total, usf.utils.encodeHtml(term))"></span>`
-/*inc_end_search-summary*/;
-
-var _usfSearchResultsViewsTpl = /*inc_begin_search-views*/
-`<div class="usf-views">
+</div>`;
+/*inc_end_search-skeleton-item*/ var _usfSearchResultsSummaryTpl =
+  /*inc_begin_search-summary*/
+  `<span class="usf-sr-summary" v-html="loader === true ? '&nbsp;' : usf.utils.format(term ? loc.productSearchResultWithTermSummary : loc.productSearchResultSummary, result.total, usf.utils.encodeHtml(term))"></span>`;
+/*inc_end_search-summary*/ var _usfSearchResultsViewsTpl =
+  /*inc_begin_search-views*/
+  `<div class="usf-views">
     <button class="usf-view usf-btn usf-icon usf-icon-grid" :class="{'usf-active': view === 'grid'}" @click.prevent.stop="onGridViewClick"></button>
     <button class="usf-view usf-btn usf-icon usf-icon-list" :class="{'usf-active': view === 'list'}" @click.prevent.stop="onListViewClick"></button>
-</div>`
-/*inc_end_search-views*/;
-
-var _usfSearchResultsSortByTpl = /*inc_begin_search-sortby*/
-`<usf-dropdown :placeholder="loc.sort" :value="sortBy" :options="sortByOptions" @input="onSortByChanged"></usf-dropdown>`
-/*inc_end_search-sortby*/;
-
-usf.templates = {
-    // application
-    app: /*inc_begin_app*/
-`<div id="usf_container" class="usf-zone usf-clear" :class="{'usf-filters-horz': usf.settings.filters.horz}">
+</div>`;
+/*inc_end_search-views*/ var _usfSearchResultsSortByTpl =
+  /*inc_begin_search-sortby*/
+  `<usf-dropdown :placeholder="loc.sort" :value="sortBy" :options="sortByOptions" @input="onSortByChanged"></usf-dropdown>`;
+/*inc_end_search-sortby*/ usf.templates = {
+  // application
+  /*inc_begin_app*/
+  app: `<div id="usf_container" class="usf-zone usf-clear" :class="{'usf-filters-horz': usf.settings.filters.horz}">
     <template v-if="hasFilters">
         <usf-filters class="usf-sr-filters"></usf-filters>
     </template>
     <usf-sr></usf-sr>
-</div>`
-/*inc_end_app*/,
-
-    // search results
-    searchResults: `
+</div>`,
+  /*inc_end_app*/ // search results
+  searchResults:
+    `
 <div class="usf-sr-container usf-general" :class="{'usf-no-facets': noFacets, 'usf-empty': !loader && !hasResults, 'usf-nosearch': !showSearchBox}">
     <!-- Search form -->
     <form v-if="showSearchBox" action="/search" method="get" role="search" class="usf-sr-inputbox">
@@ -146,13 +1359,22 @@ usf.templates = {
             <div class="usf-filters" :class="{'usf-has-filters': !!facetFilters}" @click="onMobileToggle">
                 <button class="usf-btn" v-html="loc.filters"></button>
             </div>
-            ` + _usfSearchResultsSortByTpl + `
+            ` +
+    _usfSearchResultsSortByTpl +
+    `
         </div>
-        
-        ` + _usfSearchResultsSummaryTpl + _usfSearchResultsViewsTpl + `
+
+        ` +
+    _usfSearchResultsSummaryTpl +
+    _usfSearchResultsViewsTpl +
+    `
     </div>
     <div class="usf-sr-config" v-else>
-        ` + _usfSearchResultsViewsTpl + _usfSearchResultsSummaryTpl + _usfSearchResultsSortByTpl + `
+        ` +
+    _usfSearchResultsViewsTpl +
+    _usfSearchResultsSummaryTpl +
+    _usfSearchResultsSortByTpl +
+    `
     </div>
 
     <usf-sr-banner v-if="result && result.extra && result.extra.banner && !result.extra.banner.isBottom" :banner="result.extra.banner"></usf-sr-banner>
@@ -160,8 +1382,12 @@ usf.templates = {
     <!-- Load previous -->
     <div id="usf-sr-top-loader" :class="{'usf-with-loader':loader === 'prev'}" v-if="(loader === 'prev' || itemsOffset) && loader !== true && hasResults && usf.settings.search.more !== 'page'"></div>
     <ul :class="\'usf-results usf-clear usf-\' + view">
-        <template v-if="0 || loader===true">` + _usfSearchResultsSkeletonItemTpl + _usfSearchResultsSkeletonItemTpl + _usfSearchResultsSkeletonItemTpl + _usfSearchResultsSkeletonItemTpl +
-        `</template>
+        <template v-if="0 || loader===true">` +
+    _usfSearchResultsSkeletonItemTpl +
+    _usfSearchResultsSkeletonItemTpl +
+    _usfSearchResultsSkeletonItemTpl +
+    _usfSearchResultsSkeletonItemTpl +
+    `</template>
         <template v-else>
             <template v-if="hasResults">
                 <template v-if="view === 'grid'">
@@ -198,32 +1424,32 @@ usf.templates = {
     </div>
 </div>
 `,
-    // Grid view item
-    searchResultsGridViewItem: `
-<li class="usf-sr-product usf-grid__item" :product-selector="product.id" :data-usf-pid="product.id">   
+  // Grid view item
+  searchResultsGridViewItem: `
+<li class="usf-sr-product usf-grid__item" :product-selector="product.id" :data-usf-pid="product.id">
    <div class="card-product p-5 rounded-md bg-white shadow-md ">
         <a :href="productUrl" @click="onItemClick" @mouseover="onItemHover" @mouseleave="onItemLeave" class="usf-grid__item-link">
             <!-- card info -->
             <div class="w-7/12 text-left">
                <!-- Title and drop -->
                <div class="flex gap-1 relative min-h-[60px]">
- 
+
                   <h2 class="font-body-text text-[18px] font-extrabold line-clamp-3" :attrs="usf.plugins.invoke('getProductTitleAttrs', pluginData)" v-html="product.title"></h2>
                   <usf-drop :product="product"></usf-drop>
-               </div> 
+               </div>
                <!-- Metafield producer -->
-               
+
                <div class="mt-5">
                   <p v-if="usf.utils.getMetafield(product,'global','marque')" class="text-xs uppercase font-light">PRODUCTEUR</p>
                   <p class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
                </div>
-               <!-- Metafield region --> 
+               <!-- Metafield region -->
                <div class="mt-4">
-                  <p class="text-xs uppercase font-light">RÉGION</p> 
+                  <p class="text-xs uppercase font-light">RÉGION</p>
                   <p v-if="checkTags(product.tags)" class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="checkTags(product.tags)"></p>
                   <p v-else class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="'N/A'"></p>
-               </div>   
-               <!-- Metafield grade --> 
+               </div>
+               <!-- Metafield grade -->
                <div class="mt-4">
                   <p v-if="usf.utils.getMetafield(product,'global','description_courte')" class="text-xs uppercase font-light">CÉPAGE</p>
                   <p v-if="(description_courte = usf.utils.getMetafield(product,'global','description_courte')) != '' && description_courte.includes('-')" class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="description_courte.split('-')[0] ? description_courte.split('-')[0].replace('Cépage : ','').replace('Cépages ','') : ''"></p>
@@ -247,22 +1473,24 @@ usf.templates = {
             <div v-else-if="hasDiscount && usf.settings.search.showSale" class="usf-badge usf-sale-badge"><span v-html="loc.sale"></span></div>
             <!-- Wishlist -->
             <usf-plugin name="searchResultsProductWishList" :data="pluginData"></usf-plugin>
- 
+
             <!-- Labels -->
             <usf-plugin name="searchResultsProductLabel" :data="pluginData"></usf-plugin>
         </a>
 
         <!-- vendor -->
-         <!-- <div class="usf-vendor"> 
+         <!-- <div class="usf-vendor">
             <a v-if="usf.settings.search.showVendor" :href="usf.platform.baseUrl + '/collections/vendors?q=' + encodeURIComponent(product.vendor)" v-html="product.vendor"></a>
         </div> -->
 
         <!-- price -->
         <usf-plugin name="searchResultsProductPrice" :data="pluginData"></usf-plugin>
 
-        <div class="usf-price-wrapper flex items-center" :class="{'usf-price--sold-out': isSoldOut}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
-            <span class="usf-price text-[20px] font-extrabold" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="displayPrice"></span>
-            <span class="usf-discount text-[20px] font-extrabold" v-if="hasDiscount" v-html="displayDiscountedPrice"></span>
+        <div class="usf-price-wrapper flex items-center flex-wrap-reverse gap-2" :class="{'usf-price--sold-out': isSoldOut}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
+            <div>
+                <span class="usf-price text-[20px] font-extrabold" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="displayPrice"></span>
+                <span class="usf-discount text-[20px] font-extrabold" v-if="hasDiscount" v-html="displayDiscountedPrice"></span>
+            </div>
             <span v-if="hasDiscount" class="usf-price-savings text-[20px] font-extrabold" v-html="loc.save + ' ' + salePercent + '%'"></span>
         </div>
         <div class="group relative mt-3 flex gap-1" v-if="!isSoldOut">
@@ -270,7 +1498,7 @@ usf.templates = {
                <button v-if="qtyMinuteShow" class="p-1 no-js-hidden" name="minus" type="button" @click="qtyMinutes">
                   <svg width="13" height="2" viewBox="0 0 13 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H11.0024C11.5547 0 12.0024 0.447715 12.0024 1C12.0024 1.55228 11.5547 2 11.0024 2H1C0.447715 2 0 1.55228 0 1Z" fill="#201A1C"></path>
-                  </svg>  
+                  </svg>
                </button>
                <input class="text-black bg-transparent text-[16px] md:text-[20px] font-extrabold md:max-w-[30px] max-w-[20px] text-center" type="number" name="quantity" min="1" @input="e => qtyInput(e)" :value="usfQty" form="">
                <button v-if="qtyPlusShow" class="p-1 no-js-hidden" name="plus" type="button" @click="qtyPlus">
@@ -280,7 +1508,7 @@ usf.templates = {
                </button>
             </product-quantity>
             <add-to-cart data-max-quantity="0" :data-quantity="usfQty" class="w-8/12 " :data-product="product.id" :data-title="product.title" :data-price="price" :data-variant="product.variants[0].id">
-               <button class="btn-primary 
+               <button class="btn-primary
                   px-[12px] py-[11px] text-sm  text-[#fff] bg-[#f84c55]  w-full  transition-all rounded-md font-bold">
                Ajouter au panier
                </button>
@@ -288,7 +1516,7 @@ usf.templates = {
         </div>
         <div class="flex-1" v-else style="margin-top: 0.75rem;">
             <div data-disabled="true">
-                <button style="cursor: not-allowed;" disabled="true" class="w-full text-white cursor-pointer !px-0 bg-gray-medium 
+                <button style="cursor: not-allowed;" disabled="true" class="w-full text-white cursor-pointer !px-0 bg-gray-medium
                     px-2 py-3 text-sm md:px-4 md:py-3 transition-all rounded-md font-bold">
                 Stocks épuisés
                 </button>
@@ -301,8 +1529,8 @@ usf.templates = {
     </div>
 </li>
 `,
-    // Search result pages
-    searchResultsPages: `
+  // Search result pages
+  searchResultsPages: `
 <center>
     <ul class="usf-sr-pages">
         <template v-for="e in elements">
@@ -315,9 +1543,9 @@ usf.templates = {
     </ul>
 </center>
 `,
-    // List view item
-    searchResultsListViewItem: /*inc_begin_search-list-item*/
-`<a class="usf-sr-product" @click="onItemClick" @mouseover="onItemHover" @mouseleave="onItemLeave" :href="productUrl" :data-usf-pid="product.id">
+  // List view item
+  /*inc_begin_search-list-item*/
+  searchResultsListViewItem: `<a class="usf-sr-product" @click="onItemClick" @mouseover="onItemHover" @mouseleave="onItemLeave" :href="productUrl" :data-usf-pid="product.id">
     <!-- Image column -->
     <div class="usf-img-column">
         <!-- product image -->
@@ -331,7 +1559,7 @@ usf.templates = {
             <!-- product image extra -->
             <usf-plugin name="searchResultsProductPreview" :data="pluginData"></usf-plugin>
             <usf-plugin name="searchResultsProductCart" :data="pluginData"></usf-plugin>
-            
+
             <div v-if="isSoldOut && usf.settings.search.showSoldOut" class="usf-badge"><span v-html="loc.soldOut"></div>
             <div v-else-if="hasDiscount && usf.settings.search.showSale" class="usf-badge usf-sale-badge"><span v-html="loc.sale"></span></div>
         </div>
@@ -351,11 +1579,10 @@ usf.templates = {
         </div>
         <div class="usf-description"></div>
     </div>
-</a>`
-/*inc_end_search-list-item*/,
-    // AddToCart Plugin	
-    addToCartPlugin: /*inc_begin_addtocart-plugin*/
-`<form class="usf-add-to-cart" method="POST" enctype="multipart/form-data" :action="usf.platform.addToCartUrl">
+</a>`,
+  /*inc_end_search-list-item*/ // AddToCart Plugin
+  /*inc_begin_addtocart-plugin*/
+  addToCartPlugin: `<form class="usf-add-to-cart" method="POST" enctype="multipart/form-data" :action="usf.platform.addToCartUrl">
     <input type="hidden" name="form_type" value="product">
     <input type="hidden" name="utf8" value="✓">
     <input type="hidden" name="quantity" value="1">
@@ -365,18 +1592,14 @@ usf.templates = {
         <span class="usf-icon usf-icon-cart"></span>
         <span class="usf-label" v-html="loc.addToCart"></span>
     </button>
-</form>`
-/*inc_end_addtocart-plugin*/,
-
-    // Preview Plugin
-    previewPlugin: /*inc_begin_preview-plugin*/
-`<div class="usf-sr-preview" :class="['usf-sr-' + settings.iconPosition]" @click.prevent.stop="onShowModal">
+</form>`,
+  /*inc_end_addtocart-plugin*/ // Preview Plugin
+  /*inc_begin_preview-plugin*/
+  previewPlugin: `<div class="usf-sr-preview" :class="['usf-sr-' + settings.iconPosition]" @click.prevent.stop="onShowModal">
     <span class="usf-icon usf-icon-eye"></span>
-</div>`
-/*inc_end_preview-plugin*/,
-
-    previewPluginModal: /*inc_begin_preview-modal*/
-`<div><div class="usf-backdrop"></div><div class="usf-preview__wrapper usf-zone"><div class="usf-preview__container">
+</div>`,
+  /*inc_end_preview-plugin*/ /*inc_begin_preview-modal*/
+  previewPluginModal: `<div><div class="usf-backdrop"></div><div class="usf-preview__wrapper usf-zone"><div class="usf-preview__container">
     <div class="usf-preview">
         <!-- Close button -->
         <div class="usf-remove" @click="onClose"></div>
@@ -452,7 +1675,7 @@ usf.templates = {
                         </template>
 
                         <!-- add to card button -->
-                        <div class="usf-preview__field">                            
+                        <div class="usf-preview__field">
                             <div class="usf-flex usf-preview__add-to-cart">
                                 <usf-num-input v-model="quantity" name="quantity" :disabled="!hasAvailableVariant" :min="1" :max="available" />
                                 <button :title="!hasAvailableVariant ? loc.selectedVariantNotAvailable : ''" :disabled="!hasAvailableVariant" type="submit" name="add" class="usf-add-to-cart-btn" :class="{ 'usf-disabled': !hasAvailableVariant}">
@@ -468,23 +1691,19 @@ usf.templates = {
             </div>
         </div>
     </div>
-</div></div></div>`
-/*inc_end_preview-modal*/,
-
-    searchResultsBanner: /*inc_begin_search-banner*/        
-`<div class="usf-sr-banner">
+</div></div></div>`,
+  /*inc_end_preview-modal*/ /*inc_begin_search-banner*/
+  searchResultsBanner: `<div class="usf-sr-banner">
     <a :href="banner.url || 'javascript:void(0)'" :alt="banner.description">
         <img :src="banner.mediaUrl" style="max-width:100%">
     </a>
 </div>
-`
-/*inc_end_search-banner*/,
-
-    ////////////////////////
-    // Filter templates
-    // facet filters breadcrumb
-    filtersBreadcrumb: /*inc_begin_filters-breadcrumb*/
-`<div v-if="usf.settings.filterNavigation.showFilterArea && root.facetFilters && root.facets && facetFilterIds.length" class="usf-refineby">
+`,
+  /*inc_end_search-banner*/ ////////////////////////
+  // Filter templates
+  // facet filters breadcrumb
+  /*inc_begin_filters-breadcrumb*/
+  filtersBreadcrumb: `<div v-if="usf.settings.filterNavigation.showFilterArea && root.facetFilters && root.facets && facetFilterIds.length" class="usf-refineby">
     <!-- Breadcrumb Header -->
     <div class="usf-title usf-clear">
         <span class="usf-pull-left usf-icon usf-icon-equalizer"></span>
@@ -504,13 +1723,12 @@ usf.templates = {
             </template>
         </template>
     </div>
- </div>`
- /*inc_end_filters-breadcrumb*/,
-
-    // facet filters    
-    filters: /*inc_begin_filters*/
-// Vert & Horz modes have different render order
-`<div class="usf-facets usf-no-select usf-zone" :class="{'usf-facets--mobile':usf.isMobileFilter}">
+ </div>`,
+  /*inc_end_filters-breadcrumb*/ // facet filters
+  /*inc_begin_filters*/
+  filters:
+    // Vert & Horz modes have different render order
+    `<div class="usf-facets usf-no-select usf-zone" :class="{'usf-facets--mobile':usf.isMobileFilter}">
 <!-- Mobile view -->
 <template v-if="usf.isMobile">
     <div class="usf-close" @click="onMobileBack(1)"></div>
@@ -541,13 +1759,13 @@ usf.templates = {
             <!-- Desktop-like filter in mobile -->
             <template v-if="usf.settings.filters.desktopLikeMobile">
                 <usf-filter-breadcrumb></usf-filter-breadcrumb>
-                
+
                 <!-- Facets body -->
                 <div class="usf-facets__body">
                     <usf-filter :facet="f" :key="f.id" v-for="f in facets"></usf-filter>
                 </div>
             </template>
-            
+
             <!-- Mobile filter -->
             <template v-else>
                 <!-- List all filter options, in single facet mode -->
@@ -593,19 +1811,19 @@ usf.templates = {
         <usf-filter :facet="f" :key="f.id" v-for="f in facets"></usf-filter>
     </div>
 </template>
-</div>`
-/*inc_end_filters*/,
-
-    // facet filter item
-    filter: /*inc_begin_filter*/
-`<div v-if="canShow" class="usf-facet" :class="{'usf-collapsed': collapsed && !usf.isMobileFilter, 'usf-has-filter': isInBreadcrumb}">
+</div>`,
+  /*inc_end_filters*/ // facet filter item
+  /*inc_begin_filter*/
+  filter:
+    `<div v-if="canShow" class="usf-facet" :class="{'usf-collapsed': collapsed && !usf.isMobileFilter, 'usf-has-filter': isInBreadcrumb}">
     <!-- Mobile filter -->
     <div v-if="usf.isMobileFilter" class="usf-container">
         <!-- Search box -->
         <input v-if="hasSearchBox" class="usf-search-box" :aria-label="loc.filterOptions" :placeholder="loc.filterOptions" :value="term" @input="v => term = v.target.value">
 
         <!-- Values -->
-        ` + _usfFilterBodyTemplate +
+        ` +
+    _usfFilterBodyTemplate +
     `</div>
 
     <!-- Desktop filter -->
@@ -614,7 +1832,7 @@ usf.templates = {
         <div class="usf-clear">
             <div class="usf-title usf-no-select" @click.prevent.stop="onExpandCollapse">
                 <button class="usf-label usf-btn" v-html="facet.title" :aria-label="usf.utils.format(loc.filterBy,facet.title)" :aria-expanded="!collapsed"></button>
-                <usf-helptip v-if="facet.tooltip" :tooltip="facet.tooltip"></usf-helptip>            
+                <usf-helptip v-if="facet.tooltip" :tooltip="facet.tooltip"></usf-helptip>
                 <!-- 'Clear all' button to clear the current facet filter. -->
                 <button v-if="isInBreadcrumb" class="usf-clear-all usf-btn" :title="loc.clearFilterOptions" :aria-label="usf.utils.format(loc.clearFiltersBy,facet.title)" @click.prevent.stop="onClear" v-html="loc.clear"></button>
                 <span class="usf-pm"></span>
@@ -626,22 +1844,21 @@ usf.templates = {
             <!-- Search box -->
             <input v-if="hasSearchBox" class="usf-search-box" :placeholder="loc.filterOptions" :value="term" @input="v => term = v.target.value">
 
-            ` + _usfFilterBodyTemplate +
-        `
+            ` +
+    _usfFilterBodyTemplate +
+    `
         </div>
     </template>
-</div>`
-/*inc_end_filter*/,
-
-    // facet filter option
-    filterOption: /*inc_begin_filter-option*/
-`<div v-if="children" :class="(isSelected ? 'usf-selected ' : '') + ' usf-relative usf-facet-value usf-facet-value-single usf-with-children' + (collapsed ? ' usf-collapsed' : '')">
+</div>`,
+  /*inc_end_filter*/ // facet filter option
+  /*inc_begin_filter-option*/
+  filterOption: `<div v-if="children" :class="(isSelected ? 'usf-selected ' : '') + ' usf-relative usf-facet-value usf-facet-value-single usf-with-children' + (collapsed ? ' usf-collapsed' : '')">
     <!-- option label -->
     <button class="usf-pm usf-btn" v-if="children" @click.prevent.stop="onToggleChildren"></button>
     <button class="usf-label usf-btn" v-html="label" @click.prevent.stop="onToggle"></button>
 
     <!-- product count -->
-    <span v-if="!(!usf.settings.filterNavigation.showProductCount || (swatchImage && !usf.isMobileFilter)) && option.value !== undefined" class="usf-value">{{option.value}}</span>    
+    <span v-if="!(!usf.settings.filterNavigation.showProductCount || (swatchImage && !usf.isMobileFilter)) && option.value !== undefined" class="usf-value">{{option.value}}</span>
 
     <div class="usf-children-container" v-if="children && !collapsed">
         <button :class="'usf-child-item usf-btn usf-facet-value' + (isChildSelected(c) ? ' usf-selected' : '')" v-for="c in children" v-html="getChildLabel(c)" @click="onChildClick(c)"></span>
@@ -658,15 +1875,13 @@ usf.templates = {
 
     <!-- option label -->
     <span class="usf-label usf-btn" v-html="label"></span>
-    
+
     <!-- product count -->
     <span v-if="!(!usf.settings.filterNavigation.showProductCount || (swatchImage && !usf.isMobileFilter)) && option.value !== undefined" class="usf-value">{{option.value}}</span>
-</button>`
-/*inc_end_filter-option*/,
-
-    // Instant search popup
-    instantSearch: /*inc_begin_instantsearch*/
-`<div :class="'usf-popup usf-zone usf-is usf-is--compact usf-is--' + position + (shouldShow ? '' : ' usf-hide') + (isEmpty ? ' usf-empty' : '') + (hasProductsOnly ? ' usf-is--products-only' : '') + (firstLoader ? ' usf-is--first-loader': '')"  :style="usf.isMobile ? null : {left: this.left + 'px',top: this.top + 'px',width: this.width + 'px'}">
+</button>`,
+  /*inc_end_filter-option*/ // Instant search popup
+  /*inc_begin_instantsearch*/
+  instantSearch: `<div :class="'usf-popup usf-zone usf-is usf-is--compact usf-is--' + position + (shouldShow ? '' : ' usf-hide') + (isEmpty ? ' usf-empty' : '') + (hasProductsOnly ? ' usf-is--products-only' : '') + (firstLoader ? ' usf-is--first-loader': '')"  :style="usf.isMobile ? null : {left: this.left + 'px',top: this.top + 'px',width: this.width + 'px'}">
     <!-- Mobile search box -->
     <div v-if="usf.isMobile">
         <form class="usf-is-inputbox" :action="searchUrl" method="get" role="search">
@@ -708,7 +1923,7 @@ usf.templates = {
                 <!-- Products -->
                 <div class="usf-is-matches usf-is-products">
                     <div class="usf-title" v-html="queryOrTerm ? loc.productMatches : loc.trending"></div>
-                    
+
                     <div class="usf-is-list" v-if="result.items.length">
                         <!-- Did you mean -->
                         <span class="usf-is-did-you-mean" v-html="usf.utils.format(loc.didYouMean, usf.utils.encodeHtml(term), result.query)" v-if="termDiffers"></span>
@@ -746,18 +1961,16 @@ usf.templates = {
             </div>
         </template>
     </template>
-</div>`
-/*inc_end_instantsearch*/
-,
-
-    // Instant search item
-    instantSearchItem:/*inc_begin_instantsearch-item*/
-`<span class="usf-is-product usf-clear" @click="onItemClick">
+</div>`,
+  /*inc_end_instantsearch*/
+  // Instant search item
+  /*inc_begin_instantsearch-item*/
+  instantSearchItem: `<span class="usf-is-product usf-clear" @click="onItemClick">
     <!-- Image -->
     <div class="usf-img-wrapper usf-pull-left">
         <img class="usf-img" :src="selectedImageUrl">
     </div>
-    
+
     <div class="usf-pull-left">
         <!-- Title -->
         <div class="usf-title" v-html="usf.utils.highlight(product.title, result.query)"></div>
@@ -771,11 +1984,9 @@ usf.templates = {
             <span v-if="hasDiscount" class="usf-discount" v-html="displayDiscountedPrice"></span>
         </div>
     </div>
-</span>`
-/*inc_end_instantsearch-item*/,
-
-    miniCart: /*inc_begin_minicart*/
-`<div class="usf-minicart-wrap usf-zone">
+</span>`,
+  /*inc_end_instantsearch-item*/ /*inc_begin_minicart*/
+  miniCart: `<div class="usf-minicart-wrap usf-zone">
     <div class="usf-minicart-backdrop" @click="hide"></div>
     <div class="usf-minicart-container">
         <div class="usf-minicart-container-inner">
@@ -841,15 +2052,15 @@ usf.templates = {
         </div>
     </div>
 </div>`
-/*inc_end_minicart*/,
+  /*inc_end_minicart*/
 };
 
-function checkTags(vl){
-    for(var i=0;i<window._usfRegions.length;i++){
-        if(vl.includes(window._usfRegions[i].toLowerCase())){
-            return window._usfRegions[i]
-        }
+function checkTags(vl) {
+  for (var i = 0; i < window._usfRegions.length; i++) {
+    if (vl.includes(window._usfRegions[i].toLowerCase())) {
+      return window._usfRegions[i];
     }
+  }
 }
 
 /*
@@ -887,163 +2098,163 @@ function checkTags(vl){
     }else if(vl.includes("corse")){
         return "Corse"
     }
-    return ''; 
+    return '';
 }*/
-usf.event.add('init', function () {    
-	// register or override components
-    // ...    
-    /*var SearchResultsGridItem2 = {
+usf.event.add("init", function () {
+  // register or override components
+  // ...
+  /*var SearchResultsGridItem2 = {
         template: usf.templates.searchResultsGridViewItem,
     }
     usf.register(SearchResultsGridItem2, usf.components.SearchResultsGridItem, "usf-sr-griditem");*/
-    _usfImageWidths = _usfIsDynamicImage ? [200, 400, 600, 700, 800, 900, 1000, 1200] : [usf.settings.search.imageSize];
+  _usfImageWidths = _usfIsDynamicImage ? [200, 400, 600, 700, 800, 900, 1000, 1200] : [usf.settings.search.imageSize];
 
-    var SearchResultsGridItem = {
-        mixins: [usf.components.SearchResultsGridItem],
-        template: usf.templates.searchResultsGridViewItem,
-        data(){
-            return {
-                usfQty: 1,
-                qtyPlusShow:true,
-                qtyMinuteShow: true,
-            }
-        },
-        methods:{  
-            qtyPlus(){
-                this.usfQty++;
-                this.checkQty();
-            },
-            qtyMinutes(){
-                if(this.usfQty>1)
-                    this.usfQty--;
-                this.checkQty(); 
-            },
-            checkQty(){
-                if(this.usfQty >= this.selectedVariantForPrice.available && this.selectedVariantForPrice.available != -2147483648){
-                    this.qtyPlusShow = false;
-                }else{ 
-                    this.qtyPlusShow = true;
-                }
-                if(this.usfQty <= 1){
-                    this.qtyMinuteShow = true;
-                }else{
-                     this.qtyMinuteShow = true;
-                }
-            }, 
-            qtyInput(e){
-                var val = e.target.value;
-                this.usfQty = parseInt(val);
-                this.checkQty(); 
-            }
-        } 
-    }
-    usf.register(SearchResultsGridItem, null, "usf-new-griditem");
-
-    var usfDropRender = {
-        props: {
-            product: Object,
-        },
-        data() {
-            var dropColor = _usfIsDrop(this.product)
-            var svg = _usfDrop[dropColor]
-            return {
-                svg: svg,
-            }
-        },
-        template:`
-            <div class="relative top-1 left-1" v-html="svg">
-            </div> 
-        `
-    }
-    usf.register(usfDropRender, null, 'usf-drop')
-
-    /*inc_end_minicart-js*/
-    // register to the `usfShowCartPanel` event to show the mini cart panel.
-    document.addEventListener('usfShowCartPanel', async function () {
-        // get cart info
-        var cart = await fetch(usf.platform.baseUrl +'/cart.js', {
-            credentials: 'same-origin',
-            method: 'GET'
-        }).then(function (response) {
-            return response.json()
-        })
-
-        // set minicart's translations here
-        var miniCartTranslations = {
-            'en': {
-                yourCartItems: 'Your cart ({0} items)',
-                yourCartItem: 'Your cart ({0} item)',
-                yourCartIsEmpty: 'Your cart is currently empty',
-                subtotal: 'Subtotal:',
-                checkout: 'Checkout',
-                viewCart: 'View cart',
-                removeCartItem: 'Remove this item'
-            }
+  var SearchResultsGridItem = {
+    mixins: [usf.components.SearchResultsGridItem],
+    template: usf.templates.searchResultsGridViewItem,
+    data() {
+      return {
+        usfQty: 1,
+        qtyPlusShow: true,
+        qtyMinuteShow: true
+      };
+    },
+    methods: {
+      qtyPlus() {
+        this.usfQty++;
+        this.checkQty();
+      },
+      qtyMinutes() {
+        if (this.usfQty > 1) this.usfQty--;
+        this.checkQty();
+      },
+      checkQty() {
+        if (
+          this.usfQty >= this.selectedVariantForPrice.available &&
+          this.selectedVariantForPrice.available != -2147483648
+        ) {
+          this.qtyPlusShow = false;
+        } else {
+          this.qtyPlusShow = true;
         }
-        var miniCartTranslation = miniCartTranslations[usf.platform.locale];
-        if (!miniCartTranslation)
-            miniCartTranslation = miniCartTranslations['en']
-        Object.assign(miniCartTranslation, usf.settings.translation);
-        
-        // show cart modal
-        // create the placeholder element to show the preview popup
-        var popup = document.createElement('div');
-        document.body.appendChild(popup);
+        if (this.usfQty <= 1) {
+          this.qtyMinuteShow = true;
+        } else {
+          this.qtyMinuteShow = true;
+        }
+      },
+      qtyInput(e) {
+        var val = e.target.value;
+        this.usfQty = parseInt(val);
+        this.checkQty();
+      }
+    }
+  };
+  usf.register(SearchResultsGridItem, null, "usf-new-griditem");
 
-        new RVue({
-            el: popup,
-            template: usf.templates.miniCart, // the mini cart panel template
-            
-            data: {
-                cart,
-                loc: miniCartTranslation
-            },
+  var usfDropRender = {
+    props: {
+      product: Object
+    },
+    data() {
+      var dropColor = _usfIsDrop(this.product);
+      var svg = _usfDrop[dropColor];
+      return {
+        svg: svg
+      };
+    },
+    template: `
+            <div class="relative top-1 left-1" v-html="svg">
+            </div>
+        `
+  };
+  usf.register(usfDropRender, null, "usf-drop");
 
-            mounted(){
-                setTimeout(() => this.$el.classList.add('usf-minicart-active'), 0);
-            },
-            
-            methods: {
-                hide() {
-                    this.$el.classList.remove('usf-minicart-active');
-                    setTimeout(() => {
-                        document.body.removeChild(this.$el);
-                    }, 300);
-                },
+  /*inc_end_minicart-js*/
+  // register to the `usfShowCartPanel` event to show the mini cart panel.
+  document.addEventListener("usfShowCartPanel", async function () {
+    // get cart info
+    var cart = await fetch(usf.platform.baseUrl + "/cart.js", {
+      credentials: "same-origin",
+      method: "GET"
+    }).then(function (response) {
+      return response.json();
+    });
 
-                updateCartItem(id, quantity) {
-                    this.cart.items.forEach(item => {
-                        if (item.id === id)
-                            item.quantity = quantity;
-                    });
+    // set minicart's translations here
+    var miniCartTranslations = {
+      en: {
+        yourCartItems: "Your cart ({0} items)",
+        yourCartItem: "Your cart ({0} item)",
+        yourCartIsEmpty: "Your cart is currently empty",
+        subtotal: "Subtotal:",
+        checkout: "Checkout",
+        viewCart: "View cart",
+        removeCartItem: "Remove this item"
+      }
+    };
+    var miniCartTranslation = miniCartTranslations[usf.platform.locale];
+    if (!miniCartTranslation) miniCartTranslation = miniCartTranslations["en"];
+    Object.assign(miniCartTranslation, usf.settings.translation);
 
-                    fetch(usf.platform.baseUrl + "/cart/change.js", {
-                        body: JSON.stringify({
-                            id: String(id),
-                            quantity: quantity 
-                        }),
-                        credentials: "same-origin",
-                        method: "POST",
-                        headers: {
-                            "Content-Type": "application/json",
-                            "X-Requested-With": "XMLHttpRequest"
-                        }
-                    }).then((e) => {
-                        e.json().then((e) => {
-                            this.cart = e;
-                        })
-                    })
-                },
+    // show cart modal
+    // create the placeholder element to show the preview popup
+    var popup = document.createElement("div");
+    document.body.appendChild(popup);
 
-                getMiniCartPrice(price) {
-                    return usf.utils.getDisplayPrice(price / 100)
-                }
+    new RVue({
+      el: popup,
+      template: usf.templates.miniCart, // the mini cart panel template
+
+      data: {
+        cart,
+        loc: miniCartTranslation
+      },
+
+      mounted() {
+        setTimeout(() => this.$el.classList.add("usf-minicart-active"), 0);
+      },
+
+      methods: {
+        hide() {
+          this.$el.classList.remove("usf-minicart-active");
+          setTimeout(() => {
+            document.body.removeChild(this.$el);
+          }, 300);
+        },
+
+        updateCartItem(id, quantity) {
+          this.cart.items.forEach((item) => {
+            if (item.id === id) item.quantity = quantity;
+          });
+
+          fetch(usf.platform.baseUrl + "/cart/change.js", {
+            body: JSON.stringify({
+              id: String(id),
+              quantity: quantity
+            }),
+            credentials: "same-origin",
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              "X-Requested-With": "XMLHttpRequest"
             }
-        });
-    })
-    /*inc_end_minicart-js*/
+          }).then((e) => {
+            e.json().then((e) => {
+              this.cart = e;
+            });
+          });
+        },
+
+        getMiniCartPrice(price) {
+          return usf.utils.getDisplayPrice(price / 100);
+        }
+      }
+    });
+  });
+  /*inc_end_minicart-js*/
 });
 
 function _usfOnAddToCartSuccess(rs, formSelector) {
-    document.dispatchEvent(new CustomEvent('usfShowCartPanel'));
+  document.dispatchEvent(new CustomEvent("usfShowCartPanel"));
 }
