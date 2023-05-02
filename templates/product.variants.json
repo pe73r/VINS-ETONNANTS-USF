@@ -38,8 +38,8 @@
         "b772b48a-9e88-44db-a874-d5d4fb97a412": {
           "type": "payment",
           "settings": {
-            "text": "Paiement 3x sans frais possible",
-            "more_text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>"
+            "text": "ApplePay, Paiement en 3x sans frais Klarna et différentes méthodes de paiement disponibles 💳",
+            "more_text": "<p>CB, ApplePay, Paiement en 3 fois Klarna, Virement, Bancontact, CBC, Sofort, Giropay, iDEAL, EPS, PostePay, Maestro, American Express, Paysafecard, Belfius, Przlewy24,,...<\/p>"
           }
         }
       },
@@ -112,9 +112,9 @@
         "container": "7xl",
         "title": "Description du vin 🍷",
         "text": "<p>'Délicieusement mordante, sur la griotte, la grenade et la fumée, avec une pointe d'épices”<\/p>",
-        "header_color": "#201A1C",
-        "text_color": "#F84C55",
-        "background_left_color": "#FFFFFE"
+        "header_color": "#201a1c",
+        "text_color": "#f84c55",
+        "background_left_color": "#fffffe"
       }
     },
     "product-informations-snap": {
