@@ -47,13 +47,22 @@
         id="price-{{ section.id }}"
         role="status"
         {{ block.shopify_attributes }}>
-        {%- if product.compare_at_price > product.price -%}
-          <span class="block text-[20px] font-extrabold accent">{{ product.price | money }}</span>
-          <span class="ml-2 text-base font-light line-through">{{ product.compare_at_price | money }}</span>
+
+          <span data-dynamic-price class="block text-[20px] font-extrabold accent">{{ product.first_available_variant.price | money }}</span>
+          <span data-dynamic-price-stroke class="ml-2 text-base font-light line-through">
+            {%- if product.first_available_variant.compare_at_price > product.first_available_variant.price -%}
+            {{ product.first_available_variant.compare_at_price | money }}
+          {% endif %}
+          </span>
+        {% comment %} {%- if product.first_available_variant.compare_at_price > product.first_available_variant.price -%}
+          <span class="block text-[20px] font-extrabold accent">{{ product.first_available_variant.price | money }}</span>
+          <span class="ml-2 text-base font-light line-through">{{ product.first_available_variant.compare_at_price | money }}</span>
         {% else %}
           <span class="block text-xl font-extrabold tracking-tight">{{ product.price | money }}</span>
-        {% endif %}
-        <span class="block text-xs font-bold ml-3 tracking-tight">Prix par bouteille 75 cl</span>
+        {% endif %} {% endcomment %}
+        {% if product.first_available_variant.unit_price != nil %}
+          <span class="block text-xs font-bold ml-3 tracking-tight">Prix par bouteille: <span data-dynamic-unit-price >{{product.first_available_variant.unit_price | money }}</span> / {{product.first_available_variant.unit_price_measurement.reference_value }}{{product.first_available_variant.unit_price_measurement.reference_unit }}</span>
+      {% endif %}
       </div>
 
       {%- when 'description' -%}
@@ -193,16 +202,25 @@
               class="w-full text-white cursor-pointer !px-0 bg-gray-medium {% render "button", size: "medium", color:"gray-medium" %}"
               {% endif %}>
               {% if product.available %}
-                <div class="flex justify-center items-center">
+                <div class="flex justify-center flex-wrap items-center">
                   <span class="block">Ajouter au panier</span>
                   <span class="px-1">-</span>
-                  <span
+                  {% comment %} <span
                     data-atc-price
                     data-dynamic-price
                     class="block">{{ product.price | money_without_trailing_zeros }}</span>
                   {%- if product.compare_at_price != blank -%}
                     <span data-price-stroke class="block ml-2 text-xs line-through">{{ product.compare_at_price | money_without_trailing_zeros }}</span>
-                  {%- endif -%}
+                  {%- endif -%} {% endcomment %}
+
+                  <div class="flex items-center">
+                  <span data-dynamic-price class="block text-xs">{{ product.first_available_variant.price | money }}</span>
+          <span data-dynamic-price-stroke class="ml-2 text-xs font-light line-through">
+            {%- if product.first_available_variant.compare_at_price > product.first_available_variant.price -%}
+            {{ product.first_available_variant.compare_at_price | money }}
+          {% endif %}
+          </div>
+          </span>
                 </div>
               {% else %}
                 Stocks épuisés
