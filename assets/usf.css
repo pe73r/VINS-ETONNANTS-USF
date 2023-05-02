@@ -1589,7 +1589,6 @@ body:not(.usf-mobile) .usf-grid-item--1-2:nth-child(2n + 1) {
 }
 .usf-list .usf-sr-product .usf-price-savings {
   color: #ff4e4e;
-  margin-left: 5px;
   white-space: nowrap;
   text-transform: capitalize;
 }
@@ -2931,7 +2930,6 @@ body:not(.usf-mobile) .usf-popover .usf-body:before {
 
 .usf-sr-product .usf-price-savings {
   color: #ff4e4e;
-
   white-space: nowrap;
   text-transform: capitalize;
 }
