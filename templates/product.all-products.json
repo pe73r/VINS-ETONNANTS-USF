@@ -40,7 +40,7 @@
           "type": "payment",
           "settings": {
             "text": "Différentes méthodes de paiement disponible 💳",
-            "more_text": "<p>CB, ApplePay, Paiement en 3 fois, Klarna, Virement, Bancontact, CBC, Sofort, Giropay, iDEAL, EPS, PostePay, Maestro, American Express, paysafecard,...<\/p>"
+            "more_text": "<p>CB, ApplePay, Paiement en 3 fois Klarna, Virement, Bancontact, CBC, Sofort, Giropay, iDEAL, EPS, PostePay, Maestro, American Express, Paysafecard, Belfius, Przlewy24,,...<\/p>"
           }
         }
       },
