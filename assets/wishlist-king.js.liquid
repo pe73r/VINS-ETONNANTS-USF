@@ -155,7 +155,7 @@ const initComponents = ({ theme, routes }) => {
 
 const initEvents = (app) => {
   app.events.subscribe("wk:wishlist:add-to-cart:success", (event) => {
-    window.location.href = app.routes.cartUrl;
+    // window.location.href = app.routes.cartUrl;
   });
   app.events.subscribe("wk:wishlist:add-all-to-cart:success", (event) => {
     window.location.href = app.routes.cartUrl;
