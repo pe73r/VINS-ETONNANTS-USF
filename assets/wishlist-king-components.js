@@ -170,6 +170,7 @@ export class WishlistProductCard extends WishlistElement {
         const cart =
           document.querySelector("cart-notification") ||
           document.querySelector("cart-drawer");
+
         const sectionsToRender = cart
           ? cart.getSectionsToRender().map((section) => section.id)
           : undefined;
@@ -179,7 +180,7 @@ export class WishlistProductCard extends WishlistElement {
           wishlistId: this.wishlistId,
           wishlistItemId: this.wishlistItem.id,
           sectionsToRender,
-          sectionsUrl: "/",
+          sectionsUrl: this.wishlistItem.product.url,
         });
         
         
