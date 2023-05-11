@@ -1,6 +1,6 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 
-<div class="customer activate">
+<div class="customer activate customer-activate">
   <svg style="display: none">
     <symbol id="icon-error" viewBox="0 0 13 13">
       <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"/>
@@ -98,16 +98,22 @@
   {%- endform -%}
 </div>
 <style>
+
+  .customer-activate{
+    margin: 50px 0;
+  }
+  
   .customer .field {
     margin: 2rem 0 0;
     display: flex;
     flex-direction: column-reverse;
 }
 
-  label{
+ .customer-activate label{
     font-size:16px;
   }
-  .input{
+  
+ .customer-activate .input{
     font-size: 14px;
     max-width: 500px;
     margin: auto;
@@ -117,7 +123,7 @@
     border-radius: 5px;
   }
 
-  .customer button {
+  .customer-activate button {
     margin: 4rem 0 1.5rem;
     margin: 30px 0 !important;
     background-color: #e5595b;
