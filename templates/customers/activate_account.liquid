@@ -12,7 +12,7 @@
   <h1>
     {{ 'customer.activate_account.title' | t }}
   </h1>
-  <p>
+  <p class="activate-message">
     {{ 'customer.activate_account.subtext' | t }}
   </p>
   {%- form 'activate_customer_password' -%}
@@ -131,6 +131,10 @@
     padding: 12px;
 }
 
+  .activate-message{
+    font-size:16px;
+  }
+  
   .activate button[name=decline] {
     display: none;
 }
