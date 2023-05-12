@@ -31,7 +31,7 @@
             "title_mobile": "Vins Etonnants",
             "text": "<p><strong>Les Vignerons Etonnants<\/strong><\/p><p>Découvrez notre catalogue<\/p>",
             "cta": "Je découvre",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify:\/\/collections\/tous-les-vins",
             "text_color": "#ffffff",
             "button_color": "#fcfaf8",
             "button_bg": "rgba(0,0,0,0)"
