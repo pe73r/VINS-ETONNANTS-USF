@@ -102,6 +102,7 @@
     },
     "product-recommendations-carousel": {
       "type": "product-recommendations-carousel",
+      "disabled": true,
       "settings": {
         "heading": "Recommandations",
         "show_secondary_image": false,
