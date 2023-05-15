@@ -13,7 +13,7 @@
       "type": "products-carousel",
       "settings": {
         "container": "7xl",
-        "collection": "vins-bio",
+        "collection": "castigno-chateau",
         "limit": 6,
         "title": "Nos vins à découvrir",
         "collection_link": "Voir tout",
