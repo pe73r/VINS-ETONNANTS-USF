@@ -1,6 +1,6 @@
 <section class="mt-10 mb-16">
   <div class="w-11/12 max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-    {%- paginate collections by paginate_by -%}
+    {%- paginate collections by 24 -%}
      {%- for collection in collections -%}
            {% assign card_collection = collection %}
               {% if card_collection.metafields.global.collection_producteur != blank %}
