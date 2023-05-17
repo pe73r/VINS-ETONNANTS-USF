@@ -182,11 +182,11 @@
             "card_width": "3\/5",
             "image": "shopify:\/\/shop_images\/5eec4b4341370ca7fc4654c0b3cbdb33.jpg",
             "image_overlay": true,
-            "title": "Notre sélection de vins rares !",
+            "title": "Liste de nos domaines",
             "show_hr": true,
             "text": "",
             "cta": "Je découvre",
-            "button_link": "shopify:\/\/collections\/vins-rares"
+            "button_link": "shopify:\/\/pages\/tous-les-vignerons"
           }
         },
         "3b35f979-2212-4301-9d49-79f08d3f6160": {
