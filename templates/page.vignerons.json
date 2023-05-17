@@ -821,6 +821,117 @@
       "settings": {
       }
     },
+    "523c0b62-7d63-4ebb-9bcf-983adc7e5a7c": {
+      "type": "collections-blocks",
+      "blocks": {
+        "template--17932494569786__523c0b62-7d63-4ebb-9bcf-983adc7e5a7c-168431592876e9f287-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17932494569786__523c0b62-7d63-4ebb-9bcf-983adc7e5a7c-168431592876e9f287-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17932494569786__523c0b62-7d63-4ebb-9bcf-983adc7e5a7c-168431592876e9f287-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17932494569786__523c0b62-7d63-4ebb-9bcf-983adc7e5a7c-168431592876e9f287-3": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17932494569786__523c0b62-7d63-4ebb-9bcf-983adc7e5a7c-168431592876e9f287-0",
+        "template--17932494569786__523c0b62-7d63-4ebb-9bcf-983adc7e5a7c-168431592876e9f287-1",
+        "template--17932494569786__523c0b62-7d63-4ebb-9bcf-983adc7e5a7c-168431592876e9f287-2",
+        "template--17932494569786__523c0b62-7d63-4ebb-9bcf-983adc7e5a7c-168431592876e9f287-3"
+      ],
+      "settings": {
+      }
+    },
+    "18145c55-ccd5-49ca-977e-bb3342fafd62": {
+      "type": "collections-blocks",
+      "blocks": {
+        "template--17932494569786__18145c55-ccd5-49ca-977e-bb3342fafd62-168431592876e9f287-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17932494569786__18145c55-ccd5-49ca-977e-bb3342fafd62-168431592876e9f287-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17932494569786__18145c55-ccd5-49ca-977e-bb3342fafd62-168431592876e9f287-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17932494569786__18145c55-ccd5-49ca-977e-bb3342fafd62-168431592876e9f287-3": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17932494569786__18145c55-ccd5-49ca-977e-bb3342fafd62-168431592876e9f287-0",
+        "template--17932494569786__18145c55-ccd5-49ca-977e-bb3342fafd62-168431592876e9f287-1",
+        "template--17932494569786__18145c55-ccd5-49ca-977e-bb3342fafd62-168431592876e9f287-2",
+        "template--17932494569786__18145c55-ccd5-49ca-977e-bb3342fafd62-168431592876e9f287-3"
+      ],
+      "settings": {
+      }
+    },
+    "e673a160-ea6c-4fcc-9843-ecffa9b7e335": {
+      "type": "collections-blocks",
+      "blocks": {
+        "template--17932494569786__e673a160-ea6c-4fcc-9843-ecffa9b7e335-168431592876e9f287-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17932494569786__e673a160-ea6c-4fcc-9843-ecffa9b7e335-168431592876e9f287-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17932494569786__e673a160-ea6c-4fcc-9843-ecffa9b7e335-168431592876e9f287-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--17932494569786__e673a160-ea6c-4fcc-9843-ecffa9b7e335-168431592876e9f287-3": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17932494569786__e673a160-ea6c-4fcc-9843-ecffa9b7e335-168431592876e9f287-0",
+        "template--17932494569786__e673a160-ea6c-4fcc-9843-ecffa9b7e335-168431592876e9f287-1",
+        "template--17932494569786__e673a160-ea6c-4fcc-9843-ecffa9b7e335-168431592876e9f287-2",
+        "template--17932494569786__e673a160-ea6c-4fcc-9843-ecffa9b7e335-168431592876e9f287-3"
+      ],
+      "settings": {
+      }
+    },
     "1edcc50e-e7d4-45cc-afd2-65c87d84bfef": {
       "type": "carousel-cards",
       "blocks": {
@@ -908,6 +1019,9 @@
     "4f66e99b-6cb1-421c-a8cb-a67da5fa60b6",
     "bd59b3e8-4c24-4544-b0ba-cb7aa98820de",
     "c9ddef96-555f-4ede-9824-4204eacde1ad",
+    "523c0b62-7d63-4ebb-9bcf-983adc7e5a7c",
+    "18145c55-ccd5-49ca-977e-bb3342fafd62",
+    "e673a160-ea6c-4fcc-9843-ecffa9b7e335",
     "1edcc50e-e7d4-45cc-afd2-65c87d84bfef",
     "3d8f9c17-2f0f-4df7-95f3-2234df881c04"
   ]
