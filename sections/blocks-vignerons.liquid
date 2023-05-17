@@ -21,7 +21,7 @@
             {% endif %}  
          </a>
      {% endfor %}
-      <div class="mt-10">
+      <div class="mt-10 mx-auto flex justify-center text-center">
       {% render 'pagination', paginate: paginate %}
        </div>
     {% endpaginate %}
@@ -30,24 +30,11 @@
 {% schema %}
 
     {
-      "name": "Blocks vignerons",
+      "name": "Collections vignerons",
       "settings": [],
-      "blocks": [
-        {
-          "type": "collection",
-          "name": "collection",
-          "settings": [
-             {
-              "type": "collection",
-              "id": "collection",
-              "label": "Collection"
-            }
-          ]
-        }
-      ],
       "presets": [
         {
-          "name": "Blocks vignerons"
+          "name": "Collections vignerons"
         }
       ]
     }
