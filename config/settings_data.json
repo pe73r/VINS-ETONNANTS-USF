@@ -287,7 +287,7 @@
         "settings": {
           "cart_title": "Panier",
           "show_counter": true,
-          "sub_total_text": "<p>📦 Livraison offerte dès 250€ à destination de la France, 500€ Benelux et Allemagne, 750€ sur la Scandinavie et l'Italie<\/p>",
+          "sub_total_text": "<p>📦 Livraison offerte dès 200€ à destination de la France, 400€ Benelux et Allemagne, 600€ sur la Scandinavie et l'Italie<\/p>",
           "validate_text": "Commander",
           "extra_text": "Code promo et frais de livraison à l’étape suivante",
           "extra_text_2": "En cas de difficultés de livraison, nous vous invitons à nous contacter en priorité.",
