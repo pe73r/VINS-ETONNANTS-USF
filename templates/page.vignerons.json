@@ -36,7 +36,7 @@
         "template--17932494569786__92f667c6-6e6b-4370-804c-a957e1df9881-167588680785d6ce32-2": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "agrapart"
           }
         },
         "template--17932494569786__92f667c6-6e6b-4370-804c-a957e1df9881-167588680785d6ce32-3": {
@@ -137,13 +137,13 @@
         "show_title": true,
         "show_arrows": false,
         "show_dots": true,
-        "color": "#FFFFFF"
+        "color": "#ffffff"
       }
     },
     "3d8f9c17-2f0f-4df7-95f3-2234df881c04": {
       "type": "rich-text-expandable",
       "settings": {
-        "text_color": "#201A1C",
+        "text_color": "#201a1c",
         "title": "Que signigie l’appelation bio ?",
         "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>",
         "more_text": "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
