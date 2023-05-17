@@ -3,7 +3,7 @@
     {%- paginate collections by 24 -%}
      {%- for collection in collections -%}
            {% assign card_collection = collection %}
-                {{ collection.metafields.global.collection_producteur.value }}
+              {% if collection.metafields.global.collection_producteur.value != blank %} 
                 <a class="block bg-white rounded-md min-h-[130px] shadow-lg p-5" href="{{ card_collection.url }}">
                   {% if card_collection != blank %}
                    <div class="text-base font-bold">
@@ -21,7 +21,7 @@
                     </div>
                   {% endif %}  
                </a>
-        
+             {% endif %}  
      {% endfor %}
       <div class="mt-10 mx-auto flex justify-center text-center">
       {% render 'pagination', paginate: paginate %}
