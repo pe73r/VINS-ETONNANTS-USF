@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 5/17/2023 2:35:58 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 5/17/2023 2:36:09 PM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -2102,6 +2102,24 @@ function checkTags(vl){
     }
     return '';
 }*/
+function _usfWisglistKing(id) {
+    return `<!-- include 'wishlist-button-collection' with '${id}' -->`
+}
+
+usf.plugins.push({
+    render_searchResultsProductWishList(t, h, args, next) {
+        var p = args.product;
+
+        return h('div', {
+            class: 'usf-wishlist-king', attrs: { 'data-id': p.id },
+            domProps: { innerHTML: _usfWisglistKing(p.id) }
+        });
+    }
+});
+
+// re-render the search results so the wishlist hearts are shown.
+usf.event.raise('rerender');
+
 usf.event.add("init", function () {
   // register or override components
   // ...
