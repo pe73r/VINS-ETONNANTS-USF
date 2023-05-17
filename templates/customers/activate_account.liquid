@@ -1,6 +1,6 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 
-<div class="customer activate">
+<div class="customer activate customer-activate">
   <svg style="display: none">
     <symbol id="icon-error" viewBox="0 0 13 13">
       <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"/>
@@ -12,7 +12,7 @@
   <h1>
     {{ 'customer.activate_account.title' | t }}
   </h1>
-  <p>
+  <p class="activate-message">
     {{ 'customer.activate_account.subtext' | t }}
   </p>
   {%- form 'activate_customer_password' -%}
@@ -97,3 +97,59 @@
     </button>
   {%- endform -%}
 </div>
+<style>
+
+  .customer-activate{
+    padding: 50px 0;
+  }
+
+  .customer-activate h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .customer-activate form {
+    margin-top: 3rem;
+  }
+  
+  .customer .field {
+    margin: 1.5rem 0 0;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+ .customer-activate label{
+    font-size:16px;
+  }
+  
+ .customer-activate input{
+    font-size: 14px;
+    max-width: 500px;
+    margin: auto;
+    width: 90%;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .customer-activate button {
+    margin: 4rem 0 1.5rem;
+    margin: 30px 0 !important;
+    background-color: #e5595b;
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+    width: 90%;
+    max-width: 500px;
+    border-radius:5px;
+}
+
+  .activate-message{
+    font-size:16px;
+  }
+  
+  .activate button[name=decline] {
+    display: none;
+}
+</style>
+              

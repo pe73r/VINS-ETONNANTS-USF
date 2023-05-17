@@ -38,6 +38,7 @@ defineCustomElement(
           return JSON.stringify(variant.options) === JSON.stringify(newState);
         });
 
+        console.log({ variant });
         if (!position) {
           return;
         }
@@ -73,6 +74,16 @@ defineCustomElement(
           } else {
             element.classList.remove("block");
             element.classList.add("hidden");
+          }
+        });
+
+        document.querySelectorAll("[data-dynamic-unit-price]").forEach((element) => {
+          if (variant.unit_price) {
+            element.textContent =
+              price
+                .format(variant.unit_price / 100)
+                .replace("€", "")
+                .trim() + "€";
           }
         });
         console.log({ variant });

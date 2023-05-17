@@ -167,10 +167,28 @@ export class WishlistProductCard extends WishlistElement {
       "submit .wk-form": async (event) => {
         event.preventDefault();
 
-        await this.form.addToCart({
+        const cart =
+          document.querySelector("cart-notification") ||
+          document.querySelector("cart-drawer");
+
+        const sectionsToRender = cart
+          ? cart.getSectionsToRender().map((section) => section.id)
+          : undefined;
+        
+        
+        const result = await this.form.addToCart({
           wishlistId: this.wishlistId,
           wishlistItemId: this.wishlistItem.id,
+          sectionsToRender,
+          sectionsUrl: this.wishlistItem.product.url,
         });
+        
+        
+        if (cart) {
+          cart.renderContents(result.cartResponse);
+        } else {
+          window.location.href = this.app.routes.cartUrl;
+        }
       },
     };
   }

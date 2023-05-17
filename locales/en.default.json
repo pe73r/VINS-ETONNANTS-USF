@@ -618,6 +618,18 @@
         },
         "confirmed_gift_card_additional_description": {
           "many": "Each gift card will be sent in a separate email."
+        },
+        "delivered_description_gift_card_text": {
+          "many": "The gift cards were sent by SMS."
+        },
+        "gift_card_resend_text": {
+          "many": "Resend SMS"
+        },
+        "gift_card_resend_description_text": {
+          "many": "If they have not been received, resend the SMS or"
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "many": "Each gift card will be sent in a separate SMS."
         }
       }
     },

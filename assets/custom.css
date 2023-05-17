@@ -115,3 +115,7 @@ input:focus-visible {
 add-to-cart[data-disabled="true"] {
   opacity: 0.5;
 }
+
+.usf-sr-product .usf-price-savings {
+  margin-left: 0px !important;
+}

@@ -78,15 +78,15 @@
 
       <!-- Metafield producer -->
       {% if product.metafields.global.marque != blank %}
-       
+
         {% assign marque_link = product.metafields.global.marque | handleize | prepend: '/collections/'%}
-      
+
         <div class="mt-2 md:mt-5">
           <p class="text-xs uppercase font-light">PRODUCTEUR</p>
           <a href="{{ marque_link }}" target="_blank" class="text-base line-clamp-2 font-normal block">{{ product.metafields.global.marque }}</a>
         </div>
       {% endif %}
-      
+
       {% comment %}
         {% assign countries = "espagne,autriche,argentine,italie,allemagne,grece,croatie,japon,portugal,zelande,etats-unis" | split: "," %}
       {% endcomment %}
@@ -114,7 +114,7 @@
       {% endfor %}
 
 
-   
+
         {% if isRegion %}
           <div class="mt-4">
             <p class="text-xs uppercase font-light">RÉGION</p>
@@ -130,7 +130,7 @@
               {% endfor %}
             </ul>
           </div>
-        {% else %}  
+        {% else %}
           <div class="mt-4">
             <p class="text-xs uppercase font-light">RÉGION</p>
             {% comment %} <p class="text-base line-clamp-1">
@@ -141,7 +141,7 @@
             </p>
           </div>
         {% endif %}
-     
+
 
       <!-- Cepage -->
       {% if isCepage %}

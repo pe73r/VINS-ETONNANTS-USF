@@ -1,13 +1,14 @@
 
 {% assign start = 0 %}
-{% assign end = 100 %}
+{% assign end = 250 %}
 {%- assign cartTotal = cart.original_total_price -%}
-{% assign progression = 18 %}
+{% assign progression = 20 %}
 {% assign firstStep = false %}
 {% assign secondStep = false %}
 {% assign total = cartTotal | divided_by: 100 %}
 
-{% if total >= 100 %}
+
+{% if total >= 250 %}
     {% assign progression = 55 %}
     {% assign firstStep = true %}
 
@@ -21,7 +22,7 @@
     <div class="text-sm text-center text-sauge mb-2">
 
         {% if firstStep == false %}
-            <span>Plus que <b class="text-md">{{ 100 | minus: total }}€</b> pour la livraison gratuite</span>
+            <span>Plus que <b class="text-md">{{ 250 | minus: total }}€</b> pour la livraison gratuite</span>
         {% endif %}
 
 
@@ -43,7 +44,7 @@
 
         <div class="relative opacity-0 hidden">
              <div style="background: {% if firstStep == true %}  #201A1C {% else %} #E8E2DB {% endif %}; border-color: {% if firstStep == true %}  #201A1C {% else %} #F9F8F6 {% endif %};" class=" m-auto left-0 right-0 top-[-16px] absolute rounded-full selected:border-marron border-2  w-3.5 h-3.5"></div>
-            <b class="text-sm font-bold" >100€</b> <br>
+            <b class="text-sm font-bold" >250€</b> <br>
             Livraison offerte
         </div>
 
