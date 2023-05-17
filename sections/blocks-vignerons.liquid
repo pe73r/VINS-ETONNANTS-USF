@@ -2,8 +2,8 @@
   <div class="w-11/12 max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
     {%- paginate collections by paginate_by -%}
      {%- for collection in collections -%}
-        {% if collection.metafields.global.collection_producteur != blank %}
            {% assign card_collection = collection %}
+              {% if card_collection.metafields.global.collection_producteur != blank %}
                 <a class="block bg-white rounded-md min-h-[130px] shadow-lg p-5" href="{{ card_collection.url }}">
                   {% if card_collection != blank %}
                    <div class="text-base font-bold">
