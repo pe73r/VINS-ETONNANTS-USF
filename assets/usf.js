@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 5/17/2023 2:37:02 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 5/17/2023 2:38:03 PM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -1430,7 +1430,7 @@ var _usfFilterBodyTemplate =
   searchResultsGridViewItem: `
 <li class="usf-sr-product usf-grid__item" :product-selector="product.id" :data-usf-pid="product.id">
    <div class="card-product p-5 rounded-md bg-white shadow-md ">
-        <a :href="productUrl" @click="onItemClick" @mouseover="onItemHover" @mouseleave="onItemLeave" class="usf-grid__item-link">
+        <a :href="productUrl" @click="onItemClick" @mouseover="onItemHover" @mouseleave="onItemLeave" class="usf-grid__item-link qss">
             <!-- card info -->
             <div class="w-7/12 text-left">
                <!-- Title and drop -->

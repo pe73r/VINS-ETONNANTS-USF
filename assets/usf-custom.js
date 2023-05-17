@@ -1428,7 +1428,7 @@ var _usfFilterBodyTemplate =
   searchResultsGridViewItem: `
 <li class="usf-sr-product usf-grid__item" :product-selector="product.id" :data-usf-pid="product.id">
    <div class="card-product p-5 rounded-md bg-white shadow-md ">
-        <a :href="productUrl" @click="onItemClick" @mouseover="onItemHover" @mouseleave="onItemLeave" class="usf-grid__item-link">
+        <a :href="productUrl" @click="onItemClick" @mouseover="onItemHover" @mouseleave="onItemLeave" class="usf-grid__item-link qss">
             <!-- card info -->
             <div class="w-7/12 text-left">
                <!-- Title and drop -->
