@@ -3,15 +3,6 @@
     {% render 'breadcrumbs', class: 'text-[10px] mb-4 md:mb-8' %}
   {% endif %}
   <!-- blog image -->
-  <div>
-    {% if blog.metafields.global.banner != blank %}
-      <img
-        class="w-full lazy min-h-[100px] object-cover rounded-lg"
-        src="{{ blog.metafields.global.banner }}"
-        alt="{{ blog.metafields.global.banner.alt }}"
-        loading="lazy">
-    {% endif %}
-  </div>
 
   <div class="max-w-7xl mx-auto my-10">
     <h1 class="text-center text-3xl font-bold mb-4 mt-4">{{ blog.title }}</h1>
