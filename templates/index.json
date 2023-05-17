@@ -148,7 +148,7 @@
       "type": "products-carousel",
       "settings": {
         "container": "5xl",
-        "collection": "vins-bio",
+        "collection": "arena-famille",
         "limit": 25,
         "title": "Nos vins certifiés Agriculture Biologique",
         "collection_link": "Voir tout",
