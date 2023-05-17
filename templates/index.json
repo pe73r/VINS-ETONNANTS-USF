@@ -487,6 +487,42 @@
             "text": "",
             "url": ""
           }
+        },
+        "7c3fea2e-95c8-4e63-a9b1-00fd4f554dea": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "image": "shopify:\/\/shop_images\/215-grandemarque_6c5a5189-d574-4577-9493-ccab480064f1.jpg",
+            "text": "",
+            "url": ""
+          }
+        },
+        "307fb3fa-aee2-412c-a1d1-71b2161700b9": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "image": "shopify:\/\/shop_images\/images.png",
+            "text": "",
+            "url": ""
+          }
+        },
+        "c77165eb-f951-4c67-a57f-691f5e02fe6e": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "image": "shopify:\/\/shop_images\/images_1.png",
+            "text": "",
+            "url": ""
+          }
+        },
+        "7004f97f-aad9-4374-9631-c9501a1be099": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "image": "shopify:\/\/shop_images\/images_2.png",
+            "text": "",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -512,7 +548,11 @@
         "1b1466ca-e662-4c5f-b4c9-4a00c1298c8b",
         "1b4272ea-29bd-4273-afe6-2cc7a941d721",
         "018cc676-c536-4aa2-81d2-e7df30d5cdb0",
-        "6ff0e005-74f3-4c10-983b-2a9f956eba79"
+        "6ff0e005-74f3-4c10-983b-2a9f956eba79",
+        "7c3fea2e-95c8-4e63-a9b1-00fd4f554dea",
+        "307fb3fa-aee2-412c-a1d1-71b2161700b9",
+        "c77165eb-f951-4c67-a57f-691f5e02fe6e",
+        "7004f97f-aad9-4374-9631-c9501a1be099"
       ],
       "settings": {
         "animationDuration": 30,
