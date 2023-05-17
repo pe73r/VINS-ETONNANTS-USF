@@ -1,12 +1,50 @@
+<section class="mt-10 mb-16">
+  <div class="w-11/12 max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+     {% for block in section.blocks %}
+        {% assign card_collection = block.settings.collection %}
+          <a class="block bg-white rounded-md min-h-[130px] shadow-lg p-5" href="{{ card_collection.url }}">
+            {% if card_collection != blank %}
+             <div class="text-base font-bold">
+                <h4 class="mb-4 font-bold">{{- card_collection.title | escape -}}</h4>      
+                  <p class="text-sm text-normal">
+                        {{- card_collection.description | strip_html | truncatewords: 50 -}}</span>
+                  </p>
+              </div>
+            {% else %}
+              <div class="text-base font-bold">
+                <h4 class="mb-4 font-bold">Collection</h4>      
+                  <p class="text-sm font-normal">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  </p>
+              </div>
+            {% endif %}  
+         </a>
+     {% endfor %}
+  </div>
+</section>
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+    {
+      "name": "Blocks vignerons",
+      "settings": [],
+      "blocks": [
+        {
+          "type": "collection",
+          "name": "collection",
+          "settings": [
+             {
+              "type": "collection",
+              "id": "collection",
+              "label": "Collection"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Blocks vignerons"
+        }
+      ]
+    }
+  {% endschema %}
+  
