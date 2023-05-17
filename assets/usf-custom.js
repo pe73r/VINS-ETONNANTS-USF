@@ -1428,7 +1428,7 @@ var _usfFilterBodyTemplate =
   searchResultsGridViewItem: `
 <li class="usf-sr-product usf-grid__item" :product-selector="product.id" :data-usf-pid="product.id">
    <div class="card-product p-5 rounded-md bg-white shadow-md ">
-        <a :href="productUrl" @click="onItemClick" @mouseover="onItemHover" @mouseleave="onItemLeave" class="usf-grid__item-link qss">
+        <a :href="productUrl" @click="onItemClick" @mouseover="onItemHover" @mouseleave="onItemLeave" class="usf-grid__item-link">
             <!-- card info -->
             <div class="w-7/12 text-left">
                <!-- Title and drop -->
@@ -2100,24 +2100,6 @@ function checkTags(vl){
     }
     return '';
 }*/
-function _usfWisglistKing(id) {
-    return `<!-- include 'wishlist-button-collection' with '${id}' -->`
-}
-
-usf.plugins.push({
-    render_searchResultsProductWishList(t, h, args, next) {
-        var p = args.product;
-
-        return h('div', {
-            class: 'usf-wishlist-king', attrs: { 'data-id': p.id },
-            domProps: { innerHTML: _usfWisglistKing(p.id) }
-        });
-    }
-});
-
-// re-render the search results so the wishlist hearts are shown.
-usf.event.raise('rerender');
-
 usf.event.add("init", function () {
   // register or override components
   // ...
