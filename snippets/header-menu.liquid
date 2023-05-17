@@ -1,39 +1,38 @@
 <div class="flex justify-center items-center overflow-visible gap-5 z-10">
-    {% for link in links %}
-       <!-- GET THE SUBMENU -->
-       {% assign submenu = blank %}
-       {% assign block = blank %}
-       {% for block in section.blocks %}
-           {% if block.settings.megamenu.title == link.title %}
-               {% assign submenu = block.settings.megamenu %}
-               {% assign block = block.settings %}
-           {% endif %}
-       {% endfor %}
+  {% for link in links %}
+    <!-- GET THE SUBMENU -->
+    {% assign submenu = blank %}
+    {% assign block = blank %}
+    {% for block in section.blocks %}
+      {% if block.settings.megamenu.title == link.title %}
+        {% assign submenu = block.settings.megamenu %}
+        {% assign block = block.settings %}
+      {% endif %}
+    {% endfor %}
 
-       <div class="group h-full flex items-center py-2">
-           <{% if submenu != blank %}div {% else %}a href="{{ link.url }}"{% endif %} 
-           class="link-item relative heading-color block cursor-pointer text-sm hover:font-bold {% if submenu != blank %} megalink {% endif %}{% if link.title contains 'Promotion' or link.title contains 'PROMOTION' or link.title contains 'PROMOTION'or link.title contains 'Nouveautés' %} text-orange font-bold {% elsif  link.title contains 'Vins bio' %} text-green-800 font-bold{% endif %}">
-               {{ link.title }}
-           </{% if submenu != blank %}div{% else %}a{% endif %}>
-           {% if submenu != blank %}
-               <div class="absolute left-0 top-[60px] w-screen py-10 px-[5%] bg-theme z-10 opacity-0 group-hover:block group-hover:opacity-100 overflow-hidden hidden megamenu-parent">
-                   {% render 'megamenu' block: block, submenu: submenu, class: "grid gap-4 max-w-3xl grid-cols-3 px-20 mx-auto" %}     
-               </div> 
-               <div class="Menu-overlay"></div>
-           {% endif %}
-           
-            </div> 
-   {% endfor %}
+    <div class="group h-full flex items-center py-2">
+      <a href="{{ link.url }}" class="link-item relative heading-color block cursor-pointer text-sm hover:font-bold {% if submenu != blank %} megalink {% endif %}{% if link.title contains 'Promotion' or link.title contains 'PROMOTION' or link.title contains 'PROMOTION'or link.title contains 'Nouveautés' %} text-orange font-bold {% elsif  link.title contains 'Vins bio' %} text-green-800 font-bold{% endif %}">
+        {{ link.title }}
+      </a>
+      {% if submenu != blank %}
+        <div class="absolute left-0 top-[60px] w-screen py-10 px-[5%] bg-theme z-10 opacity-0 group-hover:block group-hover:opacity-100 overflow-hidden hidden megamenu-parent">
+          {% render 'megamenu' block: block, submenu: submenu, class: "grid gap-4 max-w-3xl grid-cols-3 px-20 mx-auto" %}
+        </div>
+        <div class="Menu-overlay"></div>
+      {% endif %}
+
+    </div>
+  {% endfor %}
 </div>
 <style>
-    .megalink:hover ~ .Menu-overlay {
+  .megalink:hover ~ .Menu-overlay {
     position: absolute;
     content: "";
     width: 100%;
     height: 100vh;
     left: 0;
     top: 150px;
-    background-image: linear-gradient(to top, rgba(4, 4, 4, .8), rgba(54, 54, 54, .5));
+    background-image: linear-gradient(to top, rgba(4, 4, 4, 0.8), rgba(54, 54, 54, 0.5));
     z-index: 0;
-}
+  }
 </style>
