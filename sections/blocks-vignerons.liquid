@@ -2,7 +2,8 @@
   <div class="w-11/12 max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
     
    
-     {%- for collection in collections -%}   
+     {% paginate collections.all.metafields.global.collection_producteur.value | sort %}
+  {% for collection in collections.all %}
           {% if collection.metafields.global.collection_producteur.value != blank %} 
               {% assign card_collection = collection %}
                 <a class="block bg-white rounded-md min-h-[130px] shadow-lg p-5 overflow-hidden" href="{{ card_collection.url }}">
@@ -27,7 +28,7 @@
       <div class="mt-10 mx-auto flex justify-center text-center">
       {% render 'pagination', paginate: paginate %}
        </div>
-    
+    {% endpaginate %}
   </div>
 </section>
 {% schema %}
