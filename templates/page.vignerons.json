@@ -20,6 +20,7 @@
     },
     "92f667c6-6e6b-4370-804c-a957e1df9881": {
       "type": "collections-blocks",
+      "disabled": true,
       "blocks": {
         "template--17932494569786__92f667c6-6e6b-4370-804c-a957e1df9881-167588680785d6ce32-0": {
           "type": "collection",
@@ -125,6 +126,11 @@
       "settings": {
       }
     },
+    "670ceda6-5ca9-40de-a69b-e75c7f0d42de": {
+      "type": "blocks-vignerons",
+      "settings": {
+      }
+    },
     "1edcc50e-e7d4-45cc-afd2-65c87d84bfef": {
       "type": "carousel-cards",
       "blocks": {
@@ -194,13 +200,20 @@
         "text_link": "Lire plus",
         "text_less": "Lire moins"
       }
+    },
+    "921ec1fe-41b7-414c-941b-f7749f44290c": {
+      "type": "blocks-vignerons",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "46bac22b-e888-49cd-bfa7-cd3299d67ba8",
     "92f667c6-6e6b-4370-804c-a957e1df9881",
+    "670ceda6-5ca9-40de-a69b-e75c7f0d42de",
     "1edcc50e-e7d4-45cc-afd2-65c87d84bfef",
-    "3d8f9c17-2f0f-4df7-95f3-2234df881c04"
+    "3d8f9c17-2f0f-4df7-95f3-2234df881c04",
+    "921ec1fe-41b7-414c-941b-f7749f44290c"
   ]
 }

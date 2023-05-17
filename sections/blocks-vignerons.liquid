@@ -1,5 +1,6 @@
 <section class="mt-10 mb-16">
   <div class="w-11/12 max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    {%- paginate collections by paginate_by -%}
      {%- for collection in collections -%}
         {% assign card_collection = collection %}
           <a class="block bg-white rounded-md min-h-[130px] shadow-lg p-5" href="{{ card_collection.url }}">
@@ -20,6 +21,10 @@
             {% endif %}  
          </a>
      {% endfor %}
+      <div class="mt-10">
+      {% render 'pagination', paginate: paginate %}
+       </div>
+    {% endpaginate %}
   </div>
 </section>
 {% schema %}
