@@ -1,9 +1,18 @@
 <section class="mt-10 mb-16">
   <div class="w-11/12 max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
     
-   
-     {% paginate collections.all.metafields.global.collection_producteur.value | sort %}
-  {% for collection in collections.all %}
+ {% assign filtered_collections = '' | split: ',' %}
+{% assign counter = 0 %}
+
+{% for collection in collections %}
+  {% if collection.metafields.global.collection_producteur.value != blank %}
+    {% assign filtered_collections = filtered_collections | push: collection %}
+    {% assign counter = counter | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+    {% paginate filtered_collections by 10 %}
+        {% for collection in filtered_collections %}
           {% if collection.metafields.global.collection_producteur.value != blank %} 
               {% assign card_collection = collection %}
                 <a class="block bg-white rounded-md min-h-[130px] shadow-lg p-5 overflow-hidden" href="{{ card_collection.url }}">
