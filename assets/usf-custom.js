@@ -2100,6 +2100,24 @@ function checkTags(vl){
     }
     return '';
 }*/
+function _usfWisglistKing(id) {
+    return `<!-- include 'wishlist-button-collection' with '${id}' -->`
+}
+
+usf.plugins.push({
+    render_searchResultsProductWishList(t, h, args, next) {
+        var p = args.product;
+
+        return h('div', {
+            class: 'usf-wishlist-king', attrs: { 'data-id': p.id },
+            domProps: { innerHTML: _usfWisglistKing(p.id) }
+        });
+    }
+});
+
+// re-render the search results so the wishlist hearts are shown.
+usf.event.raise('rerender');
+
 usf.event.add("init", function () {
   // register or override components
   // ...
