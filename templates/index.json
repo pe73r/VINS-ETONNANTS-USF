@@ -523,6 +523,24 @@
             "text": "",
             "url": ""
           }
+        },
+        "733b8995-2d4f-4626-983b-8d8c44a24f08": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "image": "shopify:\/\/shop_images\/Logo-515x515-2_1.jpg",
+            "text": "",
+            "url": ""
+          }
+        },
+        "3614e192-9f6f-4b26-b9ff-2a21ac9ea417": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "image": "shopify:\/\/shop_images\/logo_d5aea41a-e196-4205-966a-f6962d9771c9.png",
+            "text": "",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -552,7 +570,9 @@
         "7c3fea2e-95c8-4e63-a9b1-00fd4f554dea",
         "307fb3fa-aee2-412c-a1d1-71b2161700b9",
         "c77165eb-f951-4c67-a57f-691f5e02fe6e",
-        "7004f97f-aad9-4374-9631-c9501a1be099"
+        "7004f97f-aad9-4374-9631-c9501a1be099",
+        "733b8995-2d4f-4626-983b-8d8c44a24f08",
+        "3614e192-9f6f-4b26-b9ff-2a21ac9ea417"
       ],
       "settings": {
         "animationDuration": 30,
