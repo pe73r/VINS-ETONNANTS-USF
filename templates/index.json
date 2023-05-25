@@ -575,7 +575,7 @@
         "3614e192-9f6f-4b26-b9ff-2a21ac9ea417"
       ],
       "settings": {
-        "animationDuration": 30,
+        "animationDuration": 60,
         "height": "110px",
         "border": true,
         "text_color": "#201a1c",
