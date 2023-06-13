@@ -179,13 +179,13 @@
           "type": "card",
           "settings": {
             "card_width": "2\/5",
-            "image": "shopify:\/\/shop_images\/jl-denois-vin-bio-limoux-verri-portrait.jpg",
+            "image": "shopify:\/\/shop_images\/P3270590-e1574412003620.jpg",
             "image_overlay": true,
             "title": "Le coup de projecteur vigneron",
             "show_hr": true,
-            "text": "<p>Jean-Louis Denois, producteur atypique de la Haute-Vallée de l’Aude et devenu une référence en matière de vins effervescents et un vinificateur surdoué.<\/p>",
+            "text": "<p>A la rencontre d'Alain Tourenne, fils et petit fils d’agriculteur vigneron, il a grandi à la vigne et au chai et exercé différents métiers du vin : ouvrier de chai en cave coopérative, maître de chai d’un domaine, directeur technique d’une société de prestation service vinicole et aujourd’hui vigneron !<\/p>",
             "cta": "En savoir plus",
-            "button_link": "shopify:\/\/collections\/denois-jean-louis"
+            "button_link": "shopify:\/\/collections\/beynat-chateau"
           }
         }
       },
