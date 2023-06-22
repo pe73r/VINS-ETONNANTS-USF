@@ -22,6 +22,11 @@
             "show_quantity": true
           }
         },
+        "38f5cfc4-5642-4b43-a917-3d7e0e3bb426": {
+          "type": "shopify:\/\/apps\/ai-shopping-assistant\/blocks\/app-block\/28b5cddf-e3c6-427a-8d35-1dbdb9a5d03c",
+          "settings": {
+          }
+        },
         "1e425230-6800-49eb-922c-18eab7fbfd55": {
           "type": "delivery_note",
           "settings": {
@@ -42,21 +47,16 @@
             "text": "ApplePay, Paiement en 3x sans frais Klarna et différentes méthodes de paiement disponibles 💳",
             "more_text": "<p>CB, ApplePay, Paiement en 3 fois Klarna, Virement, Bancontact, CBC, Sofort, Giropay, iDEAL, EPS, PostePay, Maestro, American Express, Paysafecard, Belfius, Przlewy24,,...<\/p>"
           }
-        },
-        "38f5cfc4-5642-4b43-a917-3d7e0e3bb426": {
-          "type": "shopify:\/\/apps\/ai-shopping-assistant\/blocks\/app-block\/28b5cddf-e3c6-427a-8d35-1dbdb9a5d03c",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "e774b8d8-3d27-4e0a-8a21-0181dfe3ce03",
         "aad77d88-d491-4c93-b6c3-d9a86900bf3c",
         "ce287ddd-56b4-4eae-92cf-5e6f08239886",
+        "38f5cfc4-5642-4b43-a917-3d7e0e3bb426",
         "1e425230-6800-49eb-922c-18eab7fbfd55",
         "3d1604f2-041f-42ef-8b6a-3c0b480b05f1",
-        "b772b48a-9e88-44db-a874-d5d4fb97a412",
-        "38f5cfc4-5642-4b43-a917-3d7e0e3bb426"
+        "b772b48a-9e88-44db-a874-d5d4fb97a412"
       ],
       "settings": {
         "show_dots": true,
