@@ -40,6 +40,11 @@
           "type": "shopify:\/\/apps\/ai-shopping-assistant\/blocks\/app-block\/28b5cddf-e3c6-427a-8d35-1dbdb9a5d03c",
           "settings": {
           }
+        },
+        "86f7e8c2-6451-40a6-81fc-dcacfd0f6cfc": {
+          "type": "shopify:\/\/apps\/ai-shopping-assistant\/blocks\/app-block\/28b5cddf-e3c6-427a-8d35-1dbdb9a5d03c",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -48,7 +53,8 @@
         "1e425230-6800-49eb-922c-18eab7fbfd55",
         "3d1604f2-041f-42ef-8b6a-3c0b480b05f1",
         "b772b48a-9e88-44db-a874-d5d4fb97a412",
-        "1c5d9682-930a-44a1-afee-69f49329a854"
+        "1c5d9682-930a-44a1-afee-69f49329a854",
+        "86f7e8c2-6451-40a6-81fc-dcacfd0f6cfc"
       ],
       "settings": {
         "show_dots": true,
