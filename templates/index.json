@@ -99,7 +99,7 @@
       "settings": {
         "container": "5xl",
         "blog": "blog-vins-etonnants",
-        "post_limit": 8,
+        "post_limit": 12,
         "show_dots": true,
         "heading": "Notre actualité et nos derniers articles",
         "show_title": true,
