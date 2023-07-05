@@ -80,7 +80,7 @@
     </div>
   {% endif %}
 
-  {% assign types = "rouge-rond-et-fruite,blanc-sec-riche-et-structure,rouge-puissant-et-fruite" | split: ',' %}
+  {% assign types = "rouge-rond-et-fruite,blanc-sec-riche-et-structure,rouge-puissant-et-fruite,sans-sulfites-ajoutes,vin-methode-nature" | split: ',' %}
   {% for wine_type in types %}
     {% if product.tags contains wine_type %}
       {% assign type = true %}
