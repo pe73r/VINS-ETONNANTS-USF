@@ -50,7 +50,14 @@
           <div class="px-3 pt-4 pb-2">
             {% render "side-cart-progress" %}
           </div>
-
+          <p class="cart-attribute__field flex flex-col max-w-[90%] pt-1 pb-3 ml-5">
+            <label class="text-sm mb-2 text-center font-bold" for="your-note">Ajoutez une note à votre commande :</label>
+            <textarea
+              class="text-xs p-2"
+              id="your-name"
+              placeholder="C'est pour offrir..."
+              name="attributes[Info customer]">{{ cart.attributes["Ajoutez une note à vôtre commande"] }}</textarea>
+          </p>
           {% if section.settings.upSellCollection %}
             <div class="px-3 bg-beige">
               {% render "side-cart-upsell-carousel", collection: section.settings.upSellCollection, title: section.settings.upSellTitle %}
@@ -72,6 +79,7 @@
       </div>
     {% endif %}
   </side-cart-trigger>
+
 </tail-side-cart>
 <style>
   side-cart-footer {
