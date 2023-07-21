@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 3/23/2023 3:32:43 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 5/17/2023 2:39:54 PM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -1446,13 +1446,13 @@ var _usfFilterBodyTemplate =
                   <p class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="usf.utils.getMetafield(product,'global','marque')"></p>
                </div>
                <!-- Metafield region -->
-               <div class="mt-3">
+               <div class="mt-4">
                   <p class="text-xs uppercase font-light">RÉGION</p>
                   <p v-if="checkTags(product.tags)" class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="checkTags(product.tags)"></p>
                   <p v-else class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="'N/A'"></p>
                </div>
                <!-- Metafield grade -->
-               <div class="mt-3">
+               <div class="mt-4">
                   <p v-if="usf.utils.getMetafield(product,'global','description_courte')" class="text-xs uppercase font-light">CÉPAGE</p>
                   <p v-if="(description_courte = usf.utils.getMetafield(product,'global','description_courte')) != '' && description_courte.includes('-')" class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="description_courte.split('-')[0] ? description_courte.split('-')[0].replace('Cépage : ','').replace('Cépages ','') : ''"></p>
                </div>
@@ -1489,10 +1489,10 @@ var _usfFilterBodyTemplate =
         <usf-plugin name="searchResultsProductPrice" :data="pluginData"></usf-plugin>
 
         <div class="usf-price-wrapper flex items-center flex-wrap-reverse gap-2" :class="{'usf-price--sold-out': isSoldOut}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
-        <div>
-        <span class="usf-price text-[20px] font-extrabold" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="displayPrice"></span>
-        <span class="usf-discount text-[20px] font-extrabold" v-if="hasDiscount" v-html="displayDiscountedPrice"></span>
-        </div>
+            <div>
+                <span class="usf-price text-[20px] font-extrabold" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="displayPrice"></span>
+                <span class="usf-discount text-[20px] font-extrabold" v-if="hasDiscount" v-html="displayDiscountedPrice"></span>
+            </div>
             <span v-if="hasDiscount" class="usf-price-savings text-[20px] font-extrabold" v-html="loc.save + ' ' + salePercent + '%'"></span>
         </div>
         <div class="group relative mt-3 flex gap-1" v-if="!isSoldOut">

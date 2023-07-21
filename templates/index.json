@@ -6,7 +6,7 @@
         "f798bfbf-f191-4238-afc1-18a73b6cbc35": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>15% de remise<\/strong> sur tous les vins jusqu'au 1er juin 2023 avec le code <strong>NEWVINSETO<\/strong> et franco abaissé à 200€ pour la France et 400€ pour le Benelux\/Allemagne et 600€ pour Italie\/Danemark\/Finlande\/Suède\/Irlande\/UK\/Portugal\/Espagne !<\/p>",
+            "text": "<p><strong>10% de remise<\/strong> sur votre première commande avec le code BIENVENUE et franco abaissé à 200€ pour la France et 400€ pour le Benelux\/Allemagne et 600€ pour Italie\/Danemark\/Finlande\/Suède\/Irlande\/UK\/Portugal\/Espagne !<\/p>",
             "url": ""
           }
         }
@@ -94,6 +94,61 @@
         "background_color": "#201a1c"
       }
     },
+    "59445fe2-2d28-4270-94b2-48f55adf293b": {
+      "type": "featured-blog-carousel",
+      "settings": {
+        "container": "5xl",
+        "blog": "blog-vins-etonnants",
+        "post_limit": 12,
+        "show_dots": true,
+        "heading": "Notre actualité et nos derniers articles",
+        "show_title": true,
+        "show_content": true,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true
+      }
+    },
+    "a2af813b-b2b8-4547-ab03-9b058d70bbea": {
+      "type": "home-cards",
+      "blocks": {
+        "e78e4e02-5e5f-46b4-ade6-f97fe885a068": {
+          "type": "card",
+          "settings": {
+            "card_width": "3\/5",
+            "image": "shopify:\/\/shop_images\/accueil-domaine-tripoz-vins-bourgogne-labiojolaise-celine-laurent-nb_1.jpg",
+            "image_overlay": true,
+            "title": "Liste des domaines représentés",
+            "show_hr": true,
+            "text": "",
+            "cta": "Je découvre",
+            "button_link": "shopify:\/\/pages\/tous-les-vignerons"
+          }
+        },
+        "3b35f979-2212-4301-9d49-79f08d3f6160": {
+          "type": "card",
+          "settings": {
+            "card_width": "2\/5",
+            "image": "shopify:\/\/shop_images\/P3270590-e1574412003620.jpg",
+            "image_overlay": true,
+            "title": "Le coup de projecteur vigneron",
+            "show_hr": true,
+            "text": "<p>A la rencontre d'Alain Tourenne du Château Beynat, fils et petit fils d’agriculteur vigneron, il a grandi à la vigne et au chai et exercé différents métiers du vin : ouvrier de chai en cave coopérative, maître de chai d’un domaine, directeur technique d’une société de prestation service vinicole et aujourd’hui vigneron !<\/p>",
+            "cta": "En savoir plus",
+            "button_link": "shopify:\/\/collections\/beynat-chateau"
+          }
+        }
+      },
+      "block_order": [
+        "e78e4e02-5e5f-46b4-ade6-f97fe885a068",
+        "3b35f979-2212-4301-9d49-79f08d3f6160"
+      ],
+      "settings": {
+        "container": "7xl",
+        "title": "Focus sur",
+        "color": "#ffffff"
+      }
+    },
     "1db7442e-0ee1-495a-96a1-01f3969e95f2": {
       "type": "banner-intro",
       "blocks": {
@@ -138,79 +193,10 @@
       ],
       "settings": {
         "title": "Premières expéditions en janvier 2003 !",
-        "subtitle": "<p>Nous avons démarré avec 12 vins au catalogue! Puis notre activité nous a permis d’enrichir notre gamme au jour le jour pour vous offrir aujourd’hui + de 3000 vins différents et de devenir l'un des leaders de la vente en ligne de vins d'auteurs. <br\/>L’origine du nom Vins Etonnants provient du fait que nous étions vraiment spécialisés au départ sur des vins très originaux. Depuis plus de 10 ans maintenant, nous recherchons avant tout : des <strong>vins qui créent une émotion, pas seulement une étiquette mais aussi un vigneron, un terroir et une histoire.<\/strong><\/p>",
+        "subtitle": "<p>Nous avons démarré avec 12 vins au catalogue! Puis notre activité nous a permis d’enrichir notre gamme au jour le jour pour vous offrir aujourd’hui + de 3000 vins différents et de devenir l'un des leaders de la vente en ligne de vins d'auteurs. <br\/>L’origine du nom Vins Etonnants provient du fait que nous étions vraiment spécialisés au départ sur des vins très originaux. Depuis plus de 10 ans maintenant, nous recherchons avant tout : des <strong>vins qui créent une émotion, pas seulement une étiquette mais aussi un vigneron, un terroir et une histoire.<\/strong><\/p><p><strong>Liste des vignerons présents ssur Vins Etonnants ci-dessous.<\/strong><\/p>",
         "cta": "En savoir plus",
         "ctaLink": "shopify:\/\/pages\/a-propos",
         "show_hr": true
-      }
-    },
-    "ec1c9248-3ca2-483d-8370-8f7e3ce48d01": {
-      "type": "products-carousel",
-      "settings": {
-        "container": "5xl",
-        "collection": "arena-famille",
-        "limit": 25,
-        "title": "Nos vins certifiés Agriculture Biologique",
-        "collection_link": "Voir tout",
-        "url": "shopify:\/\/collections\/vins-bio",
-        "show_secondary_image": false,
-        "show_arrows": true,
-        "show_dots": false
-      }
-    },
-    "59445fe2-2d28-4270-94b2-48f55adf293b": {
-      "type": "featured-blog-carousel",
-      "settings": {
-        "container": "5xl",
-        "blog": "blog-vins-etonnants",
-        "post_limit": 5,
-        "show_dots": true,
-        "heading": "Notre actualité et nos derniers articles",
-        "show_title": true,
-        "show_content": true,
-        "show_author": false,
-        "show_date": false,
-        "show_button": true
-      }
-    },
-    "a2af813b-b2b8-4547-ab03-9b058d70bbea": {
-      "type": "home-cards",
-      "blocks": {
-        "e78e4e02-5e5f-46b4-ade6-f97fe885a068": {
-          "type": "card",
-          "settings": {
-            "card_width": "3\/5",
-            "image": "shopify:\/\/shop_images\/5eec4b4341370ca7fc4654c0b3cbdb33.jpg",
-            "image_overlay": true,
-            "title": "Notre sélection de vins rares !",
-            "show_hr": true,
-            "text": "",
-            "cta": "Je découvre",
-            "button_link": "shopify:\/\/collections\/vins-rares"
-          }
-        },
-        "3b35f979-2212-4301-9d49-79f08d3f6160": {
-          "type": "card",
-          "settings": {
-            "card_width": "2\/5",
-            "image": "shopify:\/\/shop_images\/jl-denois-vin-bio-limoux-verri-portrait.jpg",
-            "image_overlay": true,
-            "title": "Le coup de projecteur vigneron",
-            "show_hr": true,
-            "text": "<p>Jean-Louis Denois, producteur atypique de la Haute-Vallée de l’Aude et devenu une référence en matière de vins effervescents et un vinificateur surdoué.<\/p>",
-            "cta": "En savoir plus",
-            "button_link": "shopify:\/\/collections\/denois-jean-louis"
-          }
-        }
-      },
-      "block_order": [
-        "e78e4e02-5e5f-46b4-ade6-f97fe885a068",
-        "3b35f979-2212-4301-9d49-79f08d3f6160"
-      ],
-      "settings": {
-        "container": "7xl",
-        "title": "Focus sur",
-        "color": "#ffffff"
       }
     },
     "4dc3e657-6ceb-433f-8455-055959184db0": {
@@ -501,6 +487,60 @@
             "text": "",
             "url": ""
           }
+        },
+        "7c3fea2e-95c8-4e63-a9b1-00fd4f554dea": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "image": "shopify:\/\/shop_images\/215-grandemarque_6c5a5189-d574-4577-9493-ccab480064f1.jpg",
+            "text": "",
+            "url": ""
+          }
+        },
+        "307fb3fa-aee2-412c-a1d1-71b2161700b9": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "image": "shopify:\/\/shop_images\/images.png",
+            "text": "",
+            "url": ""
+          }
+        },
+        "c77165eb-f951-4c67-a57f-691f5e02fe6e": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "image": "shopify:\/\/shop_images\/images_1.png",
+            "text": "",
+            "url": ""
+          }
+        },
+        "7004f97f-aad9-4374-9631-c9501a1be099": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "image": "shopify:\/\/shop_images\/images_2.png",
+            "text": "",
+            "url": ""
+          }
+        },
+        "733b8995-2d4f-4626-983b-8d8c44a24f08": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "image": "shopify:\/\/shop_images\/Logo-515x515-2_1.jpg",
+            "text": "",
+            "url": ""
+          }
+        },
+        "3614e192-9f6f-4b26-b9ff-2a21ac9ea417": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "image": "shopify:\/\/shop_images\/logo_d5aea41a-e196-4205-966a-f6962d9771c9.png",
+            "text": "",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -526,14 +566,34 @@
         "1b1466ca-e662-4c5f-b4c9-4a00c1298c8b",
         "1b4272ea-29bd-4273-afe6-2cc7a941d721",
         "018cc676-c536-4aa2-81d2-e7df30d5cdb0",
-        "6ff0e005-74f3-4c10-983b-2a9f956eba79"
+        "6ff0e005-74f3-4c10-983b-2a9f956eba79",
+        "7c3fea2e-95c8-4e63-a9b1-00fd4f554dea",
+        "307fb3fa-aee2-412c-a1d1-71b2161700b9",
+        "c77165eb-f951-4c67-a57f-691f5e02fe6e",
+        "7004f97f-aad9-4374-9631-c9501a1be099",
+        "733b8995-2d4f-4626-983b-8d8c44a24f08",
+        "3614e192-9f6f-4b26-b9ff-2a21ac9ea417"
       ],
       "settings": {
-        "animationDuration": 30,
+        "animationDuration": 80,
         "height": "110px",
         "border": true,
         "text_color": "#201a1c",
         "background_color": "#ffffff"
+      }
+    },
+    "ec1c9248-3ca2-483d-8370-8f7e3ce48d01": {
+      "type": "products-carousel",
+      "settings": {
+        "container": "5xl",
+        "collection": "arena-famille",
+        "limit": 25,
+        "title": "Nos vins certifiés Agriculture Biologique",
+        "collection_link": "Voir tout",
+        "url": "shopify:\/\/collections\/vins-bio",
+        "show_secondary_image": false,
+        "show_arrows": true,
+        "show_dots": false
       }
     },
     "7fac6255-7c16-4756-be15-19d6e6bb5a14": {
@@ -593,12 +653,12 @@
     "16635875657e00a7a6",
     "1663586369b92a04be",
     "aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70",
-    "1db7442e-0ee1-495a-96a1-01f3969e95f2",
-    "ec1c9248-3ca2-483d-8370-8f7e3ce48d01",
     "59445fe2-2d28-4270-94b2-48f55adf293b",
     "a2af813b-b2b8-4547-ab03-9b058d70bbea",
+    "1db7442e-0ee1-495a-96a1-01f3969e95f2",
     "4dc3e657-6ceb-433f-8455-055959184db0",
     "704f44dd-a6c3-4bad-93ce-650afe5aedf6",
+    "ec1c9248-3ca2-483d-8370-8f7e3ce48d01",
     "7fac6255-7c16-4756-be15-19d6e6bb5a14",
     "0fb03a6f-d8a5-42fb-9dd7-bf8e382aa9e8"
   ]

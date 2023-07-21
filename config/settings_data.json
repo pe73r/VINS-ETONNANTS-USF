@@ -8,7 +8,7 @@
     "button_bg_secondary": "#201a1c",
     "type_header_font": "playfair_display_n7",
     "type_body_font": "lato_n4",
-    "countries": "allemagne,argentine, angleterre,autriche,chili,croatie,espagne,etats-unis,italie,georgie,grece,hongrie,japon,portugal,zelande,afrique-du-sud,israel,slovenie,mexique,perou,portugal,suisse",
+    "countries": "allemagne,Allemagne,argentine, Argentine,angleterre,Angleterre,autriche,Aautriche,chili,Chili,croatie,Croatie,espagne,Espagne,etats-unis,Etats-unis,italie,Italie,georgie,Georgie,grece,Grece,hongrie,Hongrie,japon,Japon,portugal,Portugal,zelande,Zelance,afrique-du-sud,Afrque-du-sud,israel,Israel,slovenie,Slovenie,mexique,Mexique,perou,Perou,portugal,Portugal,suisse,Suisse",
     "regions": "Afrique du Sud,Allemagne,Alsace,Angleterre,Anjou,Aquitaine,Argentine,Arménie,Australie,Autriche,Auvergne,Auvergne-Rhône-Alpes,Beaujolais, beaujolais ,Bordeaux,Bourgogne,Bourgogne Franche-Comté,Canada,Centre,Champagne,Chili,Chypre,Corse,Croatie,Espagne,Etats-Unis,Franche-Comté,franche-comte,Géorgie,georgie ,Gréce,Hongrie,Israël,Italie,Japon,Jura,Liban,Loire,Maroc,Mexique,Midi-Pyrénées,Muscadet\/Vendée,Nouvelle Zélande,Occitanie,Pays de Loire,Pérou,Portugal,Provence - Alpes - Côte d'Azur,Rhône, RhoneRoussillon,Savoie,Slovénie,slovenie, Sud-Ouest,Suisse,Syrie,Uruguay, roussillon, Roussillon",
     "cepages": "Abouriou,Albariño,Alicante,Aligoté,Altesse,Aramon,Aramon gris,Arbanne,Arinarnoa,Arinto,Arneis,Assyrtico,Aubun,Auxerrois,Baco Noir,Baga,Barbarossa,Barbera,Béclan,Bianco Gentile,Bical,Blaufränkisch,Boal,Bobal,Bonarda,Bouillet,Bourboulenc,Bouysselet,Braquet,Brun,Cabernet Cortis,Cabernet Franc,Cabernet Sauvignon,Caladoc,Carcajolo Noir,Carignan Blanc,Carignan Noir,Carmenère,Carricante,Castelão,Cataratto,César,Chardonnay,Chasan,Chasselas,Chenançon Noir,Chenin,Chinuri,Chkhaveri,Cinsault,Clairette Blanche,Clairette Rose,Colombard,Cornalin,Cortese,Corvina,Corvinone,Counoise Noire,Dolcetto,Doña Blanca,Douce noire (ou Bonarda),Duras,Enfariné,Espanenc,Etraire de la Dhuy,Fer Servadou\/Braucol\/Mansois,Fogoneu,Folle Blanche,Folle Noire,Forcallat,Forcallat,Frappato,Gamaret,Gamay d'Auvergne,Gamay de Bouze,Gamay,Garganega,Gewürztraminer,Glera,Godello,Gouais,Graciano,Grechetto,Grenache, Grenache noir,Grolleau Gris,Grolleau Noir,Gros Manseng,Grüner Veltliner,Hárslevelü,Humagne,Jacquère,Juhfark,Jurançon Noir,Kerner,Koshu,Liliorila,Listán,Lledoner Pelut,Loin de l'Oeil,Loureiro,Maccabeu,Malbec\/Côt (Loire)\/Auxerrois (Cahors),Malvazia (= Malmsey ou Furmint),Mantonegre,Manzoni Bianco,Marsanne,Marselan,Maturana tinta,Mauzac Blanc,Mauzac roux,Mavro,Melon,Melon à Queue Rouge,Mencia,Menu Pineau,Merlot,Mirefleurien,Mollard,Monastel de rioja,Mondeuse,Mondeuse Blanche,Mourvèdre,Muscadelle,Muscat à petit grain,Muscat de Hambourg,Muscat Ottonel,Nebbiolo,Negramol,Négrette,Nero d'Avola,Nibiô,Nielluccio,Nosiola,Ondenc blanc,Païs,Palomino,Parellada,Passerina,Pedro Ximenez,Persan,Petit Courbu,Petit Manseng,Petit Meslier,Petit Verdot,Petite Arvine,Petite Sirah,Picardan,Pineau d'Aunis,Pinot Blanc,Pinot Gris,Pinot Meunier,Pinot Noir,Pinotage,Piquepoul blanc,Piquepoul Noir,Portant,Poulsard,Ploussard,Prunelart,Ribolla Gialla,Riesling,Rivairenc,Robola,Rolle\/Vermentino,Romorantin,Rondinella,Roussanne,Ruché,Saint-Laurent,Sangiovese,Sauvignon Blanc,Sauvignon Gris,Savagnin,Savagnin Rose,Savagnin Vert,Sciacarello,Seibel 5455,Seibel 7053,Sémillon blanc,Sercial,Serine,Souvignier gris,Sumoll,Sylvaner,Syrah,Tannat,Tardana,Tempranillo,Teroldego,Terrantez,Terret blanc,Terret Gris,Terret noir,Tibouren,Tinta barroca,Tinta Negra Mole,Torrontes,Touriga francesa,Touriga Nacional,Trepat,Tressalier,Trousseau,Tsolikouri,Ugni Blanc,Valdiguié,Verdanel,Verdejo,Verdelho,Verdelho,Verdesse,Vidal,Viognier,Welschriesling,Xare-lo,Xynisteri,Zinfandel,Zweigelt,Tavkveri,Tsolikauri,Grignolino",
     "social_twitter_link": "https:\/\/twitter.com\/Vins_etonnants",
@@ -259,7 +259,7 @@
           "1c9c5b5b-c1c9-4a69-9b95-8db25c19a069": {
             "type": "reassurances",
             "settings": {
-              "title": "🚚 Livraison prévue entre 3 et 6 jours",
+              "title": "🚚 Livraison prévue entre 4 et 7 jours",
               "text": "<p>Livraison rapide par UPS, Chronopost ou Fedex<\/p>"
             }
           },
@@ -289,7 +289,7 @@
           "show_counter": true,
           "sub_total_text": "<p>📦 Livraison offerte dès 200€ à destination de la France, 400€ Benelux et Allemagne, 600€ sur la Scandinavie et l'Italie<\/p>",
           "validate_text": "Commander",
-          "extra_text": "Code promo et frais de livraison à l’étape suivante",
+          "extra_text": "Code promo à l’étape suivante",
           "extra_text_2": "En cas de difficultés de livraison, nous vous invitons à nous contacter en priorité.",
           "show_code_promo": false,
           "show_carousel_reassurance": true,

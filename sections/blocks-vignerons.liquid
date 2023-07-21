@@ -1,0 +1,40 @@
+<section class="mt-10 mb-16">
+  <div class="w-11/12 max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    
+    {% for collection in collections %}
+          {% if collection.metafields.global.collection_producteur.value != blank %} 
+              {% assign card_collection = collection %}
+                <a class="block bg-white rounded-md min-h-[130px] shadow-lg p-5 overflow-hidden" href="{{ card_collection.url }}">
+                  {% if card_collection != blank %}
+                   <div class="text-base font-bold">
+                      <h4 class="mb-4 font-bold">{{- card_collection.title | escape -}}</h4>      
+                        <p class="text-sm text-normal">
+                              {{- card_collection.description | strip_html | truncatewords: 50 -}}</span>
+                        </p>
+                    </div>
+                  {% else %}
+                    <div class="text-base font-bold">
+                      <h4 class="mb-4 font-bold">Collection</h4>      
+                        <p class="text-sm font-normal">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        </p>
+                    </div>
+                  {% endif %}  
+               </a>
+             {% endif %}  
+     {% endfor %} 
+  </div>
+</section>
+{% schema %}
+
+    {
+      "name": "Collections vignerons",
+      "settings": [],
+      "presets": [
+        {
+          "name": "Collections vignerons"
+        }
+      ]
+    }
+  {% endschema %}
+  
