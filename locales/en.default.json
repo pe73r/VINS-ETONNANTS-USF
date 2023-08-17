@@ -1,20 +1,20 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Enter store using password:",
-      "login_password_button": "Enter using password",
+      "login_form_heading": "Access the store using a password:",
+      "login_password_button": "Pass through a password",
       "login_form_password_label": "Password",
       "login_form_password_placeholder": "Your password",
-      "login_form_error": "Wrong password!",
-      "login_form_submit": "Enter",
-      "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"link underlined-link\">Log in here<\/a>",
-      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
+      "login_form_error": "Incorrect password !",
+      "login_form_submit": "To input",
+      "admin_link_html": "Does the shop belong to you? <a href=\"\/admin\" class=\"link underlined-link\">Connect here<\/a>",
+      "powered_by_shopify_html": "This shop will be propelled by {{ shopify }}"
     },
     "social": {
       "alt_text": {
         "share_on_facebook": "Share on Facebook",
         "share_on_twitter": "Tweet on Twitter",
-        "share_on_pinterest": "Pin on Pinterest"
+        "share_on_pinterest": "Pin on pinterest"
       },
       "links": {
         "twitter": "Twitter",
@@ -23,35 +23,35 @@
         "instagram": "Instagram",
         "tumblr": "Tumblr",
         "snapchat": "Snapchat",
-        "youtube": "YouTube",
+        "youtube": "Youtube",
         "vimeo": "Vimeo",
-        "tiktok": "TikTok"
+        "tiktok": "Tiktok"
       }
     },
-    "continue_shopping": "Continue shopping",
+    "continue_shopping": "Continue Shopping",
     "pagination": {
-      "label": "Pagination",
+      "label": "Paging",
       "page": "Page {{ number }}",
       "next": "Next page",
       "previous": "Previous page"
     },
     "search": {
-      "search": "Search"
+      "search": "Research"
     },
     "cart": {
-      "view": "View my cart ({{ count }})",
-      "item_added": "Item added to your cart"
+      "view": "Show my basket ({{ count }})",
+      "item_added": "Article added to the basket"
     },
     "share": {
-      "close": "Close share",
-      "copy_to_clipboard": "Copy link",
+      "close": "Close",
+      "copy_to_clipboard": "Copy the link",
       "share_url": "Link",
-      "success_message": "Link copied to clipboard"
+      "success_message": "Link copied in the clipboard"
     },
     "slider": {
       "of": "of",
-      "next_slide": "Slide right",
-      "previous_slide": "Slide left"
+      "next_slide": "Drag",
+      "previous_slide": "Slide"
     }
   },
   "newsletter": {
