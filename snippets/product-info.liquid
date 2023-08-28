@@ -195,7 +195,7 @@
             data-product="{{ product.id }}"
             data-variant="{{ product.selected_or_first_available_variant.id }}">
             <button
-              disabled="{% if product.available %}false{% else %}true{% endif %}"
+              {% unless product.available %}disabled{% endunless %}
               {% if product.available %}
               class="w-full cursor-pointer !px-0 btn-primary {% render "button", size: "medium" %}"
               {% else %}
