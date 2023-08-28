@@ -56,7 +56,9 @@
               class="text-xs p-2"
               id="your-name"
               placeholder="C'est pour offrir..."
-              name="attributes[Info customer]">{{ cart.attributes["Ajoutez une note à vôtre commande"] }}</textarea>
+              name="note">
+              {{ cart.note }}
+            </textarea>
           </p>
           {% if section.settings.upSellCollection %}
             <div class="px-3 bg-beige">
