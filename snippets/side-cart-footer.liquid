@@ -5,7 +5,7 @@
     </div>
 {% endif %}
 
-<form action="/cart" novalidate method="post" id="CartForm">
+<form action="/cart" novalidate method="post">
     <button data-send="false" name="checkout" type="submit" class="mt-1 btn-primary bg-orange {% render "button", size:"large", fullWidth: true %}">
        {{ section.settings.validate_text}} - <span data-cart-indicator >{{ cart.total_price | money_without_trailing_zeros }}</span>
     </button>
