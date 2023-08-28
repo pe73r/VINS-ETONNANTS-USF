@@ -431,9 +431,9 @@
           "1240356f-c0b2-4c54-b02a-3d1c1733276b": {
             "type": "mobile_band",
             "settings": {
-              "link": "",
+              "link": "shopify:\/\/collections\/promo-destockage",
               "image": "shopify:\/\/shop_images\/Rectangle_1.png",
-              "text": "Vin du moment"
+              "text": "Promo\/Déstockage"
             }
           },
           "67a2964c-3336-41be-8d94-1e1688a4e810": {
