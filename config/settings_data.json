@@ -439,9 +439,9 @@
           "67a2964c-3336-41be-8d94-1e1688a4e810": {
             "type": "mobile_band",
             "settings": {
-              "link": "",
-              "image": "shopify:\/\/shop_images\/Rectangle_1_2.png",
-              "text": "Vin du moment"
+              "link": "shopify:\/\/collections\/nouveautes",
+              "image": "shopify:\/\/shop_images\/telechargement_3.jpg",
+              "text": "Nouveautés"
             }
           },
           "eb1a9f2c-97da-4b41-9659-dcaf971c3beb": {
