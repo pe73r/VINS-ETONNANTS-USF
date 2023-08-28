@@ -6,7 +6,7 @@
         "f798bfbf-f191-4238-afc1-18a73b6cbc35": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>10% de remise<\/strong> sur votre première commande avec le code BIENVENUE et franco abaissé à 200€ pour la France et 400€ pour le Benelux\/Allemagne et 600€ pour Italie\/Danemark\/Finlande\/Suède\/Irlande\/UK\/Portugal\/Espagne !<\/p>",
+            "text": "<p><strong>10% de remise<\/strong> sur votre première commande avec le code BIENVENUE et franco abaissé à 250€ pour la France et 400€ pour le Benelux\/Allemagne et 600€ pour Italie\/Danemark\/Finlande\/Irlande\/UK\/Portugal\/Espagne !<\/p>",
             "url": ""
           }
         }
@@ -632,7 +632,6 @@
     },
     "0fb03a6f-d8a5-42fb-9dd7-bf8e382aa9e8": {
       "type": "faq",
-      "disabled": true,
       "blocks": {
         "template--17922465464634__0fb03a6f-d8a5-42fb-9dd7-bf8e382aa9e8-16825276029056f8f0-0": {
           "type": "block",
@@ -661,6 +660,7 @@
         "template--17922465464634__0fb03a6f-d8a5-42fb-9dd7-bf8e382aa9e8-16825276029056f8f0-1",
         "template--17922465464634__0fb03a6f-d8a5-42fb-9dd7-bf8e382aa9e8-16825276029056f8f0-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "FAQ",
         "title_color": "#201a1c",
