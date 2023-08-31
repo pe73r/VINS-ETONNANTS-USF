@@ -36,10 +36,25 @@
             "button_color": "#fcfaf8",
             "button_bg": "rgba(0,0,0,0)"
           }
+        },
+        "c10225b9-5adb-4b58-a304-35952a9188b5": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-photo-2611095.jpg",
+            "title": "Vins Etonnants",
+            "title_mobile": "Vins Etonnants",
+            "text": "<p>OPERATION JEFF CARREL DE SEPTEMBRE C'EST PARTI !<\/p><p><strong>25% DE REMISE<\/strong> SUR TOUS LES VINS DE JEFF CARREL ET SES AMIS JUSQU'AU 13 SEPTEMBRE <\/p><p>AVEC LE<strong> CODE CARREL25 <\/strong><\/p><p>Rendez-vous sur chaque fiche produit détaillée pour le détail des prix par lot!<\/p><p>Les Darons et Villa des Anges Réserve à 5.5€\/bout.par lot de 12 bouteilles et Morillon à 6.5€\/bout par lot de 6 bouteilles pour la France.<\/p>",
+            "cta": "Je découvre",
+            "button_link": "shopify:\/\/collections\/carrel-jeff",
+            "text_color": "#fff",
+            "button_color": "#201A1C",
+            "button_bg": "#fff"
+          }
         }
       },
       "block_order": [
-        "16635863695bdbafb2-0"
+        "16635863695bdbafb2-0",
+        "c10225b9-5adb-4b58-a304-35952a9188b5"
       ],
       "settings": {
       }
