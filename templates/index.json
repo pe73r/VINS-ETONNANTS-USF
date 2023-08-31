@@ -469,6 +469,15 @@
             "text": "",
             "url": ""
           }
+        },
+        "37777968-9954-4db6-85f6-813de32c1acf": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "image": "shopify:\/\/shop_images\/fCVcjmcRTFa1wYVo9AL7tg-Capture_logo_noir.jpg",
+            "text": "",
+            "url": ""
+          }
         }
       },
       "block_order": [
@@ -502,7 +511,8 @@
         "733b8995-2d4f-4626-983b-8d8c44a24f08",
         "3614e192-9f6f-4b26-b9ff-2a21ac9ea417",
         "964aedc2-7042-46fa-ae62-0ef03eb5c2f2",
-        "78a8b961-1c4c-4f26-b03d-a567f36ae6fa"
+        "78a8b961-1c4c-4f26-b03d-a567f36ae6fa",
+        "37777968-9954-4db6-85f6-813de32c1acf"
       ],
       "settings": {
         "animationDuration": 80,
