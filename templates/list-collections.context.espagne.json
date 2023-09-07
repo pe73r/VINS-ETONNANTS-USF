@@ -1,0 +1,8 @@
+{
+  "parent": "list-collections.json",
+  "context": {
+    "market": "espagne"
+  },
+  "sections": {
+  }
+}
