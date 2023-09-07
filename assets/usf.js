@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 5/17/2023 2:39:54 PM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 9/7/2023 8:02:57 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -1509,7 +1509,7 @@ var _usfFilterBodyTemplate =
                   </svg>
                </button>
             </product-quantity>
-            <add-to-cart data-max-quantity="0" :data-quantity="usfQty" class="w-8/12 " :data-product="product.id" :data-title="product.title" :data-price="price" :data-variant="product.variants[0].id">
+            <add-to-cart data-nm="Y" data-max-quantity="0" :data-quantity="usfQty" class="w-8/12 " :data-product="product.id" :data-title="product.title" :data-price="price" :data-variant="product.variants[0].id">
                <button class="btn-primary px-[12px] py-[11px] text-sm  text-[#fff] bg-[#f84c55]  w-full  transition-all rounded-md font-bold">
                Ajouter au panier
                </button>
