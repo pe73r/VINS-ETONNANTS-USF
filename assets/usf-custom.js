@@ -1490,7 +1490,7 @@ var _usfFilterBodyTemplate =
         </div>
         <div class="group relative mt-3 flex gap-1" v-if="!isSoldOut">
 
-            <ul v-if="productTemplates != ''" v-html="productTemplates"></ul>
+            <ul v-if="productTemplates != ''" v-html="productTemplates"></ul> 
 
             <product-quantity data-max-quantity="0" :data-product="product.id" class="flex items-center justify-between m-auto quantity border border-gray-300 rounded-md py-[5px] px-3">
                <button v-if="qtyMinuteShow" class="p-1 no-js-hidden" name="minus" type="button" @click="qtyMinutes">
