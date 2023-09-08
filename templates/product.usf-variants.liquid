@@ -2,6 +2,6 @@
 
   {% for v in product.variants %}
     <li>
-      {{ v.title }} : {{ v.unit_price | divided_by: 100 | money_without_trailing_zeros: 'EUR' }}€ /unité 
+      {{ v.title }} : {{ v.unit_price | divided_by: 100 | replace: '.', ',' }}€ /unité 
     </li>
   {% endfor %}
