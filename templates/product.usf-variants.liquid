@@ -1,0 +1,7 @@
+{% layout none %}
+
+  {% for v in product.variants %}
+    <li>
+      {{ v.title }} : {{ v.unit_price }}
+    </li>
+  {% endfor %}
