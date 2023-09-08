@@ -124,6 +124,6 @@ add-to-cart[data-disabled="true"] {
   display:none;
 }
 
-.custom-variants li:first-child {
+.custom-variants>li:first-child {
   display: none;
 }
