@@ -1489,6 +1489,9 @@ var _usfFilterBodyTemplate =
             <span v-if="hasDiscount" class="usf-price-savings text-[20px] font-extrabold" v-html="loc.save + ' ' + salePercent + '%'"></span>
         </div>
         <div class="group relative mt-3 flex gap-1" v-if="!isSoldOut">
+
+            <ul v-if="productTemplates != ''" v-html="productTemplates"></ul>
+
             <product-quantity data-max-quantity="0" :data-product="product.id" class="flex items-center justify-between m-auto quantity border border-gray-300 rounded-md py-[5px] px-3">
                <button v-if="qtyMinuteShow" class="p-1 no-js-hidden" name="minus" type="button" @click="qtyMinutes">
                   <svg width="13" height="2" viewBox="0 0 13 2" fill="none" xmlns="http://www.w3.org/2000/svg">
