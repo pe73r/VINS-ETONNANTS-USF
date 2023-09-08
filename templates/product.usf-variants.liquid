@@ -2,6 +2,8 @@
 
   {% for v in product.variants %}
     <li>
-      {{ v.title }} : {{ v.unit_price | divided_by: 100 | replace: '.', ',' }}€ /unité 
+      {{ v.title }} : {{ v.unit_price | divided_by: 100 }} 
+      {% assign centimes = v.unit_price | modulo: 100 %}
+      {{ centimes > 0 ? ',' }}{{ centimes }} € /unité 
     </li>
   {% endfor %}
