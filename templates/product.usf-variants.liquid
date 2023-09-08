@@ -2,6 +2,6 @@
 
   {% for v in product.variants %}
     <li>
-      {{ v.title }} : {{ v.unit_price / 100).toFixed(2) }} €
+      {{ v.title }} : {{ (v.unit_price / 100).toFixed(2) }} €
     </li>
   {% endfor %}
