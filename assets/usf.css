@@ -2930,7 +2930,6 @@ body:not(.usf-mobile) .usf-popover .usf-body:before {
 
 .usf-sr-product .usf-price-savings {
   color: #ff4e4e;
-  margin-left: 0px !important;
   white-space: nowrap;
   text-transform: capitalize;
 }
@@ -3360,11 +3359,17 @@ body:not(.usf-mobile) .usf-facet-values--List .usf-checkbox {
   top: 7px !important;
 }
 
+.custom-variants li {
+    font-size: 13px;
+} 
+
 .text-\[18px\] {
   font-size: 18px;
 }
 
 /* End custom theme code */
+
+
 
 /* Begin common theme code */
 
