@@ -1488,6 +1488,7 @@ var _usfFilterBodyTemplate =
             </div>
             <span v-if="hasDiscount" class="usf-price-savings text-[20px] font-extrabold" v-html="loc.save + ' ' + salePercent + '%'"></span>
         </div>
+        <ul class="custom-variants" v-if="productTemplates != ''" v-html="productTemplates"></ul> 
         <div class="group relative mt-3 flex gap-1" v-if="!isSoldOut">
 
 
