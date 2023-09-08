@@ -2110,7 +2110,8 @@ usf.event.add("init", function () {
       return {
         usfQty: 1,
         qtyPlusShow: true,
-        qtyMinuteShow: true
+        qtyMinuteShow: true,
+        productTemplates: '',
       };
     },
     methods: {
@@ -2142,7 +2143,19 @@ usf.event.add("init", function () {
         this.usfQty = parseInt(val);
         this.checkQty();
       }
-    }
+    },
+    created() {
+        var t = this;
+        fetch(`/products/` + t.product.urlName + '?view=usf-variants', {
+            credentials: 'same-origin',
+            method: 'GET'
+        }).then(function (response) {
+            return response.text() 
+        }).then(rs => { 
+            t.productTemplates = rs;
+        }); 
+
+    },
   };
   usf.register(SearchResultsGridItem, null, "usf-new-griditem");
 
