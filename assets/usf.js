@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 9/8/2023 1:45:07 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 9/8/2023 1:46:03 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -1499,7 +1499,6 @@ var _usfFilterBodyTemplate =
 
             <ul class="custom-variants" v-if="productTemplates != ''" v-html="productTemplates"></ul> 
 
-
             <product-quantity data-max-quantity="0" :data-product="product.id" class="flex items-center justify-between m-auto quantity border border-gray-300 rounded-md py-[5px] px-3">
                <button v-if="qtyMinuteShow" class="p-1 no-js-hidden" name="minus" type="button" @click="qtyMinutes">
                   <svg width="13" height="2" viewBox="0 0 13 2" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2122,7 +2121,8 @@ usf.event.add("init", function () {
       return {
         usfQty: 1,
         qtyPlusShow: true,
-        qtyMinuteShow: true
+        qtyMinuteShow: true,
+        productTemplates: '',
       };
     },
     methods: {
@@ -2154,7 +2154,19 @@ usf.event.add("init", function () {
         this.usfQty = parseInt(val);
         this.checkQty();
       }
-    }
+    }, 
+    created() {
+        var t = this;
+        fetch(`/products/` + t.product.urlName + '?view=usf-variants', {
+            credentials: 'same-origin',
+            method: 'GET'
+        }).then(function (response) {
+            return response.text() 
+        }).then(rs => { 
+            t.productTemplates = rs;
+        }); 
+
+    },
   };
   usf.register(SearchResultsGridItem, null, "usf-new-griditem");
 
