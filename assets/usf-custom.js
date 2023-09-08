@@ -1390,12 +1390,7 @@ var _usfFilterBodyTemplate =
     `</template>
         <template v-else>
             <template v-if="hasResults">
-                <template v-if="view === 'grid'">
                     <template v-for="p in result.items"><usf-new-griditem :product="p" :result="result" :key="p.id"></usf-new-griditem></template>
-                </template>
-                <template v-else>
-                    <template v-for="p in result.items"><usf-sr-listitem :product="p" :result="result" :key="p.id"></usf-sr-listitem></template>
-                </template>
             </template>
             <template v-else>
                 <!-- Empty result -->
