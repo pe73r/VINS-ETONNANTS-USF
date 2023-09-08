@@ -119,3 +119,8 @@ add-to-cart[data-disabled="true"] {
 .usf-sr-product .usf-price-savings {
   margin-left: 0px !important;
 }
+
+
+.custom-variants{
+  display: none;
+}
