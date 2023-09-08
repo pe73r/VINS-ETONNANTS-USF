@@ -123,3 +123,7 @@ add-to-cart[data-disabled="true"] {
 .custom-variants{
   display:none;
 }
+
+.custom-variants li:first-child {
+  display: none;
+}
