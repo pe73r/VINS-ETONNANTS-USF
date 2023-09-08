@@ -647,3 +647,7 @@ body:not(.usf-mobile) .usf-facet-values--List .usf-checkbox {
 .text-\[18px\] {
   font-size: 18px;
 }
+
+.custom-variants{
+  display: none;
+}
