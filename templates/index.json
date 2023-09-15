@@ -558,13 +558,13 @@
           "type": "card",
           "settings": {
             "card_width": "2\/5",
-            "image": "shopify:\/\/shop_images\/arnaud-combier-400px.jpg",
+            "image": "shopify:\/\/shop_images\/ben_f0a1a4cc-8abb-4aa3-a464-1f0b9143c2a1.jpg",
             "image_overlay": true,
-            "title": "Le coup de projecteur vigneron : Arnaud Combier",
+            "title": "Le coup de projecteur vigneron : Domaine Les Gragnotes",
             "show_hr": true,
-            "text": "<p>De famille vigneronne, Arnaud Combier élabore depuis plus de vingt ans des cuvées natures en Bourgogne. Après avoir travaillé dans son propre Domaine et multiplié les collaborations, il développe désormais une activité de négociant-vinificateur-éleveur.<\/p>",
+            "text": "<p><span style=\"text-decoration:underline\">Une situation géographique privilégiée…<\/span><\/p><p>Aux portes du massif des Corbières, en plein cœur de l’Occitanie, se trouve le petit village de Paziols (11), habité de <em>Granhòtas<\/em> (grenouilles en occitan). C’est dans cet écrin de lumière, dans la vallée des hautes Corbières que leurs vignes se gorgent de soleil depuis plus de cent ans.<\/p>",
             "cta": "En savoir plus",
-            "button_link": "shopify:\/\/collections\/combier-arnaud"
+            "button_link": "shopify:\/\/collections\/gragnotes-les"
           }
         }
       },
