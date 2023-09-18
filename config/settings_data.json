@@ -248,6 +248,13 @@
       "side-cart": {
         "type": "side-cart",
         "blocks": {
+          "2cc21c9c-3f0c-47e1-973c-1c20d458258e": {
+            "type": "reassurances",
+            "settings": {
+              "title": "Je certifie avoir plus de 18 ans  pour pouvoir passer commande  chez Vins Etonnants",
+              "text": ""
+            }
+          },
           "429d0e67-9527-40e3-909c-41a156b9cf9f": {
             "type": "reassurances",
             "disabled": true,
@@ -276,21 +283,14 @@
               "title": "ApplePay et Paiement en 3x Klarna disponibles",
               "text": "<p>ApplePay, Paiement en 3x Klarna, American Express disponibles <\/p>"
             }
-          },
-          "2cc21c9c-3f0c-47e1-973c-1c20d458258e": {
-            "type": "reassurances",
-            "settings": {
-              "title": "Je certifie avoir plus de 18 ans  pour pouvoir passer commande  chez Vins Etonnants",
-              "text": ""
-            }
           }
         },
         "block_order": [
+          "2cc21c9c-3f0c-47e1-973c-1c20d458258e",
           "429d0e67-9527-40e3-909c-41a156b9cf9f",
           "1c9c5b5b-c1c9-4a69-9b95-8db25c19a069",
           "5afa6dc1-80cf-4797-85cf-c5f99f7ad4c4",
-          "c2a9e40e-f9db-41a7-8e3a-677fedbae8c9",
-          "2cc21c9c-3f0c-47e1-973c-1c20d458258e"
+          "c2a9e40e-f9db-41a7-8e3a-677fedbae8c9"
         ],
         "settings": {
           "cart_title": "Panier",
