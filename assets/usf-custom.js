@@ -1481,6 +1481,15 @@ var _usfFilterBodyTemplate =
         <!-- price -->
         <usf-plugin name="searchResultsProductPrice" :data="pluginData"></usf-plugin>
 
+
+
+        
+        <usf-atc :product="product" :selectedVariantForPrice="selectedVariantForPrice" @onChangeVariant="(v)=>{
+             this.setSelectedVariantId(v.id)
+              console.log(v);
+            }"   :hasDiscount="hasDiscount" :isSoldOut="isSoldOut" :displayPrice="displayPrice" :displayDiscountedPrice="displayDiscountedPrice" :salePercent="salePercent" :loc="loc"></usf-atc>
+
+
         <div class="usf-price-wrapper flex items-center flex-wrap-reverse gap-2" :class="{'usf-price--sold-out': isSoldOut}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
             <div>
                 <span class="usf-price text-[20px] font-extrabold" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="displayPrice"></span>
