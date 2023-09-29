@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 9/29/2023 9:11:06 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 9/29/2023 9:11:20 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -1500,7 +1500,7 @@ var _usfFilterBodyTemplate =
             <span v-if="hasDiscount" class="usf-price-savings text-[20px] font-extrabold" v-html="loc.save + ' ' + salePercent + '%'"></span>
         </div>-->
         <!--<ul class="custom-variants" v-if="productTemplates != ''" v-html="productTemplates"></ul> -->
-        <div class="group relative mt-3 flex gap-1" v-if="!usf.utils.isVariantSoldOut(v)">
+        <div class="group relative mt-3 flex gap-1" v-if="!usf.utils.isVariantSoldOut(selectedVariantForPrice)">
 
 
             <product-quantity data-max-quantity="0" :data-product="product.id" class="flex items-center justify-between m-auto quantity border border-gray-300 rounded-md py-[5px] px-3" v-if="">
