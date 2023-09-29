@@ -1488,7 +1488,7 @@ var _usfFilterBodyTemplate =
             </div>
             <span v-if="hasDiscount" class="usf-price-savings text-[20px] font-extrabold" v-html="loc.save + ' ' + salePercent + '%'"></span>
         </div>
-        <ul class="custom-variants" v-if="productTemplates != ''" v-html="productTemplates"></ul> 
+        <!--<ul class="custom-variants" v-if="productTemplates != ''" v-html="productTemplates"></ul> -->
         <div class="group relative mt-3 flex gap-1" v-if="!isSoldOut">
 
 
@@ -2114,7 +2114,7 @@ usf.event.add("init", function () {
         usfQty: 1,
         qtyPlusShow: true,
         qtyMinuteShow: true,
-        productTemplates: '',
+        // productTemplates: '',
       };
     },
     methods: {
@@ -2147,18 +2147,18 @@ usf.event.add("init", function () {
         this.checkQty();
       }
     },
-    created() {
-        var t = this;
-        fetch(`/products/` + t.product.urlName + '?view=usf-variants', {
-            credentials: 'same-origin',
-            method: 'GET'
-        }).then(function (response) {
-            return response.text() 
-        }).then(rs => { 
-            t.productTemplates = rs;
-        }); 
+    // created() {
+    //     var t = this;
+    //     fetch(`/products/` + t.product.urlName + '?view=usf-variants', {
+    //         credentials: 'same-origin',
+    //         method: 'GET'
+    //     }).then(function (response) {
+    //         return response.text() 
+    //     }).then(rs => { 
+    //         t.productTemplates = rs;
+    //     }); 
 
-    },
+    // },
   };
   usf.register(SearchResultsGridItem, null, "usf-new-griditem");
 
