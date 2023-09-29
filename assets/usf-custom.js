@@ -2180,6 +2180,137 @@ usf.event.add("init", function () {
   };
   usf.register(usfDropRender, null, "usf-drop");
 
+  
+  var UsfAddToCart = {
+    props: {
+      product: Object,
+      selectedVariantForPrice: Object,
+      hasDiscount: Boolean,
+      isSoldOut: Boolean,
+      displayPrice: String,
+      displayDiscountedPrice: String,
+        salePercent: Number,
+        loc:Object
+    },
+    data() {
+      return {
+        data: null,
+        isLoaded: false,
+        variantsMap: {}
+      };
+    },
+
+    created() {
+      console.log("selectedVariantForPrice ", this.selectedVariantForPrice)
+      var vm = this;
+      fetch(`/products/${this.product.urlName}?view=usf`)
+        .then(
+          function (response) {
+            if (response.status !== 200) {
+              // error
+              return;
+            }
+            // parse response data
+            response.json().then(r => {
+
+              var product = r["product"];
+              product["options"] = r["opts"]
+
+              var variantsMapClone = {};
+
+              for (let i = 0; i < product["variants"].length; i++) {
+                let v = product['variants'][i];
+                variantsMapClone[v.id] = v;
+              }
+              vm.data = product;
+              vm.variantsMap = variantsMapClone;
+              vm.isLoaded = true;
+            })
+          }
+        )
+        .catch(err => {
+          console.log('Error :-S', err)
+        });
+    },
+
+    computed: {
+      selectedVariantForPriceFull() {
+        if (this.variantsMap && this.selectedVariantForPrice && this.data && this.isLoaded) {
+
+          var r = this.variantsMap[this.selectedVariantForPrice.id] || this.data.variants[0];
+
+          console.log("r : ", r)
+          return r;
+        }
+      }
+    },
+
+    methods: {
+      onChangeOpt(optIndex, valueIndex) {
+
+        for (let i = 0; i < this.product['variants'].length; i++) {
+          var v = this.product['variants'][i];
+          var opts = v['options'];
+          if (opts[optIndex] == valueIndex) {
+            this.$emit("onChangeVariant", v)
+            break;
+          }
+        }
+      }
+    },
+
+
+    template: `
+
+<div class="usf-atc">
+
+     <div class="usf-price-wrapper flex items-center flex-wrap-reverse gap-2" :class="{'usf-price--sold-out': isSoldOut}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
+
+            <div>
+                <span class="usf-price text-[20px] font-extrabold" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="displayPrice"></span>
+                <span class="usf-discount text-[20px] font-extrabold" v-if="hasDiscount" v-html="displayDiscountedPrice"></span>
+            </div>
+            <span v-if="hasDiscount" class="usf-price-savings text-[20px] font-extrabold" v-html="loc.save + ' ' + salePercent + '%'"></span>
+
+          
+      
+        </div>
+
+            <div>
+                <span v-if="selectedVariantForPriceFull.unit_price" class="block text-xs font-bold tracking-tight">Prix par bouteille: <span data-dynamic-unit-price >{{  usf.utils.getDisplayPrice(selectedVariantForPriceFull.unit_price/100) }}</span> / {{ selectedVariantForPriceFull.unit_price_measurement && selectedVariantForPriceFull.unit_price_measurement.reference_value ? selectedVariantForPriceFull.unit_price_measurement.reference_value : '' }}{{selectedVariantForPriceFull.unit_price_measurement && selectedVariantForPriceFull.unit_price_measurement.reference_unit ? selectedVariantForPriceFull.unit_price_measurement.reference_unit : '' }}</span>
+
+            </div>
+
+ <div v-if="isLoaded && data && data['variants']&& data['variants'].length>1 && selectedVariantForPriceFull"
+            id="variants-block"
+            :data-product="product.id"
+            class="block mx-auto my-5 no-js-hidden variant-radios"
+            :data-url="product.urlName">
+
+                <template v-for="(opt,optIndex) in data['options']" :key="opt.name+'-'+optIndex">
+                    <span class="min-w-fit block text-sm mb-1">{{ opt.name }}:</span>
+                    <fieldset class="flex items-center">
+                      <div class="flex flex-wrap gap-2">
+                          <div v-for="(value,valueIdx) in opt['values']" :key="product.id+'-'+opt.position+'-'+valueIdx">
+                         
+                              <span class="block px-6 py-2 text-sm border  rounded-md cursor-pointer" :class="(selectedVariantForPriceFull['options'] && selectedVariantForPriceFull['options'][optIndex] == value? 'border-orange': 'border-gray-300')" @click="()=>{
+                              
+                                onChangeOpt(optIndex, valueIdx)
+                              }">{{ value }}</span>
+                          </div>
+                      </div>
+                    </fieldset>
+
+                </template>
+  </div>
+
+
+</div>
+
+        `
+  };
+  usf.register(UsfAddToCart, null, "usf-atc");
+
   /*inc_end_minicart-js*/
   // register to the `usfShowCartPanel` event to show the mini cart panel.
   document.addEventListener("usfShowCartPanel", async function () {
