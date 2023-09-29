@@ -1490,13 +1490,6 @@ var _usfFilterBodyTemplate =
             }"   :hasDiscount="hasDiscount" :isSoldOut="usf.utils.isVariantSoldOut(selectedVariantForPrice)" :displayPrice="displayPrice" :displayDiscountedPrice="displayDiscountedPrice" :salePercent="salePercent" :loc="loc"></usf-atc>
 
 
-        <!--<div class="usf-price-wrapper flex items-center flex-wrap-reverse gap-2" :class="{'usf-price--sold-out': usf.utils.isVariantSoldOut(selectedVariantForPrice)}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
-            <div>
-                <span class="usf-price text-[20px] font-extrabold" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="displayPrice"></span>
-                <span class="usf-discount text-[20px] font-extrabold" v-if="hasDiscount" v-html="displayDiscountedPrice"></span>
-            </div>
-            <span v-if="hasDiscount" class="usf-price-savings text-[20px] font-extrabold" v-html="loc.save + ' ' + salePercent + '%'"></span>
-        </div>-->
         <!--<ul class="custom-variants" v-if="productTemplates != ''" v-html="productTemplates"></ul> -->
         <div class="group relative mt-3 flex gap-1" v-if="!usf.utils.isVariantSoldOut(selectedVariantForPrice)">
 
