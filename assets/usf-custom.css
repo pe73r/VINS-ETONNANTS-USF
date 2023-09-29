@@ -648,3 +648,8 @@ body:not(.usf-mobile) .usf-facet-values--List .usf-checkbox {
   font-size: 18px;
 }
 
+
+
+.usf-atc #variants-block input[type="radio"]:checked~div, .usf-atc #variants-block input[type="radio"]:checked~span{
+    border-color: #F84C55;
+}
