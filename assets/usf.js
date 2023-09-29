@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 9/29/2023 9:10:01 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 9/29/2023 9:10:18 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -1489,7 +1489,7 @@ var _usfFilterBodyTemplate =
         <usf-atc :product="product" :selectedVariantForPrice="selectedVariantForPrice" @onChangeVariant="(v)=>{
              this.setSelectedVariantId(v.id)
               console.log(v);
-            }"   :hasDiscount="hasDiscount" :isSoldOut="usf.utils.isVariantSoldOut(v)" :displayPrice="displayPrice" :displayDiscountedPrice="displayDiscountedPrice" :salePercent="salePercent" :loc="loc"></usf-atc>
+            }"   :hasDiscount="hasDiscount" :isSoldOut="usf.utils.isVariantSoldOut(selectedVariantForPrice)" :displayPrice="displayPrice" :displayDiscountedPrice="displayDiscountedPrice" :salePercent="salePercent" :loc="loc"></usf-atc>
 
 
         <!--<div class="usf-price-wrapper flex items-center flex-wrap-reverse gap-2" :class="{'usf-price--sold-out': isSoldOut}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
