@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 9/29/2023 9:08:56 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 9/29/2023 9:09:13 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -1489,7 +1489,7 @@ var _usfFilterBodyTemplate =
         <usf-atc :product="product" :selectedVariantForPrice="selectedVariantForPrice" @onChangeVariant="(v)=>{
              this.setSelectedVariantId(v.id)
               console.log(v);
-            }"   :hasDiscount="hasDiscount" :isSoldOut="isSoldOut" :displayPrice="displayPrice" :displayDiscountedPrice="displayDiscountedPrice" :salePercent="salePercent" :loc="loc"></usf-atc>
+            }"   :hasDiscount="hasDiscount" :isSoldOut="usf.utils.isVariantSoldOut(v)" :displayPrice="displayPrice" :displayDiscountedPrice="displayDiscountedPrice" :salePercent="salePercent" :loc="loc"></usf-atc>
 
 
         <!--<div class="usf-price-wrapper flex items-center flex-wrap-reverse gap-2" :class="{'usf-price--sold-out': isSoldOut}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
@@ -1500,10 +1500,10 @@ var _usfFilterBodyTemplate =
             <span v-if="hasDiscount" class="usf-price-savings text-[20px] font-extrabold" v-html="loc.save + ' ' + salePercent + '%'"></span>
         </div>-->
         <!--<ul class="custom-variants" v-if="productTemplates != ''" v-html="productTemplates"></ul> -->
-        <div class="group relative mt-3 flex gap-1" v-if="!isSoldOut">
+        <div class="group relative mt-3 flex gap-1" v-if="!usf.utils.isVariantSoldOut(v)">
 
 
-            <product-quantity data-max-quantity="0" :data-product="product.id" class="flex items-center justify-between m-auto quantity border border-gray-300 rounded-md py-[5px] px-3">
+            <product-quantity data-max-quantity="0" :data-product="product.id" class="flex items-center justify-between m-auto quantity border border-gray-300 rounded-md py-[5px] px-3" v-if="">
                <button v-if="qtyMinuteShow" class="p-1 no-js-hidden" name="minus" type="button" @click="qtyMinutes">
                   <svg width="13" height="2" viewBox="0 0 13 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H11.0024C11.5547 0 12.0024 0.447715 12.0024 1C12.0024 1.55228 11.5547 2 11.0024 2H1C0.447715 2 0 1.55228 0 1Z" fill="#201A1C"></path>
