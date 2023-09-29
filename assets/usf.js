@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 9/29/2023 9:12:41 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 9/29/2023 9:13:41 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -2288,7 +2288,7 @@ usf.event.add("init", function () {
         </div>
 
             <div>
-                <span v-if="selectedVariantForPriceFull.unit_price" class="block text-xs font-bold tracking-tight">Prix par bouteille: <span data-dynamic-unit-price >{{  usf.utils.getDisplayPrice(selectedVariantForPriceFull.unit_price/100) }}</span> / {{ selectedVariantForPriceFull.unit_price_measurement && selectedVariantForPriceFull.unit_price_measurement.reference_value ? selectedVariantForPriceFull.unit_price_measurement.reference_value : '' }}{{selectedVariantForPriceFull.unit_price_measurement && selectedVariantForPriceFull.unit_price_measurement.reference_unit ? selectedVariantForPriceFull.unit_price_measurement.reference_unit : '' }}</span>
+                <span v-if="selectedVariantForPriceFull && selectedVariantForPriceFull.unit_price" class="block text-xs font-bold tracking-tight">Prix par bouteille: <span data-dynamic-unit-price >{{  usf.utils.getDisplayPrice(selectedVariantForPriceFull.unit_price/100) }}</span> / {{ selectedVariantForPriceFull.unit_price_measurement && selectedVariantForPriceFull.unit_price_measurement.reference_value ? selectedVariantForPriceFull.unit_price_measurement.reference_value : '' }}{{selectedVariantForPriceFull.unit_price_measurement && selectedVariantForPriceFull.unit_price_measurement.reference_unit ? selectedVariantForPriceFull.unit_price_measurement.reference_unit : '' }}</span>
 
             </div>
 

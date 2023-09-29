@@ -2286,7 +2286,7 @@ usf.event.add("init", function () {
         </div>
 
             <div>
-                <span v-if="selectedVariantForPriceFull.unit_price" class="block text-xs font-bold tracking-tight">Prix par bouteille: <span data-dynamic-unit-price >{{  usf.utils.getDisplayPrice(selectedVariantForPriceFull.unit_price/100) }}</span> / {{ selectedVariantForPriceFull.unit_price_measurement && selectedVariantForPriceFull.unit_price_measurement.reference_value ? selectedVariantForPriceFull.unit_price_measurement.reference_value : '' }}{{selectedVariantForPriceFull.unit_price_measurement && selectedVariantForPriceFull.unit_price_measurement.reference_unit ? selectedVariantForPriceFull.unit_price_measurement.reference_unit : '' }}</span>
+                <span v-if="selectedVariantForPriceFull && selectedVariantForPriceFull.unit_price" class="block text-xs font-bold tracking-tight">Prix par bouteille: <span data-dynamic-unit-price >{{  usf.utils.getDisplayPrice(selectedVariantForPriceFull.unit_price/100) }}</span> / {{ selectedVariantForPriceFull.unit_price_measurement && selectedVariantForPriceFull.unit_price_measurement.reference_value ? selectedVariantForPriceFull.unit_price_measurement.reference_value : '' }}{{selectedVariantForPriceFull.unit_price_measurement && selectedVariantForPriceFull.unit_price_measurement.reference_unit ? selectedVariantForPriceFull.unit_price_measurement.reference_unit : '' }}</span>
 
             </div>
 
