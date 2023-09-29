@@ -1490,7 +1490,7 @@ var _usfFilterBodyTemplate =
             }"   :hasDiscount="hasDiscount" :isSoldOut="usf.utils.isVariantSoldOut(selectedVariantForPrice)" :displayPrice="displayPrice" :displayDiscountedPrice="displayDiscountedPrice" :salePercent="salePercent" :loc="loc"></usf-atc>
 
 
-        <!--<div class="usf-price-wrapper flex items-center flex-wrap-reverse gap-2" :class="{'usf-price--sold-out': isSoldOut}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
+        <!--<div class="usf-price-wrapper flex items-center flex-wrap-reverse gap-2" :class="{'usf-price--sold-out': usf.utils.isVariantSoldOut(selectedVariantForPrice)}" v-if="!usf.plugins.lastRenderResult" :data-variant-id="product.selectedVariantId">
             <div>
                 <span class="usf-price text-[20px] font-extrabold" :class="{'usf-has-discount accent-color': hasDiscount}" v-html="displayPrice"></span>
                 <span class="usf-discount text-[20px] font-extrabold" v-if="hasDiscount" v-html="displayDiscountedPrice"></span>
