@@ -8540,18 +8540,6 @@ function _usfAddToCart(e, callback) {
 })();
 
 /* Begin plugin code */
-!(function () {
-  usf.plugins.push({
-    render_searchResultsProductWishList(e, s, r, i) {
-      var t = r.product;
-      return s("div", {
-        class: "usf-wishlist-king",
-        attrs: { "data-id": t.id },
-        domProps: { innerHTML: usf.utils.getMetafield(t, "judgeme", "badge").replace(/\|/g, '"') }
-      });
-    }
-  }),
-    usf.event.raise("rerender");
-})();
+!function(){usf.plugins.push({render_searchResultsProductWishList(e,s,r,i){var t=r.product;return s("div",{class:"usf-wishlist-king",attrs:{"data-id":t.id},domProps:{innerHTML:usf.utils.getMetafield(t,"judgeme","badge").replace(/\|/g,'"')}})}}),usf.event.raise("rerender")}();
 
 /* End plugin code */
