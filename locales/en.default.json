@@ -524,6 +524,24 @@
       "thank_you": {
         "login_reorder_link_text": {
           "many": "buy these products too"
+        },
+        "gift_card_confirmation_by_text_typ": {
+          "many": "You will receive an SMS with your gift cards in a few minutes."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "many": "You will receive an email with your gift cards in a few minutes."
+        },
+        "gift_card_email_title": {
+          "many": "The gift cards were sent by e-mail"
+        },
+        "gift_card_text_title": {
+          "many": "The gift cards were sent by SMS"
+        },
+        "gift_card_resent_confirmation": {
+          "many": "The gift cards have been returned."
+        },
+        "gift_card_resend_failure": {
+          "many": "A problem occurred when returning your gift cards. Remember or contact us."
         }
       },
       "order_payment_collection": {
