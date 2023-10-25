@@ -302,7 +302,16 @@
       "title": "Account",
       "details": "Account details",
       "view_addresses": "View addresses",
-      "return": "Return to Account details"
+      "return": "Return to Account details",
+      "welcome_title": "Good morning {{ name }}",
+      "welcome_text": "Welcome to your personal space. Cumulate your points to unlock advantages delivery and preview access to new features",
+      "need_help": "Need help ?",
+      "logout": "Disconnect",
+      "informations_title": "My information",
+      "orders_title": "My orders",
+      "informations_link": "Information",
+      "orders_link": "Orders",
+      "back_to_account": "Return"
     },
     "account_fallback": "Account",
     "activate_account": {
@@ -334,7 +343,10 @@
       "cancel": "Cancel",
       "edit": "Edit",
       "delete": "Delete",
-      "delete_confirm": "Are you sure you wish to delete this address?"
+      "delete_confirm": "Are you sure you wish to delete this address?",
+      "coordonates": "Contact details",
+      "email": "E-mail address",
+      "favorites": "My favorite addresses"
     },
     "log_in": "Log in",
     "log_out": "Log out",
