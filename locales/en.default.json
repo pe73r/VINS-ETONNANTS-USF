@@ -396,12 +396,40 @@
       "payment_status": "Payment status",
       "fulfillment_status": "Fulfillment status",
       "total": "Total",
-      "none": "You haven't placed any orders yet."
+      "none": "You haven't placed any orders yet.",
+      "created_at": "Made on: {{ date }}",
+      "head_products": "Products",
+      "head_quantity": "Quantity",
+      "head_qty": "Qté",
+      "head_unit_price": "Unit price",
+      "head_price": "Price",
+      "head_total_price": "Total price",
+      "tracking": "Follow my order",
+      "help": "I have a problem",
+      "sku": "Ref: {{ sku }}",
+      "total_price": "Total : {{ money }}",
+      "discount": "Promotional code : {{ discount }}",
+      "shipping": "Delivery : {{ shipping }}",
+      "shipping_address": "Delivery address",
+      "billing_address": "Billing address",
+      "cancelled": "Canceled",
+      "completed": "Shipped",
+      "partial_fulfilled": "Being processed",
+      "fulfilled": "Envoy",
+      "unfulfilled": "Waiting for treatment",
+      "complete": "Confirmed",
+      "over": "Finished",
+      "programmated": "Programmed subscription delivery",
+      "unfinalized": "Waiting for delivery Subscription"
     },
     "recover_password": {
       "title": "Reset your password",
       "subtext": "We will send you an email to reset your password",
-      "success": "We've sent you an email with a link to update your password."
+      "success": "We've sent you an email with a link to update your password.",
+      "button": "Reset password",
+      "cancel": "Cancel",
+      "success_title": "Request sent",
+      "success_html": "Your request has been taken into account ! If this e-mail address is recorded with us, you will receive a link to reset your password on your mailbox<br><br>See you soon !"
     },
     "register": {
       "title": "Create account",
@@ -409,14 +437,18 @@
       "last_name": "Last name",
       "email": "Email",
       "password": "Password",
-      "submit": "Create"
+      "submit": "Create",
+      "text": "We need some information to create your account",
+      "parrainage": "Paraining code"
     },
     "reset_password": {
       "title": "Reset account password",
       "subtext": "Enter a new password for {{ email }}",
       "password": "Password",
       "password_confirm": "Confirm password",
-      "submit": "Reset password"
+      "submit": "Reset password",
+      "success_title": "Your password has been changed",
+      "success_html": "You can log in to your account again with your new password."
     }
   },
   "gift_cards": {
