@@ -498,6 +498,12 @@
         },
         "card_fields_unavailable_html": {
           "many": "Credit and debit card payments are not available at this time.<br> <a href=\"%%7Bcurrent_url%7D\">Refresh this page<\/a> or try another payment method."
+        },
+        "expired_cards_info": {
+          "many": "There is %{count} Expired cards that you can consult and modify on your account."
+        },
+        "order_edit_banner_items_added": {
+          "many": "%{count} added"
         }
       },
       "shipping_errors": {
