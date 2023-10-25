@@ -763,6 +763,14 @@
       "banner_title": {
         "many": "There are {{count}} errors"
       }
+    },
+    "ui_components": {
+      "autocompleteOptionsAvailable": {
+        "many": "{{count}} Available items"
+      },
+      "month": {
+        "many": "month"
+      }
     }
   }
 }
