@@ -646,6 +646,19 @@
         "discount_order_stacking": {
           "many": "Order discounts"
         }
+      },
+      "pickup_point": {
+        "paginator": {
+          "header": {
+            "many": "Display of %{first} – %{last} points on %{count}"
+          },
+          "selected_pickup_point_label": {
+            "many": "%{pickup_point_index} of %{count} points"
+          },
+          "selected_page": {
+            "many": "%{first} - %{last} of %{count} points"
+          }
+        }
       }
     },
     "notices": {
