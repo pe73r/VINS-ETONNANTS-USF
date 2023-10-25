@@ -658,6 +658,22 @@
           "selected_page": {
             "many": "%{first} - %{last} of %{count} points"
           }
+        },
+        "number_of_pickup_points_near_location": {
+          "many": "%{count} Relay points found near your location"
+        }
+      },
+      "local_pickup": {
+        "location_information": {
+          "many": "There is %{count} stores with the product in stock near %{address}"
+        },
+        "paginator": {
+          "label": {
+            "many": "%{first} – %{last} on %{count} shops"
+          }
+        },
+        "reveal_more_label": {
+          "many": "See %{count} more locations"
         }
       }
     },
@@ -708,7 +724,16 @@
         },
         "confirmed_gift_card_additional_description_text": {
           "many": "Each gift card will be sent in a separate SMS."
+        },
+        "gift_resend_success": {
+          "many": "Returned gift cards"
+        },
+        "gift_resend_failure": {
+          "many": "A problem occurred when returning your gift cards. Remember or contact us."
         }
+      },
+      "if_not_received": {
+        "many": "If they were not received,"
       }
     },
     "B2B": {
