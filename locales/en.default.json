@@ -603,6 +603,25 @@
         "item_label": {
           "many": "{{count}} items"
         }
+      },
+      "order_summary": {
+        "expand_component_information": {
+          "many": "Display %{count} items"
+        },
+        "collapse_component_information": {
+          "many": "Hide %{count} items"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "many": "%{count} items"
+          }
+        },
+        "discount_title_stacking": {
+          "many": "Discounts"
+        },
+        "discount_order_stacking": {
+          "many": "Order discounts"
+        }
       }
     },
     "notices": {
