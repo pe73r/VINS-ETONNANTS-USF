@@ -583,6 +583,26 @@
             "many": "These items will be removed from your basket, as there is no delivery method available for your address."
           }
         }
+      },
+      "general": {
+        "map": {
+          "cluster_title": {
+            "many": "Cluster of {{number}} markers"
+          }
+        }
+      },
+      "stock": {
+        "unshippable_product": {
+          "header": {
+            "many": "No delivery available for %{count} items"
+          },
+          "message": {
+            "many": "These items will be withdrawn from your basket, as there is no delivery method available for your address."
+          }
+        },
+        "item_label": {
+          "many": "{{count}} items"
+        }
       }
     },
     "notices": {
