@@ -37,15 +37,16 @@
             "button_bg": "#ffffff"
           }
         },
-        "a5995b95-c7e4-496c-97fc-a823c45d09e2": {
+        "6a655967-0166-43d1-97b0-1df4369e5276": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/65564779_1076363745891101_4210416342177677312_n.jpg",
-            "title": "Vins Etonnants, le vin autrement \nÀ votre service depuis 2003",
-            "title_mobile": "Vins Etonnants, le vin autrement \nÀ votre service depuis 2003",
+            "image_mobile": "shopify:\/\/shop_images\/65564779_1076363745891101_4210416342177677312_n.jpg",
+            "title": "Vins Etonnants, le vin autrement\nÀ votre service depuis 2003",
+            "title_mobile": "Vins Etonnants, le vin autrement\nÀ votre service depuis 2003",
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <\/p>",
-            "cta": "",
-            "button_link": "",
+            "cta": "Je découvre",
+            "button_link": "shopify:\/\/collections",
             "text_color": "#fff",
             "button_color": "#201A1C",
             "button_bg": "#fff"
@@ -54,7 +55,7 @@
       },
       "block_order": [
         "c10225b9-5adb-4b58-a304-35952a9188b5",
-        "a5995b95-c7e4-496c-97fc-a823c45d09e2"
+        "6a655967-0166-43d1-97b0-1df4369e5276"
       ],
       "settings": {
       }
