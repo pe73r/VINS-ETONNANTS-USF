@@ -37,13 +37,13 @@
             "button_bg": "#ffffff"
           }
         },
-        "6a655967-0166-43d1-97b0-1df4369e5276": {
+        "d509c645-6424-4125-8dab-86765db8f855": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/65564779_1076363745891101_4210416342177677312_n.jpg",
             "image_mobile": "shopify:\/\/shop_images\/65564779_1076363745891101_4210416342177677312_n.jpg",
-            "title": "Vins Etonnants, le vin autrement\nÀ votre service depuis 2003",
-            "title_mobile": "Vins Etonnants, le vin autrement\nÀ votre service depuis 2003",
+            "title": "Vins Etonnants, le vin autrement \nÀ votre service depuis 2003",
+            "title_mobile": "Vins Etonnants, le vin autrement \nÀ votre service depuis 2003",
             "text": "<p>Les tarifs d'expédition pour l'Europe ont été revus et envois gratuits à partir de 250€ d'achat pour la Belgique, 300€ pour l'Italie,...<\/p>",
             "cta": "Je découvre",
             "button_link": "shopify:\/\/collections",
@@ -55,7 +55,7 @@
       },
       "block_order": [
         "c10225b9-5adb-4b58-a304-35952a9188b5",
-        "6a655967-0166-43d1-97b0-1df4369e5276"
+        "d509c645-6424-4125-8dab-86765db8f855"
       ],
       "settings": {
       }
