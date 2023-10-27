@@ -6,7 +6,7 @@
         "f798bfbf-f191-4238-afc1-18a73b6cbc35": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>10% de remise sur les bulles de les bulles de Jean-Louis Denois  actuellement!<\/strong><\/p>",
+            "text": "<p><strong>10% de remise sur les bulles de Jean-Louis Denois  actuellement!<\/strong><\/p>",
             "url": "shopify:\/\/collections\/denois-jean-louis"
           }
         }
@@ -47,9 +47,9 @@
             "text": "<p>Les tarifs d'expédition pour l'Europe ont été revus et envois gratuits à partir de 250€ d'achat pour la Belgique, 300€ pour l'Italie,...<\/p>",
             "cta": "Je découvre",
             "button_link": "shopify:\/\/collections\/all",
-            "text_color": "#fff",
-            "button_color": "#201A1C",
-            "button_bg": "#fff"
+            "text_color": "#ffffff",
+            "button_color": "#201a1c",
+            "button_bg": "#ffffff"
           }
         }
       },
