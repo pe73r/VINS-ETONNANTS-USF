@@ -501,27 +501,51 @@
         "settings": {
         }
       },
+      "18146506648094396618": {
+        "type": "shopify:\/\/apps\/langshop\/blocks\/sdk\/84899e01-2b29-42af-99d6-46d16daa2111",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "5411293056883406572": {
         "type": "shopify:\/\/apps\/shopchat\/blocks\/app-embed\/a8dc6652-8e1c-4ab3-86b4-d9df2a368d4c",
         "disabled": false,
         "settings": {
           "activationStyle": "textButton",
           "activationButtonText": "Ask",
-          "widgetStyle": "chat",
-          "interactionType": "conversational",
-          "composerPlaceholderText": "Que recherchez-vous ? \nWhat are you looking for ?",
-          "composerSubmitButtonText": "Question - Ask",
-          "thinkingText": "Recherche en cours - Thinking...",
+          "widgetStyle": "spotlight",
+          "interactionType": "questionAnswer",
+          "composerPlaceholderText": "Ask a question about this shop's products",
+          "composerSubmitButtonText": "Ask",
+          "thinkingText": "Thinking...",
           "suggestionsHeaderText": "Questions you can ask me",
-          "surveyConfirmationText": "Nous vous remercions pour votre retour.\nWe thank you for your feedback.",
-          "surveyQuestionText": "Vous ai-je été utile?\nWas this helpful?",
-          "composerSubmitButtonBackgroundColor": "linear-gradient(94.77deg, rgba(150, 86, 235, 1) 21.75%, rgba(178, 72, 243, 1) 61.76%, rgba(124, 46, 226, 1) 100%)",
+          "surveyConfirmationText": "Thank you for your feedback",
+          "surveyQuestionText": "Was this helpful?",
+          "composerSubmitButtonBackgroundColor": "linear-gradient(94.77deg,#9656eb 21.75%,#b248f3 61.76%,#7c2ee2 100%)",
           "suggestionBubbleTextColor": "#000000",
           "suggestionBubbleBackgroundColor": "#FFFFFF",
           "widgetContainerBackgroundColor": "#FFFFFF",
           "replyBodyBackgroundColor": "#FFFAFE",
           "overlayBackgroundColor": "rgba(255, 255, 255, 0.65)",
           "surveyButtonBackgroundColor": "#FFFFFF"
+        }
+      },
+      "6241766537399994015": {
+        "type": "shopify:\/\/apps\/skeepers-ratings-reviews\/blocks\/brand-widget-block\/0cea8051-22ff-4d3e-b394-9a2721507c49",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "10249797228608187657": {
+        "type": "shopify:\/\/apps\/ai-search-product-filter-sb\/blocks\/core\/45de52d0-b602-4c6e-aa3b-61524a251869",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "13581873799926253961": {
+        "type": "shopify:\/\/apps\/payfy-payment-rules\/blocks\/install-snippets\/a3e9996d-434d-48b0-ace2-ba7b3d58826c",
+        "disabled": true,
+        "settings": {
         }
       }
     }
