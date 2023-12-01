@@ -513,21 +513,21 @@
         "settings": {
         }
       },
-      "6241766537399994015": {
-        "type": "shopify:\/\/apps\/skeepers-ratings-reviews\/blocks\/brand-widget-block\/0cea8051-22ff-4d3e-b394-9a2721507c49",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "18146506648094396618": {
         "type": "shopify:\/\/apps\/langshop\/blocks\/sdk\/84899e01-2b29-42af-99d6-46d16daa2111",
         "disabled": false,
         "settings": {
         }
       },
+      "6241766537399994015": {
+        "type": "shopify:\/\/apps\/skeepers-ratings-reviews\/blocks\/brand-widget-block\/0cea8051-22ff-4d3e-b394-9a2721507c49",
+        "disabled": true,
+        "settings": {
+        }
+      },
       "3953314366958760213": {
         "type": "shopify:\/\/apps\/conversagent\/blocks\/gqa-embed\/9dcb9616-f02a-40f7-b434-36f4866f2140",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "gqa_agentName": "Eric",
           "gqa_agentTagLine": "AI Assistant",
