@@ -527,7 +527,7 @@
       },
       "3953314366958760213": {
         "type": "shopify:\/\/apps\/conversagent\/blocks\/gqa-embed\/9dcb9616-f02a-40f7-b434-36f4866f2140",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "gqa_agentName": "Eric",
           "gqa_agentTagLine": "AI Assistant",
