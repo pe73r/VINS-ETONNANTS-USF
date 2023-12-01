@@ -501,29 +501,6 @@
         "settings": {
         }
       },
-      "5411293056883406572": {
-        "type": "shopify:\/\/apps\/shopchat\/blocks\/app-embed\/a8dc6652-8e1c-4ab3-86b4-d9df2a368d4c",
-        "disabled": false,
-        "settings": {
-          "activationStyle": "textButton",
-          "activationButtonText": "Ask",
-          "widgetStyle": "spotlight",
-          "interactionType": "questionAnswer",
-          "composerPlaceholderText": "Ask a question about this shop's products",
-          "composerSubmitButtonText": "Ask",
-          "thinkingText": "Thinking...",
-          "suggestionsHeaderText": "Questions you can ask me",
-          "surveyConfirmationText": "Thank you for your feedback",
-          "surveyQuestionText": "Was this helpful?",
-          "composerSubmitButtonBackgroundColor": "linear-gradient(94.77deg,#9656eb 21.75%,#b248f3 61.76%,#7c2ee2 100%)",
-          "suggestionBubbleTextColor": "#000000",
-          "suggestionBubbleBackgroundColor": "#FFFFFF",
-          "widgetContainerBackgroundColor": "#FFFFFF",
-          "replyBodyBackgroundColor": "#FFFAFE",
-          "overlayBackgroundColor": "rgba(255, 255, 255, 0.65)",
-          "surveyButtonBackgroundColor": "#FFFFFF"
-        }
-      },
       "10249797228608187657": {
         "type": "shopify:\/\/apps\/ai-search-product-filter-sb\/blocks\/core\/45de52d0-b602-4c6e-aa3b-61524a251869",
         "disabled": true,
@@ -546,6 +523,26 @@
         "type": "shopify:\/\/apps\/langshop\/blocks\/sdk\/84899e01-2b29-42af-99d6-46d16daa2111",
         "disabled": false,
         "settings": {
+        }
+      },
+      "3953314366958760213": {
+        "type": "shopify:\/\/apps\/conversagent\/blocks\/gqa-embed\/9dcb9616-f02a-40f7-b434-36f4866f2140",
+        "disabled": false,
+        "settings": {
+          "gqa_agentName": "Grace",
+          "gqa_agentTagLine": "AI Assistant",
+          "gqa_theme_bodyBg": "#fff",
+          "gqa_theme_bodyBorderColor": "#bfbfbf",
+          "gqa_theme_msgBubbleUserBg": "#7123c0",
+          "gqa_theme_msgBubbleUserTextColor": "#fff",
+          "gqa_theme_msgBubbleAgentBg": "#f0f0f0",
+          "gqa_theme_msgBubbleAgentTextColor": "#000",
+          "gqa_theme_headerBg": "#c5c5c5",
+          "gqa_theme_headerTextColor": "#000",
+          "gqa_theme_badgeBg": "#6f6f6f",
+          "gqa_theme_badgeIconColor": "#fff",
+          "gqa_customCSS": "",
+          "gqa_customJS": ""
         }
       }
     }
