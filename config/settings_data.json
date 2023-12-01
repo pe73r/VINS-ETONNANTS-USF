@@ -532,7 +532,7 @@
           "gqa_agentName": "Eric",
           "gqa_agentTagLine": "AI Assistant",
           "gqa_agentImg": "shopify:\/\/shop_images\/welcome-to-my-business.jpg",
-          "gqa_theme_bodyBg": "#fff",
+          "gqa_theme_bodyBg": "#dd1d1d",
           "gqa_theme_bodyBorderColor": "#dd1d1d",
           "gqa_theme_msgBubbleUserBg": "#7123c0",
           "gqa_theme_msgBubbleUserTextColor": "#fff",
