@@ -529,8 +529,9 @@
         "type": "shopify:\/\/apps\/conversagent\/blocks\/gqa-embed\/9dcb9616-f02a-40f7-b434-36f4866f2140",
         "disabled": false,
         "settings": {
-          "gqa_agentName": "Grace",
+          "gqa_agentName": "Eric",
           "gqa_agentTagLine": "AI Assistant",
+          "gqa_agentImg": "shopify:\/\/shop_images\/welcome-to-my-business.jpg",
           "gqa_theme_bodyBg": "#fff",
           "gqa_theme_bodyBorderColor": "#bfbfbf",
           "gqa_theme_msgBubbleUserBg": "#7123c0",
