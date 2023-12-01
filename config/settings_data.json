@@ -500,6 +500,29 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "5411293056883406572": {
+        "type": "shopify:\/\/apps\/shopchat\/blocks\/app-embed\/a8dc6652-8e1c-4ab3-86b4-d9df2a368d4c",
+        "disabled": false,
+        "settings": {
+          "activationStyle": "textButton",
+          "activationButtonText": "Ask",
+          "widgetStyle": "spotlight",
+          "interactionType": "questionAnswer",
+          "composerPlaceholderText": "Ask a question about this shop's products",
+          "composerSubmitButtonText": "Ask",
+          "thinkingText": "Thinking...",
+          "suggestionsHeaderText": "Questions you can ask me",
+          "surveyConfirmationText": "Thank you for your feedback",
+          "surveyQuestionText": "Was this helpful?",
+          "composerSubmitButtonBackgroundColor": "linear-gradient(94.77deg,#9656eb 21.75%,#b248f3 61.76%,#7c2ee2 100%)",
+          "suggestionBubbleTextColor": "#000000",
+          "suggestionBubbleBackgroundColor": "#FFFFFF",
+          "widgetContainerBackgroundColor": "#FFFFFF",
+          "replyBodyBackgroundColor": "#FFFAFE",
+          "overlayBackgroundColor": "rgba(255, 255, 255, 0.65)",
+          "surveyButtonBackgroundColor": "#FFFFFF"
+        }
       }
     }
   },
