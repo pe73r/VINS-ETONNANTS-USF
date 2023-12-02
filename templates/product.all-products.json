@@ -160,6 +160,19 @@
         "text_link": "Lire plus",
         "text_less": "Lire moins"
       }
+    },
+    "c30d8279-7722-4022-ac68-4b662aa7f9e5": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201A1C",
+        "title": "Un assistant de recherche AI est désormais à votre disposition!",
+        "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
+        "more_text": "",
+        "text_mobile": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
+      }
     }
   },
   "order": [
@@ -168,6 +181,7 @@
     "product-informations-simple",
     "product-recommendations-carousel",
     "7cb25d7b-7bb5-43a9-98e9-386d541cb1bd",
-    "20c2f30e-d3b8-4c88-b885-f4760a1b1c1b"
+    "20c2f30e-d3b8-4c88-b885-f4760a1b1c1b",
+    "c30d8279-7722-4022-ac68-4b662aa7f9e5"
   ]
 }
