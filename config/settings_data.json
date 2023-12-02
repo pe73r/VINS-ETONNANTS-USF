@@ -501,12 +501,6 @@
         "settings": {
         }
       },
-      "10249797228608187657": {
-        "type": "shopify:\/\/apps\/ai-search-product-filter-sb\/blocks\/core\/45de52d0-b602-4c6e-aa3b-61524a251869",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "13581873799926253961": {
         "type": "shopify:\/\/apps\/payfy-payment-rules\/blocks\/install-snippets\/a3e9996d-434d-48b0-ace2-ba7b3d58826c",
         "disabled": true,
@@ -544,6 +538,12 @@
           "gqa_theme_badgeIconColor": "#fff",
           "gqa_customCSS": "",
           "gqa_customJS": ""
+        }
+      },
+      "10249797228608187657": {
+        "type": "shopify:\/\/apps\/ai-search-product-filter-sb\/blocks\/core\/45de52d0-b602-4c6e-aa3b-61524a251869",
+        "disabled": false,
+        "settings": {
         }
       }
     }
