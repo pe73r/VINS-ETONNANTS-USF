@@ -1,5 +1,18 @@
 {
   "sections": {
+    "1d126385-13d8-4f8c-a73a-89f8fb3adf54": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201A1C",
+        "title": "Un assistant de recherche AI est désormais à votre disposition!",
+        "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
+        "more_text": "",
+        "text_mobile": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -257,29 +270,16 @@
         "text_link": "Lire plus",
         "text_less": "Lire moins"
       }
-    },
-    "1d126385-13d8-4f8c-a73a-89f8fb3adf54": {
-      "type": "rich-text-expandable",
-      "settings": {
-        "text_color": "#201A1C",
-        "title": "Un assistant de recherche AI est désormais à votre disposition!",
-        "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
-        "more_text": "",
-        "text_mobile": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
-        "more_text_mobile": "",
-        "text_link": "",
-        "text_less": ""
-      }
     }
   },
   "order": [
+    "1d126385-13d8-4f8c-a73a-89f8fb3adf54",
     "main",
     "48846409-d24b-4d84-bbc2-57b29e52395c",
     "bf3c8f24-1604-4903-9be7-d62ccac04444",
     "product-informations-snap",
     "product-recommendations-carousel",
     "c81556f9-1731-4da3-bee9-3ca8bc137f71",
-    "20c2f30e-d3b8-4c88-b885-f4760a1b1c1b",
-    "1d126385-13d8-4f8c-a73a-89f8fb3adf54"
+    "20c2f30e-d3b8-4c88-b885-f4760a1b1c1b"
   ]
 }
