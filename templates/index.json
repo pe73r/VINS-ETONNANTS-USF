@@ -693,6 +693,19 @@
         "title_accordion_color": "#201a1c",
         "content_accordion_color": "#201a1c"
       }
+    },
+    "cded6bf6-fc5b-47d6-b544-29692a7e2ab3": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201A1C",
+        "title": "Un assistant de recherche AI est désormais à votre disposition !",
+        "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
+        "more_text": "",
+        "text_mobile": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
+      }
     }
   },
   "order": [
@@ -706,6 +719,7 @@
     "1db7442e-0ee1-495a-96a1-01f3969e95f2",
     "ec1c9248-3ca2-483d-8370-8f7e3ce48d01",
     "7fac6255-7c16-4756-be15-19d6e6bb5a14",
-    "0fb03a6f-d8a5-42fb-9dd7-bf8e382aa9e8"
+    "0fb03a6f-d8a5-42fb-9dd7-bf8e382aa9e8",
+    "cded6bf6-fc5b-47d6-b544-29692a7e2ab3"
   ]
 }
