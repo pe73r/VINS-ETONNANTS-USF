@@ -21,11 +21,6 @@
             "show_quantity": true
           }
         },
-        "f3b365b6-9d63-4af2-8d3a-6ebb79ba54fc": {
-          "type": "shopify:\/\/apps\/ai-shopping-assistant\/blocks\/app-block\/28b5cddf-e3c6-427a-8d35-1dbdb9a5d03c",
-          "settings": {
-          }
-        },
         "1e425230-6800-49eb-922c-18eab7fbfd55": {
           "type": "delivery_note",
           "settings": {
@@ -52,7 +47,6 @@
         "e774b8d8-3d27-4e0a-8a21-0181dfe3ce03",
         "91167e33-9087-4581-86a7-a3ebdf91c627",
         "ce287ddd-56b4-4eae-92cf-5e6f08239886",
-        "f3b365b6-9d63-4af2-8d3a-6ebb79ba54fc",
         "1e425230-6800-49eb-922c-18eab7fbfd55",
         "3d1604f2-041f-42ef-8b6a-3c0b480b05f1",
         "b772b48a-9e88-44db-a874-d5d4fb97a412"
@@ -125,7 +119,6 @@
     },
     "product-informations-snap": {
       "type": "product-informations-snap",
-      "disabled": true,
       "blocks": {
         "e7c7ac71-36f4-4208-98b7-9b98fb3b93a3": {
           "type": "block",
@@ -202,6 +195,7 @@
         "a11980ab-ebe8-465e-9bf1-af1ac2a7ba96",
         "8a3aabf3-9e3d-41bc-9d66-68fe7b05adf4"
       ],
+      "disabled": true,
       "settings": {
         "container": "7xl",
         "title": "L'avis Vins Etonnants 🍷",
@@ -263,6 +257,19 @@
         "text_link": "Lire plus",
         "text_less": "Lire moins"
       }
+    },
+    "1d126385-13d8-4f8c-a73a-89f8fb3adf54": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201A1C",
+        "title": "Un assistant de recherche AI est désormais à votre disposition!",
+        "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
+        "more_text": "",
+        "text_mobile": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
+      }
     }
   },
   "order": [
@@ -272,6 +279,7 @@
     "product-informations-snap",
     "product-recommendations-carousel",
     "c81556f9-1731-4da3-bee9-3ca8bc137f71",
-    "20c2f30e-d3b8-4c88-b885-f4760a1b1c1b"
+    "20c2f30e-d3b8-4c88-b885-f4760a1b1c1b",
+    "1d126385-13d8-4f8c-a73a-89f8fb3adf54"
   ]
 }
