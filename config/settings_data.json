@@ -512,12 +512,6 @@
         "settings": {
         }
       },
-      "6241766537399994015": {
-        "type": "shopify:\/\/apps\/skeepers-ratings-reviews\/blocks\/brand-widget-block\/0cea8051-22ff-4d3e-b394-9a2721507c49",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "10249797228608187657": {
         "type": "shopify:\/\/apps\/ai-search-product-filter-sb\/blocks\/core\/45de52d0-b602-4c6e-aa3b-61524a251869",
         "disabled": false,
@@ -592,6 +586,12 @@
           "gqa_theme_badgeIconColor": "#ffffff",
           "gqa_customCSS": "",
           "gqa_customJS": ""
+        }
+      },
+      "6241766537399994015": {
+        "type": "shopify:\/\/apps\/skeepers-ratings-reviews\/blocks\/brand-widget-block\/0cea8051-22ff-4d3e-b394-9a2721507c49",
+        "disabled": false,
+        "settings": {
         }
       }
     }
