@@ -9,10 +9,18 @@
             "text": "<h2><strong>15% de remise sur les bulles de Jean-Louis Denois  actuellement!<\/strong><\/h2>",
             "url": "shopify:\/\/collections\/denois-jean-louis"
           }
+        },
+        "f582f9bd-9c8a-44e8-a683-bda433423b1f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Toute commande passée avant le 19 décembre sera livrée avant le 24 décembre.<\/p>",
+            "url": ""
+          }
         }
       },
       "block_order": [
-        "f798bfbf-f191-4238-afc1-18a73b6cbc35"
+        "f798bfbf-f191-4238-afc1-18a73b6cbc35",
+        "f582f9bd-9c8a-44e8-a683-bda433423b1f"
       ],
       "settings": {
         "text_color": "#f8f2e7",
