@@ -9,18 +9,10 @@
             "text": "<h2><strong>15% de remise sur les bulles de Jean-Louis Denois  actuellement!<\/strong><\/h2>",
             "url": "shopify:\/\/collections\/denois-jean-louis"
           }
-        },
-        "f582f9bd-9c8a-44e8-a683-bda433423b1f": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Toute commande passée avant le 20 décembre sera livrée avant le 24 décembre.<\/p>",
-            "url": ""
-          }
         }
       },
       "block_order": [
-        "f798bfbf-f191-4238-afc1-18a73b6cbc35",
-        "f582f9bd-9c8a-44e8-a683-bda433423b1f"
+        "f798bfbf-f191-4238-afc1-18a73b6cbc35"
       ],
       "settings": {
         "text_color": "#f8f2e7",
@@ -52,7 +44,7 @@
             "image_mobile": "shopify:\/\/shop_images\/65564779_1076363745891101_4210416342177677312_n.jpg",
             "title": "Vins Etonnants, le vin authentique !\nÀ votre service depuis 2003",
             "title_mobile": "Vins Etonnants, le vin authentique !\nÀ votre service depuis 2003",
-            "text": "<p>Les tarifs d'expédition pour l'Europe ont été revus et envois gratuits à partir de 250€ d'achat pour la Belgique, 300€ pour l'Italie,..<\/p>",
+            "text": "<p>Une nouvelle livraison du Domaine Bornard est arrivée !<\/p><p>Les tarifs d'expédition pour l'Europe ont été revus et envois gratuits à partir de 250€ d'achat pour la Belgique, 300€ pour l'Italie,..<\/p>",
             "cta": "Je découvre",
             "button_link": "shopify:\/\/collections\/all",
             "text_color": "#ffffff",
