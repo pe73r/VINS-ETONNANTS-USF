@@ -6,8 +6,8 @@
         "f798bfbf-f191-4238-afc1-18a73b6cbc35": {
           "type": "text",
           "settings": {
-            "text": "<h2><strong>Arrivage des Trousseau et Savagnin du Domaine Bornard and découvrez le domaine La Grapp'a<\/strong><\/h2>",
-            "url": "shopify:\/\/collections\/denois-jean-louis"
+            "text": "",
+            "url": "shopify:\/\/collections\/la-grappa"
           }
         }
       },
@@ -28,10 +28,10 @@
             "image": "shopify:\/\/shop_images\/396313907_7064222250307116_231428080594339956_n.jpg",
             "image_mobile": "shopify:\/\/shop_images\/396313907_7064222250307116_231428080594339956_n.jpg",
             "title": "Le spécialiste du vin authentique!\nÀ votre service depuis 2003",
-            "title_mobile": "Le spécialiste du vin authentique !\nÀ votre service depuis 2003",
-            "text": "",
+            "title_mobile": "Le spécialiste du vin authentique !\nÀ votre service depuis 2003\nJura : Arrivage des Trousseau et Savagnin du Domaine Bornard and découvrez le domaine La Grapp'a",
+            "text": "<p>Le spécialiste du vin authentique !<br\/>À votre service depuis 2003<br\/>Jura : Arrivage des Trousseau et Savagnin du Domaine Bornard and découvrez le domaine La Grapp'a<\/p>",
             "cta": "Je découvre",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify:\/\/collections\/la-grappa",
             "text_color": "#ffffff",
             "button_color": "#201a1c",
             "button_bg": "#ffffff"
