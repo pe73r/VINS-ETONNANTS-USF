@@ -3,7 +3,7 @@
     "c30d8279-7722-4022-ac68-4b662aa7f9e5": {
       "type": "rich-text-expandable",
       "settings": {
-        "text_color": "#201A1C",
+        "text_color": "#201a1c",
         "title": "Un assistant de recherche AI est désormais à votre disposition!",
         "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
         "more_text": "",
@@ -45,7 +45,7 @@
         "3d1604f2-041f-42ef-8b6a-3c0b480b05f1": {
           "type": "text",
           "settings": {
-            "text": "Vendu par Vins étonnants",
+            "text": "{{ product.vendor }}",
             "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/Image.svg?v=1670361219"
           }
         },
