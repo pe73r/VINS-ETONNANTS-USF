@@ -110,6 +110,16 @@
         "background_color": "#201a1c"
       }
     },
+    "banner_intro_wknBrq": {
+      "type": "banner-intro",
+      "settings": {
+        "title": "Toute notre actualité disponible sur notre blog",
+        "subtitle": "<p>Commentaires de dégustations, visites de domaines, arrivages et bien plus encore!<\/p>",
+        "cta": "En savoir plus",
+        "ctaLink": "https:\/\/vins-etonnants.com\/blogs\/blog-vins-etonnants",
+        "show_hr": true
+      }
+    },
     "59445fe2-2d28-4270-94b2-48f55adf293b": {
       "type": "featured-blog-carousel",
       "settings": {
@@ -690,6 +700,7 @@
     "16635875657e00a7a6",
     "1663586369b92a04be",
     "aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70",
+    "banner_intro_wknBrq",
     "59445fe2-2d28-4270-94b2-48f55adf293b",
     "cded6bf6-fc5b-47d6-b544-29692a7e2ab3",
     "4dc3e657-6ceb-433f-8455-055959184db0",
