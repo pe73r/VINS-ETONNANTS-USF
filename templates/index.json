@@ -117,7 +117,7 @@
         "blog": "blog-vins-etonnants",
         "post_limit": 12,
         "show_dots": true,
-        "heading": "Notre actualité et nos derniers articles",
+        "heading": "Nos derniers articles",
         "show_title": true,
         "show_content": true,
         "show_author": false,
@@ -176,35 +176,13 @@
             "collection_link": "Je découvre",
             "url": "shopify:\/\/collections\/promo-destockage"
           }
-        },
-        "143676e5-587b-4650-858d-517ed153a446": {
-          "type": "card",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/kelsey-knight-udj2tD3WKsY-unsplash.jpg",
-            "title": "Vins de <br>Bordeaux",
-            "collection_link": "Je découvre",
-            "url": "shopify:\/\/collections\/bordeaux-rouge"
-          }
-        },
-        "da01d2da-c3f0-45a8-99f6-08e92824c387": {
-          "type": "card",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_41_78b4c930-97d1-4c84-82cb-0f261638a3f4.png",
-            "title": "Vins rouges <br> fruités",
-            "collection_link": "Je découvre",
-            "url": "shopify:\/\/collections\/rouge-puissant-et-fruite"
-          }
         }
       },
       "block_order": [
         "3075a099-7546-41fa-96d5-985af6994d04",
         "b85bcbca-29d6-48aa-b0bb-c0c9ccfd33cb",
         "597a64e8-0135-4bc4-a1f5-3c99ba04cf2a",
-        "319a33b3-1253-41dd-8239-26cd9e53c9ba",
-        "143676e5-587b-4650-858d-517ed153a446",
-        "da01d2da-c3f0-45a8-99f6-08e92824c387"
+        "319a33b3-1253-41dd-8239-26cd9e53c9ba"
       ],
       "settings": {
         "container": "7xl",

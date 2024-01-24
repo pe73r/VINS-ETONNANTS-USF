@@ -500,12 +500,6 @@
         "settings": {
         }
       },
-      "13581873799926253961": {
-        "type": "shopify:\/\/apps\/payfy-payment-rules\/blocks\/install-snippets\/a3e9996d-434d-48b0-ace2-ba7b3d58826c",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "18146506648094396618": {
         "type": "shopify:\/\/apps\/langshop\/blocks\/sdk\/84899e01-2b29-42af-99d6-46d16daa2111",
         "disabled": false,
