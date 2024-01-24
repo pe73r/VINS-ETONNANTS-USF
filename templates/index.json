@@ -114,7 +114,7 @@
       "type": "banner-intro",
       "settings": {
         "title": "Toute notre actualité disponible sur notre blog",
-        "subtitle": "<p>Commentaires de dégustations, visites de domaines, arrivages et bien plus encore!<\/p>",
+        "subtitle": "<h3>Commentaires de dégustations, visites de domaines, arrivages et bien plus encore!<\/h3>",
         "cta": "En savoir plus",
         "ctaLink": "https:\/\/vins-etonnants.com\/blogs\/blog-vins-etonnants",
         "show_hr": true
