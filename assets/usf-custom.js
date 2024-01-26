@@ -1445,10 +1445,15 @@ var _usfFilterBodyTemplate =
                   <p v-else class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="'N/A'"></p>
                </div>
                <!-- Metafield grade -->
-               <div class="mt-4">
+               <div class="mt-4" v-if="0">
                   <p v-if="usf.utils.getMetafield(product,'global','description_courte')" class="text-xs uppercase font-light">CÉPAGE</p>
                   <p v-if="(description_courte = usf.utils.getMetafield(product,'global','description_courte')) != '' && description_courte.includes('-')" class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="description_courte.split('-')[0] ? description_courte.split('-')[0].replace('Cépage : ','').replace('Cépages ','') : ''"></p>
                </div>
+               <!-- COUNTRY -->
+              <div class="mt-3">
+                <p class="text-xs uppercase font-light">COUNTRY</p>
+                <p class="text-base line-clamp-1 capitalize" v-html="checkTags2(product.tags)"></p>
+              </div>
             </div>
 
             <!-- product image -->
@@ -2060,6 +2065,63 @@ function checkTags(vl) {
       return window._usfRegions[i];
     }
   }
+}
+function checkTags2(tags){ 
+
+    var country;
+
+    if (tags.includes("france") || tags.includes("vin-de-france")) {
+        country = "France";
+    } else if (tags.includes("espagne") || tags.includes("ribera-del-duero") || tags.includes("rioja")) {
+        country = "Espagne";
+    } else if (tags.includes("croatie") || tags.includes("Croatie")) {
+        country = "Croatie";
+    } else if (tags.includes("allemagne") || tags.includes("Allemagne")) {
+        country = "Allemagne";
+    } else if (tags.includes("argentine") || tags.includes("Argentine")) {
+        country = "Argentine";
+    } else if (tags.includes("italie") || tags.includes("Italie")) {
+        country = "Italie";
+    } else if (tags.includes("georgie") || tags.includes("Georgie")) {
+        country = "Géorgie";
+    } else if (tags.includes("japon") || tags.includes("Japon")) {
+        country = "Japon";
+    } else if (tags.includes("autriche") || tags.includes("Autriche")) {
+        country = "Autriche";
+    } else if (tags.includes("portugal") || tags.includes("Portugal")) {
+        country = "Portugal";
+    } else if (tags.includes("autralie") || tags.includes("Autralie")) {
+        country = "Australie";
+    } else if (tags.includes("zelande") || tags.includes("Zelande")) {
+        country = "Nouvelle-zelande";
+    } else if (tags.includes("etats-unis") || tags.includes("Etats-unis")) {
+        country = "Etas-unis";
+    } else if (tags.includes("grece") || tags.includes("Grece")) {
+        country = "Gréce";
+    } else if (tags.includes("chili") || tags.includes("Chili")) {
+        country = "Chili";
+    } else if (tags.includes("angleterre") || tags.includes("Angleterre")) {
+        country = "Angleterre";
+    } else if (tags.includes("hongrie") || tags.includes("Hongrie")) {
+        country = "Hongrie";
+    } else if (tags.includes("suisse") || tags.includes("Suisse")) {
+        country = "Suisse";
+    } else if (tags.includes("perou") || tags.includes("Perou")) {
+        country = "Pérou";
+    } else if (tags.includes("slovenie") || tags.includes("Slovenie")) {
+        country = "Slovenie";
+    } else if (tags.includes("israel") || tags.includes("Israel")) {
+        country = "Israël";
+    } else if (tags.includes("mexique") || tags.includes("Mexique")) {
+        country = "Mexique";
+    } else if (tags.includes("afrique-du-sud") || tags.includes("Afrique-du-sud") ) {
+        country = "Afrique du sud";
+    } else {
+        country = "France";
+    }
+
+    return country
+
 }
 
 /*
