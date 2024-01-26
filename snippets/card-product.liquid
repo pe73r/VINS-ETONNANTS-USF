@@ -131,6 +131,7 @@
             {% endunless %}
            
             <!-- Cepage -->
+            {% assign isCepage = false%}
             {% if isCepage %}
               <div class="mt-3">
                 {% assign cepage = product.metafields.global.description_courte | split: '-' | first | remove: "Cépage" %}
