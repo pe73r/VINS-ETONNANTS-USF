@@ -1451,7 +1451,7 @@ var _usfFilterBodyTemplate =
                </div>
                <!-- COUNTRY -->
               <div class="mt-3">
-                <p class="text-xs uppercase font-light">COUNTRY</p>
+                <p class="text-xs uppercase font-light">PAYS</p>
                 <p class="text-base line-clamp-1 capitalize" v-html="checkTags2(product.tags)"></p>
               </div>
             </div>
