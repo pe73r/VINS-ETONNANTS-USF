@@ -1,4 +1,4 @@
-/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 1/26/2024 7:26:00 AM*/
+/* USF file - DO NOT MODIFY THIS FILE. THIS FILE IS REGULARLY CHANGED BY USF APP AND **ANY DIRECT CHANGES WILL BE LOST**. Use our in-app customization if you need to update CSS and JS code. Auto modified at: 1/26/2024 7:26:16 AM*/
 /* Begin custom theme code */
 // define templates for the General theme
 //for usf lazyload
@@ -1453,7 +1453,7 @@ var _usfFilterBodyTemplate =
                </div>
                <!-- COUNTRY -->
               <div class="mt-3">
-                <p class="text-xs uppercase font-light">COUNTRY</p>
+                <p class="text-xs uppercase font-light">PAYS</p>
                 <p class="text-base line-clamp-1 capitalize" v-html="checkTags2(product.tags)"></p>
               </div>
             </div>

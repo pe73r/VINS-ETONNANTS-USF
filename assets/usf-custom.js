@@ -1444,11 +1444,11 @@ var _usfFilterBodyTemplate =
                   <p v-if="checkTags(product.tags)" class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="checkTags(product.tags)"></p>
                   <p v-else class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="'N/A'"></p>
                </div>
-               <!-- Metafield grade -->
-               <div class="mt-4" v-if="0">
+               <!-- Metafield grade 
+               <div class="mt-4" >
                   <p v-if="usf.utils.getMetafield(product,'global','description_courte')" class="text-xs uppercase font-light">CÉPAGE</p>
                   <p v-if="(description_courte = usf.utils.getMetafield(product,'global','description_courte')) != '' && description_courte.includes('-')" class="mb-2 text-base line-clamp-1 max-h-[32px]" v-html="description_courte.split('-')[0] ? description_courte.split('-')[0].replace('Cépage : ','').replace('Cépages ','') : ''"></p>
-               </div>
+               </div> -->
                <!-- COUNTRY -->
               <div class="mt-3">
                 <p class="text-xs uppercase font-light">PAYS</p>
