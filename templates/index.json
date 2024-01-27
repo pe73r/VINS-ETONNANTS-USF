@@ -129,7 +129,7 @@
         "show_dots": true,
         "heading": "Nos derniers articles",
         "show_title": true,
-        "show_content": true,
+        "show_content": false,
         "show_author": false,
         "show_date": false,
         "show_button": true
