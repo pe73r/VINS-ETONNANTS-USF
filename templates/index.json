@@ -654,7 +654,7 @@
         "url": "shopify:\/\/collections\/vins-rouges",
         "show_secondary_image": false,
         "show_arrows": true,
-        "show_dots": false
+        "show_dots": true
       }
     },
     "0fb03a6f-d8a5-42fb-9dd7-bf8e382aa9e8": {
