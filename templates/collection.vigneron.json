@@ -45,7 +45,7 @@
         "show_dots": false,
         "heading": "À LIRE...",
         "show_title": true,
-        "show_content": true,
+        "show_content": false,
         "show_author": false,
         "show_date": false,
         "show_button": true
