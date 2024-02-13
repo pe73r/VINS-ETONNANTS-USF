@@ -49,6 +49,19 @@
         "text_less": "Lire moins"
       }
     },
+    "rich_text_expandable_YktrJ9": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201A1C",
+        "title": "Les meilleurs accords Mets & Vins Rouges Légers",
+        "text": "<p>Les vins rouges légers, avec leur profil aromatique délicat et leur fraîcheur en bouche, se marient harmonieusement avec une variété de plats, offrant une palette d'accords mets et vins des plus séduisantes. Ces vins sont parfaits pour accompagner des entrées légères comme des salades composées ou des tartares de légumes. Ils se révèlent également idéaux avec des viandes blanches, telles que le poulet rôti ou le veau en sauce légère, où leur acidité équilibrée et leurs tanins discrets complètent à merveille la tendreté de la viande. Pour les amateurs de fromage, optez pour des fromages à pâte molle et à croûte fleurie, tels que le Brie ou le Camembert, qui seront sublimés par la finesse et les notes fruitées des rouges légers. Enfin, ces vins peuvent créer des accords surprenants avec certains plats de poissons grillés ou en sauce, où leur légèreté apporte une touche de raffinement sans masquer les saveurs délicates du poisson.<\/p>",
+        "more_text": "",
+        "text_mobile": "",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
+      }
+    },
     "products_carousel_nEcpD7": {
       "type": "products-carousel",
       "settings": {
@@ -68,6 +81,7 @@
     "product-grid",
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
     "rich_text_expandable_RjX4Q6",
+    "rich_text_expandable_YktrJ9",
     "products_carousel_nEcpD7"
   ]
 }
