@@ -7,6 +7,20 @@
         "container": "full"
       }
     },
+    "products_carousel_x3bTkr": {
+      "type": "products-carousel",
+      "settings": {
+        "container": "3xl",
+        "collection": "vin-rouge-leger",
+        "limit": 10,
+        "title": "Vin Rouge Léger",
+        "collection_link": "Voir tout",
+        "url": "",
+        "show_secondary_image": false,
+        "show_arrows": true,
+        "show_dots": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -73,6 +87,7 @@
   },
   "order": [
     "image_banner_it4Va4",
+    "products_carousel_x3bTkr",
     "product-grid",
     "banner_with_text_8Ddadc",
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
