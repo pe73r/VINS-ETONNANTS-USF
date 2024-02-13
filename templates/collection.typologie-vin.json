@@ -14,6 +14,53 @@
         "show_dots": true
       }
     },
+    "images_grid_emYHAP": {
+      "type": "images-grid",
+      "blocks": {
+        "block_EEqL6n": {
+          "type": "block",
+          "settings": {
+          }
+        },
+        "block_cEhVAf": {
+          "type": "block",
+          "settings": {
+          }
+        },
+        "block_JdKJkT": {
+          "type": "block",
+          "settings": {
+          }
+        },
+        "block_aMHq8q": {
+          "type": "block",
+          "settings": {
+          }
+        },
+        "block_cVA6MB": {
+          "type": "block",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "block_EEqL6n",
+        "block_cEhVAf",
+        "block_JdKJkT",
+        "block_aMHq8q",
+        "block_cVA6MB"
+      ],
+      "settings": {
+        "subtitle": "Par Régions",
+        "header": "Les Rouges Légers",
+        "image": "shopify:\/\/shop_images\/P1190884_clipped_rev_1.png",
+        "link_url": "",
+        "link": "Voir toute la gamme",
+        "bg-color": "#E8E2DB",
+        "subtitle-color": "#FFFFFF",
+        "header-color": "#FFFFFF"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -80,6 +127,7 @@
   },
   "order": [
     "products_carousel_x3bTkr",
+    "images_grid_emYHAP",
     "product-grid",
     "banner_with_text_8Ddadc",
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
