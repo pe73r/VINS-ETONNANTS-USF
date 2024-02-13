@@ -1,5 +1,17 @@
 {
   "sections": {
+    "banner_with_text_8Ddadc": {
+      "type": "banner-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/leeroy-lifeofpix-leeroy8118-304496.webp",
+        "subtitle": "<p>Vin Rouge Léger<\/p>",
+        "title": "<p>DÉCOUVREZ LES PRODUITS LES PLUS ADAPTÉS À VOTRE SITUATION<\/p>",
+        "title_mobile": "<p>DÉCOUVREZ LES PRODUITS LES PLUS ADAPTÉS À VOTRE SITUATION<\/p>",
+        "cta": "Je découvre le gamme",
+        "ctaLink": "",
+        "button_type": "primary"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -53,6 +65,7 @@
     }
   },
   "order": [
+    "banner_with_text_8Ddadc",
     "product-grid",
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
     "b2cf4fcd-7250-40bc-a7e3-a982fad079fa"
