@@ -17,7 +17,7 @@
       "settings": {
         "products_per_page": 16,
         "show_collection_image": true,
-        "show_collection_title": true,
+        "show_collection_title": false,
         "show_breadcrumbs": false,
         "show_collection_description": true,
         "show_collection_size": false,
