@@ -48,11 +48,26 @@
         "text_link": "",
         "text_less": ""
       }
+    },
+    "products_carousel_nEcpD7": {
+      "type": "products-carousel",
+      "settings": {
+        "container": "7xl",
+        "collection": "vin-rouge-leger",
+        "limit": 5,
+        "title": "Top 5 des Vins Rouges Légers",
+        "collection_link": "",
+        "url": "",
+        "show_secondary_image": true,
+        "show_arrows": true,
+        "show_dots": true
+      }
     }
   },
   "order": [
     "product-grid",
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
-    "rich_text_expandable_RjX4Q6"
+    "rich_text_expandable_RjX4Q6",
+    "products_carousel_nEcpD7"
   ]
 }
