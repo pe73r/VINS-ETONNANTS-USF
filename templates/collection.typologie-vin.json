@@ -1,15 +1,10 @@
 {
   "sections": {
-    "banner_with_text_8Ddadc": {
-      "type": "banner-with-text",
+    "image_banner_it4Va4": {
+      "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/leeroy-lifeofpix-leeroy8118-304496_2.webp",
-        "subtitle": "<h1>Vin Rouge Léger<\/h1>",
-        "title": "<p>DÉCOUVREZ LES PRODUITS LES PLUS ADAPTÉS À VOTRE SITUATION<\/p>",
-        "title_mobile": "<p>DÉCOUVREZ LES PRODUITS LES PLUS ADAPTÉS À VOTRE SITUATION<\/p>",
-        "cta": "Je découvre le gamme",
-        "ctaLink": "",
-        "button_type": "primary"
+        "container": "full"
       }
     },
     "product-grid": {
@@ -33,6 +28,18 @@
         "color_dumie_link": "#ffffff",
         "text_dumie_color": "#ffffff",
         "header-image-footer-color": "#ffffff"
+      }
+    },
+    "banner_with_text_8Ddadc": {
+      "type": "banner-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/leeroy-lifeofpix-leeroy8118-304496_2.webp",
+        "subtitle": "<h1>Vin Rouge Léger<\/h1>",
+        "title": "<p>DÉCOUVREZ LES PRODUITS LES PLUS ADAPTÉS À VOTRE SITUATION<\/p>",
+        "title_mobile": "<p>DÉCOUVREZ LES PRODUITS LES PLUS ADAPTÉS À VOTRE SITUATION<\/p>",
+        "cta": "Je découvre le gamme",
+        "ctaLink": "",
+        "button_type": "primary"
       }
     },
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b": {
@@ -65,8 +72,9 @@
     }
   },
   "order": [
-    "banner_with_text_8Ddadc",
+    "image_banner_it4Va4",
     "product-grid",
+    "banner_with_text_8Ddadc",
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
     "b2cf4fcd-7250-40bc-a7e3-a982fad079fa"
   ]
