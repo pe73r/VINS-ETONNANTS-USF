@@ -1,18 +1,5 @@
 {
   "sections": {
-    "1041b7bf-0f5a-4d5a-8707-206b062f1b9d": {
-      "type": "rich-text-expandable",
-      "settings": {
-        "text_color": "#201A1C",
-        "title": "Un assistant de recherche AI est désormais à votre disposition",
-        "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
-        "more_text": "",
-        "text_mobile": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
-        "more_text_mobile": "",
-        "text_link": "",
-        "text_less": ""
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -51,7 +38,6 @@
     }
   },
   "order": [
-    "1041b7bf-0f5a-4d5a-8707-206b062f1b9d",
     "product-grid",
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b"
   ]
