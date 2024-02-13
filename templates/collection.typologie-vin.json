@@ -22,7 +22,7 @@
         "show_collection_description": true,
         "show_collection_size": false,
         "show_secondary_image": true,
-        "enable_filtering": true,
+        "enable_filtering": false,
         "enable_sorting": true,
         "filters_background": "#fcf9f3",
         "show_product_dumie": true,
