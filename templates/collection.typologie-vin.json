@@ -13,7 +13,7 @@
         "enable_filtering": false,
         "enable_sorting": false,
         "filters_background": "#fcf9f3",
-        "show_product_dumie": true,
+        "show_product_dumie": false,
         "product_dumie_title": "Le coup de projecteur vigneron",
         "product_dumie_text": "<p>Chaque mois, nous mettons en avant un de nos producteurs pour vous raconter son histoire.<\/p>",
         "product_dumie_link": "Je découvre",
