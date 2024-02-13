@@ -32,13 +32,27 @@
         "more_text": "",
         "text_mobile": "",
         "more_text_mobile": "",
-        "text_link": "Lire plus",
-        "text_less": "Lire moins"
+        "text_link": "",
+        "text_less": ""
+      }
+    },
+    "rich_text_expandable_RjX4Q6": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201A1C",
+        "title": "Quels cépages sont les plus propices à produire des vins rouges légers ?",
+        "text": "<p>Les cépages jouent un rôle crucial dans la production de vins rouges légers. Le pinot noir, emblématique de la Bourgogne, est célèbre pour ses vins fins et élégants, avec des arômes de fruits rouges et des tanins souples. Le gamay, originaire du Beaujolais, est apprécié pour ses vins frais et fruités, tandis que le cabernet franc, cultivé dans la Vallée de la Loire, produit des vins légers avec des notes florales et herbacées. Le cinsault, utilisé en Provence et Languedoc-Roussillon, apporte légèreté et fraîcheur, et le merlot, bien qu'il puisse donner des vins puissants, est utilisé dans certaines régions pour élaborer des vins rouges légers, notamment dans le Sud-Ouest de la France.<\/p>",
+        "more_text": "",
+        "text_mobile": "",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
       }
     }
   },
   "order": [
     "product-grid",
-    "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b"
+    "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
+    "rich_text_expandable_RjX4Q6"
   ]
 }
