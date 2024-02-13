@@ -1,66 +1,5 @@
 {
   "sections": {
-    "products_carousel_x3bTkr": {
-      "type": "products-carousel",
-      "settings": {
-        "container": "7xl",
-        "collection": "vin-rouge-leger",
-        "limit": 10,
-        "title": "Notre Sélection de Vins Rouges Légers",
-        "collection_link": "",
-        "url": "",
-        "show_secondary_image": true,
-        "show_arrows": true,
-        "show_dots": true
-      }
-    },
-    "images_grid_emYHAP": {
-      "type": "images-grid",
-      "blocks": {
-        "block_EEqL6n": {
-          "type": "block",
-          "settings": {
-          }
-        },
-        "block_cEhVAf": {
-          "type": "block",
-          "settings": {
-          }
-        },
-        "block_JdKJkT": {
-          "type": "block",
-          "settings": {
-          }
-        },
-        "block_aMHq8q": {
-          "type": "block",
-          "settings": {
-          }
-        },
-        "block_cVA6MB": {
-          "type": "block",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "block_EEqL6n",
-        "block_cEhVAf",
-        "block_JdKJkT",
-        "block_aMHq8q",
-        "block_cVA6MB"
-      ],
-      "settings": {
-        "subtitle": "Par Régions",
-        "header": "Les Rouges Légers",
-        "image": "shopify:\/\/shop_images\/P1190884_clipped_rev_1.png",
-        "link_url": "",
-        "link": "Voir toute la gamme",
-        "bg-color": "#E8E2DB",
-        "subtitle-color": "#FFFFFF",
-        "header-color": "#FFFFFF"
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -84,53 +23,22 @@
         "header-image-footer-color": "#ffffff"
       }
     },
-    "banner_with_text_8Ddadc": {
-      "type": "banner-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/leeroy-lifeofpix-leeroy8118-304496_2.webp",
-        "subtitle": "<h1>Vin Rouge Léger<\/h1>",
-        "title": "<p>DÉCOUVREZ LES PRODUITS LES PLUS ADAPTÉS À VOTRE SITUATION<\/p>",
-        "title_mobile": "<p>DÉCOUVREZ LES PRODUITS LES PLUS ADAPTÉS À VOTRE SITUATION<\/p>",
-        "cta": "Je découvre le gamme",
-        "ctaLink": "",
-        "button_type": "primary"
-      }
-    },
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b": {
       "type": "rich-text-expandable",
       "settings": {
         "text_color": "#201a1c",
-        "title": "Que signifie l’appellation bio ?",
-        "text": "<p>Celui-ci peut être tellement divers selon la personnalité de leur géniteur, qu'il est plus facile de définir ce qu'il n'est pas. Un vin d'auteur, c'est tout sauf un vin standard, stéréotypé, fait pour plaire au plus grand nombre. Il est donc rarement produit en millions d'exemplaires, se copiant lui-même de millésime en millésime.<\/p><p>Un vin d'auteur, c'est donc un vin qui ne ressemble pas à celui du voisin. Qui d'année en année évoluera en fonction des caprices de la météo et de l'humeur de l'auteur – les deux pouvant être liées. Car l'auteur ne se fie pas à des études de marché pour mener sa barque. Il fait son vin comme il le sent, comme il l'aime, comme il le peut, parfois... Et tant pis s'il ne plaît pas à tous.<\/p><p><\/p>",
-        "more_text": "<p>C'est pour cela que les vins d'auteur sont parfois classé en « vin de table » ou en « vin de France ». Parce que le vigneron n'a pas planté le cépage autorisé*, fait l'assemblage ou la vinification recommandés dans l'appellation**. Il est souvent un peu rebelle, notre auteur. Mais c'est pour cela qu'on l'aime !... Ceci dit, les vins d'auteur ne sont pas systématiquement marginaux : il sont présents dans la plupart des appellations, et peuvent faire partie de l'élite de celles-ci***. Car ils ne se contentent pas d'avoir de la personnalité : ils sont bons, en plus ! Avec en général un <a href=\"http:\/\/www.boiremanger.net\/archives\/2009\/11\/16\/15790803.html\">degré de torchabilité <\/a>très élevé : on ne s'en lasse pas au bout de la première gorgée.<\/p><p>Comme les vins d'auteur ne sont pas chaptalisés, levurés, bidouillés... ils peuvent présenter des profils très différents selon le millésime. À nous (revendeurs et consommateurs) de les accepter comme ils sont, et de rester fidèle aux producteurs, car ils ont besoin de nous pour poursuivre leur activité.<\/p><p>______________________________<\/p><p>* Par exemple, le <a href=\"https:\/\/www.vins-etonnants.com\/touriga-nacional-430\/la-liberte-touriga-2011-6185.html\">Touriga Nacional <\/a>dans le Minervois, ou la <a href=\"https:\/\/www.vins-etonnants.com\/vins-roses-sec-810\/syrah-blanche-2012-6305.html\">Syrah <\/a>en Côtes du Forez. Ils sont fous, ces auteurs !<\/p><p>** Certains vignerons osent produire des <a href=\"https:\/\/www.vins-etonnants.com\/aperitifs-315\/patience-et-longueur-de-temps--5647.html\" target=\"_blank\">liquoreux avec du Mourvèdre<\/a> ou un <a href=\"https:\/\/www.vins-etonnants.com\/petillant-naturel-703\/petill-gris-6202.html\">pétillant naturel avec du Pineau d'Aunis<\/a><\/p><p>*** comme ceux de Jean-François Ganevat dans le Jura ou de Zind-Humbrecht en Alsace<\/p>",
-        "text_mobile": "<p>Celui-ci peut être tellement divers selon la personnalité de leur géniteur, qu'il est plus facile de définir ce qu'il n'est pas. Un vin d'auteur, c'est tout sauf un vin standard, stéréotypé, fait pour plaire au plus grand nombre. Il est donc rarement produit en millions d'exemplaires, se copiant lui-même de millésime en millésime.<\/p><p>Un vin d'auteur, c'est donc un vin qui ne ressemble pas à celui du voisin. Qui d'année en année évoluera en fonction des caprices de la météo et de l'humeur de l'auteur – les deux pouvant être liées. Car l'auteur ne se fie pas à des études de marché pour mener sa barque. Il fait son vin comme il le sent, comme il l'aime, comme il le peut, parfois... Et tant pis s'il ne plaît pas à tous.<\/p><p><\/p>",
-        "more_text_mobile": "<p>C'est pour cela que les vins d'auteur sont parfois classé en « vin de table » ou en « vin de France ». Parce que le vigneron n'a pas planté le cépage autorisé*, fait l'assemblage ou la vinification recommandés dans l'appellation**. Il est souvent un peu rebelle, notre auteur. Mais c'est pour cela qu'on l'aime !... Ceci dit, les vins d'auteur ne sont pas systématiquement marginaux : il sont présents dans la plupart des appellations, et peuvent faire partie de l'élite de celles-ci***. Car ils ne se contentent pas d'avoir de la personnalité : ils sont bons, en plus ! Avec en général un <a href=\"http:\/\/www.boiremanger.net\/archives\/2009\/11\/16\/15790803.html\">degré de torchabilité <\/a>très élevé : on ne s'en lasse pas au bout de la première gorgée.<\/p><p>Comme les vins d'auteur ne sont pas chaptalisés, levurés, bidouillés... ils peuvent présenter des profils très différents selon le millésime. À nous (revendeurs et consommateurs) de les accepter comme ils sont, et de rester fidèle aux producteurs, car ils ont besoin de nous pour poursuivre leur activité.<\/p><p>______________________________<\/p><p>* Par exemple, le <a href=\"https:\/\/www.vins-etonnants.com\/touriga-nacional-430\/la-liberte-touriga-2011-6185.html\">Touriga Nacional <\/a>dans le Minervois, ou la <a href=\"https:\/\/www.vins-etonnants.com\/vins-roses-sec-810\/syrah-blanche-2012-6305.html\">Syrah <\/a>en Côtes du Forez. Ils sont fous, ces auteurs !<\/p><p>** Certains vignerons osent produire des <a href=\"https:\/\/www.vins-etonnants.com\/aperitifs-315\/patience-et-longueur-de-temps--5647.html\" target=\"_blank\">liquoreux avec du Mourvèdre<\/a> ou un <a href=\"https:\/\/www.vins-etonnants.com\/petillant-naturel-703\/petill-gris-6202.html\">pétillant naturel avec du Pineau d'Aunis<\/a><\/p><p>*** comme ceux de Jean-François Ganevat dans le Jura ou de Zind-Humbrecht en Alsace<\/p>",
+        "title": "Quelles régions privilégiées quand on aime le vin rouge léger ?",
+        "text": "<p>Pour les amateurs de vin rouge léger, certaines régions se distinguent par leur capacité à produire des vins élégants et délicats. La Bourgogne est incontournable avec ses vins issus principalement du pinot noir, offrant finesse et arômes subtils de fruits rouges. La Vallée de la Loire, avec ses vins de gamay et de cabernet franc, propose des crus frais et vifs, tandis que le Beaujolais, grâce au cépage Gamay, est réputé pour ses vins légers et fruités. La vallée du Rhône surprend également avec des vins rouges légers, notamment dans l'appellation Crozes-Hermitage. L'Alsace, bien que célèbre pour ses vins blancs, produit aussi des vins rouges légers à partir du pinot noir, caractérisés par leur fraîcheur.<\/p>",
+        "more_text": "",
+        "text_mobile": "",
+        "more_text_mobile": "",
         "text_link": "Lire plus",
         "text_less": "Lire moins"
-      }
-    },
-    "b2cf4fcd-7250-40bc-a7e3-a982fad079fa": {
-      "type": "featured-blog-carousel",
-      "settings": {
-        "container": "7xl",
-        "blog": "blog-vins-etonnants",
-        "post_limit": 4,
-        "show_dots": false,
-        "heading": "À LIRE...",
-        "show_title": true,
-        "show_content": false,
-        "show_author": false,
-        "show_date": false,
-        "show_button": true
       }
     }
   },
   "order": [
-    "products_carousel_x3bTkr",
-    "images_grid_emYHAP",
     "product-grid",
-    "banner_with_text_8Ddadc",
-    "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
-    "b2cf4fcd-7250-40bc-a7e3-a982fad079fa"
+    "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b"
   ]
 }
