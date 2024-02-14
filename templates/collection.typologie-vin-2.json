@@ -1,29 +1,5 @@
 {
   "sections": {
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "disabled": true,
-      "settings": {
-        "products_per_page": 16,
-        "show_collection_image": true,
-        "show_collection_title": true,
-        "show_breadcrumbs": false,
-        "show_collection_description": true,
-        "show_collection_size": false,
-        "show_secondary_image": true,
-        "enable_filtering": true,
-        "enable_sorting": true,
-        "filters_background": "#fcf9f3",
-        "show_product_dumie": true,
-        "product_dumie_title": "Le coup de projecteur vigneron",
-        "product_dumie_text": "<p>Chaque mois, nous mettons en avant un de nos producteurs pour vous raconter son histoire.<\/p>",
-        "product_dumie_link": "Je découvre",
-        "product_dumie_image": "shopify:\/\/shop_images\/72aa89ac54c8985e8268196747c5552d.png",
-        "color_dumie_link": "#ffffff",
-        "text_dumie_color": "#ffffff",
-        "header-image-footer-color": "#ffffff"
-      }
-    },
     "page_banner_7DbM6w": {
       "type": "page-banner",
       "settings": {
@@ -114,13 +90,27 @@
       "type": "rich-text-expandable",
       "settings": {
         "text_color": "#201A1C",
-        "title": "Vin Blanc Chardonnay : une expression différente des vins de Chablis",
-        "text": "<p>Le Chablis, avec son climat plus froid, offre des vins Chardonnay plus légers et acidulés. Cette région illustre la versatilité du Chardonnay et sa capacité à refléter son terroir.<\/p>",
+        "title": "Vin Blanc Chardonnay : à chaque région son expression du Chardonnay",
+        "text": "<p>Le Jura, avec son climat plus froid, offre des vins Chardonnay plus légers et acidulés. Cette région illustre la versatilité du Chardonnay et sa capacité à refléter son terroir.<\/p>",
         "more_text": "",
         "text_mobile": "",
         "more_text_mobile": "",
         "text_link": "",
         "text_less": ""
+      }
+    },
+    "products_carousel_mMRLfQ": {
+      "type": "products-carousel",
+      "settings": {
+        "container": "7xl",
+        "collection": "chardonnay-x-jura",
+        "limit": 6,
+        "title": "Notre Sélection de Chardonnay du Jura",
+        "collection_link": "Voir tout",
+        "url": "shopify:\/\/collections\/chardonnay-x-jura",
+        "show_secondary_image": false,
+        "show_arrows": true,
+        "show_dots": true
       }
     },
     "products_carousel_yazRmq": {
@@ -188,19 +178,43 @@
         "text_link": "",
         "text_less": ""
       }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "show_collection_image": true,
+        "show_collection_title": true,
+        "show_breadcrumbs": false,
+        "show_collection_description": true,
+        "show_collection_size": false,
+        "show_secondary_image": true,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "filters_background": "#fcf9f3",
+        "show_product_dumie": true,
+        "product_dumie_title": "Le coup de projecteur vigneron",
+        "product_dumie_text": "<p>Chaque mois, nous mettons en avant un de nos producteurs pour vous raconter son histoire.<\/p>",
+        "product_dumie_link": "Je découvre",
+        "product_dumie_image": "shopify:\/\/shop_images\/72aa89ac54c8985e8268196747c5552d.png",
+        "color_dumie_link": "#ffffff",
+        "text_dumie_color": "#ffffff",
+        "header-image-footer-color": "#ffffff"
+      }
     }
   },
   "order": [
-    "product-grid",
     "page_banner_7DbM6w",
     "marquee_wF6thL",
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
     "products_carousel_TCrQEk",
     "rich_text_expandable_JTbXby",
+    "products_carousel_mMRLfQ",
     "products_carousel_yazRmq",
     "rich_text_expandable_7etdeT",
     "rich_text_expandable_YYiNBP",
     "rich_text_expandable_p9CgNV",
-    "rich_text_expandable_r3WkRn"
+    "rich_text_expandable_r3WkRn",
+    "product-grid"
   ]
 }
