@@ -39,10 +39,10 @@
     "rich_text_expandable_RjX4Q6": {
       "type": "rich-text-expandable",
       "settings": {
-        "text_color": "#201A1C",
+        "text_color": "#201a1c",
         "title": "Quels cépages sont les plus propices à produire des vins rouges légers ?",
-        "text": "<ul><li>Pinot noir<\/li><li>Gamay<\/li><li>Cabernet franc<\/li><li>Cinsault<\/li><li>Merlot<\/li><\/ul>",
-        "more_text": "<p>Les cépages jouent un rôle crucial dans la production de vins rouges légers. Le pinot noir, emblématique de la Bourgogne, est célèbre pour ses vins fins et élégants, avec des arômes de fruits rouges et des tanins souples. Le gamay, originaire du Beaujolais, est apprécié pour ses vins frais et fruités, tandis que le cabernet franc, cultivé dans la Vallée de la Loire, produit des vins légers avec des notes florales et herbacées. Le cinsault, utilisé en Provence et Languedoc-Roussillon, apporte légèreté et fraîcheur, et le merlot, bien qu'il puisse donner des vins puissants, est utilisé dans certaines régions pour élaborer des vins rouges légers, notamment dans le Sud-Ouest de la France.<\/p>",
+        "text": "<ul><li>Pinot noir<\/li><li>Gamay<\/li><li>Cabernet franc<\/li><li>Cinsault<\/li><\/ul>",
+        "more_text": "<p>Les cépages jouent un rôle crucial dans la production de vins rouges légers. Le <strong>pinot noir<\/strong>, emblématique de la Bourgogne, est célèbre pour ses vins fins et élégants, avec des arômes de fruits rouges et des tanins souples. Le <strong>gamay<\/strong>, originaire du Beaujolais, est apprécié pour ses vins frais et fruités, tandis que le <strong>cabernet franc<\/strong>, cultivé dans la Vallée de la Loire, produit des vins légers avec des notes florales et herbacées. Le <strong>cinsault<\/strong>, utilisé en Provence et Languedoc-Roussillon, apporte légèreté et fraîcheur.<\/p>",
         "text_mobile": "",
         "more_text_mobile": "",
         "text_link": "Lire plus",
@@ -52,7 +52,7 @@
     "rich_text_expandable_YktrJ9": {
       "type": "rich-text-expandable",
       "settings": {
-        "text_color": "#201A1C",
+        "text_color": "#201a1c",
         "title": "Les meilleurs accords Mets & Vins Rouges Légers",
         "text": "<p>Les vins rouges légers, avec leur profil aromatique délicat et leur fraîcheur en bouche, sont faciles à boire et se marient harmonieusement avec une variété de plats, offrant une palette d'accords mets et vins des plus séduisantes. Ces vins sont parfaits pour accompagner des entrées légères comme des salades composées ou des tartares de légumes. Ils se révèlent également idéaux avec des viandes blanches, telles que le poulet rôti ou le veau en sauce légère, où leur acidité équilibrée et leurs tanins discrets complètent à merveille la tendreté de la viande. Pour les amateurs de fromage, optez pour des fromages à pâte molle et à croûte fleurie, tels que le Brie ou le Camembert, qui seront sublimés par la finesse et les notes fruitées des rouges légers. Enfin, ces vins peuvent créer des accords surprenants avec certains plats de poissons grillés ou en sauce, où leur légèreté apporte une touche de raffinement sans masquer les saveurs délicates du poisson.<\/p>",
         "more_text": "",
