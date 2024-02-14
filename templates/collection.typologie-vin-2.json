@@ -136,6 +136,58 @@
         "show_arrows": true,
         "show_dots": true
       }
+    },
+    "rich_text_expandable_7etdeT": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201A1C",
+        "title": "Quel type de vin est le Chardonnay ?",
+        "text": "<p>Le Chardonnay n'est pas juste un vin, c'est un voyage à travers une myriade de saveurs et de terroirs. De l'Alsace au Languedoc-Roussillon, en passant par la Loire, le Jura, la Savoie, et le Beaujolais, ce cépage emblématique se décline en une infinité d'expressions. Avec 6% du vignoble français à son actif, le Chardonnay est un véritable caméléon du vin, capable de vous offrir une expérience unique, que ce soit à travers un vin tranquille d'une fraîcheur exquise, un vin de garde aux arômes briochés, ou un champagne traditionnel élaboré avec soin. Laissez-vous tenter par ses notes toastées, sa version pétillante, ou encore son caractère moelleux, et découvrez le Chardonnay qui vous correspond.<\/p>",
+        "more_text": "",
+        "text_mobile": "",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
+      }
+    },
+    "rich_text_expandable_YYiNBP": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201A1C",
+        "title": "Est-ce que le Chardonnay est un vin blanc sec ?",
+        "text": "<p>Le Chardonnay se révèle dans sa diversité, offrant des vins blancs secs parmi les plus prisés au monde. Mais ne vous y trompez pas, sa palette ne s'arrête pas là. Selon le talent et la vision du vigneron, le Chardonnay peut se faire doux, enveloppant votre palais d'une richesse fruitée et beurrée. Que vous optiez pour un Chardonnay sec ou doux, vous serez séduit par son intensité aromatique.<\/p>",
+        "more_text": "",
+        "text_mobile": "",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
+      }
+    },
+    "rich_text_expandable_p9CgNV": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201A1C",
+        "title": "Est-ce que le Chardonnay est un vin  blanc sucré ?",
+        "text": "<p>Le Chardonnay flirte avec la douceur, offrant des nuances sucrées même dans ses versions les plus sèches. Le secret réside dans son terroir et dans les mains expertes du vigneron, qui révèlent des arômes de pomme, de citron, de papaye, et d'ananas, avec des touches de vanille lorsque le vin est élevé en fût de chêne. Pour les amateurs de sensations plus suaves, le Chardonnay se fait moelleux et liquoreux, promettant une expérience gustative riche et complexe.<\/p>",
+        "more_text": "",
+        "text_mobile": "",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
+      }
+    },
+    "rich_text_expandable_r3WkRn": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201A1C",
+        "title": "Avec quel plat boire un Vin Blanc Chardonnay ?",
+        "text": "<p>Le Chardonnay vous accompagne de l'apéritif au dessert, se mariant à merveille avec le poisson, la viande blanche, ou les délices de la cuisine asiatique. Il y a un Chardonnay pour chaque plat, pour chaque instant, il suffit de le découvrir.<\/p>",
+        "more_text": "",
+        "text_mobile": "",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
+      }
     }
   },
   "order": [
@@ -145,6 +197,10 @@
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
     "products_carousel_TCrQEk",
     "rich_text_expandable_JTbXby",
-    "products_carousel_yazRmq"
+    "products_carousel_yazRmq",
+    "rich_text_expandable_7etdeT",
+    "rich_text_expandable_YYiNBP",
+    "rich_text_expandable_p9CgNV",
+    "rich_text_expandable_r3WkRn"
   ]
 }
