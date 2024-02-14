@@ -29,16 +29,58 @@
       "settings": {
         "show_breadcrumbs": true,
         "title": "Vin Blanc Chardonnay : L'Élégance et la Diversité des Arômes",
-        "text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.<\/p>",
-        "more_text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.<\/p>"
+        "text": "<p>Le Chardonnay est un cépage d'exception, capable de produire des vins blancs d'une grande diversité et d'une qualité remarquable. De la Bourgogne au monde entier, il continue de séduire les amateurs de vin par son élégance, ses arômes et sa capacité à exprimer le terroir. Que vous recherchiez un vin riche et onctueux ou frais et minéral, le Chardonnay offre une palette de saveurs adaptée à tous les palais.<\/p>",
+        "more_text": ""
       }
     },
-    "home_cards_JaRQpy": {
-      "type": "home-cards",
+    "marquee_wF6thL": {
+      "type": "marquee",
+      "blocks": {
+        "text_nmkChm": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>Bougogne<\/p>",
+            "url": ""
+          }
+        },
+        "text_K8EABg": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>Cépage d'exception<\/p>",
+            "url": ""
+          }
+        },
+        "text_bbWyXK": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>Chablis<\/p>",
+            "url": ""
+          }
+        },
+        "text_G9r8bR": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>Vins blancs légers, fruités et particulièrement fins<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_nmkChm",
+        "text_K8EABg",
+        "text_bbWyXK",
+        "text_G9r8bR"
+      ],
       "settings": {
-        "container": "7xl",
-        "title": "Vin Blanc Chardonnay : L'Élégance et la Diversité des Arômes",
-        "color": "#fff"
+        "animationDuration": 10,
+        "height": "110px",
+        "border": false,
+        "text_color": "#fff",
+        "background_color": "#201A1C"
       }
     },
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b": {
@@ -99,7 +141,7 @@
   "order": [
     "product-grid",
     "page_banner_7DbM6w",
-    "home_cards_JaRQpy",
+    "marquee_wF6thL",
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
     "products_carousel_TCrQEk",
     "rich_text_expandable_JTbXby",
