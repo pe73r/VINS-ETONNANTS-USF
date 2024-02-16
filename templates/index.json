@@ -27,9 +27,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/396313907_7064222250307116_231428080594339956_n.jpg",
             "image_mobile": "shopify:\/\/shop_images\/396313907_7064222250307116_231428080594339956_n.jpg",
-            "title": "15 jours de folie sur la gamme sur les vins de Jeff Carrel et ses amis !",
-            "title_mobile": "15 jours de folie sur la gamme sur les vins de Jeff Carrel et ses amis !",
-            "text": "<p>La référence des vins d'auteurs<br\/>À votre service depuis 2003!<br\/><br\/><\/p>",
+            "title": "La référence des vins d'auteurs\nÀ votre service depuis 2003!",
+            "title_mobile": "La référence des vins d'auteurs\nÀ votre service depuis 2003!",
+            "text": "<p><br\/><br\/><\/p>",
             "cta": "C'est par ICI",
             "button_link": "shopify:\/\/collections\/promo-destockage",
             "text_color": "#ffffff",
