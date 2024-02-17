@@ -27,9 +27,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/396313907_7064222250307116_231428080594339956_n.jpg",
             "image_mobile": "shopify:\/\/shop_images\/396313907_7064222250307116_231428080594339956_n.jpg",
-            "title": "La référence des vins d'auteurs\nÀ votre service depuis 2003!",
-            "title_mobile": "La référence des vins d'auteurs\nÀ votre service depuis 2003!",
-            "text": "<p><br\/><br\/><\/p>",
+            "title": "La référence des vins d'auteurs en ligne",
+            "title_mobile": "La référence des vins d'auteurs",
+            "text": "<p>À votre service depuis 2003!<\/p>",
             "cta": "Je découvre",
             "button_link": "shopify:\/\/collections",
             "text_color": "#ffffff",
