@@ -7,24 +7,9 @@
         "display_page_title": true,
         "display_page_content": true
       }
-    },
-    "776232fe-07cc-4c31-93d9-d9b3fb75bd0c": {
-      "type": "contact-form",
-      "settings": {
-        "header": "Formulaire de contact",
-        "cta": "Envoyer ma demande",
-        "show_phone_input": false,
-        "show_select_input": false,
-        "title": "Sélectionne l’objet de ta demande",
-        "option_1": "Option 1",
-        "option_2": "Option 2",
-        "option_3": "Option 3",
-        "header_color": "#201a1c"
-      }
     }
   },
   "order": [
-    "main",
-    "776232fe-07cc-4c31-93d9-d9b3fb75bd0c"
+    "main"
   ]
 }
