@@ -587,6 +587,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "4526402582171286672": {
+        "type": "shopify:\/\/apps\/selly-promotion-pricing\/blocks\/app-embed-block\/351afe80-738d-4417-9b66-e345ff249052",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
