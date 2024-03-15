@@ -3,6 +3,10 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
+        "title": "Toutes les collections",
+        "show_hr": true,
+        "text": "",
+        "more_text": ""
       }
     }
   },
