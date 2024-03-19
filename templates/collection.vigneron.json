@@ -1,5 +1,24 @@
 {
   "sections": {
+    "announcement_bar_NfzzWJ": {
+      "type": "announcement-bar",
+      "blocks": {
+        "text_FBwJbF": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Vins Étonnants déménage pour mieux vous servir !<\/strong><\/p><p>Vous pouvez passer commande sur le site. Néanmoins, pour toute commande passée aujourd'hui, mardi 19 mars, expédition prévue le 3 avril<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_FBwJbF"
+      ],
+      "settings": {
+        "text_color": "#fff",
+        "background_color": "#F84C55"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -53,6 +72,7 @@
     }
   },
   "order": [
+    "announcement_bar_NfzzWJ",
     "product-grid",
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
     "b2cf4fcd-7250-40bc-a7e3-a982fad079fa"
