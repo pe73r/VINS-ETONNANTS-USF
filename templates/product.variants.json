@@ -1,9 +1,28 @@
 {
   "sections": {
+    "announcement_bar_mhjWER": {
+      "type": "announcement-bar",
+      "blocks": {
+        "text_ApVjr6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Vins Étonnants déménage pour mieux vous servir !<\/strong><\/p><p>Vous pouvez passer commande sur le site. Néanmoins, pour toute commande passée aujourd'hui, mardi 19 mars, expédition prévue le 3 avril<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_ApVjr6"
+      ],
+      "settings": {
+        "text_color": "#fff",
+        "background_color": "#F84C55"
+      }
+    },
     "1d126385-13d8-4f8c-a73a-89f8fb3adf54": {
       "type": "rich-text-expandable",
       "settings": {
-        "text_color": "#201A1C",
+        "text_color": "#201a1c",
         "title": "Un assistant de recherche AI est désormais à votre disposition!",
         "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
         "more_text": "",
@@ -273,6 +292,7 @@
     }
   },
   "order": [
+    "announcement_bar_mhjWER",
     "1d126385-13d8-4f8c-a73a-89f8fb3adf54",
     "main",
     "48846409-d24b-4d84-bbc2-57b29e52395c",
