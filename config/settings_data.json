@@ -404,6 +404,7 @@
           },
           "fe310d27-2fae-4e6a-b658-13613bb25c68": {
             "type": "block",
+            "disabled": true,
             "settings": {
               "svg": "",
               "image": "shopify:\/\/shop_images\/reshot-icon-phone-order-XPWNV8ZRDA.svg",
