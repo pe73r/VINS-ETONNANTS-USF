@@ -6,7 +6,7 @@
         "text_Aqhbce": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Vins Étonnants déménage pour mieux vous servir !<\/strong><\/p><p>Vous pouvez passer commande sur le site. Néanmoins, pour toute commande passée aujourd'hui, mardi 19 mars, expédition prévue le 3 avril<\/p>",
+            "text": "<p><strong>Vins Étonnants déménage pour mieux vous servir !<\/strong><\/p><p>Vous pouvez passer commande sur le site. Néanmoins, pour toute commande passée aujourd'hui, jeudi 21 mars, expédition prévue le 4 avril<\/p>",
             "url": ""
           }
         }
@@ -15,8 +15,8 @@
         "text_Aqhbce"
       ],
       "settings": {
-        "text_color": "#fff",
-        "background_color": "#F84C55"
+        "text_color": "#ffffff",
+        "background_color": "#f84c55"
       }
     },
     "1041b7bf-0f5a-4d5a-8707-206b062f1b9d": {
