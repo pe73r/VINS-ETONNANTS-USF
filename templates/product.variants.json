@@ -6,12 +6,13 @@
         "text_ApVjr6": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Vins Étonnants déménage pour mieux vous servir !<\/strong><\/p><p>Vous pouvez passer commande sur le site. Néanmoins, pour toute commande passée aujourd'hui, jeudi 21 mars, expédition prévue le 4 avril<\/p>",
+            "text": "<p><strong>Vins Étonnants déménage pour mieux vous servir !<\/strong><\/p><p>Vous pouvez passer commande sur le site. Néanmoins, pour toute commande passée aujourd'hui, vendredi 22 mars, expédition prévue le 4 avril<\/p>",
             "url": ""
           }
         },
         "text_w7qDTq": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>OFFRE : -20% à partir de 100€<\/p>",
             "url": ""
