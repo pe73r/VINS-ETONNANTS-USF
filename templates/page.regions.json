@@ -13,18 +13,18 @@
       "settings": {
         "show_breadcrumbs": true,
         "image": "shopify:\/\/shop_images\/johny-goerend-pnigODapPek-unsplash.jpg",
-        "title": "Title",
-        "text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.<\/p>",
-        "more_text": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos molestiae, odio rem blanditiis accusantium hic quae incidunt impedit fugit exercitationem architecto accusamus id, totam porro adipisci sunt nisi magnam.<\/p>"
+        "title": "Découvrir nos vins par régions",
+        "text": "",
+        "more_text": ""
       }
     },
     "b0ed7216-aa9e-401d-b643-186e17be4805": {
       "type": "collections-blocks",
       "blocks": {
-        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-0": {
+        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-3": {
           "type": "collection",
           "settings": {
-            "collection": "bordeaux"
+            "collection": "bourgogne"
           }
         },
         "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-1": {
@@ -33,52 +33,52 @@
             "collection": "cotes-du-rhone"
           }
         },
-        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-2": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-3": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "d8d1b79e-a624-4225-8e79-95f293e1b932": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
         "ec035fb5-427a-4f62-8c78-0786a80818c2": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "loire"
           }
         },
         "b0fc4799-9ee4-470f-aac2-e958ee264c80": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "champagne"
           }
         },
         "dd0e7ad8-53c8-48ee-a309-3793820c5608": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "jura"
+          }
+        },
+        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "beaujolais"
+          }
+        },
+        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "bordeaux"
+          }
+        },
+        "collection_C9CymU": {
+          "type": "collection",
+          "settings": {
+            "collection": "sud-ouest-1"
           }
         }
       },
       "block_order": [
-        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-0",
-        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-1",
-        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-2",
         "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-3",
-        "d8d1b79e-a624-4225-8e79-95f293e1b932",
+        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-1",
         "ec035fb5-427a-4f62-8c78-0786a80818c2",
         "b0fc4799-9ee4-470f-aac2-e958ee264c80",
-        "dd0e7ad8-53c8-48ee-a309-3793820c5608"
+        "dd0e7ad8-53c8-48ee-a309-3793820c5608",
+        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-2",
+        "template--17937265656122__b0ed7216-aa9e-401d-b643-186e17be4805-167588680785d6ce32-0",
+        "collection_C9CymU"
       ],
       "settings": {
       }
@@ -91,6 +91,7 @@
           "settings": {
             "card_width": "1\/2",
             "image": "shopify:\/\/shop_images\/johny-goerend-pnigODapPek-unsplash.jpg",
+            "image_overlay": true,
             "title": "Notre sélection de vins d’exception !",
             "show_hr": true,
             "text": "<p>Vins d’auteur et vins d’artisans au naturel, depuis 2003.<\/p>",
@@ -103,6 +104,7 @@
           "settings": {
             "card_width": "1\/2",
             "image": "shopify:\/\/shop_images\/Sans_titre.jpg",
+            "image_overlay": true,
             "title": "Notre sélection de vins d’exception !",
             "show_hr": true,
             "text": "<p>Vins d’auteur et vins d’artisans au naturel, depuis 2003.<\/p>",
@@ -115,6 +117,7 @@
           "settings": {
             "card_width": "1\/2",
             "image": "shopify:\/\/shop_images\/Rectangle_1_2.png",
+            "image_overlay": true,
             "title": "Notre sélection de vins d’exception !",
             "show_hr": true,
             "text": "<p>Vins d’auteur et vins d’artisans au naturel, depuis 2003.<\/p>",
@@ -128,6 +131,7 @@
         "d3d7018d-b2b3-49b5-ab2e-e92f2513dc42",
         "8ddf2f51-c2d4-4a62-8330-2319a464eff9"
       ],
+      "disabled": true,
       "settings": {
         "container": "7xl",
         "title": "Title",
