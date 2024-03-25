@@ -58,7 +58,7 @@
           "type": "delivery_note",
           "settings": {
             "title": "🚚 LIVRAISON",
-            "text": "<p>Livraison sous 4\/5 jours ouvrés, express par UPS, Chronopost ou Fedex à domicile, sur point relais ou par messagerie<\/p>"
+            "text": "<p>Expédition via TNT<\/p>"
           }
         },
         "3d1604f2-041f-42ef-8b6a-3c0b480b05f1": {
