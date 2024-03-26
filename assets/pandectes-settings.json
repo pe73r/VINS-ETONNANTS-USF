@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711458023,
+  "tsPublished": 1711458075,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -287,14 +287,14 @@
     "dismissOnTimeout": false,
     "palette": {
       "popup": {
-        "background": "#EAF7F7",
+        "background": "#EDEFF5",
         "backgroundForCalculations": {
           "a": 1,
-          "b": 247,
-          "g": 247,
-          "r": 234
+          "b": 245,
+          "g": 239,
+          "r": 237
         },
-        "text": "#5C7291"
+        "text": "#838391"
       },
       "button": {
         "background": "transparent",
@@ -304,14 +304,14 @@
           "g": 255,
           "r": 255
         },
-        "text": "#56CBDB",
+        "text": "#4B81E8",
         "textForCalculation": {
           "a": 1,
-          "b": 219,
-          "g": 203,
-          "r": 86
+          "b": 232,
+          "g": 129,
+          "r": 75
         },
-        "border": "#56CBDB"
+        "border": "#4B81E8"
       }
     },
     "content": {
@@ -362,7 +362,7 @@
   },
   "banner": {
     "resetTs": 1711457361,
-    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .pd-cookie-banner-window .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;-webkit-transition: opacity 1s ease;  transition: opacity 1s ease;}    .cc-window{z-index: 2147483647;font-family: inherit;}    .pd-cookie-banner-window .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #EAF7F7;color:#5C7291;}    button.pd-cp-btn, a.pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(92, 114, 145, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(92, 114, 145, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(92, 114, 145, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(92, 114, 145, 1)}    .pd-cp-ui-close{color:#5C7291;}    .pd-cp-preferences-slider:before{background-color: #EAF7F7}    .pd-cp-title:before {border-color: #5C7291!important}    .pd-cp-preferences-slider{background-color:#5C7291}    .pd-cp-toggle{color:#5C7291!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #5C7291}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#5C7291!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
+    "extraCss": "        .cc-banner-logo {max-width: 30em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 30em!important;width: 30em!important;}}    .cc-message, .pd-cookie-banner-window .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;-webkit-transition: opacity 1s ease;  transition: opacity 1s ease;}    .cc-window{z-index: 2147483647;font-family: inherit;}    .pd-cookie-banner-window .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #EDEFF5;color:#838391;}    button.pd-cp-btn, a.pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(131, 131, 145, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(131, 131, 145, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(131, 131, 145, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(131, 131, 145, 1)}    .pd-cp-ui-close{color:#838391;}    .pd-cp-preferences-slider:before{background-color: #EDEFF5}    .pd-cp-title:before {border-color: #838391!important}    .pd-cp-preferences-slider{background-color:#838391}    .pd-cp-toggle{color:#838391!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #838391}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#838391!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
     "customJavascript": null,
     "showPoweredBy": false,
     "revokableTrigger": false,
