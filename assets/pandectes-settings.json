@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711457365,
+  "tsPublished": 1711457510,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -381,19 +381,717 @@
   },
   "cookies": {
     "0": [
-
+      {
+        "name": "localization",
+        "domain": "vins-etonnants.com",
+        "path": "\/fr-ie",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": "Localisation de boutique Shopify"
+        }
+      },
+      {
+        "name": "secure_customer_sig",
+        "domain": "vins-etonnants.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": "Utilisé en relation avec la connexion client."
+        }
+      },
+      {
+        "name": "_cmp_a",
+        "domain": ".vins-etonnants.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 day(s)",
+        "expires": 1,
+        "unit": "declDays",
+        "purpose": {
+          "fr": "Utilisé pour gérer les paramètres de confidentialité des clients."
+        }
+      },
+      {
+        "name": "keep_alive",
+        "domain": "vins-etonnants.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "fr": "Utilisé en relation avec la localisation de l'acheteur."
+        }
+      },
+      {
+        "name": "_shopify_country",
+        "domain": "vins-etonnants.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "fr": "Utilisé en relation avec le paiement."
+        }
+      },
+      {
+        "name": "_secure_session_id",
+        "domain": "vins-etonnants.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 month(s)",
+        "expires": 1,
+        "unit": "declMonths",
+        "purpose": {
+          "fr": "Utilisé en relation avec la navigation dans une vitrine."
+        }
+      },
+      {
+        "name": "_tracking_consent",
+        "domain": ".vins-etonnants.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": "Préférences de suivi."
+        }
+      }
     ],
     "1": [
-
+      {
+        "name": "wpm-domain-test",
+        "domain": "com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "fr": "Utilisé pour tester le stockage des paramètres sur les produits ajoutés au panier ou la devise de paiement"
+        }
+      },
+      {
+        "name": "wpm-domain-test",
+        "domain": "vins-etonnants.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "fr": "Utilisé pour tester le stockage des paramètres sur les produits ajoutés au panier ou la devise de paiement"
+        }
+      }
     ],
     "2": [
-
+      {
+        "name": "_shopify_y",
+        "domain": ".vins-etonnants.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": "Analyses Shopify."
+        }
+      },
+      {
+        "name": "_orig_referrer",
+        "domain": ".vins-etonnants.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "2 ",
+        "expires": 2,
+        "unit": "declSession",
+        "purpose": {
+          "fr": "Suit les pages de destination."
+        }
+      },
+      {
+        "name": "_landing_page",
+        "domain": ".vins-etonnants.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "2 ",
+        "expires": 2,
+        "unit": "declSession",
+        "purpose": {
+          "fr": "Suit les pages de destination."
+        }
+      },
+      {
+        "name": "_shopify_s",
+        "domain": ".vins-etonnants.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "fr": "Analyses Shopify."
+        }
+      },
+      {
+        "name": "_shopify_sa_p",
+        "domain": ".vins-etonnants.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "fr": "Analyses Shopify relatives au marketing et aux références."
+        }
+      },
+      {
+        "name": "_shopify_sa_t",
+        "domain": ".vins-etonnants.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "fr": "Analyses Shopify relatives au marketing et aux références."
+        }
+      },
+      {
+        "name": "_ga",
+        "domain": ".vins-etonnants.com",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": "Le cookie est défini par Google Analytics avec une fonctionnalité inconnue"
+        }
+      },
+      {
+        "name": "_shopify_s",
+        "domain": "com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "fr": "Analyses Shopify."
+        }
+      },
+      {
+        "name": "_boomr_clss",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": "Utilisé pour surveiller et optimiser les performances des magasins Shopify."
+        }
+      },
+      {
+        "name": "_ga_216TR5PQK0",
+        "domain": ".vins-etonnants.com",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "_ga_MRT7TM0QFY",
+        "domain": ".vins-etonnants.com",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      }
     ],
     "4": [
 
     ],
     "8": [
-
+      {
+        "name": "_omappvp",
+        "domain": "vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "_omappvs",
+        "domain": "vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "20 minute(s)",
+        "expires": 20,
+        "unit": "declMinutes",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "gdprCache",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "omVisitsFirst",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "nf_rfmf",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "nf_jsv",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "et_nf_lo",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "nf_sver",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "et_nf_prm",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "et_nf_tver",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "ls-currency",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "et_nf_jsv",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "et_nf_rfm",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "nf_bcr",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "nf_prm",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "nf_cart",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "et_nf_cc",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "nf_cc",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "ls-locale",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "et_nf_rfmf",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "et_nf_sver",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "nf_tver",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "et_nf_bun",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "et_nf_cart",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "et_nf_bcr",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "nf_bun",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "local-storage-test",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "test",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "__storage_test__",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "ls-default-locale",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "nf_lo",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "nf_rfm",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "ls-state-session",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      },
+      {
+        "name": "omVisits",
+        "domain": "https:\/\/vins-etonnants.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "fr": ""
+        }
+      }
     ]
   },
   "blocker": {
