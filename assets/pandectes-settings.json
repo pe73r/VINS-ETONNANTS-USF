@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711457510,
+  "tsPublished": 1711457679,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -315,7 +315,7 @@
       }
     },
     "content": {
-      "href": "https:\/\/vins-etonnants-dng.myshopify.com\/policies\/privacy-policy",
+      "href": "https:\/\/vins-etonnants.com\/pages\/cgv",
       "imprintHref": "\/",
       "close": "&#10005;",
       "target": "",
