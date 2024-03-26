@@ -1,0 +1,485 @@
+{
+  "store": {
+    "id": 68291264826,
+    "plan": "basic",
+    "theme": "production",
+    "primaryLocale": "fr",
+    "adminMode": false
+  },
+  "tsPublished": 1711457365,
+  "declaration": {
+    "showPurpose": false,
+    "showProvider": false,
+    "declIntroText": "Nous utilisons des cookies pour optimiser les fonctionnalités du site Web, analyser les performances et vous offrir une expérience personnalisée. Certains cookies sont indispensables au bon fonctionnement et au bon fonctionnement du site Web. Ces cookies ne peuvent pas être désactivés. Dans cette fenêtre, vous pouvez gérer vos préférences en matière de cookies.",
+    "showDateGenerated": true
+  },
+  "language": {
+    "languageMode": "Single",
+    "fallbackLanguage": "fr",
+    "languageDetection": "browser",
+    "languagesSupported": [
+
+    ]
+  },
+  "texts": {
+    "managed": {
+      "headerText": {
+        "fr": "Nous respectons votre vie privée"
+      },
+      "consentText": {
+        "fr": "Ce site utilise des cookies pour vous garantir la meilleure expérience."
+      },
+      "dismissButtonText": {
+        "fr": "D'accord"
+      },
+      "linkText": {
+        "fr": "Apprendre encore plus"
+      },
+      "imprintText": {
+        "fr": "Imprimer"
+      },
+      "preferencesButtonText": {
+        "fr": "Préférences"
+      },
+      "allowButtonText": {
+        "fr": "J'accepte"
+      },
+      "denyButtonText": {
+        "fr": "Déclin"
+      },
+      "leaveSiteButtonText": {
+        "fr": "Quitter ce site"
+      },
+      "cookiePolicyText": {
+        "fr": "Politique de cookies"
+      },
+      "preferencesPopupTitleText": {
+        "fr": "Gérer les préférences de consentement"
+      },
+      "preferencesPopupIntroText": {
+        "fr": "Nous utilisons des cookies pour optimiser les fonctionnalités du site Web, analyser les performances et vous offrir une expérience personnalisée. Certains cookies sont indispensables au bon fonctionnement et au bon fonctionnement du site. Ces cookies ne peuvent pas être désactivés. Dans cette fenêtre, vous pouvez gérer votre préférence de cookies."
+      },
+      "preferencesPopupCloseButtonText": {
+        "fr": "proche"
+      },
+      "preferencesPopupAcceptAllButtonText": {
+        "fr": "Accepter tout"
+      },
+      "preferencesPopupRejectAllButtonText": {
+        "fr": "Tout rejeter"
+      },
+      "preferencesPopupSaveButtonText": {
+        "fr": "Enregistrer les préférences"
+      },
+      "accessSectionTitleText": {
+        "fr": "Portabilité des données"
+      },
+      "accessSectionParagraphText": {
+        "fr": "Vous avez le droit de pouvoir accéder à vos données à tout moment."
+      },
+      "rectificationSectionTitleText": {
+        "fr": "Rectification des données"
+      },
+      "rectificationSectionParagraphText": {
+        "fr": "Vous avez le droit de demander la mise à jour de vos données chaque fois que vous le jugez approprié."
+      },
+      "erasureSectionTitleText": {
+        "fr": "Droit à l'oubli"
+      },
+      "erasureSectionParagraphText": {
+        "fr": "Vous avez le droit de demander que toutes vos données soient effacées. Après cela, vous ne pourrez plus accéder à votre compte."
+      },
+      "declIntroText": {
+        "fr": "Nous utilisons des cookies pour optimiser les fonctionnalités du site Web, analyser les performances et vous offrir une expérience personnalisée. Certains cookies sont indispensables au bon fonctionnement et au bon fonctionnement du site Web. Ces cookies ne peuvent pas être désactivés. Dans cette fenêtre, vous pouvez gérer vos préférences en matière de cookies."
+      }
+    },
+    "categories": {
+      "strictlyNecessaryCookiesTitleText": {
+        "fr": "Cookies strictement nécessaires"
+      },
+      "functionalityCookiesTitleText": {
+        "fr": "Cookies fonctionnels"
+      },
+      "performanceCookiesTitleText": {
+        "fr": "Cookies de performances"
+      },
+      "targetingCookiesTitleText": {
+        "fr": "Ciblage des cookies"
+      },
+      "unclassifiedCookiesTitleText": {
+        "fr": "Cookies non classés"
+      },
+      "strictlyNecessaryCookiesDescriptionText": {
+        "fr": "Ces cookies sont essentiels pour vous permettre de vous déplacer sur le site Web et d'utiliser ses fonctionnalités, telles que l'accès aux zones sécurisées du site Web. Le site Web ne peut pas fonctionner correctement sans ces cookies."
+      },
+      "functionalityCookiesDescriptionText": {
+        "fr": "Ces cookies permettent au site de fournir des fonctionnalités et une personnalisation améliorées. Ils peuvent être définis par nous ou par des fournisseurs tiers dont nous avons ajouté les services à nos pages. Si vous n'autorisez pas ces cookies, certains ou tous ces services peuvent ne pas fonctionner correctement."
+      },
+      "performanceCookiesDescriptionText": {
+        "fr": "Ces cookies nous permettent de surveiller et d'améliorer les performances de notre site Web. Par exemple, ils nous permettent de compter les visites, d'identifier les sources de trafic et de voir quelles parties du site sont les plus populaires."
+      },
+      "targetingCookiesDescriptionText": {
+        "fr": "Ces cookies peuvent être installés via notre site par nos partenaires publicitaires. Ils peuvent être utilisés par ces sociétés pour établir un profil de vos intérêts et vous montrer des publicités pertinentes sur d'autres sites. Ils ne stockent pas directement d'informations personnelles, mais sont basés sur l'identification unique de votre navigateur et de votre appareil Internet. Si vous n'autorisez pas ces cookies, vous bénéficierez d'une publicité moins ciblée."
+      },
+      "unclassifiedCookiesDescriptionText": {
+        "fr": "Les cookies non classés sont des cookies que nous sommes en train de classer avec les fournisseurs de cookies individuels."
+      }
+    },
+    "auto": {
+      "declName": {
+        "fr": "Nom"
+      },
+      "declPath": {
+        "fr": "Chemin"
+      },
+      "declType": {
+        "fr": "Type"
+      },
+      "declDomain": {
+        "fr": "Domaine"
+      },
+      "declPurpose": {
+        "fr": "But"
+      },
+      "declProvider": {
+        "fr": "Fournisseur"
+      },
+      "declRetention": {
+        "fr": "Rétention"
+      },
+      "declFirstParty": {
+        "fr": "Première partie"
+      },
+      "declThirdParty": {
+        "fr": "Tierce partie"
+      },
+      "declSeconds": {
+        "fr": "secondes"
+      },
+      "declMinutes": {
+        "fr": "minutes"
+      },
+      "declHours": {
+        "fr": "heures"
+      },
+      "declDays": {
+        "fr": "jours"
+      },
+      "declMonths": {
+        "fr": "mois"
+      },
+      "declYears": {
+        "fr": "années"
+      },
+      "declSession": {
+        "fr": "Session"
+      },
+      "cookiesDetailsText": {
+        "fr": "Détails des cookies"
+      },
+      "preferencesPopupAlwaysAllowedText": {
+        "fr": "Toujours permis"
+      },
+      "submitButton": {
+        "fr": "Soumettre"
+      },
+      "submittingButton": {
+        "fr": "Soumission..."
+      },
+      "cancelButton": {
+        "fr": "Annuler"
+      },
+      "guestsSupportInfoText": {
+        "fr": "Veuillez vous connecter avec votre compte client pour continuer."
+      },
+      "guestsSupportEmailPlaceholder": {
+        "fr": "Adresse e-mail"
+      },
+      "guestsSupportEmailValidationError": {
+        "fr": "L'email n'est pas valide"
+      },
+      "guestsSupportEmailSuccessTitle": {
+        "fr": "Merci pour votre requête"
+      },
+      "guestsSupportEmailFailureTitle": {
+        "fr": "Un problème est survenu"
+      },
+      "guestsSupportEmailSuccessMessage": {
+        "fr": "Si vous êtes inscrit en tant que client de ce magasin, vous recevrez bientôt un e-mail avec des instructions sur la marche à suivre."
+      },
+      "guestsSupportEmailFailureMessage": {
+        "fr": "Votre demande n'a pas été soumise. Veuillez réessayer et si le problème persiste, contactez le propriétaire du magasin pour obtenir de l'aide."
+      },
+      "confirmationSuccessTitle": {
+        "fr": "Votre demande est vérifiée"
+      },
+      "confirmationFailureTitle": {
+        "fr": "Un problème est survenu"
+      },
+      "confirmationSuccessMessage": {
+        "fr": "Nous reviendrons rapidement vers vous quant à votre demande."
+      },
+      "confirmationFailureMessage": {
+        "fr": "Votre demande n'a pas été vérifiée. Veuillez réessayer et si le problème persiste, contactez le propriétaire du magasin pour obtenir de l'aide"
+      },
+      "consentSectionTitleText": {
+        "fr": "Votre consentement aux cookies"
+      },
+      "consentSectionNoConsentText": {
+        "fr": "Vous n'avez pas consenti à la politique de cookies de ce site Web."
+      },
+      "consentSectionConsentedText": {
+        "fr": "Vous avez consenti à la politique de cookies de ce site Web sur"
+      },
+      "consentStatus": {
+        "fr": "Préférence de consentement"
+      },
+      "consentDate": {
+        "fr": "Date de consentement"
+      },
+      "consentId": {
+        "fr": "ID de consentement"
+      },
+      "consentSectionChangeConsentActionText": {
+        "fr": "Modifier la préférence de consentement"
+      },
+      "accessSectionGDPRRequestsActionText": {
+        "fr": "Demandes des personnes concernées"
+      },
+      "accessSectionAccountInfoActionText": {
+        "fr": "Données personnelles"
+      },
+      "accessSectionOrdersRecordsActionText": {
+        "fr": "Ordres"
+      },
+      "accessSectionDownloadReportActionText": {
+        "fr": "Tout télécharger"
+      },
+      "rectificationCommentPlaceholder": {
+        "fr": "Décrivez ce que vous souhaitez mettre à jour"
+      },
+      "rectificationCommentValidationError": {
+        "fr": "Un commentaire est requis"
+      },
+      "rectificationSectionEditAccountActionText": {
+        "fr": "Demander une mise à jour"
+      },
+      "erasureSectionRequestDeletionActionText": {
+        "fr": "Demander la suppression des données personnelles"
+      }
+    }
+  },
+  "library": {
+    "previewMode": false,
+    "fadeInTimeout": 0,
+    "defaultBlocked": 7,
+    "showLink": true,
+    "showImprintLink": false,
+    "enabled": true,
+    "cookie": {
+      "name": "_pandectes_gdpr",
+      "expiryDays": 365,
+      "secure": true,
+      "domain": ""
+    },
+    "dismissOnScroll": false,
+    "dismissOnWindowClick": false,
+    "dismissOnTimeout": false,
+    "palette": {
+      "popup": {
+        "background": "#FFFFFF",
+        "backgroundForCalculations": {
+          "a": 1,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "text": "#000000"
+      },
+      "button": {
+        "background": "transparent",
+        "backgroundForCalculations": {
+          "a": 1,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "text": "#000000",
+        "textForCalculation": {
+          "a": 1,
+          "b": 0,
+          "g": 0,
+          "r": 0
+        },
+        "border": "#000000"
+      }
+    },
+    "content": {
+      "href": "https:\/\/vins-etonnants-dng.myshopify.com\/policies\/privacy-policy",
+      "imprintHref": "\/",
+      "close": "&#10005;",
+      "target": "",
+      "logo": "<img class=\"cc-banner-logo\" height=\"40\" width=\"40\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/t\/37\/assets\/pandectes-logo.png?v=1711457362\" alt=\"Vins Etonnants\" \/>"
+    },
+    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
+    "compliance": {
+      "opt-both": "<div class=\"cc-compliance cc-highlight\">{{deny}}{{allow}}<\/div>"
+    },
+    "type": "opt-both",
+    "layouts": {
+      "basic": "{{logo}}{{messagelink}}{{compliance}}{{close}}"
+    },
+    "position": "top",
+    "theme": "wired",
+    "revokable": true,
+    "animateRevokable": false,
+    "revokableReset": false,
+    "revokableLogoUrl": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/t\/37\/assets\/pandectes-reopen-logo.png?v=1711457363",
+    "revokablePlacement": "bottom-left",
+    "revokableMarginHorizontal": 15,
+    "revokableMarginVertical": 15,
+    "static": false,
+    "autoAttach": true,
+    "hasTransition": true,
+    "blacklistPage": [
+      ""
+    ]
+  },
+  "geolocation": {
+    "brOnly": false,
+    "caOnly": false,
+    "chOnly": false,
+    "euOnly": false,
+    "jpOnly": false,
+    "thOnly": false,
+    "zaOnly": false,
+    "canadaOnly": false,
+    "globalVisibility": true
+  },
+  "dsr": {
+    "guestsSupport": false,
+    "accessSectionDownloadReportAuto": false
+  },
+  "banner": {
+    "resetTs": 1711457361,
+    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .pd-cookie-banner-window .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{z-index: 2147483647;font-family: inherit;}    .pd-cookie-banner-window .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #FFFFFF;color:#000000;}    button.pd-cp-btn, a.pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(0, 0, 0, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 1)}    .pd-cp-ui-close{color:#000000;}    .pd-cp-preferences-slider:before{background-color: #FFFFFF}    .pd-cp-title:before {border-color: #000000!important}    .pd-cp-preferences-slider{background-color:#000000}    .pd-cp-toggle{color:#000000!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #000000}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#000000!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
+    "customJavascript": null,
+    "showPoweredBy": false,
+    "revokableTrigger": false,
+    "hybridStrict": false,
+    "cookiesBlockedByDefault": "7",
+    "isActive": false,
+    "implicitSavePreferences": false,
+    "cookieIcon": false,
+    "blockBots": false,
+    "showCookiesDetails": true,
+    "hasTransition": true,
+    "blockingPage": false,
+    "showOnlyLandingPage": false,
+    "leaveSiteUrl": "https:\/\/www.google.com",
+    "linkRespectStoreLang": false
+  },
+  "cookies": {
+    "0": [
+
+    ],
+    "1": [
+
+    ],
+    "2": [
+
+    ],
+    "4": [
+
+    ],
+    "8": [
+
+    ]
+  },
+  "blocker": {
+    "isActive": false,
+    "googleConsentMode": {
+      "id": "",
+      "analyticsId": "",
+      "adwordsId": "",
+      "isActive": false,
+      "adStorageCategory": 4,
+      "analyticsStorageCategory": 2,
+      "personalizationStorageCategory": 1,
+      "functionalityStorageCategory": 1,
+      "customEvent": false,
+      "securityStorageCategory": 0,
+      "redactData": false,
+      "urlPassthrough": false,
+      "dataLayerProperty": "dataLayer",
+      "waitForUpdate": 0,
+      "useNativeChannel": false
+    },
+    "facebookPixel": {
+      "id": "",
+      "isActive": false,
+      "ldu": false
+    },
+    "rakuten": {
+      "isActive": false,
+      "cmp": false,
+      "ccpa": false
+    },
+    "klaviyoIsActive": false,
+    "gpcIsActive": false,
+    "defaultBlocked": 7,
+    "patterns": {
+      "whiteList": [
+
+      ],
+      "blackList": {
+        "1": [
+
+        ],
+        "2": [
+
+        ],
+        "4": [
+
+        ],
+        "8": [
+
+        ]
+      },
+      "iframesWhiteList": [
+
+      ],
+      "iframesBlackList": {
+        "1": [
+
+        ],
+        "2": [
+
+        ],
+        "4": [
+
+        ],
+        "8": [
+
+        ]
+      },
+      "beaconsWhiteList": [
+
+      ],
+      "beaconsBlackList": {
+        "1": [
+
+        ],
+        "2": [
+
+        ],
+        "4": [
+
+        ],
+        "8": [
+
+        ]
+      }
+    }
+  }
+}
