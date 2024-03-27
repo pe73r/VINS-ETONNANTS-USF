@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711530806,
+  "tsPublished": 1711530823,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -1490,7 +1490,7 @@
     ]
   },
   "blocker": {
-    "isActive": true,
+    "isActive": false,
     "googleConsentMode": {
       "id": "",
       "analyticsId": "",
