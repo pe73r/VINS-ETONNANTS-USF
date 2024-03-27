@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711528174,
+  "tsPublished": 1711528190,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -321,7 +321,7 @@
       "target": "",
       "logo": ""
     },
-    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-bottom-left-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
+    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-popup-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
       "opt-both": "<div class=\"cc-compliance cc-highlight\">{{deny}}{{allow}}<\/div>"
     },
@@ -329,7 +329,7 @@
     "layouts": {
       "basic": "{{messagelink}}{{compliance}}"
     },
-    "position": "bottom-left",
+    "position": "popup",
     "theme": "classic",
     "revokable": false,
     "animateRevokable": false,
@@ -362,7 +362,7 @@
   },
   "banner": {
     "resetTs": 1711457361,
-    "extraCss": "        .cc-banner-logo {max-width: 40em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 40em!important;width: 40em!important;}}    .cc-message, .pd-cookie-banner-window .cc-header, .cc-logo {text-align: center}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{padding: 25px!important;z-index: 2147483647;font-size: 14px!important;font-family: inherit;}    .pd-cookie-banner-window .cc-header{font-size: 14px!important;font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #237AFC;color:#FFCDFD;}    button.pd-cp-btn, a.pd-cp-btn{background-color:#F8A8FF;color:#237AFC!important;}    input + .pd-cp-preferences-slider{background-color: rgba(255, 205, 253, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(255, 205, 253, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(255, 205, 253, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(255, 205, 253, 1)}    .pd-cp-ui-close{color:#FFCDFD;}    .pd-cp-preferences-slider:before{background-color: #237AFC}    .pd-cp-title:before {border-color: #FFCDFD!important}    .pd-cp-preferences-slider{background-color:#FFCDFD}    .pd-cp-toggle{color:#FFCDFD!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #FFCDFD}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#FFCDFD!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
+    "extraCss": "        .cc-banner-logo {max-width: 40em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 40em!important;width: 40em!important;}}    .cc-message, .pd-cookie-banner-window .cc-header, .cc-logo {text-align: center}    .cc-window-wrapper{z-index: 2147483647;-webkit-transition: opacity 1s ease;  transition: opacity 1s ease;}    .cc-window{padding: 25px!important;z-index: 2147483647;font-size: 14px!important;font-family: inherit;}    .pd-cookie-banner-window .cc-header{font-size: 14px!important;font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #237AFC;color:#FFCDFD;}    button.pd-cp-btn, a.pd-cp-btn{background-color:#F8A8FF;color:#237AFC!important;}    input + .pd-cp-preferences-slider{background-color: rgba(255, 205, 253, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(255, 205, 253, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(255, 205, 253, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(255, 205, 253, 1)}    .pd-cp-ui-close{color:#FFCDFD;}    .pd-cp-preferences-slider:before{background-color: #237AFC}    .pd-cp-title:before {border-color: #FFCDFD!important}    .pd-cp-preferences-slider{background-color:#FFCDFD}    .pd-cp-toggle{color:#FFCDFD!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #FFCDFD}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#FFCDFD!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
     "customJavascript": null,
     "showPoweredBy": false,
     "revokableTrigger": false,
