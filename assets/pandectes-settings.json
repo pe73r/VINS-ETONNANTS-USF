@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711531543,
+  "tsPublished": 1711552620,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -595,7 +595,7 @@
   "library": {
     "previewMode": false,
     "fadeInTimeout": 0,
-    "defaultBlocked": 0,
+    "defaultBlocked": 7,
     "showLink": true,
     "showImprintLink": false,
     "enabled": true,
@@ -690,7 +690,7 @@
     "showPoweredBy": false,
     "revokableTrigger": false,
     "hybridStrict": false,
-    "cookiesBlockedByDefault": "0",
+    "cookiesBlockedByDefault": "7",
     "isActive": true,
     "implicitSavePreferences": false,
     "cookieIcon": false,
@@ -1520,7 +1520,7 @@
     },
     "klaviyoIsActive": false,
     "gpcIsActive": false,
-    "defaultBlocked": 0,
+    "defaultBlocked": 7,
     "patterns": {
       "whiteList": [
 
