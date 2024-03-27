@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711528285,
+  "tsPublished": 1711529174,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -319,7 +319,7 @@
       "imprintHref": "\/",
       "close": "&#10005;",
       "target": "",
-      "logo": ""
+      "logo": "<img class=\"cc-banner-logo\" height=\"40\" width=\"65\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/t\/37\/assets\/pandectes-logo.png?v=1711529172\" alt=\"Vins Etonnants\" \/>"
     },
     "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-popup-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
@@ -327,7 +327,7 @@
     },
     "type": "opt-both",
     "layouts": {
-      "basic": "{{messagelink}}{{compliance}}"
+      "basic": "{{logo}}{{messagelink}}{{compliance}}"
     },
     "position": "popup",
     "theme": "classic",
