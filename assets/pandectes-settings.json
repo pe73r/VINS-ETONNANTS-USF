@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711552620,
+  "tsPublished": 1711552870,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -1505,7 +1505,7 @@
       "redactData": false,
       "urlPassthrough": false,
       "dataLayerProperty": "dataLayer",
-      "waitForUpdate": 200,
+      "waitForUpdate": 997,
       "useNativeChannel": true
     },
     "facebookPixel": {
