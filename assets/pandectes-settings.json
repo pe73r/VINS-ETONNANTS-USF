@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711528274,
+  "tsPublished": 1711528285,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -287,29 +287,29 @@
     "dismissOnTimeout": false,
     "palette": {
       "popup": {
-        "background": "#237AFC",
+        "background": "#EDEFF5",
         "backgroundForCalculations": {
           "a": 1,
-          "b": 252,
-          "g": 122,
-          "r": 35
+          "b": 245,
+          "g": 239,
+          "r": 237
         },
-        "text": "#FFCDFD"
+        "text": "#838391"
       },
       "button": {
-        "background": "#237AFC",
+        "background": "#4B81E8",
         "backgroundForCalculations": {
           "a": 1,
-          "b": 252,
-          "g": 122,
-          "r": 35
+          "b": 232,
+          "g": 129,
+          "r": 75
         },
-        "text": "#F8A8FF",
+        "text": "#FFFFFF",
         "textForCalculation": {
           "a": 1,
           "b": 255,
-          "g": 168,
-          "r": 248
+          "g": 255,
+          "r": 255
         },
         "border": "transparent"
       }
@@ -362,7 +362,7 @@
   },
   "banner": {
     "resetTs": 1711457361,
-    "extraCss": "        .cc-banner-logo {max-width: 40em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 40em!important;width: 40em!important;}}    .cc-message, .pd-cookie-banner-window .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;-webkit-transition: opacity 1s ease;  transition: opacity 1s ease;}    .cc-window{padding: 25px!important;z-index: 2147483647;font-size: 14px!important;font-family: inherit;}    .pd-cookie-banner-window .cc-header{font-size: 14px!important;font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #237AFC;color:#FFCDFD;}    button.pd-cp-btn, a.pd-cp-btn{background-color:#237AFC;color:#F8A8FF!important;}    input + .pd-cp-preferences-slider{background-color: rgba(255, 205, 253, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(255, 205, 253, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(255, 205, 253, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(255, 205, 253, 1)}    .pd-cp-ui-close{color:#FFCDFD;}    .pd-cp-preferences-slider:before{background-color: #237AFC}    .pd-cp-title:before {border-color: #FFCDFD!important}    .pd-cp-preferences-slider{background-color:#FFCDFD}    .pd-cp-toggle{color:#FFCDFD!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #FFCDFD}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#FFCDFD!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
+    "extraCss": "        .cc-banner-logo {max-width: 40em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 40em!important;width: 40em!important;}}    .cc-message, .pd-cookie-banner-window .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;-webkit-transition: opacity 1s ease;  transition: opacity 1s ease;}    .cc-window{padding: 25px!important;z-index: 2147483647;font-size: 14px!important;font-family: inherit;}    .pd-cookie-banner-window .cc-header{font-size: 14px!important;font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #EDEFF5;color:#838391;}    button.pd-cp-btn, a.pd-cp-btn{background-color:#4B81E8;color:#FFFFFF!important;}    input + .pd-cp-preferences-slider{background-color: rgba(131, 131, 145, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(131, 131, 145, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(131, 131, 145, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(131, 131, 145, 1)}    .pd-cp-ui-close{color:#838391;}    .pd-cp-preferences-slider:before{background-color: #EDEFF5}    .pd-cp-title:before {border-color: #838391!important}    .pd-cp-preferences-slider{background-color:#838391}    .pd-cp-toggle{color:#838391!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #838391}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#838391!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
     "customJavascript": null,
     "showPoweredBy": false,
     "revokableTrigger": false,
