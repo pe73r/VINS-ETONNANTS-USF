@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711463095,
+  "tsPublished": 1711528085,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -1100,7 +1100,7 @@
       "id": "",
       "analyticsId": "",
       "adwordsId": "",
-      "isActive": false,
+      "isActive": true,
       "adStorageCategory": 4,
       "analyticsStorageCategory": 2,
       "personalizationStorageCategory": 1,
@@ -1110,8 +1110,8 @@
       "redactData": false,
       "urlPassthrough": false,
       "dataLayerProperty": "dataLayer",
-      "waitForUpdate": 0,
-      "useNativeChannel": false
+      "waitForUpdate": 200,
+      "useNativeChannel": true
     },
     "facebookPixel": {
       "id": "",
