@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711530794,
+  "tsPublished": 1711530806,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -1533,7 +1533,7 @@
 
         ],
         "4": [
-          "connect.facebook.net"
+
         ],
         "8": [
 
