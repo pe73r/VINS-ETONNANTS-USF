@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711530283,
+  "tsPublished": 1711530296,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -1527,13 +1527,13 @@
       ],
       "blackList": {
         "1": [
-          "google-analytics.com|googletagmanager.com\/gtag\/destination|googletagmanager.com\/gtag\/js?id=UA|googletagmanager.com\/gtag\/js?id=G"
+
         ],
         "2": [
 
         ],
         "4": [
-
+          "connect.facebook.net"
         ],
         "8": [
 
