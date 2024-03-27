@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711528085,
+  "tsPublished": 1711528155,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -327,7 +327,7 @@
     },
     "type": "opt-both",
     "layouts": {
-      "basic": "{{messagelink}}{{compliance}}{{close}}"
+      "basic": "{{messagelink}}{{compliance}}"
     },
     "position": "bottom-left",
     "theme": "classic",
