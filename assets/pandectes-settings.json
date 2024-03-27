@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711528260,
+  "tsPublished": 1711528274,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -321,7 +321,7 @@
       "target": "",
       "logo": ""
     },
-    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-overlay-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
+    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-popup-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
       "opt-both": "<div class=\"cc-compliance cc-highlight\">{{deny}}{{allow}}<\/div>"
     },
@@ -329,7 +329,7 @@
     "layouts": {
       "basic": "{{messagelink}}{{compliance}}"
     },
-    "position": "overlay",
+    "position": "popup",
     "theme": "classic",
     "revokable": false,
     "animateRevokable": false,
