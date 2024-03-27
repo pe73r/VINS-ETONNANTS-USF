@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711554950,
+  "tsPublished": 1711554984,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -1503,7 +1503,7 @@
       "customEvent": false,
       "securityStorageCategory": 0,
       "redactData": false,
-      "urlPassthrough": false,
+      "urlPassthrough": true,
       "dataLayerProperty": "dataLayer",
       "waitForUpdate": 997,
       "useNativeChannel": true
