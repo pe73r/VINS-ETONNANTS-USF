@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711530182,
+  "tsPublished": 1711530255,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -1490,7 +1490,7 @@
     ]
   },
   "blocker": {
-    "isActive": false,
+    "isActive": true,
     "googleConsentMode": {
       "id": "",
       "analyticsId": "",
@@ -1527,7 +1527,7 @@
       ],
       "blackList": {
         "1": [
-
+          "google-analytics.com|googletagmanager.com\/gtag\/destination|googletagmanager.com\/gtag\/js?id=UA|googletagmanager.com\/gtag\/js?id=G"
         ],
         "2": [
 
