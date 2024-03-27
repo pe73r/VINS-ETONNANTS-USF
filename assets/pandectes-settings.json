@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711529748,
+  "tsPublished": 1711530034,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -362,7 +362,7 @@
   },
   "banner": {
     "resetTs": 1711457361,
-    "extraCss": "        .cc-banner-logo {max-width: 40em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 40em!important;width: 40em!important;}}    .cc-message, .pd-cookie-banner-window .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;-webkit-transition: opacity 1s ease;  transition: opacity 1s ease;}    .cc-window{padding: 25px!important;z-index: 2147483647;font-size: 14px!important;font-family: inherit;}    .pd-cookie-banner-window .cc-header{font-size: 14px!important;font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #FAECEC;color:#444444;}    button.pd-cp-btn, a.pd-cp-btn{background-color:#6D888A;color:#FAECEC!important;}    input + .pd-cp-preferences-slider{background-color: rgba(68, 68, 68, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(68, 68, 68, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(68, 68, 68, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(68, 68, 68, 1)}    .pd-cp-ui-close{color:#444444;}    .pd-cp-preferences-slider:before{background-color: #FAECEC}    .pd-cp-title:before {border-color: #444444!important}    .pd-cp-preferences-slider{background-color:#444444}    .pd-cp-toggle{color:#444444!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #444444}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#444444!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  a.cc-allow {background-color:#4B81E8; }",
+    "extraCss": "        .cc-banner-logo {max-width: 40em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 40em!important;width: 40em!important;}}    .cc-message, .pd-cookie-banner-window .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;-webkit-transition: opacity 1s ease;  transition: opacity 1s ease;}    .cc-window{padding: 25px!important;z-index: 2147483647;font-size: 14px!important;font-family: inherit;}    .pd-cookie-banner-window .cc-header{font-size: 14px!important;font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #FAECEC;color:#444444;}    button.pd-cp-btn, a.pd-cp-btn{background-color:#6D888A;color:#FAECEC!important;}    input + .pd-cp-preferences-slider{background-color: rgba(68, 68, 68, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(68, 68, 68, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(68, 68, 68, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(68, 68, 68, 1)}    .pd-cp-ui-close{color:#444444;}    .pd-cp-preferences-slider:before{background-color: #FAECEC}    .pd-cp-title:before {border-color: #444444!important}    .pd-cp-preferences-slider{background-color:#444444}    .pd-cp-toggle{color:#444444!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #444444}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#444444!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
     "customJavascript": null,
     "showPoweredBy": false,
     "revokableTrigger": false,
