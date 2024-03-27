@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711528155,
+  "tsPublished": 1711528174,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -287,29 +287,29 @@
     "dismissOnTimeout": false,
     "palette": {
       "popup": {
-        "background": "#FFFFFF",
+        "background": "#237AFC",
         "backgroundForCalculations": {
           "a": 1,
-          "b": 255,
-          "g": 255,
-          "r": 255
+          "b": 252,
+          "g": 122,
+          "r": 35
         },
-        "text": "#000000"
+        "text": "#FFCDFD"
       },
       "button": {
-        "background": "#000000",
+        "background": "#F8A8FF",
         "backgroundForCalculations": {
           "a": 1,
-          "b": 0,
-          "g": 0,
-          "r": 0
+          "b": 255,
+          "g": 168,
+          "r": 248
         },
-        "text": "#FFFFFF",
+        "text": "#237AFC",
         "textForCalculation": {
           "a": 1,
-          "b": 255,
-          "g": 255,
-          "r": 255
+          "b": 252,
+          "g": 122,
+          "r": 35
         },
         "border": "transparent"
       }
@@ -362,7 +362,7 @@
   },
   "banner": {
     "resetTs": 1711457361,
-    "extraCss": "        .cc-banner-logo {max-width: 40em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 40em!important;width: 40em!important;}}    .cc-message, .pd-cookie-banner-window .cc-header, .cc-logo {text-align: center}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{padding: 25px!important;z-index: 2147483647;font-size: 14px!important;font-family: inherit;}    .pd-cookie-banner-window .cc-header{font-size: 14px!important;font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #FFFFFF;color:#000000;}    button.pd-cp-btn, a.pd-cp-btn{background-color:#000000;color:#FFFFFF!important;}    input + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(0, 0, 0, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 1)}    .pd-cp-ui-close{color:#000000;}    .pd-cp-preferences-slider:before{background-color: #FFFFFF}    .pd-cp-title:before {border-color: #000000!important}    .pd-cp-preferences-slider{background-color:#000000}    .pd-cp-toggle{color:#000000!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #000000}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#000000!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
+    "extraCss": "        .cc-banner-logo {max-width: 40em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 40em!important;width: 40em!important;}}    .cc-message, .pd-cookie-banner-window .cc-header, .cc-logo {text-align: center}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{padding: 25px!important;z-index: 2147483647;font-size: 14px!important;font-family: inherit;}    .pd-cookie-banner-window .cc-header{font-size: 14px!important;font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #237AFC;color:#FFCDFD;}    button.pd-cp-btn, a.pd-cp-btn{background-color:#F8A8FF;color:#237AFC!important;}    input + .pd-cp-preferences-slider{background-color: rgba(255, 205, 253, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(255, 205, 253, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(255, 205, 253, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(255, 205, 253, 1)}    .pd-cp-ui-close{color:#FFCDFD;}    .pd-cp-preferences-slider:before{background-color: #237AFC}    .pd-cp-title:before {border-color: #FFCDFD!important}    .pd-cp-preferences-slider{background-color:#FFCDFD}    .pd-cp-toggle{color:#FFCDFD!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #FFCDFD}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#FFCDFD!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
     "customJavascript": null,
     "showPoweredBy": false,
     "revokableTrigger": false,
