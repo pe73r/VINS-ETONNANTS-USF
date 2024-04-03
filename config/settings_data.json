@@ -574,6 +574,31 @@
         "settings": {
           "programmatic_inject": false
         }
+      },
+      "3953314366958760213": {
+        "type": "shopify:\/\/apps\/conversagent\/blocks\/gqa-embed\/9dcb9616-f02a-40f7-b434-36f4866f2140",
+        "disabled": false,
+        "settings": {
+          "gqa_agentName": "Eric",
+          "gqa_agentTagLine": "Le sommelier de Vins Etonnants",
+          "gqa_agentImg": "shopify:\/\/shop_images\/logo-vins2.png",
+          "gqa_launchBottom": 10,
+          "gqa_launchRight": 20,
+          "gqa_isGreetingsEnabled": true,
+          "gqa_isSearchSuggestion": false,
+          "gqa_theme_bodyBg": "#fff",
+          "gqa_theme_bodyBorderColor": "#f84c55",
+          "gqa_theme_msgBubbleUserBg": "#f84c55",
+          "gqa_theme_msgBubbleUserTextColor": "#fff",
+          "gqa_theme_msgBubbleAgentBg": "#f0f0f0",
+          "gqa_theme_msgBubbleAgentTextColor": "#000",
+          "gqa_theme_headerBg": "#f84c55",
+          "gqa_theme_headerTextColor": "#fff",
+          "gqa_theme_badgeBg": "#f84c55",
+          "gqa_theme_badgeIconColor": "#000000",
+          "gqa_customCSS": "",
+          "gqa_customJS": ""
+        }
       }
     }
   },
