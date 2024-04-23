@@ -6,7 +6,7 @@
     "primaryLocale": "fr",
     "adminMode": false
   },
-  "tsPublished": 1711554984,
+  "tsPublished": 1713908349,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -167,7 +167,7 @@
         "it": "Hai il diritto di richiedere l'aggiornamento dei tuoi dati ogni volta che lo ritieni opportuno."
       },
       "erasureSectionTitleText": {
-        "de": "Recht auf Vergessenwerden",
+        "de": "Recht auf Löschung",
         "en": "Right to be forgotten",
         "es": "Derecho al olvido",
         "fr": "Droit à l'oubli",
@@ -691,7 +691,7 @@
     "revokableTrigger": false,
     "hybridStrict": false,
     "cookiesBlockedByDefault": "7",
-    "isActive": true,
+    "isActive": false,
     "implicitSavePreferences": false,
     "cookieIcon": false,
     "blockBots": false,
