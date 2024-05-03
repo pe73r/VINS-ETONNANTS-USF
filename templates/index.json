@@ -637,7 +637,7 @@
       "settings": {
         "container": "5xl",
         "collection": "arena-famille",
-        "limit": 25,
+        "limit": 6,
         "title": "Nos vins certifiés Agriculture Biologique",
         "collection_link": "Voir tout",
         "url": "shopify:\/\/collections\/vins-bio-1",
@@ -650,7 +650,7 @@
       "type": "products-carousel",
       "settings": {
         "container": "7xl",
-        "collection": "vins-rouges",
+        "collection": "galbrun-domaine-bertrand",
         "limit": 6,
         "title": "Nos vins rouges",
         "collection_link": "Voir tout",
