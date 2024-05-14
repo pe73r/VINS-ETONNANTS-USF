@@ -113,6 +113,20 @@
         "background_color": "#201a1c"
       }
     },
+    "ec1c9248-3ca2-483d-8370-8f7e3ce48d01": {
+      "type": "products-carousel",
+      "settings": {
+        "container": "5xl",
+        "collection": "coffret-du-beaujolais",
+        "limit": 4,
+        "title": "La Quinzaine du Beaujolais",
+        "collection_link": "",
+        "url": "shopify:\/\/collections\/vins-bio-1",
+        "show_secondary_image": false,
+        "show_arrows": true,
+        "show_dots": false
+      }
+    },
     "banner_intro_wknBrq": {
       "type": "banner-intro",
       "settings": {
@@ -136,19 +150,6 @@
         "show_author": false,
         "show_date": false,
         "show_button": true
-      }
-    },
-    "cded6bf6-fc5b-47d6-b544-29692a7e2ab3": {
-      "type": "rich-text-expandable",
-      "settings": {
-        "text_color": "#201a1c",
-        "title": "Un assistant de recherche AI est désormais à votre disposition !",
-        "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
-        "more_text": "",
-        "text_mobile": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
-        "more_text_mobile": "",
-        "text_link": "",
-        "text_less": ""
       }
     },
     "4dc3e657-6ceb-433f-8455-055959184db0": {
@@ -632,7 +633,7 @@
         "show_hr": true
       }
     },
-    "ec1c9248-3ca2-483d-8370-8f7e3ce48d01": {
+    "products_carousel_NYjkJk": {
       "type": "products-carousel",
       "settings": {
         "container": "5xl",
@@ -703,14 +704,14 @@
     "16635875657e00a7a6",
     "1663586369b92a04be",
     "aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70",
+    "ec1c9248-3ca2-483d-8370-8f7e3ce48d01",
     "banner_intro_wknBrq",
     "59445fe2-2d28-4270-94b2-48f55adf293b",
-    "cded6bf6-fc5b-47d6-b544-29692a7e2ab3",
     "4dc3e657-6ceb-433f-8455-055959184db0",
     "704f44dd-a6c3-4bad-93ce-650afe5aedf6",
     "a2af813b-b2b8-4547-ab03-9b058d70bbea",
     "1db7442e-0ee1-495a-96a1-01f3969e95f2",
-    "ec1c9248-3ca2-483d-8370-8f7e3ce48d01",
+    "products_carousel_NYjkJk",
     "7fac6255-7c16-4756-be15-19d6e6bb5a14",
     "0fb03a6f-d8a5-42fb-9dd7-bf8e382aa9e8"
   ]
