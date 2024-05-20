@@ -212,6 +212,36 @@
               "featured_link_subtitle_3": "rosés doux",
               "featured_link_title_3": ""
             }
+          },
+          "megamenu_iYMatc": {
+            "type": "megamenu",
+            "settings": {
+              "megamenu": "vins-effervescents",
+              "featured_link_1": "",
+              "featured_link_subtitle_1": "",
+              "featured_link_title_1": "",
+              "featured_link_2": "",
+              "featured_link_subtitle_2": "",
+              "featured_link_title_2": "",
+              "featured_link_3": "",
+              "featured_link_subtitle_3": "",
+              "featured_link_title_3": ""
+            }
+          },
+          "megamenu_7xHcgE": {
+            "type": "megamenu",
+            "settings": {
+              "megamenu": "nouveautes",
+              "featured_link_1": "",
+              "featured_link_subtitle_1": "",
+              "featured_link_title_1": "",
+              "featured_link_2": "",
+              "featured_link_subtitle_2": "",
+              "featured_link_title_2": "",
+              "featured_link_3": "",
+              "featured_link_subtitle_3": "",
+              "featured_link_title_3": ""
+            }
           }
         },
         "block_order": [
@@ -219,7 +249,9 @@
           "9361598a-ff81-4f8d-a8a3-71f39892e985",
           "fd038aa8-7095-4c6d-ac32-b3972d0e056a",
           "a8c986f1-2dc2-4084-94e7-b2071d712ca6",
-          "447de3a4-e170-448e-8ae8-4db1ea7d40e9"
+          "447de3a4-e170-448e-8ae8-4db1ea7d40e9",
+          "megamenu_iYMatc",
+          "megamenu_7xHcgE"
         ],
         "settings": {
           "sticky_header": true,
