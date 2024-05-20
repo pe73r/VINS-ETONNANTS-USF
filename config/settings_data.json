@@ -149,24 +149,6 @@
               "featured_link_title_3": ""
             }
           },
-          "9361598a-ff81-4f8d-a8a3-71f39892e985": {
-            "type": "megamenu",
-            "disabled": true,
-            "settings": {
-              "megamenu": "par-region",
-              "featured_link_1": "shopify:\/\/blogs\/guide\/l-alimentation-en-postpartum-en-quoi-est-elle-essentielle",
-              "featured_link_image_1": "shopify:\/\/shop_images\/Capture_d_ecran_2023-02-20_a_18.14.04.png",
-              "featured_link_subtitle_1": "",
-              "featured_link_title_1": "<p>vins de l'espagne<\/p>",
-              "featured_link_2": "shopify:\/\/blogs\/guide\/acide-folique-ou-folates-quelle-difference",
-              "featured_link_image_2": "shopify:\/\/shop_images\/Capture_d_ecran_2023-02-20_a_18.21.08.png",
-              "featured_link_subtitle_2": "",
-              "featured_link_title_2": "<p>vins d'italie<\/p>",
-              "featured_link_3": "",
-              "featured_link_subtitle_3": "",
-              "featured_link_title_3": ""
-            }
-          },
           "fd038aa8-7095-4c6d-ac32-b3972d0e056a": {
             "type": "megamenu",
             "settings": {
@@ -197,37 +179,6 @@
               "featured_link_title_3": ""
             }
           },
-          "447de3a4-e170-448e-8ae8-4db1ea7d40e9": {
-            "type": "megamenu",
-            "disabled": true,
-            "settings": {
-              "megamenu": "",
-              "featured_link_1": "",
-              "featured_link_subtitle_1": "",
-              "featured_link_title_1": "<p>rosés secs<\/p>",
-              "featured_link_2": "",
-              "featured_link_subtitle_2": "rosés effervescents",
-              "featured_link_title_2": "",
-              "featured_link_3": "",
-              "featured_link_subtitle_3": "rosés doux",
-              "featured_link_title_3": ""
-            }
-          },
-          "megamenu_iYMatc": {
-            "type": "megamenu",
-            "settings": {
-              "megamenu": "vins-effervescents",
-              "featured_link_1": "",
-              "featured_link_subtitle_1": "",
-              "featured_link_title_1": "",
-              "featured_link_2": "",
-              "featured_link_subtitle_2": "",
-              "featured_link_title_2": "",
-              "featured_link_3": "",
-              "featured_link_subtitle_3": "",
-              "featured_link_title_3": ""
-            }
-          },
           "megamenu_7xHcgE": {
             "type": "megamenu",
             "settings": {
@@ -246,11 +197,8 @@
         },
         "block_order": [
           "bbc724c6-30ab-4e7f-b250-da0bc7ceacfc",
-          "9361598a-ff81-4f8d-a8a3-71f39892e985",
           "fd038aa8-7095-4c6d-ac32-b3972d0e056a",
           "a8c986f1-2dc2-4084-94e7-b2071d712ca6",
-          "447de3a4-e170-448e-8ae8-4db1ea7d40e9",
-          "megamenu_iYMatc",
           "megamenu_7xHcgE"
         ],
         "settings": {
