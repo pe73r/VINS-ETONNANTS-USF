@@ -21,6 +21,7 @@
     },
     "1041b7bf-0f5a-4d5a-8707-206b062f1b9d": {
       "type": "rich-text-expandable",
+      "disabled": true,
       "settings": {
         "text_color": "#201a1c",
         "title": "Un assistant de recherche AI est désormais à votre disposition",
