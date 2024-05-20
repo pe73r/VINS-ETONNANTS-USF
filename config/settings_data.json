@@ -170,7 +170,7 @@
           "fd038aa8-7095-4c6d-ac32-b3972d0e056a": {
             "type": "megamenu",
             "settings": {
-              "megamenu": "vins-blancs-et-oranges",
+              "megamenu": "vins-blancs",
               "featured_link_1": "",
               "featured_link_subtitle_1": "",
               "featured_link_title_1": "",
@@ -485,15 +485,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "2153490007123654574": {
-        "type": "shopify:\/\/apps\/consentmo-gdpr\/blocks\/gdpr_cookie_consent\/4fbe573f-a377-4fea-9801-3ee0858cae41",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Default": {
