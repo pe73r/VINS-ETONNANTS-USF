@@ -10,7 +10,7 @@
     "checkoutRootDomain": "",
     "storefrontAccessToken": ""
   },
-  "tsPublished": 1716325430,
+  "tsPublished": 1716325546,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -598,7 +598,7 @@
   },
   "library": {
     "previewMode": false,
-    "fadeInTimeout": 0,
+    "fadeInTimeout": 500,
     "defaultBlocked": 7,
     "showLink": true,
     "showImprintLink": false,
