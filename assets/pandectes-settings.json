@@ -4,9 +4,13 @@
     "plan": "premium",
     "theme": "production",
     "primaryLocale": "fr",
-    "adminMode": false
+    "adminMode": false,
+    "headless": false,
+    "storefrontRootDomain": "",
+    "checkoutRootDomain": "",
+    "storefrontAccessToken": ""
   },
-  "tsPublished": 1713908552,
+  "tsPublished": 1716325051,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -556,7 +560,7 @@
         "it": "Ordini"
       },
       "accessSectionDownloadReportActionText": {
-        "de": "Alles herunterladen",
+        "de": "Alle Daten anfordern",
         "en": "Request export",
         "es": "Descargar todo",
         "fr": "Tout télécharger",
@@ -577,7 +581,7 @@
         "it": "Il commento è obbligatorio"
       },
       "rectificationSectionEditAccountActionText": {
-        "de": "Fordern Sie ein Update an",
+        "de": "Aktualisierung anfordern",
         "en": "Request an update",
         "es": "Solicita una actualización",
         "fr": "Demander une mise à jour",
@@ -692,7 +696,7 @@
     "hybridStrict": false,
     "cookiesBlockedByDefault": "7",
     "isActive": true,
-    "implicitSavePreferences": false,
+    "implicitSavePreferences": true,
     "cookieIcon": false,
     "blockBots": false,
     "showCookiesDetails": true,
