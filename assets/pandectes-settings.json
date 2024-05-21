@@ -10,7 +10,7 @@
     "checkoutRootDomain": "",
     "storefrontAccessToken": ""
   },
-  "tsPublished": 1716325546,
+  "tsPublished": 1716325650,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -650,7 +650,7 @@
     },
     "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-popup-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
-      "custom": "<div class=\"cc-compliance cc-highlight\">{{preferences}}{{deny}}{{allow}}<\/div>"
+      "custom": "<div class=\"cc-compliance cc-highlight\">{{preferences}}{{allow}}<\/div>"
     },
     "type": "custom",
     "layouts": {
