@@ -10,7 +10,7 @@
     "checkoutRootDomain": "",
     "storefrontAccessToken": ""
   },
-  "tsPublished": 1716325310,
+  "tsPublished": 1716325430,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -696,7 +696,7 @@
     "hybridStrict": false,
     "cookiesBlockedByDefault": "7",
     "isActive": true,
-    "implicitSavePreferences": false,
+    "implicitSavePreferences": true,
     "cookieIcon": false,
     "blockBots": false,
     "showCookiesDetails": true,
