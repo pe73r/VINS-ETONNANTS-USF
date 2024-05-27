@@ -3,25 +3,24 @@
     "announcement_bar_mhjWER": {
       "type": "announcement-bar",
       "blocks": {
+        "text_w7qDTq": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>DÉSTOCKAGE :<\/strong> Jusqu'à 34% de remise sur plus de 300 références !<\/p>",
+            "url": ""
+          }
+        },
         "text_ApVjr6": {
           "type": "text",
           "settings": {
             "text": "<p><strong>Livraison à partir de 9.50€ pour la France !<\/strong><\/p><p>Franco à 250€ de commande pour le France continentale et la Belgique. <\/p>",
             "url": ""
           }
-        },
-        "text_w7qDTq": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>OFFRE : -20% à partir de 100€<\/p>",
-            "url": ""
-          }
         }
       },
       "block_order": [
-        "text_ApVjr6",
-        "text_w7qDTq"
+        "text_w7qDTq",
+        "text_ApVjr6"
       ],
       "settings": {
         "text_color": "#ffffff",
