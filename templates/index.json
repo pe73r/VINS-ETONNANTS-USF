@@ -3,6 +3,13 @@
     "16635875657e00a7a6": {
       "type": "announcement-bar",
       "blocks": {
+        "text_PRc38X": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>DÉSTOCKAGE :<\/strong> Jusqu'à 34% de remise sur plus de 300 références !<\/p>",
+            "url": "shopify:\/\/collections\/destockage-massif"
+          }
+        },
         "f798bfbf-f191-4238-afc1-18a73b6cbc35": {
           "type": "text",
           "settings": {
@@ -12,6 +19,7 @@
         }
       },
       "block_order": [
+        "text_PRc38X",
         "f798bfbf-f191-4238-afc1-18a73b6cbc35"
       ],
       "settings": {
