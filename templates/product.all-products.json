@@ -3,6 +3,13 @@
     "announcement_bar_CB8mrt": {
       "type": "announcement-bar",
       "blocks": {
+        "text_p9hgj7": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>DÉSTOCKAGE :<\/strong> Jusqu'à 34% de remise sur plus de 300 références !<\/p>",
+            "url": ""
+          }
+        },
         "text_ygqMfw": {
           "type": "text",
           "settings": {
@@ -12,6 +19,7 @@
         }
       },
       "block_order": [
+        "text_p9hgj7",
         "text_ygqMfw"
       ],
       "settings": {
