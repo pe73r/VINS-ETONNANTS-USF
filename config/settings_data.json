@@ -372,7 +372,7 @@
         "settings": {
           "logo_svg": "",
           "title": "Les news étonnantes !",
-          "subtext": "<p>Pour rester informé de nos actualités et promotions,<\/p><p>nous vous invitons à nous transmettre votre adresse email <a href=\"https:\/\/app.monstercampaigns.com\/c\/nkwx9qhfge5hxzuo3as7\/\" title=\"Lien pour s'inscrire à la Newsletter depuis le footer\"><strong>en cliquant ICI<\/strong><\/a><\/p>",
+          "subtext": "<p>Pour rester informé de nos actualités et promotions,<\/p><p>nous vous invitons à nous transmettre votre adresse email <a href=\"https:\/\/app.monstercampaigns.com\/c\/nkwx9qhfge5hxzuo3as7\/\" target=\"_blank\" title=\"Lien pour s'inscrire à la Newsletter depuis le footer\"><strong>en cliquant ICI<\/strong><\/a><\/p>",
           "show_newsletter": false,
           "show_social": true,
           "mention-legal": "<p>Siret 44439455500056 - Site déclaré sous le n°5\/R2003\/PUB au TGI Limoges ©Vins étonnants<\/p>",
