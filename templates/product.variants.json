@@ -5,6 +5,7 @@
       "blocks": {
         "text_w7qDTq": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>DÉSTOCKAGE :<\/strong> Jusqu'à 34% de remise sur plus de 300 références !<\/p>",
             "url": ""
