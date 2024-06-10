@@ -9,10 +9,18 @@
             "text": "<p><strong>Livraison à partir de 9.50€ pour la France !<\/strong><\/p><p>Franco à 250€ de commande pour le France continentale et la Belgique. <\/p>",
             "url": ""
           }
+        },
+        "text_89NEe4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>DÉSTOCKAGE :<\/strong> Jusqu'à 34% de remise sur plus de 100 références !<\/p>",
+            "url": "shopify:\/\/collections\/destockage-massif"
+          }
         }
       },
       "block_order": [
-        "text_FBwJbF"
+        "text_FBwJbF",
+        "text_89NEe4"
       ],
       "settings": {
         "text_color": "#ffffff",
