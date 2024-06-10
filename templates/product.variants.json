@@ -5,9 +5,15 @@
       "blocks": {
         "text_w7qDTq": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p><strong>DÉSTOCKAGE :<\/strong> Jusqu'à 34% de remise sur plus de 300 références !<\/p>",
+            "text": "<p><strong>DÉSTOCKAGE :<\/strong> Jusqu'à 34% de remise sur plus de 100 références !<\/p>",
+            "url": ""
+          }
+        },
+        "text_rkUFn3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>OFFRE : -20% à partir de 100€<\/p>",
             "url": ""
           }
         },
@@ -21,6 +27,7 @@
       },
       "block_order": [
         "text_w7qDTq",
+        "text_rkUFn3",
         "text_ApVjr6"
       ],
       "settings": {
