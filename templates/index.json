@@ -35,11 +35,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/396313907_7064222250307116_231428080594339956_n.jpg",
             "image_mobile": "shopify:\/\/shop_images\/396313907_7064222250307116_231428080594339956_n.jpg",
-            "title": "La référence des vins d'auteurs en ligne",
-            "title_mobile": "La référence des vins d'auteurs",
-            "text": "<p>À votre service depuis 2003!<\/p>",
+            "title": "Des vignerons, des histoires",
+            "title_mobile": "Des vignerons, des histoires",
+            "text": "<p>Boutique de Vins & Blog de Dégustations<\/p>",
             "cta": "Je découvre",
-            "button_link": "shopify:\/\/collections",
+            "button_link": "https:\/\/vins-etonnants.com\/collections\/all",
             "text_color": "#ffffff",
             "button_color": "#201a1c",
             "button_bg": "#ffffff"
@@ -47,6 +47,7 @@
         },
         "d509c645-6424-4125-8dab-86765db8f855": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/65564779_1076363745891101_4210416342177677312_n.jpg",
             "image_mobile": "shopify:\/\/shop_images\/65564779_1076363745891101_4210416342177677312_n.jpg",
@@ -105,13 +106,22 @@
             "text": "<p>A votre service depuis janvier 2003 !<\/p>",
             "url": ""
           }
+        },
+        "text_GtA78V": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>Un blog avec + de 2000 articles de dégustation !<\/p>",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "template--17096559362362__aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70-166971495940a8728a-0",
         "template--17096559362362__aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70-166971495940a8728a-1",
         "template--17096559362362__aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70-166971495940a8728a-2",
-        "b6586e3b-95bd-4010-bc1a-1ea4425db19f"
+        "b6586e3b-95bd-4010-bc1a-1ea4425db19f",
+        "text_GtA78V"
       ],
       "settings": {
         "animationDuration": 30,
@@ -152,21 +162,36 @@
     },
     "banner_intro_wknBrq": {
       "type": "banner-intro",
+      "disabled": true,
       "settings": {
-        "title": "Toute notre actualité disponible sur notre blog",
-        "subtitle": "<h3>Commentaires de dégustations, visites de domaines, arrivages et bien plus encore!<\/h3>",
-        "cta": "En savoir plus",
+        "title": "Paroles d'Expert",
+        "subtitle": "<p>Un blog avec plus de 2000 articles et 6000 cuvées dégustées !<\/p><p>Toutes les semaines, nos nouveautés décryptées<\/p>",
+        "cta": "Découvrir le Blog Vins Étonnants",
         "ctaLink": "https:\/\/vins-etonnants.com\/blogs\/blog-vins-etonnants",
         "show_hr": true
+      }
+    },
+    "image_text_RXNggD": {
+      "type": "image-text",
+      "settings": {
+        "layout": "image_left",
+        "image": "shopify:\/\/shop_images\/Blog_bonne_qualite.png",
+        "hide_image_mobile": true,
+        "subtitle": "Blog de dégustation",
+        "title": "PAROLES D'EXPERT | Le Blog de Vins Étonnants",
+        "text": "<p>👋 Dites adieu aux mauvaises surprises ! Avec plus de 6000 cuvées dégustées et décrites, trouvez le vin parfait pour vous !<\/p><p>🍷 Chaque semaine, nos nouveautés décryptées pour ne plus jamais manquer une pépite !<\/p><p>❤️ Nos domaines coups de coeur mis en avant pour partager notre passion des vins d'artisans<\/p>",
+        "subtitle_color": "#201a1c",
+        "title_color": "#f84c55",
+        "text_color": "#201a1c"
       }
     },
     "59445fe2-2d28-4270-94b2-48f55adf293b": {
       "type": "featured-blog-carousel",
       "settings": {
-        "container": "5xl",
+        "container": "7xl",
         "blog": "blog-vins-etonnants",
-        "post_limit": 12,
-        "show_dots": true,
+        "post_limit": 4,
+        "show_dots": false,
         "heading": "Nos derniers articles",
         "show_title": true,
         "show_content": false,
@@ -220,6 +245,9 @@
         "b85bcbca-29d6-48aa-b0bb-c0c9ccfd33cb",
         "597a64e8-0135-4bc4-a1f5-3c99ba04cf2a",
         "319a33b3-1253-41dd-8239-26cd9e53c9ba"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "container": "7xl",
@@ -716,6 +744,7 @@
     "products_carousel_NYjkJk",
     "ec1c9248-3ca2-483d-8370-8f7e3ce48d01",
     "banner_intro_wknBrq",
+    "image_text_RXNggD",
     "59445fe2-2d28-4270-94b2-48f55adf293b",
     "4dc3e657-6ceb-433f-8455-055959184db0",
     "704f44dd-a6c3-4bad-93ce-650afe5aedf6",

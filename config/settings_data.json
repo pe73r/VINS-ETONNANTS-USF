@@ -416,13 +416,12 @@
           },
           "fe310d27-2fae-4e6a-b658-13613bb25c68": {
             "type": "block",
-            "disabled": true,
             "settings": {
               "svg": "",
               "image": "shopify:\/\/shop_images\/reshot-icon-phone-order-XPWNV8ZRDA.svg",
-              "title": "Une équipe à votre écoute",
-              "text_desktop": "Notre équipe vous conseille \ndu lundi au vendredi <br> 9 h-17 h 30 <br> Tel +33 (0) 9 80 94 42 62",
-              "text_mobile": "Notre équipe vous conseille \ndu lundi au vendredi <br> 9h-17h30 <br> Tel +33 (0) 9 80 94 42 62"
+              "title": "Une équipe à votre disposition",
+              "text_desktop": "Notre équipe vous conseille \ndu lundi au vendredi <br>contact@vins-etonnants.com",
+              "text_mobile": ""
             }
           }
         },
@@ -727,5 +726,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+
+    ]
   }
 }
