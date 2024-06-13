@@ -4,20 +4,20 @@
       "type": "main-blog",
       "settings": {
         "show_breadcrumbs": true,
-        "number_by_page": 8,
-        "columns_desktop": 4,
+        "number_by_page": 16,
+        "columns_desktop": 2,
         "columns_mobile": 2,
-        "show_date": false,
+        "show_date": true,
         "show_author": false,
         "show_title": true,
-        "show_excerpt": true,
+        "show_excerpt": false,
         "show_button": true
       }
     },
     "249790dc-a82a-497f-be7a-d5a86ec7d283": {
       "type": "rich-text-expandable",
       "settings": {
-        "text_color": "#201A1C",
+        "text_color": "#201a1c",
         "title": "Un assistant de recherche AI est désormais à votre disposition !",
         "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
         "more_text": "",
