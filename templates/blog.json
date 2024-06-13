@@ -13,23 +13,9 @@
         "show_excerpt": false,
         "show_button": true
       }
-    },
-    "249790dc-a82a-497f-be7a-d5a86ec7d283": {
-      "type": "rich-text-expandable",
-      "settings": {
-        "text_color": "#201a1c",
-        "title": "Un assistant de recherche AI est désormais à votre disposition !",
-        "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
-        "more_text": "",
-        "text_mobile": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
-        "more_text_mobile": "",
-        "text_link": "",
-        "text_less": ""
-      }
     }
   },
   "order": [
-    "main",
-    "249790dc-a82a-497f-be7a-d5a86ec7d283"
+    "main"
   ]
 }
