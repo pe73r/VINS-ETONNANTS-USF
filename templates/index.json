@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "16635875657e00a7a6": {
@@ -37,7 +46,7 @@
             "image_mobile": "shopify:\/\/shop_images\/396313907_7064222250307116_231428080594339956_n.jpg",
             "title": "Des vignerons, des histoires",
             "title_mobile": "Des vignerons, des histoires",
-            "text": "<p>Boutique de Vins & Blog de Dégustations<\/p>",
+            "text": "<p>Boutique de Vins & Blog de Dégustation<\/p>",
             "cta": "Je découvre",
             "button_link": "https:\/\/vins-etonnants.com\/collections\/all",
             "text_color": "#ffffff",
