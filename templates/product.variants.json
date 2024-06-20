@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "announcement_bar_mhjWER": {
@@ -78,6 +87,7 @@
         },
         "3d1604f2-041f-42ef-8b6a-3c0b480b05f1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Vendu par Vins étonnants",
             "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/Image.svg?v=1670361219"
@@ -102,6 +112,17 @@
       "settings": {
         "show_dots": true,
         "show_zoom": true
+      }
+    },
+    "bf3c8f24-1604-4903-9be7-d62ccac04444": {
+      "type": "product-informations-simple",
+      "settings": {
+        "container": "7xl",
+        "title": "Description du vin 🍷",
+        "text": "",
+        "header_color": "#201a1c",
+        "text_color": "#f84c55",
+        "background_left_color": "#fffffe"
       }
     },
     "48846409-d24b-4d84-bbc2-57b29e52395c": {
@@ -152,17 +173,6 @@
         "border": false,
         "text_color": "#ffffff",
         "background_color": "#201a1c"
-      }
-    },
-    "bf3c8f24-1604-4903-9be7-d62ccac04444": {
-      "type": "product-informations-simple",
-      "settings": {
-        "container": "7xl",
-        "title": "Description du vin 🍷",
-        "text": "",
-        "header_color": "#201a1c",
-        "text_color": "#f84c55",
-        "background_left_color": "#fffffe"
       }
     },
     "product-informations-snap": {
@@ -311,8 +321,8 @@
     "announcement_bar_mhjWER",
     "1d126385-13d8-4f8c-a73a-89f8fb3adf54",
     "main",
-    "48846409-d24b-4d84-bbc2-57b29e52395c",
     "bf3c8f24-1604-4903-9be7-d62ccac04444",
+    "48846409-d24b-4d84-bbc2-57b29e52395c",
     "product-informations-snap",
     "product-recommendations-carousel",
     "c81556f9-1731-4da3-bee9-3ca8bc137f71",
