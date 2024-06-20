@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -13,9 +22,36 @@
         "show_excerpt": false,
         "show_button": true
       }
+    },
+    "1718921822ce52175b": {
+      "type": "apps",
+      "blocks": {
+        "conversagent_gqa_block_GKjLtz": {
+          "type": "shopify:\/\/apps\/conversagent\/blocks\/gqa-block\/9dcb9616-f02a-40f7-b434-36f4866f2140",
+          "settings": {
+            "gqa_agentName": "Grace",
+            "gqa_agentTagLine": "AI Assistant",
+            "gqa_waitForGreeting": false,
+            "gqa_isSearchSuggestion": false,
+            "gqa_theme_bodyBg": "#fff",
+            "gqa_theme_bodyBorderColor": "#bfbfbf",
+            "gqa_theme_msgBubbleUserBg": "#7123c0",
+            "gqa_theme_msgBubbleUserTextColor": "#fff",
+            "gqa_theme_msgBubbleAgentBg": "#f0f0f0",
+            "gqa_theme_msgBubbleAgentTextColor": "#000",
+            "gqa_customCSS": ""
+          }
+        }
+      },
+      "block_order": [
+        "conversagent_gqa_block_GKjLtz"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1718921822ce52175b"
   ]
 }
