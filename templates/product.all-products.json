@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "announcement_bar_CB8mrt": {
@@ -71,6 +80,7 @@
         },
         "3d1604f2-041f-42ef-8b6a-3c0b480b05f1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Vendu par Vins Etonnants",
             "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/Image.svg?v=1670361219"
@@ -95,6 +105,17 @@
       "settings": {
         "show_dots": true,
         "show_zoom": true
+      }
+    },
+    "product-informations-simple": {
+      "type": "product-informations-simple",
+      "settings": {
+        "container": "7xl",
+        "title": "Caractéristiques",
+        "text": "",
+        "header_color": "#201a1c",
+        "text_color": "#f84c55",
+        "background_left_color": "#fffffe"
       }
     },
     "48846409-d24b-4d84-bbc2-57b29e52395c": {
@@ -127,17 +148,6 @@
         "border": false,
         "text_color": "#ffffff",
         "background_color": "#201a1c"
-      }
-    },
-    "product-informations-simple": {
-      "type": "product-informations-simple",
-      "settings": {
-        "container": "7xl",
-        "title": "Caractéristiques",
-        "text": "",
-        "header_color": "#201a1c",
-        "text_color": "#f84c55",
-        "background_left_color": "#fffffe"
       }
     },
     "product-recommendations-carousel": {
@@ -206,8 +216,8 @@
     "announcement_bar_CB8mrt",
     "c30d8279-7722-4022-ac68-4b662aa7f9e5",
     "main",
-    "48846409-d24b-4d84-bbc2-57b29e52395c",
     "product-informations-simple",
+    "48846409-d24b-4d84-bbc2-57b29e52395c",
     "product-recommendations-carousel",
     "7cb25d7b-7bb5-43a9-98e9-386d541cb1bd",
     "20c2f30e-d3b8-4c88-b885-f4760a1b1c1b"
