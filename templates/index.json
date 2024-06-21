@@ -14,6 +14,7 @@
       "blocks": {
         "text_PRc38X": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>DÉSTOCKAGE :<\/strong> Jusqu'à 34% de remise sur plus de 100 références !<\/p>",
             "url": "shopify:\/\/collections\/destockage-massif"
