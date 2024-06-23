@@ -1,0 +1,39 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "display_page_title": true,
+        "display_page_content": true
+      }
+    },
+    "776232fe-07cc-4c31-93d9-d9b3fb75bd0c": {
+      "type": "contact-form",
+      "settings": {
+        "header": "Formulaire de contact",
+        "cta": "Envoyer ma demande",
+        "show_phone_input": false,
+        "show_select_input": false,
+        "title": "Sélectionne l’objet de ta demande",
+        "option_1": "Option 1",
+        "option_2": "Option 2",
+        "option_3": "Option 3",
+        "header_color": "#201a1c"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "776232fe-07cc-4c31-93d9-d9b3fb75bd0c"
+  ]
+}
