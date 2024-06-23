@@ -25,14 +25,14 @@
             "gqa_agentName": "Eric",
             "gqa_agentTagLine": "Sommelier de Vins Étonnants",
             "gqa_waitForGreeting": false,
-            "gqa_isSearchSuggestion": false,
+            "gqa_isSearchSuggestion": true,
             "gqa_theme_bodyBg": "#fff",
             "gqa_theme_bodyBorderColor": "#f84c55",
             "gqa_theme_msgBubbleUserBg": "#f84c55",
             "gqa_theme_msgBubbleUserTextColor": "#fff",
             "gqa_theme_msgBubbleAgentBg": "#f0f0f0",
             "gqa_theme_msgBubbleAgentTextColor": "#000",
-            "gqa_customCSS": ""
+            "gqa_customCSS": ".element {\n  padding: 0; \/* Pas de padding par défaut *\/\n}\n\n\/* Styles pour les écrans de bureau *\/\n@media (min-width: 1024px) {\n  .element {\n    padding-left: 20%;\n    padding-right: 20%;\n  }\n}"
           }
         }
       },

@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "colors_text": "#201a1c",
@@ -430,6 +439,9 @@
           "831c2bf6-b538-440b-b9a2-5990122efe3f",
           "def1b450-0a09-4f6f-a381-121033fc96e2",
           "fe310d27-2fae-4e6a-b658-13613bb25c68"
+        ],
+        "custom_css": [
+
         ],
         "settings": {
           "add_margin": 0,
