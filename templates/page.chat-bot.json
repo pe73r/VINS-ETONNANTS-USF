@@ -32,7 +32,7 @@
             "gqa_theme_msgBubbleUserTextColor": "#fff",
             "gqa_theme_msgBubbleAgentBg": "#f0f0f0",
             "gqa_theme_msgBubbleAgentTextColor": "#000",
-            "gqa_customCSS": ".element {\n  padding: 0; \/* Pas de padding par défaut *\/\n}\n\n\/* Styles pour les écrans de bureau *\/\n@media (min-width: 1024px) {\n  .element {\n    padding-left: 20%;\n    padding-right: 20%;\n  }\n}"
+            "gqa_customCSS": ""
           }
         }
       },
