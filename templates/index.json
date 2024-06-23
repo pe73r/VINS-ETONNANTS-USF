@@ -202,7 +202,7 @@
         "blog": "blog-vins-etonnants",
         "post_limit": 4,
         "show_dots": false,
-        "heading": "",
+        "heading": "Derniers articles",
         "show_title": true,
         "show_content": false,
         "show_author": false,
