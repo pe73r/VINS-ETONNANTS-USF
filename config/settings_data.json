@@ -232,6 +232,21 @@
               "featured_link_subtitle_3": "",
               "featured_link_title_3": ""
             }
+          },
+          "megamenu_F4kG3c": {
+            "type": "megamenu",
+            "settings": {
+              "megamenu": "vignerons",
+              "featured_link_1": "",
+              "featured_link_subtitle_1": "",
+              "featured_link_title_1": "",
+              "featured_link_2": "",
+              "featured_link_subtitle_2": "",
+              "featured_link_title_2": "",
+              "featured_link_3": "",
+              "featured_link_subtitle_3": "",
+              "featured_link_title_3": ""
+            }
           }
         },
         "block_order": [
@@ -240,7 +255,8 @@
           "fd038aa8-7095-4c6d-ac32-b3972d0e056a",
           "megamenu_746xzW",
           "megamenu_7xHcgE",
-          "megamenu_QwgY6p"
+          "megamenu_QwgY6p",
+          "megamenu_F4kG3c"
         ],
         "settings": {
           "sticky_header": true,
