@@ -624,13 +624,13 @@
           "type": "card",
           "settings": {
             "card_width": "2\/5",
-            "image": "shopify:\/\/shop_images\/A7404864.jpg",
+            "image": "shopify:\/\/shop_images\/Domaine_Nicolas_Mariotti_Bindi_-_Vendanges_2020_2.jpg",
             "image_overlay": true,
-            "title": "Le coup de projecteur vigneron : Domaine Bonne Tonne",
-            "show_hr": true,
-            "text": "<p>En regardant de vieux cadastres, Claudius Grillet, père de Marcel, découvre que le domaine se situe sur le lieu-dit « La Bonne Tonne ». Il décide alors de nommer son exploitation ainsi. A son arrivée. Marcel décide de convertir le domaine en agriculture biologique. <\/p><p>En 2006, le domaine obtient officiellement la certification AB.<\/p><p><\/p><p>En 2016, Anne-Laure Grillet et Thomas Agatensi reprennent le flambeau du domaine. Septième génération, ils perpétuent la démarche environnementale initiée par Marcel. le désir de transmettre des terres saines aux générations futures.<\/p>",
+            "title": "Le coup de projecteur vigneron : Domaine Mariotti Bindi",
+            "show_hr": false,
+            "text": "<p>Tout accomplissement commence par rêve. L’histoire de ce domaine en est la preuve vivante. Après des études de droit à Paris, Nicolas Mariotti Bindi décide de prendre un virage à 180 degrés et de rentrer en Corse vivre sa passion de la vigne. Pourtant rien ne le prédestinait à vivre pareille aventure : « Je ne suis pas issu du milieu » aime-t-il rappeler. Et pourtant, dès 2007, il produit son 1er millésime !<\/p>",
             "cta": "En savoir plus",
-            "button_link": "shopify:\/\/collections\/bonne-tonne-la"
+            "button_link": "shopify:\/\/collections\/mariotti-bindi-nicolas"
           }
         }
       },
