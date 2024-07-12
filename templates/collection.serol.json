@@ -36,6 +36,14 @@
         "background_color": "#f84c55"
       }
     },
+    "image_banner_Q3GTtp": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bando_VE_4.png",
+        "image_mobile": "shopify:\/\/shop_images\/Bando_VE_4.png",
+        "container": "narrow"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -90,6 +98,7 @@
   },
   "order": [
     "announcement_bar_NfzzWJ",
+    "image_banner_Q3GTtp",
     "product-grid",
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
     "b2cf4fcd-7250-40bc-a7e3-a982fad079fa"
