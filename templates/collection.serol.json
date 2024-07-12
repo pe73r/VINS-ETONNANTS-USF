@@ -39,11 +39,11 @@
     "image_banner_Q3GTtp": {
       "type": "image-banner",
       "custom_css": [
-        "@media only screen and (max-width: 768px) {.hide-on-mobile {display: none; }}"
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Bandeau_Carrel.webp",
-        "container": "narrow"
+        "container": "full"
       }
     },
     "product-grid": {
