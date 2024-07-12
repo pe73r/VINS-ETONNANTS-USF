@@ -39,8 +39,7 @@
     "image_banner_Q3GTtp": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Bando_VE_4.png",
-        "image_mobile": "shopify:\/\/shop_images\/Bando_VE_4.png",
+        "image": "shopify:\/\/shop_images\/Bandeau_Carrel.webp",
         "container": "narrow"
       }
     },
