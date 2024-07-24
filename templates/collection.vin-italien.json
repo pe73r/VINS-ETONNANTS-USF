@@ -35,7 +35,8 @@
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b": {
       "type": "rich-text-expandable",
       "custom_css": [
-        ".left-align {text-align: left;}"
+        "p {text-align: left;}",
+        "h2 {text-align: left;}"
       ],
       "settings": {
         "text_color": "#201a1c",
@@ -50,6 +51,10 @@
     },
     "rich_text_expandable_RjX4Q6": {
       "type": "rich-text-expandable",
+      "custom_css": [
+        "p {text-align: left;}",
+        "h2 {text-align: left;}"
+      ],
       "settings": {
         "text_color": "#201a1c",
         "title": "Quels sont les vins italiens les plus vendus ?",
@@ -63,6 +68,10 @@
     },
     "rich_text_expandable_YktrJ9": {
       "type": "rich-text-expandable",
+      "custom_css": [
+        "p {text-align: left;}",
+        "h2 {text-align: left;}"
+      ],
       "settings": {
         "text_color": "#201a1c",
         "title": "Quel vin italien ressemble au Bourgogne ?",
@@ -76,6 +85,10 @@
     },
     "rich_text_expandable_pV9VWA": {
       "type": "rich-text-expandable",
+      "custom_css": [
+        "p {text-align: left;}",
+        "h2 {text-align: left;}"
+      ],
       "settings": {
         "text_color": "#201a1c",
         "title": "Quel vin italien ressemble au Bordeaux ?",
@@ -121,6 +134,9 @@
       "block_order": [
         "collection_Nr7FTD",
         "collection_h9wW48"
+      ],
+      "custom_css": [
+        ".mt-10.mb-16 {display: flex; flex-direction: column; align-items: center; \/* Centre horizontalement *\/ justify-content: center; \/* Centre verticalement, si nécessaire *\/ text-align: center; \/* Centre le texte à l'intérieur des éléments *\/}"
       ],
       "settings": {
       }
