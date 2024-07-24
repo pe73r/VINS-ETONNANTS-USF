@@ -99,8 +99,8 @@
       ],
       "settings": {
         "text_color": "#201a1c",
-        "title": "Quels sont les différents vins italiens ?",
-        "text": "<p>Si en France nous retrouvons toujours un peu les mêmes appellations de vins italiens, il en existe une grande variété : pas moins de 300 DOC complétées par 74 DOCG encore plus exigeantes avec en tout plus de 700 cépages différents. Ces appellations ne représentent elles-même que 30 % du volume total de vins. Autant dire que l’offre est variée et pléthorique : il vous sera bien difficile de faire le tour de tout ce que propose le premier producteur du monde (en volume).<\/p><p><\/p><p><\/p>",
+        "title": "Vin Blanc Italien : Un Voyage au Cœur des Terroirs Italiens",
+        "text": "<p>L'Italie, avec sa riche tradition viticole, est l'une des destinations incontournables pour les amateurs de vin blanc. Des Alpes au nord jusqu'aux collines ensoleillées de la Sicile au sud, le vin blanc italien offre une diversité et une qualité exceptionnelles, façonnées par des siècles de savoir-faire. Explorons ensemble les caractéristiques, les régions et les cépages emblématiques qui font du vin blanc italien un trésor à découvrir.<\/p>",
         "more_text": "",
         "text_mobile": "",
         "more_text_mobile": "",
@@ -116,42 +116,8 @@
       ],
       "settings": {
         "text_color": "#201a1c",
-        "title": "Quels sont les vins italiens les plus vendus ?",
-        "text": "<p>Quelle que soit couleur des vins, l’Italie fait un tabac dans le monde entier. Avec en bulles, le Prosecco et le Lambrusco); en vin blanc le Pinot grigio, le Soave et le Pecorino ; en vin rosé, le Cerasuolo d’Abruzzo et le Donnici ; en rouge le Chianti, le Primitivo et le Montepulciano d’Abruzzo.<\/p>",
-        "more_text": "",
-        "text_mobile": "",
-        "more_text_mobile": "",
-        "text_link": "",
-        "text_less": ""
-      }
-    },
-    "rich_text_expandable_YktrJ9": {
-      "type": "rich-text-expandable",
-      "custom_css": [
-        "p {text-align: left;}",
-        "h2 {text-align: left;}"
-      ],
-      "settings": {
-        "text_color": "#201a1c",
-        "title": "Quel vin italien ressemble au Bourgogne ?",
-        "text": "<p>Certains vins du Piémont (Barolo, Barbaresco) peuvent avoir un nez qui “pinote” et peut donc évoquer un rouge de Bourgogne. Mais assez souvent, les finales s’avèrent plus dures car le Nebbiolo est un cépage tannique demandant beaucoup de délicatesse dans l’extraction. Si vous êtes fan des notes de cerises, vous pouvez vous orienter sur le Grignolo et le Dolcetto de la même région qui seront plus gourmand et moins tanniques – et aussi moins complexes : on ne peut pas tout avoir !<\/p>",
-        "more_text": "",
-        "text_mobile": "",
-        "more_text_mobile": "",
-        "text_link": "",
-        "text_less": ""
-      }
-    },
-    "rich_text_expandable_pV9VWA": {
-      "type": "rich-text-expandable",
-      "custom_css": [
-        "p {text-align: left;}",
-        "h2 {text-align: left;}"
-      ],
-      "settings": {
-        "text_color": "#201a1c",
-        "title": "Quel vin italien ressemble au Bordeaux ?",
-        "text": "<p>La ressemblance est ici nettement plus flagrante, car sur une partie de la Toscane, des grandes maisons se sont très inspirées des meilleurs crus bordelais pour produire leurs cuvées – les fameux super toscans. Pour cela, ils ont demandé l’aide des plus grands œnologues bordelais comme Michel Rolland ou Thomas Ducroux. Malheureusement, leurs prix sont souvent au niveau des meilleurs GC du Médoc. il existe cependant une alternative<\/p>",
+        "title": "Les Caractéristiques du Vin Blanc Italien",
+        "text": "<p>Les vins blancs italiens sont réputés pour leur fraîcheur, leur acidité vive et leur palette aromatique variée. Ces vins se distinguent par des notes de fruits frais, de fleurs et parfois de minéraux, offrant une expérience gustative unique. Que vous soyez un amateur de vins légers et rafraîchissants ou de vins plus complexes et structurés, l'Italie a quelque chose à offrir à chaque palais.<\/p>",
         "more_text": "",
         "text_mobile": "",
         "more_text_mobile": "",
@@ -174,30 +140,21 @@
         "show_dots": true
       }
     },
-    "collections_blocks_wwJwAe": {
-      "type": "collections-blocks",
-      "blocks": {
-        "collection_Nr7FTD": {
-          "type": "collection",
-          "settings": {
-            "collection": "vin-rouge-italien"
-          }
-        },
-        "collection_h9wW48": {
-          "type": "collection",
-          "settings": {
-            "collection": "vin-blanc-italien"
-          }
-        }
-      },
-      "block_order": [
-        "collection_Nr7FTD",
-        "collection_h9wW48"
-      ],
+    "rich_text_expandable_fBbKjD": {
+      "type": "rich-text-expandable",
       "custom_css": [
-        ".mt-10.mb-16 {display: flex; flex-direction: column; align-items: center; \/* Centre horizontalement *\/ justify-content: center; \/* Centre verticalement, si nécessaire *\/ text-align: center; \/* Centre le texte à l'intérieur des éléments *\/}"
+        "p {text-align: left;}",
+        "h2 {text-align: left;}"
       ],
       "settings": {
+        "text_color": "#201A1C",
+        "title": "Les Régions Viticoles Clés pour le Vin Blanc Italien",
+        "text": "<h5>1. Le Piémont<\/h5><p>Le Piémont est surtout connu pour ses vins rouges comme le Barolo, mais cette région produit également des vins blancs remarquables. L'Arneis et le Moscato sont deux cépages clés. Le Roero Arneis, par exemple, est un vin blanc sec aux arômes de poire, de pomme et de fleurs blanches, tandis que le Moscato d'Asti est un vin légèrement pétillant, doux et aromatique.<\/p><h5>2. Le Frioul-Vénétie Julienne<\/h5><p>Cette région, située au nord-est de l'Italie, est célèbre pour ses vins blancs frais et minéraux. Les cépages comme le Friulano, le Pinot Grigio et le Sauvignon Blanc y prospèrent. Le Collio, une sous-région du Frioul, produit des vins blancs d'une grande pureté et complexité, souvent vieillis en fûts de chêne pour une profondeur supplémentaire.<\/p><h5>3. La Toscane<\/h5><p>Bien que la Toscane soit principalement associée aux vins rouges, elle produit également des vins blancs de qualité. Le Vermentino, cultivé près de la côte, donne des vins secs et aromatiques avec des notes d'agrumes et d'herbes. La Vernaccia di San Gimignano est un autre vin blanc toscan apprécié, connu pour sa structure et ses arômes de pomme verte et d'amande.<\/p><h5>4. La Sicile<\/h5><p>La Sicile, avec son climat chaud et ses sols volcaniques, produit des vins blancs pleins de caractère. Le cépage autochtone Carricante, cultivé sur les pentes de l'Etna, donne des vins aux notes minérales et citronnées. Le Grillo et le Catarratto sont d'autres cépages siciliens notables, offrant des vins riches et fruités.<\/p>",
+        "more_text": "",
+        "text_mobile": "",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
       }
     }
   },
@@ -206,9 +163,7 @@
     "marquee_jxPkbr",
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
     "rich_text_expandable_RjX4Q6",
-    "rich_text_expandable_YktrJ9",
-    "rich_text_expandable_pV9VWA",
     "products_carousel_nEcpD7",
-    "collections_blocks_wwJwAe"
+    "rich_text_expandable_fBbKjD"
   ]
 }
