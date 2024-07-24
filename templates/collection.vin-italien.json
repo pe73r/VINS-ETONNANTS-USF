@@ -32,6 +32,65 @@
         "header-image-footer-color": "#ffffff"
       }
     },
+    "marquee_Wqgp9V": {
+      "type": "marquee",
+      "blocks": {
+        "text_P9Xbx6": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
+            "url": ""
+          }
+        },
+        "text_49Hayj": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
+            "url": ""
+          }
+        },
+        "text_HWAWpx": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
+            "url": ""
+          }
+        },
+        "text_zRRK8E": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
+            "url": ""
+          }
+        },
+        "text_yRhy9G": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_P9Xbx6",
+        "text_49Hayj",
+        "text_HWAWpx",
+        "text_zRRK8E",
+        "text_yRhy9G"
+      ],
+      "settings": {
+        "animationDuration": 10,
+        "height": "68px",
+        "border": false,
+        "text_color": "#fff",
+        "background_color": "#201A1C"
+      }
+    },
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b": {
       "type": "rich-text-expandable",
       "custom_css": [
@@ -140,75 +199,16 @@
       ],
       "settings": {
       }
-    },
-    "marquee_Wqgp9V": {
-      "type": "marquee",
-      "blocks": {
-        "text_P9Xbx6": {
-          "type": "text",
-          "settings": {
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
-            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
-            "url": ""
-          }
-        },
-        "text_49Hayj": {
-          "type": "text",
-          "settings": {
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
-            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
-            "url": ""
-          }
-        },
-        "text_HWAWpx": {
-          "type": "text",
-          "settings": {
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
-            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
-            "url": ""
-          }
-        },
-        "text_zRRK8E": {
-          "type": "text",
-          "settings": {
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
-            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
-            "url": ""
-          }
-        },
-        "text_yRhy9G": {
-          "type": "text",
-          "settings": {
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
-            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_P9Xbx6",
-        "text_49Hayj",
-        "text_HWAWpx",
-        "text_zRRK8E",
-        "text_yRhy9G"
-      ],
-      "settings": {
-        "animationDuration": 10,
-        "height": "68px",
-        "border": false,
-        "text_color": "#fff",
-        "background_color": "#201A1C"
-      }
     }
   },
   "order": [
     "product-grid",
+    "marquee_Wqgp9V",
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
     "rich_text_expandable_RjX4Q6",
     "rich_text_expandable_YktrJ9",
     "rich_text_expandable_pV9VWA",
     "products_carousel_nEcpD7",
-    "collections_blocks_wwJwAe",
-    "marquee_Wqgp9V"
+    "collections_blocks_wwJwAe"
   ]
 }
