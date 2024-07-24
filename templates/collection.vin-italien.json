@@ -34,6 +34,9 @@
     },
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b": {
       "type": "rich-text-expandable",
+      "custom_css": [
+        ".left-align {text-align: left;}"
+      ],
       "settings": {
         "text_color": "#201a1c",
         "title": "Quels sont les différents vins italiens ?",
