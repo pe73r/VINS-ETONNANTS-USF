@@ -99,8 +99,8 @@
       ],
       "settings": {
         "text_color": "#201a1c",
-        "title": "Vin Blanc Italien : Un Voyage au Cœur des Terroirs Italiens",
-        "text": "<p>L'Italie, avec sa riche tradition viticole, est l'une des destinations incontournables pour les amateurs de vin blanc. Des Alpes au nord jusqu'aux collines ensoleillées de la Sicile au sud, le vin blanc italien offre une diversité et une qualité exceptionnelles, façonnées par des siècles de savoir-faire. Explorons ensemble les caractéristiques, les régions et les cépages emblématiques qui font du vin blanc italien un trésor à découvrir.<\/p>",
+        "title": "Vin Blanc Italien : Pourquoi faut-il s'y intéresser ?",
+        "text": "<p>L'Italie, avec sa riche tradition viticole, est l'une des destinations incontournables pour les amateurs de vin blanc. Des Alpes au nord jusqu'aux collines ensoleillées de la Sicile au sud, le vin blanc italien offre une diversité et une qualité exceptionnelles, façonnées par des siècles de savoir-faire.<\/p>",
         "more_text": "",
         "text_mobile": "",
         "more_text_mobile": "",
@@ -116,7 +116,7 @@
       ],
       "settings": {
         "text_color": "#201a1c",
-        "title": "Les Caractéristiques du Vin Blanc Italien",
+        "title": "À quoi reconnait-on un Vin Blanc Italien ?",
         "text": "<p>Les vins blancs italiens sont réputés pour leur fraîcheur, leur acidité vive et leur palette aromatique variée. Ces vins se distinguent par des notes de fruits frais, de fleurs et parfois de minéraux, offrant une expérience gustative unique. Que vous soyez un amateur de vins légers et rafraîchissants ou de vins plus complexes et structurés, l'Italie a quelque chose à offrir à chaque palais.<\/p>",
         "more_text": "",
         "text_mobile": "",
@@ -149,8 +149,44 @@
       ],
       "settings": {
         "text_color": "#201A1C",
-        "title": "Les Régions Viticoles Clés pour le Vin Blanc Italien",
+        "title": "Où trouve-t-on les meilleurs Vins Blancs Italiens ?",
         "text": "<h5>1. Le Piémont<\/h5><p>Le Piémont est surtout connu pour ses vins rouges comme le Barolo, mais cette région produit également des vins blancs remarquables. L'Arneis et le Moscato sont deux cépages clés. Le Roero Arneis, par exemple, est un vin blanc sec aux arômes de poire, de pomme et de fleurs blanches, tandis que le Moscato d'Asti est un vin légèrement pétillant, doux et aromatique.<\/p><h5>2. Le Frioul-Vénétie Julienne<\/h5><p>Cette région, située au nord-est de l'Italie, est célèbre pour ses vins blancs frais et minéraux. Les cépages comme le Friulano, le Pinot Grigio et le Sauvignon Blanc y prospèrent. Le Collio, une sous-région du Frioul, produit des vins blancs d'une grande pureté et complexité, souvent vieillis en fûts de chêne pour une profondeur supplémentaire.<\/p><h5>3. La Toscane<\/h5><p>Bien que la Toscane soit principalement associée aux vins rouges, elle produit également des vins blancs de qualité. Le Vermentino, cultivé près de la côte, donne des vins secs et aromatiques avec des notes d'agrumes et d'herbes. La Vernaccia di San Gimignano est un autre vin blanc toscan apprécié, connu pour sa structure et ses arômes de pomme verte et d'amande.<\/p><h5>4. La Sicile<\/h5><p>La Sicile, avec son climat chaud et ses sols volcaniques, produit des vins blancs pleins de caractère. Le cépage autochtone Carricante, cultivé sur les pentes de l'Etna, donne des vins aux notes minérales et citronnées. Le Grillo et le Catarratto sont d'autres cépages siciliens notables, offrant des vins riches et fruités.<\/p>",
+        "more_text": "",
+        "text_mobile": "",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
+      }
+    },
+    "rich_text_expandable_VnR4p7": {
+      "type": "rich-text-expandable",
+      "custom_css": [
+        "p {text-align: left;}",
+        "h2 {text-align: left;}",
+        "h5 {text-align: left;}"
+      ],
+      "settings": {
+        "text_color": "#201A1C",
+        "title": "Quels sont les Cépages Emblématiques du Vin Blanc Italien ?",
+        "text": "<h5>1. Pinot Grigio<\/h5><p>Le Pinot Grigio est l'un des cépages de vin blanc italien les plus connus à l'international. Originaire du nord-est de l'Italie, ce vin est apprécié pour sa légèreté, sa fraîcheur et ses arômes délicats de pomme, de poire et de citron.<\/p><h5>2. Trebbiano<\/h5><p>Le Trebbiano est l'un des cépages les plus plantés en Italie. Il produit des vins blancs secs et croquants, souvent utilisés dans les assemblages. Les vins de Trebbiano sont connus pour leur acidité élevée et leur polyvalence en matière de accords mets-vins.<\/p><h5>3. Vermentino<\/h5><p>Cultivé principalement en Toscane et en Sardaigne, le Vermentino donne des vins blancs aux arômes d'agrumes, de pêche et de fleurs. Ces vins sont parfaits pour accompagner les fruits de mer et les plats méditerranéens.<\/p>",
+        "more_text": "",
+        "text_mobile": "",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
+      }
+    },
+    "rich_text_expandable_XW4J63": {
+      "type": "rich-text-expandable",
+      "custom_css": [
+        "p {text-align: left;}",
+        "h2 {text-align: left;}",
+        "h5 {text-align: left;}"
+      ],
+      "settings": {
+        "text_color": "#201A1C",
+        "title": "Quels accords Mets et Vin Blanc Italien",
+        "text": "<p>Les vins blancs italiens se marient parfaitement avec une variété de plats. Les vins plus légers comme le Pinot Grigio et le Vermentino sont excellents avec les fruits de mer, les salades et les plats légers à base de poulet. Les vins plus complexes et structurés comme le Roero Arneis ou le Collio Friulano s'accordent bien avec les plats de pâtes crémeux, les risottos et les fromages affinés.<\/p><h4><\/h4>",
         "more_text": "",
         "text_mobile": "",
         "more_text_mobile": "",
@@ -165,6 +201,8 @@
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
     "rich_text_expandable_RjX4Q6",
     "products_carousel_nEcpD7",
-    "rich_text_expandable_fBbKjD"
+    "rich_text_expandable_fBbKjD",
+    "rich_text_expandable_VnR4p7",
+    "rich_text_expandable_XW4J63"
   ]
 }
