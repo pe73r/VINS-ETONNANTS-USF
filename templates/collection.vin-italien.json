@@ -36,34 +36,47 @@
       "type": "rich-text-expandable",
       "settings": {
         "text_color": "#201a1c",
-        "title": "Quelles régions privilégiées quand on aime le vin rouge léger ?",
-        "text": "<ul><li>Bourgogne<\/li><li>Vallée de la Loire<\/li><li>Beaujolais<\/li><li>Vallée du Rhône<\/li><li>Alsace<\/li><\/ul><p><\/p><p><\/p>",
-        "more_text": "<p>Pour les amateurs de vin rouge léger, certaines régions se distinguent par leur capacité à produire des vins élégants et délicats. La <strong>Bourgogne<\/strong> est incontournable avec ses vins issus principalement du pinot noir, offrant finesse et arômes subtils de fruits rouges. La <strong>Vallée de la Loire<\/strong>, avec ses vins de gamay et de cabernet franc, propose des crus frais et vifs, tandis que le <strong>Beaujolais<\/strong>, grâce au cépage Gamay, est réputé pour ses vins légers et fruités. La <strong>vallée du Rhône<\/strong> surprend également avec des vins rouges légers, notamment dans l'appellation Crozes-Hermitage. L'Alsace, bien que célèbre pour ses vins blancs, produit aussi des vins rouges légers à partir du pinot noir, caractérisés par leur fraîcheur.<\/p>",
+        "title": "Quels sont les différents vins italiens ?",
+        "text": "<p>Si en France nous retrouvons toujours un peu les mêmes appellations de vins italiens, il en existe une grande variété : pas moins de 300 DOC complétées par 74 DOCG encore plus exigeantes avec en tout plus de 700 cépages différents. Ces appellations ne représentent elles-même que 30 % du volume total de vins. Autant dire que l’offre est variée et pléthorique : il vous sera bien difficile de faire le tour de tout ce que propose le premier producteur du monde (en volume).<\/p><p><\/p><p><\/p>",
+        "more_text": "",
         "text_mobile": "",
         "more_text_mobile": "",
-        "text_link": "Lire plus",
-        "text_less": "Lire moins"
+        "text_link": "",
+        "text_less": ""
       }
     },
     "rich_text_expandable_RjX4Q6": {
       "type": "rich-text-expandable",
       "settings": {
         "text_color": "#201a1c",
-        "title": "Quels cépages sont les plus propices à produire des vins rouges légers ?",
-        "text": "<ul><li>Pinot noir<\/li><li>Gamay<\/li><li>Cabernet franc<\/li><li>Cinsault<\/li><\/ul>",
-        "more_text": "<p>Les cépages jouent un rôle crucial dans la production de vins rouges légers. Le <strong>pinot noir<\/strong>, emblématique de la Bourgogne, est célèbre pour ses vins fins et élégants, avec des arômes de fruits rouges et des tanins souples. Le <strong>gamay<\/strong>, originaire du Beaujolais, est apprécié pour ses vins frais et fruités, tandis que le <strong>cabernet franc<\/strong>, cultivé dans la Vallée de la Loire, produit des vins légers avec des notes florales et herbacées. Le <strong>cinsault<\/strong>, utilisé en Provence et Languedoc-Roussillon, apporte légèreté et fraîcheur.<\/p>",
+        "title": "Quels sont les vins italiens les plus vendus ?",
+        "text": "<p>Quelle que soit couleur des vins, l’Italie fait un tabac dans le monde entier. Avec en bulles, le Prosecco et le Lambrusco); en vin blanc le Pinot grigio, le Soave et le Pecorino ; en vin rosé, le Cerasuolo d’Abruzzo et le Donnici ; en rouge le Chianti, le Primitivo et le Montepulciano d’Abruzzo.<\/p>",
+        "more_text": "",
         "text_mobile": "",
         "more_text_mobile": "",
-        "text_link": "Lire plus",
-        "text_less": "Lire moins"
+        "text_link": "",
+        "text_less": ""
       }
     },
     "rich_text_expandable_YktrJ9": {
       "type": "rich-text-expandable",
       "settings": {
         "text_color": "#201a1c",
-        "title": "Quel plat avec un Vin Rouge Léger ?",
-        "text": "<p>Les vins rouges légers, avec leur profil aromatique délicat et leur fraîcheur en bouche, sont faciles à boire et se marient harmonieusement avec une variété de plats, offrant une palette d'accords mets et vins des plus séduisantes. Ces vins sont parfaits pour accompagner des entrées légères comme des salades composées ou des tartares de légumes. Ils se révèlent également idéaux avec des viandes blanches, telles que le poulet rôti ou le veau en sauce légère, où leur acidité équilibrée et leurs tanins discrets complètent à merveille la tendreté de la viande. Pour les amateurs de fromage, optez pour des fromages à pâte molle et à croûte fleurie, tels que le Brie ou le Camembert, qui seront sublimés par la finesse et les notes fruitées des rouges légers. Enfin, ces vins peuvent créer des accords surprenants avec certains plats de poissons grillés ou en sauce, où leur légèreté apporte une touche de raffinement sans masquer les saveurs délicates du poisson.<\/p>",
+        "title": "Quel vin italien ressemble au Bourgogne ?",
+        "text": "<p>Certains vins du Piémont (Barolo, Barbaresco) peuvent avoir un nez qui “pinote” et peut donc évoquer un rouge de Bourgogne. Mais assez souvent, les finales s’avèrent plus dures car le Nebbiolo est un cépage tannique demandant beaucoup de délicatesse dans l’extraction. Si vous êtes fan des notes de cerises, vous pouvez vous orienter sur le Grignolo et le Dolcetto de la même région qui seront plus gourmand et moins tanniques – et aussi moins complexes : on ne peut pas tout avoir !<\/p>",
+        "more_text": "",
+        "text_mobile": "",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
+      }
+    },
+    "rich_text_expandable_pV9VWA": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201A1C",
+        "title": "Quel vin italien ressemble au Bordeaux ?",
+        "text": "<p>La ressemblance est ici nettement plus flagrante, car sur une partie de la Toscane, des grandes maisons se sont très inspirées des meilleurs crus bordelais pour produire leurs cuvées – les fameux super toscans. Pour cela, ils ont demandé l’aide des plus grands œnologues bordelais comme Michel Rolland ou Thomas Ducroux. Malheureusement, leurs prix sont souvent au niveau des meilleurs GC du Médoc. il existe cependant une alternative<\/p>",
         "more_text": "",
         "text_mobile": "",
         "more_text_mobile": "",
@@ -73,6 +86,7 @@
     },
     "products_carousel_nEcpD7": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
         "container": "7xl",
         "collection": "vin-rouge-leger",
@@ -84,6 +98,29 @@
         "show_arrows": true,
         "show_dots": true
       }
+    },
+    "collections_blocks_wwJwAe": {
+      "type": "collections-blocks",
+      "blocks": {
+        "collection_Nr7FTD": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection_h9wW48": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_Nr7FTD",
+        "collection_h9wW48"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -91,6 +128,8 @@
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
     "rich_text_expandable_RjX4Q6",
     "rich_text_expandable_YktrJ9",
-    "products_carousel_nEcpD7"
+    "rich_text_expandable_pV9VWA",
+    "products_carousel_nEcpD7",
+    "collections_blocks_wwJwAe"
   ]
 }
