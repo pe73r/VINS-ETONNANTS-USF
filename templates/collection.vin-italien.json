@@ -74,7 +74,7 @@
     "rich_text_expandable_pV9VWA": {
       "type": "rich-text-expandable",
       "settings": {
-        "text_color": "#201A1C",
+        "text_color": "#201a1c",
         "title": "Quel vin italien ressemble au Bordeaux ?",
         "text": "<p>La ressemblance est ici nettement plus flagrante, car sur une partie de la Toscane, des grandes maisons se sont très inspirées des meilleurs crus bordelais pour produire leurs cuvées – les fameux super toscans. Pour cela, ils ont demandé l’aide des plus grands œnologues bordelais comme Michel Rolland ou Thomas Ducroux. Malheureusement, leurs prix sont souvent au niveau des meilleurs GC du Médoc. il existe cependant une alternative<\/p>",
         "more_text": "",
@@ -105,13 +105,13 @@
         "collection_Nr7FTD": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "vin-rouge-italien"
           }
         },
         "collection_h9wW48": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "vin-blanc-italien"
           }
         }
       },
