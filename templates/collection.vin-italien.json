@@ -1,0 +1,96 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "show_collection_image": true,
+        "show_collection_title": true,
+        "show_breadcrumbs": false,
+        "show_collection_description": true,
+        "show_collection_size": false,
+        "show_secondary_image": true,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "filters_background": "#fcf9f3",
+        "show_product_dumie": true,
+        "product_dumie_title": "Le coup de projecteur vigneron",
+        "product_dumie_text": "<p>Chaque mois, nous mettons en avant un de nos producteurs pour vous raconter son histoire.<\/p>",
+        "product_dumie_link": "Je découvre",
+        "product_dumie_image": "shopify:\/\/shop_images\/72aa89ac54c8985e8268196747c5552d.png",
+        "color_dumie_link": "#ffffff",
+        "text_dumie_color": "#ffffff",
+        "header-image-footer-color": "#ffffff"
+      }
+    },
+    "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201a1c",
+        "title": "Quelles régions privilégiées quand on aime le vin rouge léger ?",
+        "text": "<ul><li>Bourgogne<\/li><li>Vallée de la Loire<\/li><li>Beaujolais<\/li><li>Vallée du Rhône<\/li><li>Alsace<\/li><\/ul><p><\/p><p><\/p>",
+        "more_text": "<p>Pour les amateurs de vin rouge léger, certaines régions se distinguent par leur capacité à produire des vins élégants et délicats. La <strong>Bourgogne<\/strong> est incontournable avec ses vins issus principalement du pinot noir, offrant finesse et arômes subtils de fruits rouges. La <strong>Vallée de la Loire<\/strong>, avec ses vins de gamay et de cabernet franc, propose des crus frais et vifs, tandis que le <strong>Beaujolais<\/strong>, grâce au cépage Gamay, est réputé pour ses vins légers et fruités. La <strong>vallée du Rhône<\/strong> surprend également avec des vins rouges légers, notamment dans l'appellation Crozes-Hermitage. L'Alsace, bien que célèbre pour ses vins blancs, produit aussi des vins rouges légers à partir du pinot noir, caractérisés par leur fraîcheur.<\/p>",
+        "text_mobile": "",
+        "more_text_mobile": "",
+        "text_link": "Lire plus",
+        "text_less": "Lire moins"
+      }
+    },
+    "rich_text_expandable_RjX4Q6": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201a1c",
+        "title": "Quels cépages sont les plus propices à produire des vins rouges légers ?",
+        "text": "<ul><li>Pinot noir<\/li><li>Gamay<\/li><li>Cabernet franc<\/li><li>Cinsault<\/li><\/ul>",
+        "more_text": "<p>Les cépages jouent un rôle crucial dans la production de vins rouges légers. Le <strong>pinot noir<\/strong>, emblématique de la Bourgogne, est célèbre pour ses vins fins et élégants, avec des arômes de fruits rouges et des tanins souples. Le <strong>gamay<\/strong>, originaire du Beaujolais, est apprécié pour ses vins frais et fruités, tandis que le <strong>cabernet franc<\/strong>, cultivé dans la Vallée de la Loire, produit des vins légers avec des notes florales et herbacées. Le <strong>cinsault<\/strong>, utilisé en Provence et Languedoc-Roussillon, apporte légèreté et fraîcheur.<\/p>",
+        "text_mobile": "",
+        "more_text_mobile": "",
+        "text_link": "Lire plus",
+        "text_less": "Lire moins"
+      }
+    },
+    "rich_text_expandable_YktrJ9": {
+      "type": "rich-text-expandable",
+      "settings": {
+        "text_color": "#201a1c",
+        "title": "Quel plat avec un Vin Rouge Léger ?",
+        "text": "<p>Les vins rouges légers, avec leur profil aromatique délicat et leur fraîcheur en bouche, sont faciles à boire et se marient harmonieusement avec une variété de plats, offrant une palette d'accords mets et vins des plus séduisantes. Ces vins sont parfaits pour accompagner des entrées légères comme des salades composées ou des tartares de légumes. Ils se révèlent également idéaux avec des viandes blanches, telles que le poulet rôti ou le veau en sauce légère, où leur acidité équilibrée et leurs tanins discrets complètent à merveille la tendreté de la viande. Pour les amateurs de fromage, optez pour des fromages à pâte molle et à croûte fleurie, tels que le Brie ou le Camembert, qui seront sublimés par la finesse et les notes fruitées des rouges légers. Enfin, ces vins peuvent créer des accords surprenants avec certains plats de poissons grillés ou en sauce, où leur légèreté apporte une touche de raffinement sans masquer les saveurs délicates du poisson.<\/p>",
+        "more_text": "",
+        "text_mobile": "",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
+      }
+    },
+    "products_carousel_nEcpD7": {
+      "type": "products-carousel",
+      "settings": {
+        "container": "7xl",
+        "collection": "vin-rouge-leger",
+        "limit": 5,
+        "title": "Top 5 des Vins Rouges Légers à découvrir",
+        "collection_link": "",
+        "url": "",
+        "show_secondary_image": true,
+        "show_arrows": true,
+        "show_dots": true
+      }
+    }
+  },
+  "order": [
+    "product-grid",
+    "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
+    "rich_text_expandable_RjX4Q6",
+    "rich_text_expandable_YktrJ9",
+    "products_carousel_nEcpD7"
+  ]
+}
