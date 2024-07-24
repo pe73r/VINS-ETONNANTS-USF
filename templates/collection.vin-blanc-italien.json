@@ -32,6 +32,65 @@
         "header-image-footer-color": "#ffffff"
       }
     },
+    "marquee_jxPkbr": {
+      "type": "marquee",
+      "blocks": {
+        "text_KzCgJf": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
+            "url": ""
+          }
+        },
+        "text_YpmmzD": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
+            "url": ""
+          }
+        },
+        "text_FQPhVN": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
+            "url": ""
+          }
+        },
+        "text_jr4i4A": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
+            "url": ""
+          }
+        },
+        "text_D9KHEg": {
+          "type": "text",
+          "settings": {
+            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
+            "text": "<p>POUR ALLER PLUS LOIN<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_KzCgJf",
+        "text_YpmmzD",
+        "text_FQPhVN",
+        "text_jr4i4A",
+        "text_D9KHEg"
+      ],
+      "settings": {
+        "animationDuration": 10,
+        "height": "68px",
+        "border": false,
+        "text_color": "#fff",
+        "background_color": "#201A1C"
+      }
+    },
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b": {
       "type": "rich-text-expandable",
       "custom_css": [
@@ -144,6 +203,7 @@
   },
   "order": [
     "product-grid",
+    "marquee_jxPkbr",
     "fc1b2bc3-12e8-4674-8c3d-e22344d81d0b",
     "rich_text_expandable_RjX4Q6",
     "rich_text_expandable_YktrJ9",
