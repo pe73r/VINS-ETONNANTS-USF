@@ -40,8 +40,8 @@
       ],
       "settings": {
         "text_color": "#201a1c",
-        "title": "Quels sont les différents vins italiens ?",
-        "text": "<p>Si en France nous retrouvons toujours un peu les mêmes appellations de vins italiens, il en existe une grande variété : pas moins de 300 DOC complétées par 74 DOCG encore plus exigeantes avec en tout plus de 700 cépages différents. Ces appellations ne représentent elles-même que 30 % du volume total de vins. Autant dire que l’offre est variée et pléthorique : il vous sera bien difficile de faire le tour de tout ce que propose le premier producteur du monde (en volume).<\/p><p><\/p><p><\/p>",
+        "title": "Quels sont les meilleurs vins rouges italiens ?",
+        "text": "<p>Les meilleurs, c’est très personnel, mais assurément les plus réputés proviennent de deux régions différentes : le Piémont (Barolo, Barbaresco) et la Toscane (Brunello di Montalcino et super toscans (Ornellaia, Massetto, Sassicaia, Tignanello...). A ceux-là s’ajoute le grand Amarone della Valpolicella provenant de Vénétie (Vérone) mais aussi les vins issus des hauts coteaux de l’Etna en Sicile.<\/p><p><\/p><p><\/p>",
         "more_text": "",
         "text_mobile": "",
         "more_text_mobile": "",
@@ -57,8 +57,8 @@
       ],
       "settings": {
         "text_color": "#201a1c",
-        "title": "Quels sont les vins italiens les plus vendus ?",
-        "text": "<p>Quelle que soit couleur des vins, l’Italie fait un tabac dans le monde entier. Avec en bulles, le Prosecco et le Lambrusco); en vin blanc le Pinot grigio, le Soave et le Pecorino ; en vin rosé, le Cerasuolo d’Abruzzo et le Donnici ; en rouge le Chianti, le Primitivo et le Montepulciano d’Abruzzo.<\/p>",
+        "title": "Quels sont les vins rouges transalpins les plus vendus ?",
+        "text": "<p>Le Chianti, le Primitivo et le Montepulciano d’Abruzzo sont assurément les vins d'Italie les plus renommés et les plus vendus dans le pays comme hors de ses frontières.<\/p>",
         "more_text": "",
         "text_mobile": "",
         "more_text_mobile": "",
@@ -74,8 +74,8 @@
       ],
       "settings": {
         "text_color": "#201a1c",
-        "title": "Quel vin italien ressemble au Bourgogne ?",
-        "text": "<p>Certains vins du Piémont (Barolo, Barbaresco) peuvent avoir un nez qui “pinote” et peut donc évoquer un rouge de Bourgogne. Mais assez souvent, les finales s’avèrent plus dures car le Nebbiolo est un cépage tannique demandant beaucoup de délicatesse dans l’extraction. Si vous êtes fan des notes de cerises, vous pouvez vous orienter sur le Grignolo et le Dolcetto de la même région qui seront plus gourmand et moins tanniques – et aussi moins complexes : on ne peut pas tout avoir !<\/p>",
+        "title": "Peut-on trouver un vin italien qui ressemble au Bourgogne ?",
+        "text": "<p>Certains vins du Piémont, comme le Barolo et le Barbaresco, peuvent présenter des arômes rappelant ceux d'un Pinot noir de Bourgogne. Cependant, les finales de ces vins sont souvent plus fermes, car le Nebbiolo, le cépage utilisé, est réputé pour ses tanins exigeants une extraction délicate. Pour les amateurs de notes de cerise, les vins de Grignolino et de Dolcetto de la même région offrent une option plus gourmande et moins tannique, bien que moins complexe. Vous ne pouvez pas tout avoir !<\/p>",
         "more_text": "",
         "text_mobile": "",
         "more_text_mobile": "",
@@ -91,8 +91,8 @@
       ],
       "settings": {
         "text_color": "#201a1c",
-        "title": "Quel vin italien ressemble au Bordeaux ?",
-        "text": "<p>La ressemblance est ici nettement plus flagrante, car sur une partie de la Toscane, des grandes maisons se sont très inspirées des meilleurs crus bordelais pour produire leurs cuvées – les fameux super toscans. Pour cela, ils ont demandé l’aide des plus grands œnologues bordelais comme Michel Rolland ou Thomas Ducroux. Malheureusement, leurs prix sont souvent au niveau des meilleurs GC du Médoc. il existe cependant une alternative<\/p>",
+        "title": "Peut-on trouver en Italie des vins qui ressemblent aux Bordeaux ?",
+        "text": "<p>La similitude est encore plus évidente en Toscane, où certaines grandes maisons ont largement emprunté aux meilleurs crus bordelais pour créer leurs propres cuvées, les célèbres super toscans. Pour ce faire, ils ont sollicité l'expertise de célèbres œnologues bordelais tels que Michel Rolland et Thomas Ducroux. Malheureusement, les prix de ces vins se rapprochent souvent de ceux des grands crus du Médoc.<\/p>",
         "more_text": "",
         "text_mobile": "",
         "more_text_mobile": "",
@@ -114,32 +114,6 @@
         "show_arrows": true,
         "show_dots": true
       }
-    },
-    "collections_blocks_wwJwAe": {
-      "type": "collections-blocks",
-      "blocks": {
-        "collection_Nr7FTD": {
-          "type": "collection",
-          "settings": {
-            "collection": "vin-rouge-italien"
-          }
-        },
-        "collection_h9wW48": {
-          "type": "collection",
-          "settings": {
-            "collection": "vin-blanc-italien"
-          }
-        }
-      },
-      "block_order": [
-        "collection_Nr7FTD",
-        "collection_h9wW48"
-      ],
-      "custom_css": [
-        ".mt-10.mb-16 {display: flex; flex-direction: column; align-items: center; \/* Centre horizontalement *\/ justify-content: center; \/* Centre verticalement, si nécessaire *\/ text-align: center; \/* Centre le texte à l'intérieur des éléments *\/}"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -148,7 +122,6 @@
     "rich_text_expandable_RjX4Q6",
     "rich_text_expandable_YktrJ9",
     "rich_text_expandable_pV9VWA",
-    "products_carousel_nEcpD7",
-    "collections_blocks_wwJwAe"
+    "products_carousel_nEcpD7"
   ]
 }
