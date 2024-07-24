@@ -144,7 +144,8 @@
       "type": "rich-text-expandable",
       "custom_css": [
         "p {text-align: left;}",
-        "h2 {text-align: left;}"
+        "h2 {text-align: left;}",
+        "h5 {text-align: left;}"
       ],
       "settings": {
         "text_color": "#201A1C",
