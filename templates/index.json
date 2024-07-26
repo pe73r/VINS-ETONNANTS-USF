@@ -698,9 +698,9 @@
       "type": "products-carousel",
       "settings": {
         "container": "7xl",
-        "collection": "galbrun-domaine-bertrand",
+        "collection": "promo-destockage",
         "limit": 6,
-        "title": "Nos vins rouges",
+        "title": "Nos promos en cours",
         "collection_link": "Voir tout",
         "url": "shopify:\/\/collections\/vins-rouges",
         "show_secondary_image": false,
