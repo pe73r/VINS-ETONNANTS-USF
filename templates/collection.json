@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "announcement_bar_WPUPc6": {
@@ -12,15 +21,24 @@
         },
         "text_qQ78Ag": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>DÉSTOCKAGE :<\/strong> Jusqu'à 34% de remise sur plus de 100 références !<\/p>",
             "url": "shopify:\/\/collections\/destockage-massif"
+          }
+        },
+        "text_Hbitj4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>🤑 CARREL DAYS : Toutes les cuvées de Jeff Carrel à prix fous ! 🤑<br\/><\/strong>Profitez-en avant qu'il ne soit trop tard !<\/p>",
+            "url": "shopify:\/\/collections\/carrel-jeff"
           }
         }
       },
       "block_order": [
         "text_Aqhbce",
-        "text_qQ78Ag"
+        "text_qQ78Ag",
+        "text_Hbitj4"
       ],
       "settings": {
         "text_color": "#ffffff",
