@@ -22,10 +22,9 @@
         },
         "text_rkUFn3": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>OFFRE : -20% à partir de 100€<\/p>",
-            "url": ""
+            "text": "<p><strong>🤑 CARREL DAYS : Toutes les cuvées de Jeff Carrel à prix fous ! 🤑<br\/><\/strong>Profitez-en avant qu'il ne soit trop tard !<\/p>",
+            "url": "shopify:\/\/collections\/carrel-jeff"
           }
         },
         "text_ApVjr6": {
