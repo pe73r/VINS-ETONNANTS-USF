@@ -26,11 +26,19 @@
             "text": "<p><strong>Livraison à partir de 9.50€ pour la France !<\/strong><\/p><p>Franco à 250€ de commande pour le France continentale et la Belgique. <\/p>",
             "url": "shopify:\/\/collections\/promo-destockage"
           }
+        },
+        "text_Y7GKrd": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>🤑 CARREL DAYS : Toutes les cuvées de Jeff Carrel à prix fous ! 🤑<br\/><\/strong>Profitez-en avant qu'il ne soit trop tard !<\/p>",
+            "url": "shopify:\/\/collections\/carrel-jeff"
+          }
         }
       },
       "block_order": [
         "text_PRc38X",
-        "f798bfbf-f191-4238-afc1-18a73b6cbc35"
+        "f798bfbf-f191-4238-afc1-18a73b6cbc35",
+        "text_Y7GKrd"
       ],
       "settings": {
         "text_color": "#f8f2e7",
