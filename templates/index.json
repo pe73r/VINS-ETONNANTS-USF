@@ -29,6 +29,7 @@
         },
         "text_Y7GKrd": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>🤑 CARREL DAYS : Toutes les cuvées de Jeff Carrel à prix fous ! 🤑<br\/><\/strong>Profitez-en avant qu'il ne soit trop tard !<\/p>",
             "url": "shopify:\/\/collections\/carrel-jeff"
