@@ -34,12 +34,20 @@
             "text": "<p><strong>🤑 CARREL DAYS : Toutes les cuvées de Jeff Carrel à prix fous ! 🤑<br\/><\/strong>Profitez-en avant qu'il ne soit trop tard !<\/p>",
             "url": "shopify:\/\/collections\/carrel-jeff"
           }
+        },
+        "text_rjNCzQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>🔥 <\/strong>Foire aux Vins : 10€ OFFERTS tous les 100€ d'Achats <strong>🔥<\/strong><\/p>",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "text_PRc38X",
         "f798bfbf-f191-4238-afc1-18a73b6cbc35",
-        "text_Y7GKrd"
+        "text_Y7GKrd",
+        "text_rjNCzQ"
       ],
       "settings": {
         "text_color": "#f8f2e7",
