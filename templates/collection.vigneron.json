@@ -26,11 +26,19 @@
             "text": "<p><strong>DÉSTOCKAGE :<\/strong> Jusqu'à 34% de remise sur plus de 100 références !<\/p>",
             "url": "shopify:\/\/collections\/destockage-massif"
           }
+        },
+        "text_wLwXMC": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>🔥 <\/strong>Foire aux Vins : 10€ OFFERTS tous les 100€ d'Achats <strong>🔥<\/strong><\/p>",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "text_FBwJbF",
-        "text_89NEe4"
+        "text_89NEe4",
+        "text_wLwXMC"
       ],
       "settings": {
         "text_color": "#ffffff",
