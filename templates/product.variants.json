@@ -34,12 +34,20 @@
             "text": "<p><strong>Livraison à partir de 9.50€ pour la France !<\/strong><\/p><p>Franco à 250€ de commande pour le France continentale et la Belgique. <\/p>",
             "url": ""
           }
+        },
+        "text_4nYWg7": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>🔥 <\/strong>Foire aux Vins : 10€ OFFERTS tous les 100€ d'Achats <strong>🔥<\/strong><\/p>",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "text_w7qDTq",
         "text_rkUFn3",
-        "text_ApVjr6"
+        "text_ApVjr6",
+        "text_4nYWg7"
       ],
       "settings": {
         "text_color": "#ffffff",
