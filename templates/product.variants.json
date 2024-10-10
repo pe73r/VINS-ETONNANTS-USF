@@ -16,7 +16,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p><strong>DÉSTOCKAGE :<\/strong> Jusqu'à 34% de remise sur plus de 100 références !<\/p>",
+            "text": "<p><strong>DÉSTOCKAGE :</strong> Jusqu'à 34% de remise sur plus de 100 références !</p>",
             "url": ""
           }
         },
@@ -24,21 +24,22 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p><strong>🤑 CARREL DAYS : Toutes les cuvées de Jeff Carrel à prix fous ! 🤑<br\/><\/strong>Profitez-en avant qu'il ne soit trop tard !<\/p>",
-            "url": "shopify:\/\/collections\/carrel-jeff"
+            "text": "<p><strong>🤑 CARREL DAYS : Toutes les cuvées de Jeff Carrel à prix fous ! 🤑<br/></strong>Profitez-en avant qu'il ne soit trop tard !</p>",
+            "url": "shopify://collections/carrel-jeff"
           }
         },
         "text_ApVjr6": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Livraison à partir de 9.50€ pour la France !<\/strong><\/p><p>Franco à 250€ de commande pour le France continentale et la Belgique. <\/p>",
+            "text": "<p><strong>Livraison à partir de 9.50€ pour la France !</strong></p><p>Franco à 250€ de commande pour le France continentale et la Belgique. </p>",
             "url": ""
           }
         },
         "text_4nYWg7": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p><strong>🔥 Foire aux Vins :<\/strong> 10€ OFFERTS tous les 100€ d'Achats <strong>🔥<\/strong><\/p>",
+            "text": "<p><strong>🔥 Foire aux Vins :</strong> 10€ OFFERTS tous les 100€ d'Achats <strong>🔥</strong></p>",
             "url": ""
           }
         }
@@ -59,9 +60,9 @@
       "settings": {
         "text_color": "#201a1c",
         "title": "Un assistant de recherche AI est désormais à votre disposition!",
-        "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
+        "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page</p>",
         "more_text": "",
-        "text_mobile": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
+        "text_mobile": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page</p>",
         "more_text_mobile": "",
         "text_link": "",
         "text_less": ""
@@ -92,7 +93,7 @@
           "type": "delivery_note",
           "settings": {
             "title": "🚚 LIVRAISON",
-            "text": "<p>Livraison prévue entre 3 et 6 jours. Frais de livraison non inclus<\/p>"
+            "text": "<p>Livraison prévue entre 3 et 6 jours. Frais de livraison non inclus</p>"
           }
         },
         "3d1604f2-041f-42ef-8b6a-3c0b480b05f1": {
@@ -100,14 +101,14 @@
           "disabled": true,
           "settings": {
             "text": "Vendu par Vins étonnants",
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/Image.svg?v=1670361219"
+            "svg": "https://cdn.shopify.com/s/files/1/0682/9126/4826/files/Image.svg?v=1670361219"
           }
         },
         "b772b48a-9e88-44db-a874-d5d4fb97a412": {
           "type": "payment",
           "settings": {
             "text": "ApplePay, Paiement en 3x sans frais Klarna et différentes méthodes de paiement disponibles 💳",
-            "more_text": "<p>CB, ApplePay, Paiement en 3 fois Klarna, Virement, Bancontact, CBC, Sofort, Giropay, iDEAL, EPS, PostePay, Maestro, American Express, Paysafecard, Belfius, Przlewy24,,...<\/p>"
+            "more_text": "<p>CB, ApplePay, Paiement en 3 fois Klarna, Virement, Bancontact, CBC, Sofort, Giropay, iDEAL, EPS, PostePay, Maestro, American Express, Paysafecard, Belfius, Przlewy24,,...</p>"
           }
         }
       },
@@ -141,32 +142,32 @@
         "template--17096559460666__48846409-d24b-4d84-bbc2-57b29e52395c-167043006680281c41-0": {
           "type": "text",
           "settings": {
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
-            "text": "<p>vins étonnants<\/p>",
+            "svg": "https://cdn.shopify.com/s/files/1/0682/9126/4826/files/verre.svg?v=1669311694",
+            "text": "<p>vins étonnants</p>",
             "url": ""
           }
         },
         "template--17096559460666__48846409-d24b-4d84-bbc2-57b29e52395c-167043006680281c41-1": {
           "type": "text",
           "settings": {
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/stars.svg?v=1669648221",
-            "text": "<p>une occasion de vous surprendre<\/p>",
+            "svg": "https://cdn.shopify.com/s/files/1/0682/9126/4826/files/stars.svg?v=1669648221",
+            "text": "<p>une occasion de vous surprendre</p>",
             "url": ""
           }
         },
         "template--17096559460666__48846409-d24b-4d84-bbc2-57b29e52395c-167043006680281c41-2": {
           "type": "text",
           "settings": {
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/verre.svg?v=1669311694",
-            "text": "<p>vins étonnants<\/p>",
+            "svg": "https://cdn.shopify.com/s/files/1/0682/9126/4826/files/verre.svg?v=1669311694",
+            "text": "<p>vins étonnants</p>",
             "url": ""
           }
         },
         "bd6fef33-9b05-4912-9e76-0d47abd96dd6": {
           "type": "text",
           "settings": {
-            "svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0682\/9126\/4826\/files\/stars.svg?v=1669648221",
-            "text": "<p>une occasion de vous surprendre<\/p>",
+            "svg": "https://cdn.shopify.com/s/files/1/0682/9126/4826/files/stars.svg?v=1669648221",
+            "text": "<p>une occasion de vous surprendre</p>",
             "url": ""
           }
         }
@@ -192,28 +193,28 @@
           "type": "block",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/5eec4b4341370ca7fc4654c0b3cbdb33.jpg"
+            "image": "shopify://shop_images/5eec4b4341370ca7fc4654c0b3cbdb33.jpg"
           }
         },
         "c56fa692-cfa9-48a7-8a88-a79982f26b11": {
           "type": "block",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_45.png"
+            "image": "shopify://shop_images/Rectangle_45.png"
           }
         },
         "121f98b8-be10-4647-9159-1add5913a182": {
           "type": "block",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_304_1.png"
+            "image": "shopify://shop_images/Rectangle_304_1.png"
           }
         },
         "f87cb003-bd4e-4bfa-8d35-d4d8f1c55c4e": {
           "type": "block",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/kym-ellis-aF1NPSnDQLw-unsplash.jpg"
+            "image": "shopify://shop_images/kym-ellis-aF1NPSnDQLw-unsplash.jpg"
           }
         },
         "8b357d0c-ab4b-4c86-b406-a28b2b690c5a": {
@@ -222,7 +223,7 @@
           "settings": {
             "information_title": "Caractéristiques",
             "information_icon": "📝",
-            "information_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>"
+            "information_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>"
           }
         },
         "a5a9271b-a999-40c3-81ee-8132d6f534fa": {
@@ -231,7 +232,7 @@
           "settings": {
             "information_title": "Le vigneron",
             "information_icon": "👨‍🌾",
-            "information_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>"
+            "information_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>"
           }
         },
         "a11980ab-ebe8-465e-9bf1-af1ac2a7ba96": {
@@ -240,7 +241,7 @@
           "settings": {
             "information_title": "Accords mets & vins",
             "information_icon": "🧀",
-            "information_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>"
+            "information_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>"
           }
         },
         "8a3aabf3-9e3d-41bc-9d66-68fe7b05adf4": {
@@ -249,7 +250,7 @@
           "settings": {
             "information_title": "Quelles occasions ?",
             "information_icon": "💃",
-            "information_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>"
+            "information_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>"
           }
         }
       },
@@ -267,7 +268,7 @@
       "settings": {
         "container": "7xl",
         "title": "L'avis Vins Etonnants 🍷",
-        "text": "<p>'Délicieusement mordante, sur la griotte, la grenade et la fumée, avec une pointe d'épices”<\/p>",
+        "text": "<p>'Délicieusement mordante, sur la griotte, la grenade et la fumée, avec une pointe d'épices”</p>",
         "header_color": "#201a1c",
         "text_color": "#f84c55",
         "background_left_color": "#fffffe"
@@ -318,10 +319,10 @@
       "settings": {
         "text_color": "#201a1c",
         "title": "Qu'est-ce qu'un vin d'auteur ?",
-        "text": "<p>Celui-ci peut être tellement divers selon la personnalité de leur géniteur, qu'il est plus facile de définir ce qu'il n'est pas. Un vin d'auteur, c'est tout sauf un vin standard, stéréotypé, fait pour plaire au plus grand nombre. Il est donc rarement produit en millions d'exemplaires, se copiant lui-même de millésime en millésime.<\/p>",
-        "more_text": "<p>Un vin d'auteur, c'est donc un vin qui ne ressemble pas à celui du voisin. Qui d'année en année évoluera en fonction des caprices de la météo et de l'humeur de l'auteur – les deux pouvant être liées. Car l'auteur ne se fie pas à des études de marché pour mener sa barque. Il fait son vin comme il le sent, comme il l'aime, comme il le peut, parfois... Et tant pis s'il ne plaît pas à tous.<\/p><p>C'est pour cela que les vins d'auteur sont parfois classé en « vin de table » ou en « vin de France ». Parce que le vigneron n'a pas planté le cépage autorisé*, fait l'assemblage ou la vinification recommandés dans l'appellation**. Il est souvent un peu rebelle, notre auteur. Mais c'est pour cela qu'on l'aime !... Ceci dit, les vins d'auteur ne sont pas systématiquement marginaux : il sont présents dans la plupart des appellations, et peuvent faire partie de l'élite de celles-ci***. Car ils ne se contentent pas d'avoir de la personnalité : ils sont bons, en plus ! Avec en général un <a href=\"http:\/\/www.boiremanger.net\/archives\/2009\/11\/16\/15790803.html\">degré de torchabilité <\/a>très élevé : on ne s'en lasse pas au bout de la première gorgée.<\/p><p>Comme les vins d'auteur ne sont pas chaptalisés, levurés, bidouillés... ils peuvent présenter des profils très différents selon le millésime. À nous (revendeurs et consommateurs) de les accepter comme ils sont, et de rester fidèle aux producteurs, car ils ont besoin de nous pour poursuivre leur activité.<\/p><p>______________________________<\/p><p>* Par exemple, le <a href=\"https:\/\/www.vins-etonnants.com\/touriga-nacional-430\/la-liberte-touriga-2011-6185.html\">Touriga Nacional <\/a>dans le Minervois, ou la <a href=\"https:\/\/www.vins-etonnants.com\/vins-roses-sec-810\/syrah-blanche-2012-6305.html\">Syrah <\/a>en Côtes du Forez. Ils sont fous, ces auteurs !<\/p><p>** Certains vignerons osent produire des <a href=\"https:\/\/www.vins-etonnants.com\/aperitifs-315\/patience-et-longueur-de-temps--5647.html\" target=\"_blank\">liquoreux avec du Mourvèdre<\/a> ou un <a href=\"https:\/\/www.vins-etonnants.com\/petillant-naturel-703\/petill-gris-6202.html\">pétillant naturel avec du Pineau d'Aunis<\/a><\/p><p>*** comme ceux de Jean-François Ganevat dans le Jura ou de Zind-Humbrecht en Alsace<\/p>",
-        "text_mobile": "<p>Celui-ci peut être tellement divers selon la personnalité de leur géniteur, qu'il est plus facile de définir ce qu'il n'est pas. Un vin d'auteur, c'est tout sauf un vin standard, stéréotypé, fait pour plaire au plus grand nombre. Il est donc rarement produit en millions d'exemplaires, se copiant lui-même de millésime en millésime.<\/p>",
-        "more_text_mobile": "<p>Un vin d'auteur, c'est donc un vin qui ne ressemble pas à celui du voisin. Qui d'année en année évoluera en fonction des caprices de la météo et de l'humeur de l'auteur – les deux pouvant être liées. Car l'auteur ne se fie pas à des études de marché pour mener sa barque. Il fait son vin comme il le sent, comme il l'aime, comme il le peut, parfois... Et tant pis s'il ne plaît pas à tous.<\/p><p>C'est pour cela que les vins d'auteur sont parfois classé en « vin de table » ou en « vin de France ». Parce que le vigneron n'a pas planté le cépage autorisé*, fait l'assemblage ou la vinification recommandés dans l'appellation**. Il est souvent un peu rebelle, notre auteur. Mais c'est pour cela qu'on l'aime !... Ceci dit, les vins d'auteur ne sont pas systématiquement marginaux : il sont présents dans la plupart des appellations, et peuvent faire partie de l'élite de celles-ci***. Car ils ne se contentent pas d'avoir de la personnalité : ils sont bons, en plus ! Avec en général un <a href=\"http:\/\/www.boiremanger.net\/archives\/2009\/11\/16\/15790803.html\">degré de torchabilité <\/a>très élevé : on ne s'en lasse pas au bout de la première gorgée.<\/p><p>Comme les vins d'auteur ne sont pas chaptalisés, levurés, bidouillés... ils peuvent présenter des profils très différents selon le millésime. À nous (revendeurs et consommateurs) de les accepter comme ils sont, et de rester fidèle aux producteurs, car ils ont besoin de nous pour poursuivre leur activité.<\/p><p>______________________________<\/p><p>* Par exemple, le <a href=\"https:\/\/www.vins-etonnants.com\/touriga-nacional-430\/la-liberte-touriga-2011-6185.html\">Touriga Nacional <\/a>dans le Minervois, ou la <a href=\"https:\/\/www.vins-etonnants.com\/vins-roses-sec-810\/syrah-blanche-2012-6305.html\">Syrah <\/a>en Côtes du Forez. Ils sont fous, ces auteurs !<\/p><p>** Certains vignerons osent produire des <a href=\"https:\/\/www.vins-etonnants.com\/aperitifs-315\/patience-et-longueur-de-temps--5647.html\" target=\"_blank\">liquoreux avec du Mourvèdre<\/a> ou un <a href=\"https:\/\/www.vins-etonnants.com\/petillant-naturel-703\/petill-gris-6202.html\">pétillant naturel avec du Pineau d'Aunis<\/a><\/p><p>*** comme ceux de Jean-François Ganevat dans le Jura ou de Zind-Humbrecht en Alsace<\/p>",
+        "text": "<p>Celui-ci peut être tellement divers selon la personnalité de leur géniteur, qu'il est plus facile de définir ce qu'il n'est pas. Un vin d'auteur, c'est tout sauf un vin standard, stéréotypé, fait pour plaire au plus grand nombre. Il est donc rarement produit en millions d'exemplaires, se copiant lui-même de millésime en millésime.</p>",
+        "more_text": "<p>Un vin d'auteur, c'est donc un vin qui ne ressemble pas à celui du voisin. Qui d'année en année évoluera en fonction des caprices de la météo et de l'humeur de l'auteur – les deux pouvant être liées. Car l'auteur ne se fie pas à des études de marché pour mener sa barque. Il fait son vin comme il le sent, comme il l'aime, comme il le peut, parfois... Et tant pis s'il ne plaît pas à tous.</p><p>C'est pour cela que les vins d'auteur sont parfois classé en « vin de table » ou en « vin de France ». Parce que le vigneron n'a pas planté le cépage autorisé*, fait l'assemblage ou la vinification recommandés dans l'appellation**. Il est souvent un peu rebelle, notre auteur. Mais c'est pour cela qu'on l'aime !... Ceci dit, les vins d'auteur ne sont pas systématiquement marginaux : il sont présents dans la plupart des appellations, et peuvent faire partie de l'élite de celles-ci***. Car ils ne se contentent pas d'avoir de la personnalité : ils sont bons, en plus ! Avec en général un <a href=\"http://www.boiremanger.net/archives/2009/11/16/15790803.html\">degré de torchabilité </a>très élevé : on ne s'en lasse pas au bout de la première gorgée.</p><p>Comme les vins d'auteur ne sont pas chaptalisés, levurés, bidouillés... ils peuvent présenter des profils très différents selon le millésime. À nous (revendeurs et consommateurs) de les accepter comme ils sont, et de rester fidèle aux producteurs, car ils ont besoin de nous pour poursuivre leur activité.</p><p>______________________________</p><p>* Par exemple, le <a href=\"https://www.vins-etonnants.com/touriga-nacional-430/la-liberte-touriga-2011-6185.html\">Touriga Nacional </a>dans le Minervois, ou la <a href=\"https://www.vins-etonnants.com/vins-roses-sec-810/syrah-blanche-2012-6305.html\">Syrah </a>en Côtes du Forez. Ils sont fous, ces auteurs !</p><p>** Certains vignerons osent produire des <a href=\"https://www.vins-etonnants.com/aperitifs-315/patience-et-longueur-de-temps--5647.html\" target=\"_blank\">liquoreux avec du Mourvèdre</a> ou un <a href=\"https://www.vins-etonnants.com/petillant-naturel-703/petill-gris-6202.html\">pétillant naturel avec du Pineau d'Aunis</a></p><p>*** comme ceux de Jean-François Ganevat dans le Jura ou de Zind-Humbrecht en Alsace</p>",
+        "text_mobile": "<p>Celui-ci peut être tellement divers selon la personnalité de leur géniteur, qu'il est plus facile de définir ce qu'il n'est pas. Un vin d'auteur, c'est tout sauf un vin standard, stéréotypé, fait pour plaire au plus grand nombre. Il est donc rarement produit en millions d'exemplaires, se copiant lui-même de millésime en millésime.</p>",
+        "more_text_mobile": "<p>Un vin d'auteur, c'est donc un vin qui ne ressemble pas à celui du voisin. Qui d'année en année évoluera en fonction des caprices de la météo et de l'humeur de l'auteur – les deux pouvant être liées. Car l'auteur ne se fie pas à des études de marché pour mener sa barque. Il fait son vin comme il le sent, comme il l'aime, comme il le peut, parfois... Et tant pis s'il ne plaît pas à tous.</p><p>C'est pour cela que les vins d'auteur sont parfois classé en « vin de table » ou en « vin de France ». Parce que le vigneron n'a pas planté le cépage autorisé*, fait l'assemblage ou la vinification recommandés dans l'appellation**. Il est souvent un peu rebelle, notre auteur. Mais c'est pour cela qu'on l'aime !... Ceci dit, les vins d'auteur ne sont pas systématiquement marginaux : il sont présents dans la plupart des appellations, et peuvent faire partie de l'élite de celles-ci***. Car ils ne se contentent pas d'avoir de la personnalité : ils sont bons, en plus ! Avec en général un <a href=\"http://www.boiremanger.net/archives/2009/11/16/15790803.html\">degré de torchabilité </a>très élevé : on ne s'en lasse pas au bout de la première gorgée.</p><p>Comme les vins d'auteur ne sont pas chaptalisés, levurés, bidouillés... ils peuvent présenter des profils très différents selon le millésime. À nous (revendeurs et consommateurs) de les accepter comme ils sont, et de rester fidèle aux producteurs, car ils ont besoin de nous pour poursuivre leur activité.</p><p>______________________________</p><p>* Par exemple, le <a href=\"https://www.vins-etonnants.com/touriga-nacional-430/la-liberte-touriga-2011-6185.html\">Touriga Nacional </a>dans le Minervois, ou la <a href=\"https://www.vins-etonnants.com/vins-roses-sec-810/syrah-blanche-2012-6305.html\">Syrah </a>en Côtes du Forez. Ils sont fous, ces auteurs !</p><p>** Certains vignerons osent produire des <a href=\"https://www.vins-etonnants.com/aperitifs-315/patience-et-longueur-de-temps--5647.html\" target=\"_blank\">liquoreux avec du Mourvèdre</a> ou un <a href=\"https://www.vins-etonnants.com/petillant-naturel-703/petill-gris-6202.html\">pétillant naturel avec du Pineau d'Aunis</a></p><p>*** comme ceux de Jean-François Ganevat dans le Jura ou de Zind-Humbrecht en Alsace</p>",
         "text_link": "Lire plus",
         "text_less": "Lire moins"
       }
