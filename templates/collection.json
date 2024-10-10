@@ -15,7 +15,7 @@
         "text_Aqhbce": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Livraison à partir de 9.50€ pour la France !<\/strong><\/p><p>Franco à 250€ de commande pour le France continentale et la Belgique. <\/p>",
+            "text": "<p><strong>Livraison à partir de 9.50€ pour la France !</strong></p><p>Franco à 250€ de commande pour le France continentale et la Belgique. </p>",
             "url": ""
           }
         },
@@ -23,22 +23,23 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p><strong>DÉSTOCKAGE :<\/strong> Jusqu'à 34% de remise sur plus de 100 références !<\/p>",
-            "url": "shopify:\/\/collections\/destockage-massif"
+            "text": "<p><strong>DÉSTOCKAGE :</strong> Jusqu'à 34% de remise sur plus de 100 références !</p>",
+            "url": "shopify://collections/destockage-massif"
           }
         },
         "text_Hbitj4": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p><strong>🤑 CARREL DAYS : Toutes les cuvées de Jeff Carrel à prix fous ! 🤑<br\/><\/strong>Profitez-en avant qu'il ne soit trop tard !<\/p>",
-            "url": "shopify:\/\/collections\/carrel-jeff"
+            "text": "<p><strong>🤑 CARREL DAYS : Toutes les cuvées de Jeff Carrel à prix fous ! 🤑<br/></strong>Profitez-en avant qu'il ne soit trop tard !</p>",
+            "url": "shopify://collections/carrel-jeff"
           }
         },
         "text_Nr3GTn": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p><strong>🔥 Foire aux Vins :<\/strong> 10€ OFFERTS tous les 100€ d'Achats <strong>🔥<\/strong><\/p>",
+            "text": "<p><strong>🔥 Foire aux Vins :</strong> 10€ OFFERTS tous les 100€ d'Achats <strong>🔥</strong></p>",
             "url": ""
           }
         }
@@ -60,9 +61,9 @@
       "settings": {
         "text_color": "#201a1c",
         "title": "Un assistant de recherche AI est désormais à votre disposition",
-        "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
+        "text": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page</p>",
         "more_text": "",
-        "text_mobile": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page<\/p>",
+        "text_mobile": "<p>Veuillez cliquer sur la bulle rouge pour y accéder en bas à droite de la page</p>",
         "more_text_mobile": "",
         "text_link": "",
         "text_less": ""
@@ -83,9 +84,9 @@
         "filters_background": "#fcf9f3",
         "show_product_dumie": true,
         "product_dumie_title": "Le coup de projecteur vigneron",
-        "product_dumie_text": "<p>Chaque mois, nous mettons en avant un de nos producteurs pour vous raconter son histoire.<\/p>",
+        "product_dumie_text": "<p>Chaque mois, nous mettons en avant un de nos producteurs pour vous raconter son histoire.</p>",
         "product_dumie_link": "Je découvre",
-        "product_dumie_image": "shopify:\/\/shop_images\/jl-denois-vin-bio-limoux-verri-portrait.jpg",
+        "product_dumie_image": "shopify://shop_images/jl-denois-vin-bio-limoux-verri-portrait.jpg",
         "color_dumie_link": "#ffffff",
         "text_dumie_color": "#ffffff",
         "header-image-footer-color": "#ffffff"
@@ -96,10 +97,10 @@
       "settings": {
         "text_color": "#201a1c",
         "title": "Qu'est-ce qu'un vin d'auteur ?",
-        "text": "<p>Celui-ci peut être tellement divers selon la personnalité de leur géniteur, qu'il est plus facile de définir ce qu'il n'est pas. Un vin d'auteur, c'est tout sauf un vin standard, stéréotypé, fait pour plaire au plus grand nombre. Il est donc rarement produit en millions d'exemplaires, se copiant lui-même de millésime en millésime.<\/p><p>Un vin d'auteur, c'est donc un vin qui ne ressemble pas à celui du voisin. Qui d'année en année évoluera en fonction des caprices de la météo et de l'humeur de l'auteur – les deux pouvant être liées. Car l'auteur ne se fie pas à des études de marché pour mener sa barque. Il fait son vin comme il le sent, comme il l'aime, comme il le peut, parfois... Et tant pis s'il ne plaît pas à tous.<\/p>",
-        "more_text": "<p>C'est pour cela que les vins d'auteur sont parfois classé en « vin de table » ou en « vin de France ». Parce que le vigneron n'a pas planté le cépage autorisé*, fait l'assemblage ou la vinification recommandés dans l'appellation**. Il est souvent un peu rebelle, notre auteur. Mais c'est pour cela qu'on l'aime !... Ceci dit, les vins d'auteur ne sont pas systématiquement marginaux : il sont présents dans la plupart des appellations, et peuvent faire partie de l'élite de celles-ci***. Car ils ne se contentent pas d'avoir de la personnalité : ils sont bons, en plus ! Avec en général un <a href=\"http:\/\/www.boiremanger.net\/archives\/2009\/11\/16\/15790803.html\">degré de torchabilité <\/a>très élevé : on ne s'en lasse pas au bout de la première gorgée.<\/p><p>Comme les vins d'auteur ne sont pas chaptalisés, levurés, bidouillés... ils peuvent présenter des profils très différents selon le millésime. À nous (revendeurs et consommateurs) de les accepter comme ils sont, et de rester fidèle aux producteurs, car ils ont besoin de nous pour poursuivre leur activité.<\/p><p>______________________________<\/p><p>* Par exemple, le <a href=\"https:\/\/www.vins-etonnants.com\/touriga-nacional-430\/la-liberte-touriga-2011-6185.html\">Touriga Nacional <\/a>dans le Minervois, ou la <a href=\"https:\/\/www.vins-etonnants.com\/vins-roses-sec-810\/syrah-blanche-2012-6305.html\">Syrah <\/a>en Côtes du Forez. Ils sont fous, ces auteurs !<\/p><p>** Certains vignerons osent produire des <a href=\"https:\/\/www.vins-etonnants.com\/aperitifs-315\/patience-et-longueur-de-temps--5647.html\" target=\"_blank\">liquoreux avec du Mourvèdre<\/a> ou un <a href=\"https:\/\/www.vins-etonnants.com\/petillant-naturel-703\/petill-gris-6202.html\">pétillant naturel avec du Pineau d'Aunis<\/a><\/p><p>*** comme ceux de Jean-François Ganevat dans le Jura ou de Zind-Humbrecht en Alsace<\/p>",
-        "text_mobile": "<p>Celui-ci peut être tellement divers selon la personnalité de leur géniteur, qu'il est plus facile de définir ce qu'il n'est pas. Un vin d'auteur, c'est tout sauf un vin standard, stéréotypé, fait pour plaire au plus grand nombre. Il est donc rarement produit en millions d'exemplaires, se copiant lui-même de millésime en millésime.<\/p><p>Un vin d'auteur, c'est donc un vin qui ne ressemble pas à celui du voisin. Qui d'année en année évoluera en fonction des caprices de la météo et de l'humeur de l'auteur – les deux pouvant être liées. Car l'auteur ne se fie pas à des études de marché pour mener sa barque. Il fait son vin comme il le sent, comme il l'aime, comme il le peut, parfois... Et tant pis s'il ne plaît pas à tous.<\/p>",
-        "more_text_mobile": "<p>C'est pour cela que les vins d'auteur sont parfois classé en « vin de table » ou en « vin de France ». Parce que le vigneron n'a pas planté le cépage autorisé*, fait l'assemblage ou la vinification recommandés dans l'appellation**. Il est souvent un peu rebelle, notre auteur. Mais c'est pour cela qu'on l'aime !... Ceci dit, les vins d'auteur ne sont pas systématiquement marginaux : il sont présents dans la plupart des appellations, et peuvent faire partie de l'élite de celles-ci***. Car ils ne se contentent pas d'avoir de la personnalité : ils sont bons, en plus ! Avec en général un <a href=\"http:\/\/www.boiremanger.net\/archives\/2009\/11\/16\/15790803.html\">degré de torchabilité <\/a>très élevé : on ne s'en lasse pas au bout de la première gorgée.<\/p><p>Comme les vins d'auteur ne sont pas chaptalisés, levurés, bidouillés... ils peuvent présenter des profils très différents selon le millésime. À nous (revendeurs et consommateurs) de les accepter comme ils sont, et de rester fidèle aux producteurs, car ils ont besoin de nous pour poursuivre leur activité.<\/p><p>______________________________<\/p><p>* Par exemple, le <a href=\"https:\/\/www.vins-etonnants.com\/touriga-nacional-430\/la-liberte-touriga-2011-6185.html\">Touriga Nacional <\/a>dans le Minervois, ou la <a href=\"https:\/\/www.vins-etonnants.com\/vins-roses-sec-810\/syrah-blanche-2012-6305.html\">Syrah <\/a>en Côtes du Forez. Ils sont fous, ces auteurs !<\/p><p>** Certains vignerons osent produire des <a href=\"https:\/\/www.vins-etonnants.com\/aperitifs-315\/patience-et-longueur-de-temps--5647.html\" target=\"_blank\">liquoreux avec du Mourvèdre<\/a> ou un <a href=\"https:\/\/www.vins-etonnants.com\/petillant-naturel-703\/petill-gris-6202.html\">pétillant naturel avec du Pineau d'Aunis<\/a><\/p><p>*** comme ceux de Jean-François Ganevat dans le Jura ou de Zind-Humbrecht en Alsace<\/p>",
+        "text": "<p>Celui-ci peut être tellement divers selon la personnalité de leur géniteur, qu'il est plus facile de définir ce qu'il n'est pas. Un vin d'auteur, c'est tout sauf un vin standard, stéréotypé, fait pour plaire au plus grand nombre. Il est donc rarement produit en millions d'exemplaires, se copiant lui-même de millésime en millésime.</p><p>Un vin d'auteur, c'est donc un vin qui ne ressemble pas à celui du voisin. Qui d'année en année évoluera en fonction des caprices de la météo et de l'humeur de l'auteur – les deux pouvant être liées. Car l'auteur ne se fie pas à des études de marché pour mener sa barque. Il fait son vin comme il le sent, comme il l'aime, comme il le peut, parfois... Et tant pis s'il ne plaît pas à tous.</p>",
+        "more_text": "<p>C'est pour cela que les vins d'auteur sont parfois classé en « vin de table » ou en « vin de France ». Parce que le vigneron n'a pas planté le cépage autorisé*, fait l'assemblage ou la vinification recommandés dans l'appellation**. Il est souvent un peu rebelle, notre auteur. Mais c'est pour cela qu'on l'aime !... Ceci dit, les vins d'auteur ne sont pas systématiquement marginaux : il sont présents dans la plupart des appellations, et peuvent faire partie de l'élite de celles-ci***. Car ils ne se contentent pas d'avoir de la personnalité : ils sont bons, en plus ! Avec en général un <a href=\"http://www.boiremanger.net/archives/2009/11/16/15790803.html\">degré de torchabilité </a>très élevé : on ne s'en lasse pas au bout de la première gorgée.</p><p>Comme les vins d'auteur ne sont pas chaptalisés, levurés, bidouillés... ils peuvent présenter des profils très différents selon le millésime. À nous (revendeurs et consommateurs) de les accepter comme ils sont, et de rester fidèle aux producteurs, car ils ont besoin de nous pour poursuivre leur activité.</p><p>______________________________</p><p>* Par exemple, le <a href=\"https://www.vins-etonnants.com/touriga-nacional-430/la-liberte-touriga-2011-6185.html\">Touriga Nacional </a>dans le Minervois, ou la <a href=\"https://www.vins-etonnants.com/vins-roses-sec-810/syrah-blanche-2012-6305.html\">Syrah </a>en Côtes du Forez. Ils sont fous, ces auteurs !</p><p>** Certains vignerons osent produire des <a href=\"https://www.vins-etonnants.com/aperitifs-315/patience-et-longueur-de-temps--5647.html\" target=\"_blank\">liquoreux avec du Mourvèdre</a> ou un <a href=\"https://www.vins-etonnants.com/petillant-naturel-703/petill-gris-6202.html\">pétillant naturel avec du Pineau d'Aunis</a></p><p>*** comme ceux de Jean-François Ganevat dans le Jura ou de Zind-Humbrecht en Alsace</p>",
+        "text_mobile": "<p>Celui-ci peut être tellement divers selon la personnalité de leur géniteur, qu'il est plus facile de définir ce qu'il n'est pas. Un vin d'auteur, c'est tout sauf un vin standard, stéréotypé, fait pour plaire au plus grand nombre. Il est donc rarement produit en millions d'exemplaires, se copiant lui-même de millésime en millésime.</p><p>Un vin d'auteur, c'est donc un vin qui ne ressemble pas à celui du voisin. Qui d'année en année évoluera en fonction des caprices de la météo et de l'humeur de l'auteur – les deux pouvant être liées. Car l'auteur ne se fie pas à des études de marché pour mener sa barque. Il fait son vin comme il le sent, comme il l'aime, comme il le peut, parfois... Et tant pis s'il ne plaît pas à tous.</p>",
+        "more_text_mobile": "<p>C'est pour cela que les vins d'auteur sont parfois classé en « vin de table » ou en « vin de France ». Parce que le vigneron n'a pas planté le cépage autorisé*, fait l'assemblage ou la vinification recommandés dans l'appellation**. Il est souvent un peu rebelle, notre auteur. Mais c'est pour cela qu'on l'aime !... Ceci dit, les vins d'auteur ne sont pas systématiquement marginaux : il sont présents dans la plupart des appellations, et peuvent faire partie de l'élite de celles-ci***. Car ils ne se contentent pas d'avoir de la personnalité : ils sont bons, en plus ! Avec en général un <a href=\"http://www.boiremanger.net/archives/2009/11/16/15790803.html\">degré de torchabilité </a>très élevé : on ne s'en lasse pas au bout de la première gorgée.</p><p>Comme les vins d'auteur ne sont pas chaptalisés, levurés, bidouillés... ils peuvent présenter des profils très différents selon le millésime. À nous (revendeurs et consommateurs) de les accepter comme ils sont, et de rester fidèle aux producteurs, car ils ont besoin de nous pour poursuivre leur activité.</p><p>______________________________</p><p>* Par exemple, le <a href=\"https://www.vins-etonnants.com/touriga-nacional-430/la-liberte-touriga-2011-6185.html\">Touriga Nacional </a>dans le Minervois, ou la <a href=\"https://www.vins-etonnants.com/vins-roses-sec-810/syrah-blanche-2012-6305.html\">Syrah </a>en Côtes du Forez. Ils sont fous, ces auteurs !</p><p>** Certains vignerons osent produire des <a href=\"https://www.vins-etonnants.com/aperitifs-315/patience-et-longueur-de-temps--5647.html\" target=\"_blank\">liquoreux avec du Mourvèdre</a> ou un <a href=\"https://www.vins-etonnants.com/petillant-naturel-703/petill-gris-6202.html\">pétillant naturel avec du Pineau d'Aunis</a></p><p>*** comme ceux de Jean-François Ganevat dans le Jura ou de Zind-Humbrecht en Alsace</p>",
         "text_link": "Lire plus",
         "text_less": "Lire moins"
       }
