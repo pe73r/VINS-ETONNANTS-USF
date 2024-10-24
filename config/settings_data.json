@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_text": "#201a1c",
@@ -18,24 +18,24 @@
     "type_header_font": "playfair_display_n7",
     "type_body_font": "lato_n4",
     "countries": "Allemagne,Argentine,Angleterre,Autriche,Chili,Croatie,Espagne,Etats-Unis,Italie,Géorgie,Hongrie,Portugal,Nouvelle-Zélande,Afrique-du-Sud,Israël,Slovénie,Mexique,Pérou,Portugal,Suisse,France,Australie,Canada,Géorgie,Hongrie,Maroc,Liban,Syrie,Grèce,Mexique,Belgique,Luxembourg,Uruguay,Brésil,",
-    "regions": "Alsace,Anjou,Aquitaine,Auvergne,Auvergne-Rhône-Alpes,Beaujolais,Bordeaux,Bourgogne,Bourgogne Franche-Comté,Centre,Champagne,Corse,Franche-Comté,Jura,Loire,Midi-Pyrénées,Muscadet\/Vendée,Muscadet,Sud-ouest, sud-ouest,Anjou,Sud-Ouest,Languedoc,Roussillon,Provence,Rhône, Rhone,Savoie,Occitanie,Pays de Loire,Provence-Alpes-Côte d'Azur,Piemont,Toscane,Vénétie, Emile-Romagne, Sicile,Catalogne,Andalousie, Moselle,Rheinhessen,Bade,",
-    "cepages": "Abouriou,Albariño,Alicante,Aligoté,Altesse,Aramon,Aramon gris,Arbanne,Arinarnoa,Arinto,Arneis,Assyrtico,Aubun,Auxerrois,Baco Noir,Baga,Barbarossa,Barbera,Béclan,Bianco Gentile,Bical,Blaufränkisch,Boal,Bobal,Bonarda,Bouillet,Bourboulenc,Bouysselet,Braquet,Brun,Cabernet Cortis,Cabernet Franc,Cabernet Sauvignon,Caladoc,Carcajolo Noir,Carignan Blanc,Carignan Noir,Carmenère,Carricante,Castelão,Cataratto,César,Chardonnay,Chasan,Chasselas,Chenançon Noir,Chenin,Chinuri,Chkhaveri,Cinsault,Clairette Blanche,Clairette Rose,Colombard,Cornalin,Cortese,Corvina,Corvinone,Counoise Noire,Dolcetto,Doña Blanca,Douce noire (ou Bonarda),Duras,Enfariné,Espanenc,Etraire de la Dhuy,Fer Servadou\/Braucol\/Mansois,Fogoneu,Folle Blanche,Folle Noire,Forcallat,Forcallat,Frappato,Gamaret,Gamay d'Auvergne,Gamay de Bouze,Gamay,Garganega,Gewürztraminer,Glera,Godello,Gouais,Graciano,Grechetto,Grenache, Grenache noir,Grolleau Gris,Grolleau Noir,Gros Manseng,Grüner Veltliner,Hárslevelü,Humagne,Jacquère,Juhfark,Jurançon Noir,Kerner,Koshu,Liliorila,Listán,Lledoner Pelut,Loin de l'Oeil,Loureiro,Maccabeu,Malbec\/Côt (Loire)\/Auxerrois (Cahors),Malvazia (= Malmsey ou Furmint),Mantonegre,Manzoni Bianco,Marsanne,Marselan,Maturana tinta,Mauzac Blanc,Mauzac roux,Mavro,Melon,Melon à Queue Rouge,Mencia,Menu Pineau,Merlot,Mirefleurien,Mollard,Monastel de rioja,Mondeuse,Mondeuse Blanche,Mourvèdre,Muscadelle,Muscat à petit grain,Muscat de Hambourg,Muscat Ottonel,Nebbiolo,Negramol,Négrette,Nero d'Avola,Nibiô,Nielluccio,Nosiola,Ondenc blanc,Païs,Palomino,Parellada,Passerina,Pedro Ximenez,Persan,Petit Courbu,Petit Manseng,Petit Meslier,Petit Verdot,Petite Arvine,Petite Sirah,Picardan,Pineau d'Aunis,Pinot Blanc,Pinot Gris,Pinot Meunier,Pinot Noir,Pinotage,Piquepoul blanc,Piquepoul Noir,Portant,Poulsard,Ploussard,Prunelart,Ribolla Gialla,Riesling,Rivairenc,Robola,Rolle\/Vermentino,Romorantin,Rondinella,Roussanne,Ruché,Saint-Laurent,Sangiovese,Sauvignon Blanc,Sauvignon Gris,Savagnin,Savagnin Rose,Savagnin Vert,Sciacarello,Seibel 5455,Seibel 7053,Sémillon blanc,Sercial,Serine,Souvignier gris,Sumoll,Sylvaner,Syrah,Tannat,Tardana,Tempranillo,Teroldego,Terrantez,Terret blanc,Terret Gris,Terret noir,Tibouren,Tinta barroca,Tinta Negra Mole,Torrontes,Touriga francesa,Touriga Nacional,Trepat,Tressalier,Trousseau,Tsolikouri,Ugni Blanc,Valdiguié,Verdanel,Verdejo,Verdelho,Verdelho,Verdesse,Vidal,Viognier,Welschriesling,Xare-lo,Xynisteri,Zinfandel,Zweigelt,Tavkveri,Tsolikauri,Grignolino,Vaccarèse,vaccarèse",
-    "social_twitter_link": "https:\/\/twitter.com\/Vins_etonnants",
-    "social_facebook_link": "https:\/\/facebook.com\/vins-etonnants",
+    "regions": "Alsace,Anjou,Aquitaine,Auvergne,Auvergne-Rhône-Alpes,Beaujolais,Bordeaux,Bourgogne,Bourgogne Franche-Comté,Centre,Champagne,Corse,Franche-Comté,Jura,Loire,Midi-Pyrénées,Muscadet/Vendée,Muscadet,Sud-ouest, sud-ouest,Anjou,Sud-Ouest,Languedoc,Roussillon,Provence,Rhône, Rhone,Savoie,Occitanie,Pays de Loire,Provence-Alpes-Côte d'Azur,Piemont,Toscane,Vénétie, Emile-Romagne, Sicile,Catalogne,Andalousie, Moselle,Rheinhessen,Bade,",
+    "cepages": "Abouriou,Albariño,Alicante,Aligoté,Altesse,Aramon,Aramon gris,Arbanne,Arinarnoa,Arinto,Arneis,Assyrtico,Aubun,Auxerrois,Baco Noir,Baga,Barbarossa,Barbera,Béclan,Bianco Gentile,Bical,Blaufränkisch,Boal,Bobal,Bonarda,Bouillet,Bourboulenc,Bouysselet,Braquet,Brun,Cabernet Cortis,Cabernet Franc,Cabernet Sauvignon,Caladoc,Carcajolo Noir,Carignan Blanc,Carignan Noir,Carmenère,Carricante,Castelão,Cataratto,César,Chardonnay,Chasan,Chasselas,Chenançon Noir,Chenin,Chinuri,Chkhaveri,Cinsault,Clairette Blanche,Clairette Rose,Colombard,Cornalin,Cortese,Corvina,Corvinone,Counoise Noire,Dolcetto,Doña Blanca,Douce noire (ou Bonarda),Duras,Enfariné,Espanenc,Etraire de la Dhuy,Fer Servadou/Braucol/Mansois,Fogoneu,Folle Blanche,Folle Noire,Forcallat,Forcallat,Frappato,Gamaret,Gamay d'Auvergne,Gamay de Bouze,Gamay,Garganega,Gewürztraminer,Glera,Godello,Gouais,Graciano,Grechetto,Grenache, Grenache noir,Grolleau Gris,Grolleau Noir,Gros Manseng,Grüner Veltliner,Hárslevelü,Humagne,Jacquère,Juhfark,Jurançon Noir,Kerner,Koshu,Liliorila,Listán,Lledoner Pelut,Loin de l'Oeil,Loureiro,Maccabeu,Malbec/Côt (Loire)/Auxerrois (Cahors),Malvazia (= Malmsey ou Furmint),Mantonegre,Manzoni Bianco,Marsanne,Marselan,Maturana tinta,Mauzac Blanc,Mauzac roux,Mavro,Melon,Melon à Queue Rouge,Mencia,Menu Pineau,Merlot,Mirefleurien,Mollard,Monastel de rioja,Mondeuse,Mondeuse Blanche,Mourvèdre,Muscadelle,Muscat à petit grain,Muscat de Hambourg,Muscat Ottonel,Nebbiolo,Negramol,Négrette,Nero d'Avola,Nibiô,Nielluccio,Nosiola,Ondenc blanc,Païs,Palomino,Parellada,Passerina,Pedro Ximenez,Persan,Petit Courbu,Petit Manseng,Petit Meslier,Petit Verdot,Petite Arvine,Petite Sirah,Picardan,Pineau d'Aunis,Pinot Blanc,Pinot Gris,Pinot Meunier,Pinot Noir,Pinotage,Piquepoul blanc,Piquepoul Noir,Portant,Poulsard,Ploussard,Prunelart,Ribolla Gialla,Riesling,Rivairenc,Robola,Rolle/Vermentino,Romorantin,Rondinella,Roussanne,Ruché,Saint-Laurent,Sangiovese,Sauvignon Blanc,Sauvignon Gris,Savagnin,Savagnin Rose,Savagnin Vert,Sciacarello,Seibel 5455,Seibel 7053,Sémillon blanc,Sercial,Serine,Souvignier gris,Sumoll,Sylvaner,Syrah,Tannat,Tardana,Tempranillo,Teroldego,Terrantez,Terret blanc,Terret Gris,Terret noir,Tibouren,Tinta barroca,Tinta Negra Mole,Torrontes,Touriga francesa,Touriga Nacional,Trepat,Tressalier,Trousseau,Tsolikouri,Ugni Blanc,Valdiguié,Verdanel,Verdejo,Verdelho,Verdelho,Verdesse,Vidal,Viognier,Welschriesling,Xare-lo,Xynisteri,Zinfandel,Zweigelt,Tavkveri,Tsolikauri,Grignolino,Vaccarèse,vaccarèse",
+    "social_twitter_link": "https://twitter.com/Vins_etonnants",
+    "social_facebook_link": "https://facebook.com/vins-etonnants",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/vins.etonnants\/",
+    "social_instagram_link": "https://www.instagram.com/vins.etonnants/",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
-    "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/vins-etonnants\/?originalSubdomain=fr",
-    "favicon": "shopify:\/\/shop_images\/Image_e2b43d71-c18c-4201-b157-d591447f95df.png",
-    "account_image_1": "shopify:\/\/shop_images\/Sans-titre-1.jpg",
-    "account_image_2": "shopify:\/\/shop_images\/Banner-page-compte-client-2-desktop.jpg",
+    "social_linkedin_link": "https://www.linkedin.com/company/vins-etonnants/?originalSubdomain=fr",
+    "favicon": "shopify://shop_images/Image_e2b43d71-c18c-4201-b157-d591447f95df.png",
+    "account_image_1": "shopify://shop_images/Sans-titre-1.jpg",
+    "account_image_2": "shopify://shop_images/Banner-page-compte-client-2-desktop.jpg",
     "welcome_text_1": "Bienvenue dans votre espace personnel. Modifiez les informations de votre compte et accédez à l'historique de vos commandes.",
     "welcome_text_2": "Disponible prochainement : \nCumulez vos points pour débloquer des offres avantages livraison et accès en avant-première aux nouveautés",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Image_e2b43d71-c18c-4201-b157-d591447f95df.png",
+    "checkout_logo_image": "shopify://shop_images/Image_e2b43d71-c18c-4201-b157-d591447f95df.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
     "checkout_body_background_color": "#FFFFFF",
@@ -46,7 +46,7 @@
     "body_scale": 130,
     "cart_title": "PANIER",
     "cart_title_when_empty": "PANIER",
-    "logo_svg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0636\/1966\/2070\/files\/logo-simple.svg?v=1661947522",
+    "logo_svg": "https://cdn.shopify.com/s/files/1/0636/1966/2070/files/logo-simple.svg?v=1661947522",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
     "gradient_accent_1": "",
@@ -56,10 +56,10 @@
     "gradient_background_1": "",
     "colors_background_2": "#f3f3f3",
     "gradient_background_2": "",
-    "tag_france_image": "shopify:\/\/shop_images\/Frame_8305_1.png",
-    "tag_vegan_image": "shopify:\/\/shop_images\/Frame_8305_4.png",
-    "tag_no_animal_image": "shopify:\/\/shop_images\/Frame_8306.png",
-    "tag_mama_image": "shopify:\/\/shop_images\/Frame_8306_445e89a1-9209-40c5-933d-a187813c0a43.png",
+    "tag_france_image": "shopify://shop_images/Frame_8305_1.png",
+    "tag_vegan_image": "shopify://shop_images/Frame_8305_4.png",
+    "tag_no_animal_image": "shopify://shop_images/Frame_8306.png",
+    "tag_mama_image": "shopify://shop_images/Frame_8306_445e89a1-9209-40c5-933d-a187813c0a43.png",
     "page_width": 1200,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
@@ -132,7 +132,7 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
-    "aloe_image": "shopify:\/\/shop_images\/Frame_8305_1.png",
+    "aloe_image": "shopify://shop_images/Frame_8305_1.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -147,10 +147,10 @@
             "type": "megamenu",
             "settings": {
               "megamenu": "catalogue",
-              "featured_link_1": "shopify:\/\/collections\/all",
+              "featured_link_1": "shopify://collections/all",
               "featured_link_subtitle_1": "",
-              "featured_link_title_1": "<p>Vins rosés<\/p>",
-              "featured_link_2": "shopify:\/\/collections\/vins-roses-1",
+              "featured_link_title_1": "<p>Vins rosés</p>",
+              "featured_link_2": "shopify://collections/vins-roses-1",
               "featured_link_subtitle_2": "",
               "featured_link_title_2": "",
               "featured_link_3": "",
@@ -278,7 +278,7 @@
       "logo": {
         "type": "logo",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/Image_e2b43d71-c18c-4201-b157-d591447f95df.png",
+          "logo": "shopify://shop_images/Image_e2b43d71-c18c-4201-b157-d591447f95df.png",
           "logo_svg": ""
         }
       },
@@ -297,28 +297,28 @@
             "disabled": true,
             "settings": {
               "title": "🎁 Une bouteille offerte à partir de 65€",
-              "text": "<p>Une bouteille de la sélection du mois dans votre colis<\/p>"
+              "text": "<p>Une bouteille de la sélection du mois dans votre colis</p>"
             }
           },
           "1c9c5b5b-c1c9-4a69-9b95-8db25c19a069": {
             "type": "reassurances",
             "settings": {
-              "title": "🚚 Livraison prévue entre 6 et 9 jours",
-              "text": "<p>Expédition via TNT<\/p>"
+              "title": "🚚 Livraison prévue entre 2 et 5 jours",
+              "text": "<p>Expédition via TNT</p>"
             }
           },
           "5afa6dc1-80cf-4797-85cf-c5f99f7ad4c4": {
             "type": "reassurances",
             "settings": {
               "title": "Une sélection de vins d'auteurs",
-              "text": "<p>Des vins en provenance directe de producteurs français.<\/p>"
+              "text": "<p>Des vins en provenance directe de producteurs français.</p>"
             }
           },
           "c2a9e40e-f9db-41a7-8e3a-677fedbae8c9": {
             "type": "reassurances",
             "settings": {
               "title": "ApplePay et Paiement en 3x Klarna disponibles",
-              "text": "<p>ApplePay, Paiement en 3x Klarna, American Express disponibles <\/p>"
+              "text": "<p>ApplePay, Paiement en 3x Klarna, American Express disponibles </p>"
             }
           }
         },
@@ -332,7 +332,7 @@
         "settings": {
           "cart_title": "Panier",
           "show_counter": true,
-          "sub_total_text": "<p>📦 Livraison offerte dès 250€ à destination de la France, 400€ Benelux et Allemagne, 600€ sur la Scandinavie et l'Italie<\/p>",
+          "sub_total_text": "<p>📦 Livraison offerte dès 250€ à destination de la France, 400€ Benelux et Allemagne, 600€ sur la Scandinavie et l'Italie</p>",
           "validate_text": "Commander",
           "extra_text": "Code promo à l’étape suivante",
           "extra_text_2": "En cas de difficultés de livraison, nous vous invitons à nous contacter en priorité.",
@@ -383,7 +383,7 @@
           "61e4cda3-ed78-46cc-9422-807462a5864f": {
             "type": "link_list",
             "settings": {
-              "heading": "LIVRAISON \/ PAIEMENT \/ INFORMATIONS PRATIQUES",
+              "heading": "LIVRAISON / PAIEMENT / INFORMATIONS PRATIQUES",
               "menu": "livraisons-paiement-infos-pratiques"
             }
           }
@@ -397,11 +397,11 @@
         "settings": {
           "logo_svg": "",
           "title": "Les news étonnantes !",
-          "subtext": "<p>Pour rester informé de nos actualités et promotions,<\/p><p>nous vous invitons à nous transmettre votre adresse email <a href=\"https:\/\/app.monstercampaigns.com\/c\/nkwx9qhfge5hxzuo3as7\/\" target=\"_blank\" title=\"Lien pour s'inscrire à la Newsletter depuis le footer\"><strong>en cliquant ICI<\/strong><\/a><\/p>",
+          "subtext": "<p>Pour rester informé de nos actualités et promotions,</p><p>nous vous invitons à nous transmettre votre adresse email <a href=\"https://app.monstercampaigns.com/c/nkwx9qhfge5hxzuo3as7/\" target=\"_blank\" title=\"Lien pour s'inscrire à la Newsletter depuis le footer\"><strong>en cliquant ICI</strong></a></p>",
           "show_newsletter": false,
           "show_social": true,
-          "mention-legal": "<p>Siret 44439455500056 - Site déclaré sous le n°5\/R2003\/PUB au TGI Limoges ©Vins étonnants<\/p>",
-          "banner_legal": "shopify:\/\/shop_images\/18ans.png",
+          "mention-legal": "<p>Siret 44439455500056 - Site déclaré sous le n°5/R2003/PUB au TGI Limoges ©Vins étonnants</p>",
+          "banner_legal": "shopify://shop_images/18ans.png",
           "bg_color": "#201a1c",
           "color": "#ffffff"
         }
@@ -413,7 +413,7 @@
             "type": "block",
             "settings": {
               "svg": "",
-              "image": "shopify:\/\/shop_images\/reshot-icon-delivery-2KDHG9LVT4.svg",
+              "image": "shopify://shop_images/reshot-icon-delivery-2KDHG9LVT4.svg",
               "title": "Livraison express",
               "text_desktop": "En point relais ou à domicile sur toute l'Europe et au-delà!",
               "text_mobile": "En point relais ou à\ndomicile"
@@ -423,7 +423,7 @@
             "type": "block",
             "settings": {
               "svg": "",
-              "image": "shopify:\/\/shop_images\/reshot-icon-online-DRMW8Q5P32.svg",
+              "image": "shopify://shop_images/reshot-icon-online-DRMW8Q5P32.svg",
               "title": "Paiement sécurisé avec Mollie",
               "text_desktop": "CB, ApplePay, Paiement en 3 fois Klarna, Virement, Bancontact, CBC, Sofort, Giropay, iDEAL, EPS, Maestro, American Express, Belfius, Przlewy24,,...",
               "text_mobile": "CB, ApplePay, Paiement en 3 fois Klarna, Virement, Bancontact, CBC, Sofort, Giropay, iDEAL, EPS, Maestro, American Express, Belfius, Przlewy24,,..."
@@ -433,7 +433,7 @@
             "type": "block",
             "settings": {
               "svg": "",
-              "image": "shopify:\/\/shop_images\/reshot-icon-truck-EKYSUQ2CZW.svg",
+              "image": "shopify://shop_images/reshot-icon-truck-EKYSUQ2CZW.svg",
               "title": "Frais de port gratuits",
               "text_desktop": "A partir de 250 € d’achat pour la France continentale. A partir de 500 € pour l'Europe.",
               "text_mobile": "A partir de 250 € d’achat pour la France continentale. A partir de 500€ pour l'Europe."
@@ -443,7 +443,7 @@
             "type": "block",
             "settings": {
               "svg": "",
-              "image": "shopify:\/\/shop_images\/reshot-icon-phone-order-XPWNV8ZRDA.svg",
+              "image": "shopify://shop_images/reshot-icon-phone-order-XPWNV8ZRDA.svg",
               "title": "Une équipe à votre disposition",
               "text_desktop": "Notre équipe vous conseille \ndu lundi au vendredi <br>contact@vins-etonnants.com",
               "text_mobile": ""
@@ -478,40 +478,40 @@
           "1240356f-c0b2-4c54-b02a-3d1c1733276b": {
             "type": "mobile_band",
             "settings": {
-              "link": "shopify:\/\/collections\/promo-destockage",
-              "image": "shopify:\/\/shop_images\/telechargement_2.jpg",
-              "text": "Promo\/Déstockage"
+              "link": "shopify://collections/promo-destockage",
+              "image": "shopify://shop_images/telechargement_2.jpg",
+              "text": "Promo/Déstockage"
             }
           },
           "67a2964c-3336-41be-8d94-1e1688a4e810": {
             "type": "mobile_band",
             "settings": {
-              "link": "shopify:\/\/collections\/nouveautes",
-              "image": "shopify:\/\/shop_images\/telechargement_3.jpg",
+              "link": "shopify://collections/nouveautes",
+              "image": "shopify://shop_images/telechargement_3.jpg",
               "text": "Nouveautés"
             }
           },
           "eb1a9f2c-97da-4b41-9659-dcaf971c3beb": {
             "type": "mobile_band",
             "settings": {
-              "link": "shopify:\/\/collections\/vins-bio-1",
-              "image": "shopify:\/\/shop_images\/telechargement_3.png",
+              "link": "shopify://collections/vins-bio-1",
+              "image": "shopify://shop_images/telechargement_3.png",
               "text": "Nos vin bio certifiés"
             }
           },
           "339a7c2a-1173-4fff-a755-330b18bfde05": {
             "type": "mobile_band",
             "settings": {
-              "link": "shopify:\/\/collections\/sans-sulfites-ajoutes",
-              "image": "shopify:\/\/shop_images\/telechargement_5.png",
+              "link": "shopify://collections/sans-sulfites-ajoutes",
+              "image": "shopify://shop_images/telechargement_5.png",
               "text": "Sans sulfites ajoutés"
             }
           },
           "3f29f53f-6834-4e94-8c99-b7dd3804df8a": {
             "type": "mobile_band",
             "settings": {
-              "link": "shopify:\/\/collections\/vins-en-biodynamie",
-              "image": "shopify:\/\/shop_images\/images_1.jpg",
+              "link": "shopify://collections/vins-en-biodynamie",
+              "image": "shopify://shop_images/images_1.jpg",
               "text": "Vin en biodynamie"
             }
           }
@@ -535,19 +535,19 @@
     ],
     "blocks": {
       "18146506648094396618": {
-        "type": "shopify:\/\/apps\/langshop\/blocks\/sdk\/84899e01-2b29-42af-99d6-46d16daa2111",
+        "type": "shopify://apps/langshop/blocks/sdk/84899e01-2b29-42af-99d6-46d16daa2111",
         "disabled": false,
         "settings": {
         }
       },
       "10249797228608187657": {
-        "type": "shopify:\/\/apps\/ai-search-product-filter-sb\/blocks\/core\/45de52d0-b602-4c6e-aa3b-61524a251869",
+        "type": "shopify://apps/ai-search-product-filter-sb/blocks/core/45de52d0-b602-4c6e-aa3b-61524a251869",
         "disabled": false,
         "settings": {
         }
       },
       "14197025361042770389": {
-        "type": "shopify:\/\/apps\/wishlist-king\/blocks\/app-settings-main\/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+        "type": "shopify://apps/wishlist-king/blocks/app-settings-main/194f5011-a43c-4b22-b12e-eaf20dc4506a",
         "disabled": false,
         "settings": {
           "theme_preset": "dawn",
@@ -571,12 +571,12 @@
           "font_text_scale": 100,
           "access_mode": "UNRESTRICTED",
           "wishlist_mode": "PRODUCT",
-          "wishlist_path": "\/apps\/wishlist",
+          "wishlist_path": "/apps/wishlist",
           "money_show_currency_code": true
         }
       },
       "4139971114690857691": {
-        "type": "shopify:\/\/apps\/wishlist-king\/blocks\/wishlist-button-collection\/194f5011-a43c-4b22-b12e-eaf20dc4506a",
+        "type": "shopify://apps/wishlist-king/blocks/wishlist-button-collection/194f5011-a43c-4b22-b12e-eaf20dc4506a",
         "disabled": false,
         "settings": {
           "button_style": "plain_accent_1",
@@ -596,31 +596,31 @@
         }
       },
       "6241766537399994015": {
-        "type": "shopify:\/\/apps\/skeepers-ratings-reviews\/blocks\/brand-widget-block\/0cea8051-22ff-4d3e-b394-9a2721507c49",
+        "type": "shopify://apps/skeepers-ratings-reviews/blocks/brand-widget-block/0cea8051-22ff-4d3e-b394-9a2721507c49",
         "disabled": false,
         "settings": {
         }
       },
       "4526402582171286672": {
-        "type": "shopify:\/\/apps\/selly-promotion-pricing\/blocks\/app-embed-block\/351afe80-738d-4417-9b66-e345ff249052",
+        "type": "shopify://apps/selly-promotion-pricing/blocks/app-embed-block/351afe80-738d-4417-9b66-e345ff249052",
         "disabled": false,
         "settings": {
         }
       },
       "15351435345818755577": {
-        "type": "shopify:\/\/apps\/pandectes-gdpr-compliance\/blocks\/banner\/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "type": "shopify://apps/pandectes-gdpr-compliance/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
         "disabled": false,
         "settings": {
           "programmatic_inject": false
         }
       },
       "3953314366958760213": {
-        "type": "shopify:\/\/apps\/conversagent\/blocks\/gqa-embed\/9dcb9616-f02a-40f7-b434-36f4866f2140",
+        "type": "shopify://apps/conversagent/blocks/gqa-embed/9dcb9616-f02a-40f7-b434-36f4866f2140",
         "disabled": false,
         "settings": {
           "gqa_agentName": "Eric",
           "gqa_agentTagLine": "Le sommelier de Vins Etonnants",
-          "gqa_agentImg": "shopify:\/\/shop_images\/logo-vins2.png",
+          "gqa_agentImg": "shopify://shop_images/logo-vins2.png",
           "gqa_launchBottom": 10,
           "gqa_launchRight": 20,
           "gqa_isGreetingsEnabled": true,
@@ -640,7 +640,7 @@
         }
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
