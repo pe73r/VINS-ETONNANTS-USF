@@ -23,7 +23,7 @@
         "f798bfbf-f191-4238-afc1-18a73b6cbc35": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Livraison à partir de 9.50€ pour la France !</strong></p><p>Franco à 250€ de commande pour le France continentale et la Belgique. </p>",
+            "text": "<p><strong>Livraison pour le 31 déc assurée pour toute commande jusqu'au 26 décembre !</strong></p>",
             "url": "shopify://collections/promo-destockage"
           }
         },
@@ -94,11 +94,8 @@
         "c10225b9-5adb-4b58-a304-35952a9188b5",
         "d509c645-6424-4125-8dab-86765db8f855"
       ],
-      "custom_css": [
-
-      ],
-      "settings": {
-      }
+      "custom_css": [],
+      "settings": {}
     },
     "aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70": {
       "type": "marquee",
@@ -288,9 +285,7 @@
         "597a64e8-0135-4bc4-a1f5-3c99ba04cf2a",
         "319a33b3-1253-41dd-8239-26cd9e53c9ba"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "container": "7xl",
         "title": "Nos catégories",
