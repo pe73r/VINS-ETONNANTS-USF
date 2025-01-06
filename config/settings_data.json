@@ -456,9 +456,7 @@
           "def1b450-0a09-4f6f-a381-121033fc96e2",
           "fe310d27-2fae-4e6a-b658-13613bb25c68"
         ],
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "add_margin": 0,
           "header": "A votre service depuis 20 ans !",
@@ -530,21 +528,17 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "18146506648094396618": {
         "type": "shopify://apps/langshop/blocks/sdk/84899e01-2b29-42af-99d6-46d16daa2111",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "10249797228608187657": {
         "type": "shopify://apps/ai-search-product-filter-sb/blocks/core/45de52d0-b602-4c6e-aa3b-61524a251869",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "14197025361042770389": {
         "type": "shopify://apps/wishlist-king/blocks/app-settings-main/194f5011-a43c-4b22-b12e-eaf20dc4506a",
@@ -598,14 +592,12 @@
       "6241766537399994015": {
         "type": "shopify://apps/skeepers-ratings-reviews/blocks/brand-widget-block/0cea8051-22ff-4d3e-b394-9a2721507c49",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "4526402582171286672": {
         "type": "shopify://apps/selly-promotion-pricing/blocks/app-embed-block/351afe80-738d-4417-9b66-e345ff249052",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15351435345818755577": {
         "type": "shopify://apps/pandectes-gdpr-compliance/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
@@ -642,8 +634,12 @@
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "pagefly-page-builder": {
+        "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -755,15 +751,12 @@
         },
         "header": {
           "type": "header",
-          "settings": {
-          }
+          "settings": {}
         }
       }
     }
   },
   "platform_customizations": {
-    "custom_css": [
-
-    ]
+    "custom_css": []
   }
 }
