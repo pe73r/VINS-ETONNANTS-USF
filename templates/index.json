@@ -73,6 +73,12 @@
         "background_color": "#f84c55"
       }
     },
+    "pagefly_section_8tc4nH": {
+      "type": "pagefly-section",
+      "settings": {
+        "section_id": "pf-e687b872"
+      }
+    },
     "1663586369b92a04be": {
       "type": "slideshow",
       "blocks": {
@@ -112,6 +118,7 @@
         "c10225b9-5adb-4b58-a304-35952a9188b5",
         "d509c645-6424-4125-8dab-86765db8f855"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {}
     },
@@ -172,12 +179,6 @@
         "border": false,
         "text_color": "#ffffff",
         "background_color": "#201a1c"
-      }
-    },
-    "pagefly_section_8tc4nH": {
-      "type": "pagefly-section",
-      "settings": {
-        "section_id": "pf-e687b872"
       }
     },
     "7fac6255-7c16-4756-be15-19d6e6bb5a14": {
@@ -786,9 +787,9 @@
   },
   "order": [
     "16635875657e00a7a6",
+    "pagefly_section_8tc4nH",
     "1663586369b92a04be",
     "aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70",
-    "pagefly_section_8tc4nH",
     "7fac6255-7c16-4756-be15-19d6e6bb5a14",
     "ec1c9248-3ca2-483d-8370-8f7e3ce48d01",
     "banner_intro_wknBrq",
