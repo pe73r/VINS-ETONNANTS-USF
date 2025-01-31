@@ -640,6 +640,11 @@
         "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
         "settings": {}
+      },
+      "10795663293581873936": {
+        "type": "shopify://apps/optinmonster-email-popups/blocks/app-embed/1d1db336-1ecb-47db-ac8b-cf60cdf02822",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
