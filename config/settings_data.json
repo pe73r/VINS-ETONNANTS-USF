@@ -602,9 +602,7 @@
       "15351435345818755577": {
         "type": "shopify://apps/pandectes-gdpr-compliance/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
         "disabled": false,
-        "settings": {
-          "programmatic_inject": false
-        }
+        "settings": {}
       },
       "3953314366958760213": {
         "type": "shopify://apps/conversagent/blocks/gqa-embed/9dcb9616-f02a-40f7-b434-36f4866f2140",
@@ -643,6 +641,11 @@
       },
       "10795663293581873936": {
         "type": "shopify://apps/optinmonster-email-popups/blocks/app-embed/1d1db336-1ecb-47db-ac8b-cf60cdf02822",
+        "disabled": false,
+        "settings": {}
+      },
+      "15472879455061085326": {
+        "type": "shopify://apps/avada-order-limits/blocks/app-embed/d3021427-4f7b-49c8-8963-29d1d52b8956",
         "disabled": false,
         "settings": {}
       }
