@@ -459,7 +459,7 @@
         "custom_css": [],
         "settings": {
           "add_margin": 0,
-          "header": "A votre service depuis 23 ans !",
+          "header": "A votre service !",
           "bg_color": "#ffffff",
           "text_color": "#000000"
         }
