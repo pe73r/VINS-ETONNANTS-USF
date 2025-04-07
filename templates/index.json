@@ -333,35 +333,6 @@
         "color": "#ffffff"
       }
     },
-    "image_text_RXNggD": {
-      "type": "image-text",
-      "settings": {
-        "layout": "image_left",
-        "image": "shopify://shop_images/Blog_bonne_qualite.png",
-        "hide_image_mobile": true,
-        "subtitle": "",
-        "title": "Le Blog de Dégustation",
-        "text": "<p>✍️ Publications très régulières d'articles variés sur le vin. Un seul mot d'ordre : la <strong>SINCÉRITÉ</strong></p><p>👋 Dites adieu aux mauvaises surprises ! Avec plus de 6000 cuvées dégustées et décrites, trouvez le vin parfait pour vous !</p><p>🍷 Chaque semaine, nos nouveautés décryptées pour ne plus jamais manquer une pépite !</p><p>❤️ Nos domaines coups de coeur mis en avant pour partager notre passion des vins d'artisans</p>",
-        "subtitle_color": "#201a1c",
-        "title_color": "#f84c55",
-        "text_color": "#201a1c"
-      }
-    },
-    "59445fe2-2d28-4270-94b2-48f55adf293b": {
-      "type": "featured-blog-carousel",
-      "settings": {
-        "container": "7xl",
-        "blog": "blog-vins-etonnants",
-        "post_limit": 4,
-        "show_dots": false,
-        "heading": "Derniers articles",
-        "show_title": true,
-        "show_content": false,
-        "show_author": false,
-        "show_date": false,
-        "show_button": true
-      }
-    },
     "1db7442e-0ee1-495a-96a1-01f3969e95f2": {
       "type": "banner-intro",
       "settings": {
@@ -369,6 +340,16 @@
         "subtitle": "<p>L’aventure a commencé en 2003 avec une sélection de 12 cuvées singulières et l’envie de faire découvrir des vins différents. Depuis, notre catalogue s’est étoffé jour après jour pour proposer aujourd’hui plus de <strong>3 000 références</strong>, soigneusement choisies pour leur authenticité et leur capacité à créer une véritable émotion.</p><p>Notre nom, <strong>Vins Étonnants</strong>, reflète notre ADN : celui de dénicher des vins d’auteur, portés par des vignerons engagés, des terroirs vivants et des histoires fortes. Plus qu’une étiquette, nous cherchons un style, une âme, un moment de partage.</p><p>Envie d’en savoir plus sur notre histoire ?</p>",
         "cta": "En savoir plus",
         "ctaLink": "shopify://pages/a-propos",
+        "show_hr": true
+      }
+    },
+    "banner_intro_Y8KU4y": {
+      "type": "banner-intro",
+      "settings": {
+        "title": "Le Blog de Dégustation",
+        "subtitle": "<p>✍️ Publications très régulières d'articles variés sur le vin. Un seul mot d'ordre : la <strong>SINCÉRITÉ</strong></p><p>👋 Dites adieu aux mauvaises surprises ! Avec plus de 6000 cuvées dégustées et décrites, trouvez le vin parfait pour vous !</p><p>🍷 Chaque semaine, nos nouveautés décryptées pour ne plus jamais manquer une pépite !</p><p>❤️ Nos domaines coups de coeur mis en avant pour partager notre passion des vins d'artisans</p>",
+        "cta": "Le Blog de Dégustation",
+        "ctaLink": "shopify://blogs/blog-vins-etonnants",
         "show_hr": true
       }
     },
@@ -755,10 +736,9 @@
     "banner_intro_wknBrq",
     "products_carousel_NYjkJk",
     "4dc3e657-6ceb-433f-8455-055959184db0",
-    "a2af813b-b2b8-4547-ab03-9b058d70bbea",
     "1db7442e-0ee1-495a-96a1-01f3969e95f2",
-    "image_text_RXNggD",
-    "59445fe2-2d28-4270-94b2-48f55adf293b",
+    "a2af813b-b2b8-4547-ab03-9b058d70bbea",
+    "banner_intro_Y8KU4y",
     "704f44dd-a6c3-4bad-93ce-650afe5aedf6",
     "0fb03a6f-d8a5-42fb-9dd7-bf8e382aa9e8"
   ]
