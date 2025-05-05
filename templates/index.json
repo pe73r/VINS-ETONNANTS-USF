@@ -225,7 +225,7 @@
       "type": "products-carousel",
       "settings": {
         "container": "5xl",
-        "collection": "madone-les-vins-de-la",
+        "collection": "vins-bio-1",
         "limit": 6,
         "title": "Nos vins certifiés Agriculture Biologique",
         "collection_link": "Voir tout",
