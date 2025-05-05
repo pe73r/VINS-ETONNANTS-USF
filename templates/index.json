@@ -224,7 +224,7 @@
     "products_carousel_NYjkJk": {
       "type": "products-carousel",
       "settings": {
-        "container": "5xl",
+        "container": "7xl",
         "collection": "vins-bio-1",
         "limit": 6,
         "title": "Nos vins certifiés Agriculture Biologique",
