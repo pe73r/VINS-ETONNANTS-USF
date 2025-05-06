@@ -460,7 +460,7 @@
         "settings": {
           "add_margin": 0,
           "header": "A votre service !",
-          "bg_color": "#ffffff",
+          "bg_color": "#f8f2e7",
           "text_color": "#000000"
         }
       },
