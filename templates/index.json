@@ -241,7 +241,7 @@
         "3075a099-7546-41fa-96d5-985af6994d04": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/2.jpg",
+            "image": "shopify://shop_images/1_529ffcb1-cc26-41e1-bbc8-4f94403244ee.png",
             "title": "Vins rouges",
             "collection_link": "Je découvre",
             "url": "shopify://collections/vins-rouges"
@@ -250,7 +250,7 @@
         "b85bcbca-29d6-48aa-b0bb-c0c9ccfd33cb": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/4.jpg",
+            "image": "shopify://shop_images/2_b16bb7db-575e-4057-a198-11e3067a6dec.png",
             "title": "Vins blancs",
             "collection_link": "Je découvre",
             "url": "shopify://collections/vins-blancs-et-oranges-1"
@@ -259,7 +259,7 @@
         "597a64e8-0135-4bc4-a1f5-3c99ba04cf2a": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Free_Photo___Two_festive_champagne_glasses_celebration.jpg",
+            "image": "shopify://shop_images/3_ce36b6bd-14cd-4c88-9384-9266b451c898.png",
             "title": "Vins pétillants",
             "collection_link": "Je découvre",
             "url": "shopify://collections/vins-effervescents"
@@ -268,8 +268,8 @@
         "319a33b3-1253-41dd-8239-26cd9e53c9ba": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/Red_Bold_Modern_Typography_Special_Menu_Promo_Instagram_Story_1.png",
-            "title": "",
+            "image": "shopify://shop_images/En-tete.png",
+            "title": "Nos promotions",
             "collection_link": "Je découvre",
             "url": "shopify://collections/promo-destockage"
           }
@@ -290,7 +290,7 @@
         "show_title": true,
         "show_arrows": false,
         "show_dots": false,
-        "color": "#ffffff"
+        "color": "#201a1c"
       }
     },
     "1db7442e-0ee1-495a-96a1-01f3969e95f2": {
