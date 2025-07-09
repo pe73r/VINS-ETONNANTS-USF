@@ -679,6 +679,7 @@
         "78a8b961-1c4c-4f26-b03d-a567f36ae6fa",
         "37777968-9954-4db6-85f6-813de32c1acf"
       ],
+      "disabled": true,
       "settings": {
         "animationDuration": 80,
         "height": "110px",
