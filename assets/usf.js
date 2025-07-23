@@ -8729,6 +8729,6 @@ function _usfAddToCart(e, callback) {
 })();
 
 /* Begin plugin code */
-!function(){usf.plugins.push({render_searchResultsProductWishList(e,s,r,i){var t=r.product;return s("div",{class:"usf-wishlist-king",attrs:{"data-id":t.id},domProps:{innerHTML:usf.utils.getMetafield(t,"judgeme","badge").replace(/\|/g,'"')}})}}),usf.event.raise("rerender")}();
+!function(){usf.plugins.push({render_searchResultsProductWishList(s,i,t,e){var r,n=t.product;return i("div",{class:"usf-wishlist-king",attrs:{"data-id":n.id},domProps:{innerHTML:(r=n.id,`\x3c!-- include 'wishlist-button-collection' with '${r}' --\x3e`)}})}}),usf.event.raise("rerender")}();
 
 /* End plugin code */
