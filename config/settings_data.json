@@ -459,7 +459,7 @@
         "custom_css": [],
         "settings": {
           "add_margin": 0,
-          "header": "A votre service !",
+          "header": "À votre service !",
           "bg_color": "#f8f2e7",
           "text_color": "#000000"
         }
