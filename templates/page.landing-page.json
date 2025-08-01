@@ -11,10 +11,71 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+        "display_page_title": false,
+        "display_page_content": false
+      }
+    },
+    "image_banner_kTiVEA": {
+      "type": "image-banner",
+      "name": "Image Banner",
+      "settings": {
+        "container": "full"
+      }
+    },
+    "page_banner_9Ug3Wq": {
+      "type": "page-banner",
+      "name": "Page banner",
+      "settings": {
+        "show_breadcrumbs": true,
+        "title": "Vins Étonnants rejoint Les Grappes : Tout ce que vous devez savoir !",
+        "text": "<p>Vins Étonnant, c’est une histoire de découvertes, de coups de cœur, et surtout, une passion intacte pour les<strong>vins atypiques et les vignerons engagés.Depuis 2023</strong>, cette aventure continue au sein de <strong>Les Grappes</strong>, le site référent du vin en direct des vignerons.<br/>Un groupe que nous avons rejoint pour porter encore plus loin notre mission : soutenir les vignerons indépendants, défendre une viticulture engagée, et faire découvrir des vins sincères.<br/><br/>Aujourd’hui, nous franchissons une nouvelle étape :<strong>le site Vins Étonnants fermera ses portes le 8 septembre 2025.</strong>Vous serez alors automatiquement redirigé(e) vers le site Les Grappes, où l’esprit de Vins Étonnants continue de vivre,<br/>enrichi d’une nouvelle dynamique.</p>",
+        "more_text": ""
+      }
+    },
+    "faq_TPKgRF": {
+      "type": "faq",
+      "blocks": {
+        "block_yAcMmC": {
+          "type": "block",
+          "settings": {
+            "question": "Est-ce que cette poudre est vegan ?",
+            "answer": "Non, cette poudre n'est pas vegan car nous avons mis du collagène marin issu de poissons."
+          }
+        },
+        "block_d7AKCw": {
+          "type": "block",
+          "settings": {
+            "question": "Est-ce que cette poudre est vegan ?",
+            "answer": "Non, cette poudre n'est pas vegan car nous avons mis du collagène marin issu de poissons."
+          }
+        },
+        "block_7Q9BUj": {
+          "type": "block",
+          "settings": {
+            "question": "Est-ce que cette poudre est vegan ?",
+            "answer": "Non, cette poudre n'est pas vegan car nous avons mis du collagène marin issu de poissons."
+          }
+        }
+      },
+      "block_order": [
+        "block_yAcMmC",
+        "block_d7AKCw",
+        "block_7Q9BUj"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "title": "FAQ",
+        "title_color": "#201A1C",
+        "title_accordion_color": "#201A1C",
+        "content_accordion_color": "#201A1C"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_kTiVEA",
+    "page_banner_9Ug3Wq",
+    "faq_TPKgRF"
   ]
 }
