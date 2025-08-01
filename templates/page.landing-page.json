@@ -50,7 +50,7 @@
         "hide_image_mobile": false,
         "subtitle": "",
         "title": "Ce qui change ?",
-        "text": "<ul><li>Le nom Vins Étonnants va disparaître, mais son ADN et ses valeurs perdurent chez les Grappes ! </li><li>Vous allez découvrir de nouvelles cuvées, sélectionnées, sourcées avec soin par <strong>notre équipe Experts Vin les Grappes.</strong></li><li><strong>Le site actuel fermera le 8 septembre 2025</strong> – vous serez automatiquement redirigé(e) vers <a href=\"https://www.lesgrappes.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">www.lesgrappes.com</span></a>.</li></ul>",
+        "text": "<p>- Le nom Vins Étonnants va disparaître, mais son ADN et ses valeurs perdurent chez les Grappes ! </p><p>- Vous allez découvrir de nouvelles cuvées, sélectionnées, sourcées avec soin par <strong>notre équipe Experts Vin les Grappes.</strong></p><p>-<strong> Le site actuel fermera le 8 septembre 2025</strong> – vous serez automatiquement redirigé(e) vers <a href=\"https://www.lesgrappes.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">www.lesgrappes.com</span></a>.</p>",
         "subtitle_color": "#000000",
         "title_color": "#000000",
         "text_color": "#000000"
@@ -65,7 +65,7 @@
         "hide_image_mobile": false,
         "subtitle": "",
         "title": "Ce qui ne change pas !",
-        "text": "<ul><li>Vous retrouvez <strong>l’historique de vos commandes </strong></li><li><strong>Vos cuvées favorites restent disponibles</strong>, dans un onglet dédié </li><li>Des vignerons indépendants triés sur le volet </li><li>Les <strong>prix</strong>, les<strong> notes de dégustations </strong>et les mises en avant </li><li>Un<strong> service de livraison rapide</strong> et en direct de notre entrepôt à Mâcon </li><li>Un service client à votre écoute </li></ul>",
+        "text": "<p>- Vous retrouvez <strong>l’historique de vos commandes </strong></p><p>- <strong>Vos cuvées favorites restent disponibles</strong>, dans un onglet dédié </p><p>- Des vignerons indépendants triés sur le volet </p><p>- Les <strong>prix</strong>, les<strong> notes de dégustations </strong>et les mises en avant </p><p>- Un<strong> service de livraison rapide</strong> et en direct de notre entrepôt à Mâcon </p><p>- Un service client à votre écoute </p>",
         "subtitle_color": "#000000",
         "title_color": "#000000",
         "text_color": "#000000"
