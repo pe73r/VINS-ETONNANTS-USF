@@ -20,7 +20,7 @@
       "type": "page-banner",
       "name": "Page banner",
       "settings": {
-        "show_breadcrumbs": true,
+        "show_breadcrumbs": false,
         "title": "Vins Étonnants rejoint Les Grappes :                   tout ce que vous devez savoir !",
         "text": "<p>Vins Étonnant, c’est une histoire de découvertes, de coups de cœur, et surtout, une passion intacte pour les <strong>vins atypiques et les vignerons engagés.  </strong></p><p></p><p><strong>Depuis 2023</strong>, cette aventure continue au sein de<strong> Les Grappes</strong>, le site référent du vin en direct des vignerons. Un groupe que nous avons rejoint pour<strong> porter encore plus loin notre mission</strong> : soutenir les vignerons indépendants, défendre une viticulture engagée, et faire découvrir des vins sincères. </p><p></p><p>Aujourd’hui, nous franchissons une nouvelle étape :<strong> le site Vins Étonnants fermera ses portes le 8 septembre 2025.</strong> Vous serez alors automatiquement redirigé(e) vers le site Les Grappes, où l’esprit de Vins Étonnants continue de vivre, enrichi d’une nouvelle dynamique. </p>",
         "more_text": ""
