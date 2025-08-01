@@ -31,7 +31,7 @@
       "name": "Image Text",
       "settings": {
         "layout": "image_right",
-        "image": "shopify://shop_images/43.png",
+        "image": "shopify://shop_images/PC_-_Vignette_Carre.png",
         "hide_image_mobile": false,
         "subtitle": "",
         "title": "Pourquoi ce changement ?",
@@ -46,7 +46,7 @@
       "name": "Image Text",
       "settings": {
         "layout": "image_left",
-        "image": "shopify://shop_images/44.png",
+        "image": "shopify://shop_images/PC_-_Vignette_Carre_2.png",
         "hide_image_mobile": false,
         "subtitle": "",
         "title": "Ce qui change ?",
@@ -61,7 +61,7 @@
       "name": "Image Text",
       "settings": {
         "layout": "image_right",
-        "image": "shopify://shop_images/45.png",
+        "image": "shopify://shop_images/PC_-_Vignette_Carre_1.png",
         "hide_image_mobile": false,
         "subtitle": "",
         "title": "Ce qui ne change pas !",
