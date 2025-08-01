@@ -16,26 +16,82 @@
         "display_page_content": false
       }
     },
-    "image_banner_kTiVEA": {
-      "type": "image-banner",
-      "name": "Image Banner",
-      "settings": {
-        "container": "full"
-      }
-    },
     "page_banner_9Ug3Wq": {
       "type": "page-banner",
       "name": "Page banner",
       "settings": {
         "show_breadcrumbs": true,
         "title": "Vins Étonnants rejoint Les Grappes :                   Tout ce que vous devez savoir !",
-        "text": "<p>Vins Étonnant, c’est une histoire de découvertes, de coups de cœur, et surtout, une passion intacte pour les<strong>vins atypiques et les vignerons engagés.Depuis 2023</strong>, cette aventure continue au sein de <strong>Les Grappes</strong>, le site référent du vin en direct des vignerons.<br/>Un groupe que nous avons rejoint pour porter encore plus loin notre mission : soutenir les vignerons indépendants, défendre une viticulture engagée, et faire découvrir des vins sincères.<br/><br/>Aujourd’hui, nous franchissons une nouvelle étape :<strong>le site Vins Étonnants fermera ses portes le 8 septembre 2025.</strong>Vous serez alors automatiquement redirigé(e) vers le site Les Grappes, où l’esprit de Vins Étonnants continue de vivre,<br/>enrichi d’une nouvelle dynamique.</p>",
+        "text": "<p>Vins Étonnant, c’est une histoire de découvertes, de coups de cœur, et surtout, une passion intacte pour les vins atypiques et les vignerons engagés.  </p><p>Depuis 2023, cette aventure continue au sein de Les Grappes, le site référent du vin en direct des vignerons. Un groupe que nous avons rejoint pour porter encore plus loin notre mission : soutenir les vignerons indépendants, défendre une viticulture engagée, et faire découvrir des vins sincères. </p><p>Aujourd’hui, nous franchissons une nouvelle étape : le site Vins Étonnants fermera ses portes le 8 septembre 2025. Vous serez alors automatiquement redirigé(e) vers le site Les Grappes, où l’esprit de Vins Étonnants continue de vivre, enrichi d’une nouvelle dynamique. </p>",
         "more_text": ""
+      }
+    },
+    "image_text_mw7BXT": {
+      "type": "image-text",
+      "name": "Image Text",
+      "settings": {
+        "layout": "image_right",
+        "hide_image_mobile": false,
+        "subtitle": "",
+        "title": "Pourquoi ce changement ?",
+        "text": "<p>Ce rapprochement avec Les Grappes nous permet de vous offrir une expérience plus fluide et plus simple, sur un site unique entièrement repensé. Il marque aussi l’ouverture à une offre plus riche, combinant le meilleur des sélections Vins Étonnants et Les Grappes.</p><p>Vous y retrouverez des cuvées toujours aussi engagées, bio, nature, en conversion, artisanales, mises en avant dans un parcours de navigation repensé, avec des conseils réguliers et un blog nourri d’inspirations.</p>",
+        "subtitle_color": "#000000",
+        "title_color": "#000000",
+        "text_color": "#000000"
+      }
+    },
+    "image_text_39cDWk": {
+      "type": "image-text",
+      "name": "Image Text",
+      "settings": {
+        "layout": "image_left",
+        "hide_image_mobile": false,
+        "subtitle": "",
+        "title": "Ce qui change ?",
+        "text": "<p> Le nom Vins Étonnants va disparaître, mais son ADN et ses valeurs perdurent chez les Grappes ! </p><p>Vous allez découvrir de nouvelles cuvées, sélectionnées, sourcées avec soin par notre équipe Experts Vin les Grappes </p><p>Le site actuel fermera le 8 août 2025 – vous serez automatiquement redirigé(e) vers <a href=\"https://www.lesgrappes.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">www.lesgrappes.com</span></a>  </p>",
+        "subtitle_color": "#000000",
+        "title_color": "#000000",
+        "text_color": "#000000"
+      }
+    },
+    "image_text_WPjhLb": {
+      "type": "image-text",
+      "name": "Image Text",
+      "settings": {
+        "layout": "image_right",
+        "hide_image_mobile": false,
+        "subtitle": "",
+        "title": "Ce qui ne change pas !",
+        "text": "<p>Vous retrouvez l’historique de vos commandes </p><p>Vos cuvées favorites restent disponibles, dans un onglet dédié </p><p>Des vignerons indépendants triés sur le volet </p><p>Les prix, les notes de dégustations et les mises en avant </p><p>Un service de livraison rapide et en direct de notre entrepôt à Mâcon </p><p>Un service client à votre écoute </p>",
+        "subtitle_color": "#000000",
+        "title_color": "#000000",
+        "text_color": "#000000"
+      }
+    },
+    "rich_text_expandable_wCWgUd": {
+      "type": "rich-text-expandable",
+      "name": "Rich Text Expandable",
+      "settings": {
+        "text_color": "#000000",
+        "title": "On reste à votre disposition",
+        "text": "<p>Une question ? Besoin d’aide pour passer votre prochaine commande ?  </p><p>Contactez-nous par mail : contact@vins-etonnants.com </p><p>Ou par téléphone au : 01 89 71 70 03   </p>",
+        "more_text": "",
+        "text_mobile": "",
+        "more_text_mobile": "",
+        "text_link": "",
+        "text_less": ""
       }
     },
     "faq_TPKgRF": {
       "type": "faq",
       "blocks": {
+        "block_CtWjmf": {
+          "type": "block",
+          "settings": {
+            "question": "Quand le site Vins Étonnants fermera-t-il ?  ",
+            "answer": "Le site actuel fermera le 8 septembre 2025. Après cette date, vous serez redirigé(e) automatiquement vers www.lesgrappes.com, où vous retrouverez dans un onglet dédié toute la sélection Vins Étonnants.  "
+          }
+        },
         "block_yAcMmC": {
           "type": "block",
           "settings": {
@@ -59,6 +115,7 @@
         }
       },
       "block_order": [
+        "block_CtWjmf",
         "block_yAcMmC",
         "block_d7AKCw",
         "block_7Q9BUj"
@@ -66,16 +123,19 @@
       "name": "FAQ",
       "settings": {
         "title": "FAQ",
-        "title_color": "#201A1C",
-        "title_accordion_color": "#201A1C",
-        "content_accordion_color": "#201A1C"
+        "title_color": "#000000",
+        "title_accordion_color": "#000000",
+        "content_accordion_color": "#000000"
       }
     }
   },
   "order": [
     "main",
-    "image_banner_kTiVEA",
     "page_banner_9Ug3Wq",
+    "image_text_mw7BXT",
+    "image_text_39cDWk",
+    "image_text_WPjhLb",
+    "rich_text_expandable_wCWgUd",
     "faq_TPKgRF"
   ]
 }
