@@ -95,22 +95,43 @@
         "block_yAcMmC": {
           "type": "block",
           "settings": {
-            "question": "Est-ce que cette poudre est vegan ?",
-            "answer": "Non, cette poudre n'est pas vegan car nous avons mis du collagène marin issu de poissons."
+            "question": "Retrouverai-je mes cuvées favorites ? ",
+            "answer": "Oui, absolument. Les vins que vous connaissez et appréciez sur Vins Étonnants seront toujours disponibles sur le nouveau site Les Grappes. La sélection ne change pas. "
           }
         },
         "block_d7AKCw": {
           "type": "block",
           "settings": {
-            "question": "Est-ce que cette poudre est vegan ?",
-            "answer": "Non, cette poudre n'est pas vegan car nous avons mis du collagène marin issu de poissons."
+            "question": "Comment retrouver facilement les cuvées Vins Étonnants sur Les Grappes ? ",
+            "answer": "Un onglet dédié sera mis en place sur le site Les Grappes pour retrouver tous les vins issus de notre sélection. Vous pourrez utiliser des filtres par vigneron, région, vin pour retrouver vos domaines favoris. "
           }
         },
         "block_7Q9BUj": {
           "type": "block",
           "settings": {
-            "question": "Est-ce que cette poudre est vegan ?",
-            "answer": "Non, cette poudre n'est pas vegan car nous avons mis du collagène marin issu de poissons."
+            "question": "Et mon compte client ? ",
+            "answer": "Votre compte client sera conservé lors de la migration. Vous pourrez y accéder par le biais d'un code envoyé sur votre boîte mail"
+          }
+        },
+        "block_RnkMDJ": {
+          "type": "block",
+          "settings": {
+            "question": "Mes anciennes commandes seront-elles visibles sur mon espace client ? ",
+            "answer": "Votre historique de commandes sera visible sur votre espace client du nouveau site. "
+          }
+        },
+        "block_RmynM9": {
+          "type": "block",
+          "settings": {
+            "question": "Est-ce que le service de livraison évolue ? ",
+            "answer": "Non, vous bénéficierez toujours d’une livraison rapide et fiable depuis notre entrepôt situé à Mâcon. Nous continuons à travailler avec nos partenaires logistiques habituels. "
+          }
+        },
+        "block_gznPJg": {
+          "type": "block",
+          "settings": {
+            "question": "Qui contacter en cas de question ? ",
+            "answer": "Notre équipe SAV reste à votre écoute, à l’adresse contact@vins-etonnants.com ou par téléphone au 01 89 71 70 03   "
           }
         }
       },
@@ -118,7 +139,10 @@
         "block_CtWjmf",
         "block_yAcMmC",
         "block_d7AKCw",
-        "block_7Q9BUj"
+        "block_7Q9BUj",
+        "block_RnkMDJ",
+        "block_RmynM9",
+        "block_gznPJg"
       ],
       "name": "FAQ",
       "settings": {
