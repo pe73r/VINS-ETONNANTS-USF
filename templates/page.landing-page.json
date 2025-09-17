@@ -50,7 +50,7 @@
         "hide_image_mobile": false,
         "subtitle": "",
         "title": "Ce qui change ?",
-        "text": "<p>- Le nom Vins Étonnants va disparaître, mais son ADN et ses valeurs perdurent chez les Grappes ! </p><p>- Vous allez découvrir de nouvelles cuvées, sélectionnées, sourcées avec soin par <strong>notre équipe Experts Vin les Grappes.</strong></p><p>-<strong> Le site actuel fermera le 8 septembre 2025</strong> – vous serez automatiquement redirigé(e) vers <a href=\"https://www.lesgrappes.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">www.lesgrappes.com</span></a>.</p>",
+        "text": "<p>- Le nom Vins Étonnants va disparaître, mais son ADN et ses valeurs perdurent chez les Grappes ! </p><p>- Vous allez découvrir de nouvelles cuvées, sélectionnées, sourcées avec soin par <strong>notre équipe Experts Vin les Grappes.</strong></p><p>-<strong> Le site actuel fermera le 1er octobre 2025</strong> – vous serez automatiquement redirigé(e) vers <a href=\"https://www.lesgrappes.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">www.lesgrappes.com</span></a>.</p>",
         "subtitle_color": "#000000",
         "title_color": "#000000",
         "text_color": "#000000"
@@ -92,7 +92,7 @@
           "type": "block",
           "settings": {
             "question": "Quand le site Vins Étonnants fermera-t-il ?  ",
-            "answer": "Le site actuel fermera le 8 septembre 2025. Après cette date, vous serez redirigé(e) automatiquement vers www.lesgrappes.com, où vous retrouverez dans un onglet dédié toute la sélection Vins Étonnants.  "
+            "answer": "Le site actuel fermera le 1er octobre 2025. Après cette date, vous serez redirigé(e) automatiquement vers www.lesgrappes.com, où vous retrouverez dans un onglet dédié toute la sélection Vins Étonnants.  "
           }
         },
         "block_yAcMmC": {
