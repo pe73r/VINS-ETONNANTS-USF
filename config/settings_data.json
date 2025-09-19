@@ -258,6 +258,9 @@
           "megamenu_QwgY6p",
           "megamenu_F4kG3c"
         ],
+        "custom_css": [
+          "a[href=\"/collections/destockage-massif\"] {font-weight: bold; color: #e94d58;}"
+        ],
         "settings": {
           "sticky_header": true,
           "dynamic_header": true,
@@ -611,6 +614,8 @@
           "gqa_agentName": "Eric",
           "gqa_agentTagLine": "Le sommelier de Vins Etonnants",
           "gqa_agentImg": "shopify://shop_images/logo-vins2.png",
+          "gqa_theme_badgeBg": "#f84c55",
+          "gqa_theme_badgeIconColor": "#000000",
           "gqa_launchBottom": 10,
           "gqa_launchRight": 20,
           "gqa_isGreetingsEnabled": true,
@@ -623,10 +628,7 @@
           "gqa_theme_msgBubbleAgentTextColor": "#000000",
           "gqa_theme_headerBg": "#f84c55",
           "gqa_theme_headerTextColor": "#ffffff",
-          "gqa_theme_badgeBg": "#f84c55",
-          "gqa_theme_badgeIconColor": "#000000",
-          "gqa_customCSS": "",
-          "gqa_customJS": ""
+          "gqa_customCSS": ""
         }
       },
       "855628211100114053": {
