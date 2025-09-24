@@ -275,7 +275,7 @@
           "megamenu_F4kG3c"
         ],
         "custom_css": [
-          ".header__menu-item a[aria-label=\"Foire aux Vins\"] {font-weight: 700; color: #000 !important;}"
+          "nav a[href=\"https://vins-etonnants.com/collections/les-allocations\"]{font-weight: 700 !important; color: #000 !important;}"
         ],
         "settings": {
           "sticky_header": true,

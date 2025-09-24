@@ -75,6 +75,7 @@
     },
     "pagefly_section_8tc4nH": {
       "type": "pagefly-section",
+      "custom_css": [],
       "settings": {
         "section_id": "pf-e687b872"
       }
