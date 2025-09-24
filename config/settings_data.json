@@ -274,9 +274,7 @@
           "megamenu_QwgY6p",
           "megamenu_F4kG3c"
         ],
-        "custom_css": [
-          "a[href=\"/collections/destockage-massif\"] {font-weight: bold; color: #e94d58;}"
-        ],
+        "custom_css": [],
         "settings": {
           "sticky_header": true,
           "dynamic_header": true,
