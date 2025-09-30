@@ -209,26 +209,26 @@
         "show_hr": true
       }
     },
-    "products_carousel_NYjkJk": {
+    "products_carousel_kWhxif": {
       "type": "products-carousel",
       "settings": {
         "container": "5xl",
-        "collection": "vins-bio-1",
-        "limit": 10,
-        "title": "Certifiés Agriculture Biologique !",
+        "collection": "les-allocations",
+        "limit": 8,
+        "title": "Nos vins sous allocations",
         "collection_link": "Voir tout",
-        "url": "shopify://collections/vins-bio-1",
+        "url": "shopify://collections/les-allocations",
         "show_secondary_image": false,
         "show_arrows": true,
         "show_dots": false
       }
     },
-    "products_carousel_kWhxif": {
+    "products_carousel_PaCcT3": {
       "type": "products-carousel",
       "settings": {
         "container": "5xl",
         "collection": "sans-sulfites-ajoutes",
-        "limit": 10,
+        "limit": 8,
         "title": "Nos vins sans sulfites ajoutés",
         "collection_link": "Voir tout",
         "url": "shopify://collections/sans-sulfites-ajoutes",
@@ -293,6 +293,20 @@
         "show_arrows": false,
         "show_dots": false,
         "color": "#201a1c"
+      }
+    },
+    "products_carousel_NYjkJk": {
+      "type": "products-carousel",
+      "settings": {
+        "container": "5xl",
+        "collection": "vins-bio-1",
+        "limit": 8,
+        "title": "Certifiés Agriculture Biologique !",
+        "collection_link": "Voir tout",
+        "url": "shopify://collections/vins-bio-1",
+        "show_secondary_image": false,
+        "show_arrows": true,
+        "show_dots": false
       }
     },
     "1db7442e-0ee1-495a-96a1-01f3969e95f2": {
@@ -736,9 +750,10 @@
     "aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70",
     "ec1c9248-3ca2-483d-8370-8f7e3ce48d01",
     "banner_intro_wknBrq",
-    "products_carousel_NYjkJk",
     "products_carousel_kWhxif",
+    "products_carousel_PaCcT3",
     "4dc3e657-6ceb-433f-8455-055959184db0",
+    "products_carousel_NYjkJk",
     "1db7442e-0ee1-495a-96a1-01f3969e95f2",
     "a2af813b-b2b8-4547-ab03-9b058d70bbea",
     "banner_intro_Y8KU4y",
