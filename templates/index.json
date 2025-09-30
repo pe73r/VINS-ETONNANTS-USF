@@ -227,7 +227,7 @@
       "type": "products-carousel",
       "settings": {
         "container": "5xl",
-        "collection": "vins-bio-1",
+        "collection": "sans-sulfites-ajoutes",
         "limit": 10,
         "title": "Nos vins sans sulfites ajoutés",
         "collection_link": "Voir tout",
