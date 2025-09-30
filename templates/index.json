@@ -215,7 +215,7 @@
         "container": "5xl",
         "collection": "les-allocations",
         "limit": 8,
-        "title": "Nos vins sous allocations",
+        "title": "Les allocations",
         "collection_link": "Voir tout",
         "url": "shopify://collections/les-allocations",
         "show_secondary_image": false,
