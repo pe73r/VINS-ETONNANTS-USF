@@ -183,20 +183,6 @@
         "background_color": "#f84c55"
       }
     },
-    "7fac6255-7c16-4756-be15-19d6e6bb5a14": {
-      "type": "products-carousel",
-      "settings": {
-        "container": "7xl",
-        "collection": "promo-destockage",
-        "limit": 6,
-        "title": "Nos promos en cours",
-        "collection_link": "Voir tout",
-        "url": "shopify://collections/promo-destockage",
-        "show_secondary_image": false,
-        "show_arrows": true,
-        "show_dots": false
-      }
-    },
     "ec1c9248-3ca2-483d-8370-8f7e3ce48d01": {
       "type": "products-carousel",
       "disabled": true,
@@ -226,12 +212,26 @@
     "products_carousel_NYjkJk": {
       "type": "products-carousel",
       "settings": {
-        "container": "7xl",
+        "container": "5xl",
         "collection": "vins-bio-1",
-        "limit": 6,
-        "title": "Nos vins certifiés Agriculture Biologique",
+        "limit": 10,
+        "title": "Certifiés Agriculture Biologique !",
         "collection_link": "Voir tout",
         "url": "shopify://collections/vins-bio-1",
+        "show_secondary_image": false,
+        "show_arrows": true,
+        "show_dots": false
+      }
+    },
+    "products_carousel_kWhxif": {
+      "type": "products-carousel",
+      "settings": {
+        "container": "5xl",
+        "collection": "vins-bio-1",
+        "limit": 10,
+        "title": "Nos vins sans sulfites ajoutés",
+        "collection_link": "Voir tout",
+        "url": "shopify://collections/sans-sulfites-ajoutes",
         "show_secondary_image": false,
         "show_arrows": true,
         "show_dots": false
@@ -734,10 +734,10 @@
     "pagefly_section_8tc4nH",
     "1663586369b92a04be",
     "aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70",
-    "7fac6255-7c16-4756-be15-19d6e6bb5a14",
     "ec1c9248-3ca2-483d-8370-8f7e3ce48d01",
     "banner_intro_wknBrq",
     "products_carousel_NYjkJk",
+    "products_carousel_kWhxif",
     "4dc3e657-6ceb-433f-8455-055959184db0",
     "1db7442e-0ee1-495a-96a1-01f3969e95f2",
     "a2af813b-b2b8-4547-ab03-9b058d70bbea",
