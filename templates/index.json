@@ -223,15 +223,15 @@
         "show_dots": false
       }
     },
-    "products_carousel_PaCcT3": {
+    "products_carousel_4yLWxB": {
       "type": "products-carousel",
       "settings": {
         "container": "5xl",
-        "collection": "sans-sulfites-ajoutes",
+        "collection": "nouveautes",
         "limit": 8,
-        "title": "Nos vins sans sulfites ajoutés",
+        "title": "Nos nouveautés",
         "collection_link": "Voir tout",
-        "url": "shopify://collections/sans-sulfites-ajoutes",
+        "url": "shopify://collections/nouveautes",
         "show_secondary_image": false,
         "show_arrows": true,
         "show_dots": false
@@ -293,6 +293,20 @@
         "show_arrows": false,
         "show_dots": false,
         "color": "#201a1c"
+      }
+    },
+    "products_carousel_PaCcT3": {
+      "type": "products-carousel",
+      "settings": {
+        "container": "5xl",
+        "collection": "sans-sulfites-ajoutes",
+        "limit": 8,
+        "title": "Nos vins sans sulfites ajoutés",
+        "collection_link": "Voir tout",
+        "url": "shopify://collections/sans-sulfites-ajoutes",
+        "show_secondary_image": false,
+        "show_arrows": true,
+        "show_dots": false
       }
     },
     "products_carousel_NYjkJk": {
@@ -751,8 +765,9 @@
     "ec1c9248-3ca2-483d-8370-8f7e3ce48d01",
     "banner_intro_wknBrq",
     "products_carousel_kWhxif",
-    "products_carousel_PaCcT3",
+    "products_carousel_4yLWxB",
     "4dc3e657-6ceb-433f-8455-055959184db0",
+    "products_carousel_PaCcT3",
     "products_carousel_NYjkJk",
     "1db7442e-0ee1-495a-96a1-01f3969e95f2",
     "a2af813b-b2b8-4547-ab03-9b058d70bbea",
