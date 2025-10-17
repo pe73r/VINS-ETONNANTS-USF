@@ -1,6 +1,444 @@
+{% doc %}
+  @prompt
+    Mon produit et sa description 
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-product-description-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: {{ block.settings.layout }};
+    gap: {{ block.settings.gap }}px;
+    padding: {{ block.settings.padding }}px;
+    background-color: {{ block.settings.background_color }};
+    border-radius: {{ block.settings.border_radius }}px;
+    max-width: 100%;
+  }
+
+  .ai-product-description__image-wrapper-{{ ai_gen_id }} {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .ai-product-description__image-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    object-fit: cover;
+  }
+
+  .ai-product-description__image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #f4f4f4;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-product-description__image-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-product-description__empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  .ai-product-description__content-{{ ai_gen_id }} {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.content_gap }}px;
+  }
+
+  .ai-product-description__title-{{ ai_gen_id }} {
+    font-family: {{ block.settings.heading_font.family }}, {{ block.settings.heading_font.fallback_families }};
+    font-weight: {{ block.settings.heading_font.weight }};
+    font-size: {{ block.settings.title_size }}px;
+    color: {{ block.settings.title_color }};
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .ai-product-description__price-{{ ai_gen_id }} {
+    font-size: {{ block.settings.price_size }}px;
+    color: {{ block.settings.price_color }};
+    font-weight: 600;
+  }
+
+  .ai-product-description__description-{{ ai_gen_id }} {
+    font-family: {{ block.settings.body_font.family }}, {{ block.settings.body_font.fallback_families }};
+    font-weight: {{ block.settings.body_font.weight }};
+    font-size: {{ block.settings.description_size }}px;
+    color: {{ block.settings.description_color }};
+    line-height: 1.6;
+  }
+
+  .ai-product-description__button-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: {{ block.settings.button_padding }}px {{ block.settings.button_padding | times: 2 }}px;
+    background-color: {{ block.settings.button_bg_color }};
+    color: {{ block.settings.button_text_color }};
+    border: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-size: {{ block.settings.button_text_size }}px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+  }
+
+  .ai-product-description__button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_bg_color }};
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-product-description-{{ ai_gen_id }} {
+      flex-direction: column;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-product-description-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-product-description__image-wrapper-{{ ai_gen_id }}">
+    {% if block.settings.product %}
+      {% if block.settings.product.featured_image %}
+        <img
+          src="{{ block.settings.product.featured_image | image_url: width: 800 }}"
+          alt="{{ block.settings.product.featured_image.alt | escape }}"
+          class="ai-product-description__image-{{ ai_gen_id }}"
+          loading="lazy"
+          width="{{ block.settings.product.featured_image.width }}"
+          height="{{ block.settings.product.featured_image.height }}"
+        >
+      {% else %}
+        <div class="ai-product-description__image-placeholder-{{ ai_gen_id }}">
+          {{ 'product-1' | placeholder_svg_tag }}
+        </div>
+      {% endif %}
+    {% else %}
+      <div class="ai-product-description__image-placeholder-{{ ai_gen_id }}">
+        {{ 'product-1' | placeholder_svg_tag }}
+        <div class="ai-product-description__empty-state-{{ ai_gen_id }}">
+          Sélectionnez un produit
+        </div>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="ai-product-description__content-{{ ai_gen_id }}">
+    {% if block.settings.product %}
+      {% if block.settings.show_title %}
+        <h2 class="ai-product-description__title-{{ ai_gen_id }}">
+          {{ block.settings.product.title }}
+        </h2>
+      {% endif %}
+
+      {% if block.settings.show_price %}
+        <div class="ai-product-description__price-{{ ai_gen_id }}">
+          {{ block.settings.product.price | money }}
+        </div>
+      {% endif %}
+
+      {% if block.settings.show_description and block.settings.product.description != blank %}
+        <div class="ai-product-description__description-{{ ai_gen_id }}">
+          {{ block.settings.product.description }}
+        </div>
+      {% endif %}
+
+      {% if block.settings.show_button %}
+        <a
+          href="{{ block.settings.product.url }}"
+          class="ai-product-description__button-{{ ai_gen_id }}"
+        >
+          {{ block.settings.button_text }}
+        </a>
+      {% endif %}
+    {% else %}
+      <h2 class="ai-product-description__title-{{ ai_gen_id }}">
+        Titre du produit
+      </h2>
+      <div class="ai-product-description__price-{{ ai_gen_id }}">
+        {{ 2500 | money }}
+      </div>
+      <div class="ai-product-description__description-{{ ai_gen_id }}">
+        La description de votre produit apparaîtra ici. Sélectionnez un produit pour afficher ses informations.
+      </div>
+    {% endif %}
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Produit et description",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Produit"
+    },
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Produit"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_title",
+      "label": "Afficher le titre",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_price",
+      "label": "Afficher le prix",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_description",
+      "label": "Afficher la description",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Mise en page"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Disposition",
+      "options": [
+        {
+          "value": "row",
+          "label": "Image à gauche"
+        },
+        {
+          "value": "row-reverse",
+          "label": "Image à droite"
+        },
+        {
+          "value": "column",
+          "label": "Image en haut"
+        }
+      ],
+      "default": "row"
+    },
+    {
+      "type": "range",
+      "id": "gap",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "label": "Espacement entre image et contenu",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "content_gap",
+      "min": 8,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "label": "Espacement du contenu",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "padding",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "label": "Marge intérieure",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Couleurs"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Arrière-plan",
+      "default": "#f8f2e7"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Couleur du titre",
+      "default": "#201a1c"
+    },
+    {
+      "type": "color",
+      "id": "price_color",
+      "label": "Couleur du prix",
+      "default": "#f84c55"
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Couleur de la description",
+      "default": "#201a1c"
+    },
+    {
+      "type": "header",
+      "content": "Typographie"
+    },
+    {
+      "type": "font_picker",
+      "id": "heading_font",
+      "label": "Police du titre",
+      "default": "playfair_display_n7"
+    },
+    {
+      "type": "font_picker",
+      "id": "body_font",
+      "label": "Police de la description",
+      "default": "lato_n4"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "min": 16,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Taille du titre",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "price_size",
+      "min": 14,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Taille du prix",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Taille de la description",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Arrondi des coins de l'image",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Bouton"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Afficher le bouton",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Texte du bouton",
+      "default": "Voir le produit"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Couleur du bouton",
+      "default": "#f84c55"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_bg_color",
+      "label": "Couleur du bouton au survol",
+      "default": "#201a1c"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Couleur du texte du bouton",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "button_text_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Taille du texte du bouton",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_padding",
+      "min": 8,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "Marge intérieure du bouton",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Arrondi des coins du bouton",
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Arrondi des coins du bloc",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Produit et description"
+    }
+  ]
+}
 {% endschema %}
