@@ -145,6 +145,7 @@
         "blocks": {
           "megamenu_7hGjwr": {
             "type": "megamenu",
+            "disabled": true,
             "settings": {
               "megamenu": "offre-de-noel",
               "featured_link_1": "",
