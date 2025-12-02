@@ -223,29 +223,15 @@
         "show_dots": false
       }
     },
-    "products_carousel_kWhxif": {
+    "products_carousel_NYjkJk": {
       "type": "products-carousel",
       "settings": {
         "container": "5xl",
-        "collection": "les-allocations",
+        "collection": "magnums-de-fete",
         "limit": 8,
-        "title": "Les allocations",
+        "title": "Les magnums",
         "collection_link": "Voir tout",
-        "url": "shopify://collections/les-allocations",
-        "show_secondary_image": false,
-        "show_arrows": true,
-        "show_dots": false
-      }
-    },
-    "products_carousel_4yLWxB": {
-      "type": "products-carousel",
-      "settings": {
-        "container": "5xl",
-        "collection": "nouveautes",
-        "limit": 8,
-        "title": "Nos nouveautés",
-        "collection_link": "Voir tout",
-        "url": "shopify://collections/nouveautes",
+        "url": "shopify://collections/magnums-de-fete",
         "show_secondary_image": false,
         "show_arrows": true,
         "show_dots": false
@@ -313,15 +299,30 @@
         "color": "#201a1c"
       }
     },
-    "products_carousel_NYjkJk": {
+    "products_carousel_kWhxif": {
       "type": "products-carousel",
       "settings": {
         "container": "5xl",
-        "collection": "magnums-de-fete",
+        "collection": "30-pepites",
         "limit": 8,
-        "title": "Les magnums",
+        "title": "30 pépites à (s')offrir",
         "collection_link": "Voir tout",
-        "url": "shopify://collections/magnums-de-fete",
+        "url": "shopify://collections/30-pepites",
+        "show_secondary_image": false,
+        "show_arrows": true,
+        "show_dots": false
+      }
+    },
+    "products_carousel_4yLWxB": {
+      "type": "products-carousel",
+      "disabled": true,
+      "settings": {
+        "container": "5xl",
+        "collection": "nouveautes",
+        "limit": 8,
+        "title": "Nos nouveautés",
+        "collection_link": "Voir tout",
+        "url": "shopify://collections/nouveautes",
         "show_secondary_image": false,
         "show_arrows": true,
         "show_dots": false
@@ -769,11 +770,11 @@
     "ec1c9248-3ca2-483d-8370-8f7e3ce48d01",
     "banner_intro_wknBrq",
     "products_carousel_PaCcT3",
-    "products_carousel_kWhxif",
-    "products_carousel_4yLWxB",
+    "products_carousel_NYjkJk",
     "17606939955f0536bc",
     "4dc3e657-6ceb-433f-8455-055959184db0",
-    "products_carousel_NYjkJk",
+    "products_carousel_kWhxif",
+    "products_carousel_4yLWxB",
     "1db7442e-0ee1-495a-96a1-01f3969e95f2",
     "a2af813b-b2b8-4547-ab03-9b058d70bbea",
     "banner_intro_Y8KU4y",
