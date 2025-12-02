@@ -147,13 +147,13 @@
             "type": "megamenu",
             "settings": {
               "megamenu": "offre-de-noel",
-              "featured_link_1": "",
+              "featured_link_1": "shopify://collections/nos-coffrets",
               "featured_link_subtitle_1": "",
-              "featured_link_title_1": "",
-              "featured_link_2": "",
+              "featured_link_title_1": "<h1><strong>Trouvez le coffret idéal !</strong></h1>",
+              "featured_link_2": "shopify://collections/magnums-de-fete",
               "featured_link_subtitle_2": "",
-              "featured_link_title_2": "",
-              "featured_link_3": "",
+              "featured_link_title_2": "<h1><strong>Choisissez votre Magnum</strong></h1>",
+              "featured_link_3": "shopify://collections/nos-coffrets",
               "featured_link_subtitle_3": "",
               "featured_link_title_3": ""
             }
