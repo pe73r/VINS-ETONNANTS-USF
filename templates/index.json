@@ -386,6 +386,7 @@
         "e78e4e02-5e5f-46b4-ade6-f97fe885a068",
         "3b35f979-2212-4301-9d49-79f08d3f6160"
       ],
+      "disabled": true,
       "settings": {
         "container": "7xl",
         "title": "Focus sur",
