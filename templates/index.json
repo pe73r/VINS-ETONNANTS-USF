@@ -237,6 +237,20 @@
         "show_dots": false
       }
     },
+    "products_carousel_X3aVqd": {
+      "type": "products-carousel",
+      "settings": {
+        "container": "5xl",
+        "collection": "destockage-massif",
+        "limit": 10,
+        "title": "Nos Promotions",
+        "collection_link": "Voir tout",
+        "url": "shopify://collections/destockage-massif",
+        "show_secondary_image": false,
+        "show_arrows": true,
+        "show_dots": false
+      }
+    },
     "17606939955f0536bc": {
       "type": "_blocks",
       "settings": {}
@@ -771,6 +785,7 @@
     "banner_intro_wknBrq",
     "products_carousel_PaCcT3",
     "products_carousel_NYjkJk",
+    "products_carousel_X3aVqd",
     "17606939955f0536bc",
     "4dc3e657-6ceb-433f-8455-055959184db0",
     "products_carousel_kWhxif",
