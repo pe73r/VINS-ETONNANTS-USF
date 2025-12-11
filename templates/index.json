@@ -209,6 +209,20 @@
         "show_hr": true
       }
     },
+    "products_carousel_X3aVqd": {
+      "type": "products-carousel",
+      "settings": {
+        "container": "5xl",
+        "collection": "champagne",
+        "limit": 10,
+        "title": "Nos Champagnes",
+        "collection_link": "Voir tout",
+        "url": "shopify://collections/champagne",
+        "show_secondary_image": false,
+        "show_arrows": true,
+        "show_dots": false
+      }
+    },
     "products_carousel_PaCcT3": {
       "type": "products-carousel",
       "settings": {
@@ -232,20 +246,6 @@
         "title": "Les magnums",
         "collection_link": "Voir tout",
         "url": "shopify://collections/magnums-de-fete",
-        "show_secondary_image": false,
-        "show_arrows": true,
-        "show_dots": false
-      }
-    },
-    "products_carousel_X3aVqd": {
-      "type": "products-carousel",
-      "settings": {
-        "container": "5xl",
-        "collection": "destockage-massif",
-        "limit": 10,
-        "title": "Nos Promotions",
-        "collection_link": "Voir tout",
-        "url": "shopify://collections/destockage-massif",
         "show_secondary_image": false,
         "show_arrows": true,
         "show_dots": false
@@ -784,9 +784,9 @@
     "aff41a44-f2a7-4e24-9afc-a8f7f4cdfa70",
     "ec1c9248-3ca2-483d-8370-8f7e3ce48d01",
     "banner_intro_wknBrq",
+    "products_carousel_X3aVqd",
     "products_carousel_PaCcT3",
     "products_carousel_NYjkJk",
-    "products_carousel_X3aVqd",
     "17606939955f0536bc",
     "4dc3e657-6ceb-433f-8455-055959184db0",
     "products_carousel_kWhxif",
