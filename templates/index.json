@@ -12,14 +12,6 @@
     "16635875657e00a7a6": {
       "type": "announcement-bar",
       "blocks": {
-        "text_znkwLj": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>OFFRE : -20% à partir de 100€</p>",
-            "url": ""
-          }
-        },
         "text_6PFbXq": {
           "type": "text",
           "disabled": true,
@@ -31,15 +23,7 @@
         "text_9UcyqC": {
           "type": "text",
           "settings": {
-            "text": "<p></p><p><strong>Commandez jusqu'au 20 décembre pour une livraison garantie avant Noël !</strong></p>",
-            "url": ""
-          }
-        },
-        "text_dQprwF": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>OFFRE : -20% à partir de 100€</p>",
+            "text": "<p></p><p><strong>Commandez jusqu'au 25 décembre pour une livraison garantie avant le réveillon !</strong></p>",
             "url": ""
           }
         },
@@ -49,14 +33,6 @@
           "settings": {
             "text": "<p><strong>DÉSTOCKAGE :</strong> Jusqu'à 34% de remise sur plus de 100 références !</p>",
             "url": "shopify://collections/destockage-massif"
-          }
-        },
-        "f798bfbf-f191-4238-afc1-18a73b6cbc35": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>Livraison pour le 31 déc assurée pour toute commande jusqu'au 26 décembre !</strong></p>",
-            "url": "shopify://collections/promo-destockage"
           }
         },
         "text_Y7GKrd": {
@@ -77,12 +53,9 @@
         }
       },
       "block_order": [
-        "text_znkwLj",
         "text_6PFbXq",
         "text_9UcyqC",
-        "text_dQprwF",
         "text_PRc38X",
-        "f798bfbf-f191-4238-afc1-18a73b6cbc35",
         "text_Y7GKrd",
         "text_rjNCzQ"
       ],
