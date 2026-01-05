@@ -204,11 +204,11 @@
       "type": "products-carousel",
       "settings": {
         "container": "5xl",
-        "collection": "champagne",
+        "collection": "nouveautes",
         "limit": 10,
-        "title": "Nos Champagnes",
+        "title": "Les nouveautés",
         "collection_link": "Voir tout",
-        "url": "shopify://collections/champagne",
+        "url": "shopify://collections/nouveautes",
         "show_secondary_image": false,
         "show_arrows": true,
         "show_dots": false
@@ -218,25 +218,11 @@
       "type": "products-carousel",
       "settings": {
         "container": "5xl",
-        "collection": "nos-coffrets",
+        "collection": "les-allocations",
         "limit": 8,
-        "title": "Nos coffrets festifs",
+        "title": "Les allocations",
         "collection_link": "Voir tout",
-        "url": "shopify://collections/nos-coffrets",
-        "show_secondary_image": false,
-        "show_arrows": true,
-        "show_dots": false
-      }
-    },
-    "products_carousel_NYjkJk": {
-      "type": "products-carousel",
-      "settings": {
-        "container": "5xl",
-        "collection": "magnums-de-fete",
-        "limit": 8,
-        "title": "Les magnums",
-        "collection_link": "Voir tout",
-        "url": "shopify://collections/magnums-de-fete",
+        "url": "shopify://collections/les-allocations",
         "show_secondary_image": false,
         "show_arrows": true,
         "show_dots": false
@@ -308,11 +294,11 @@
       "type": "products-carousel",
       "settings": {
         "container": "5xl",
-        "collection": "30-pepites",
+        "collection": "destockage-massif",
         "limit": 8,
-        "title": "30 pépites à (s')offrir",
+        "title": "(Très) bonnes affaires",
         "collection_link": "Voir tout",
-        "url": "shopify://collections/30-pepites",
+        "url": "shopify://collections/destockage-massif",
         "show_secondary_image": false,
         "show_arrows": true,
         "show_dots": false
@@ -777,7 +763,6 @@
     "banner_intro_wknBrq",
     "products_carousel_X3aVqd",
     "products_carousel_PaCcT3",
-    "products_carousel_NYjkJk",
     "17606939955f0536bc",
     "4dc3e657-6ceb-433f-8455-055959184db0",
     "products_carousel_kWhxif",
