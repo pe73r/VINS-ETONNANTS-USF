@@ -14,14 +14,22 @@
       "blocks": {
         "text_6PFbXq": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p><strong>Livraison à partir de 9.50€ pour la France !</strong></p><p>Franco à 250€ de commande pour le France continentale et la Belgique. </p>",
             "url": ""
           }
         },
+        "text_d9exYH": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>OFFRE : -20% à partir de 100€</p>",
+            "url": ""
+          }
+        },
         "text_9UcyqC": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p></p><p><strong>Commandez jusqu'au 25 décembre pour une livraison garantie avant le réveillon !</strong></p>",
             "url": ""
@@ -54,6 +62,7 @@
       },
       "block_order": [
         "text_6PFbXq",
+        "text_d9exYH",
         "text_9UcyqC",
         "text_PRc38X",
         "text_Y7GKrd",
