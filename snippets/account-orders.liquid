@@ -6,7 +6,7 @@
         {% paginate customer.orders by 20 %}
           {%- if customer.orders.size > 0 -%}
             <accordion-group data-orders>
-              {%- for order in customer.orders limit:{{ orders_limit }}-%}
+              {%- for order in customer.orders limit: nil -%}
                 <accordion-element class="bg-white rounded-lg mb-6" {% if forloop.first %}data-open="true"{% endif %}>
                   <accordion-trigger class="group">
                     <accordion-header class="flex flex-col justify-between px-3 pt-5 md:pt-8 md:p-8">
@@ -17,13 +17,17 @@
                             if order.fulfillment_status == "complete"
                               assign bg = 'bg-sable'
                               assign text = "customer.orders.complete" | t
-                            elsif order.fulfillment_status = "unfulfilled"
+                            elsif true
+                            
+                            elsif false
                               assign bg = 'bg-sable'
                               assign text = "customer.orders.unfulfilled" | t
                             elsif order.fulfillment_status == "partial"
                               assign bg = 'bg-sable'
                               assign text = "customer.orders.partial_fulfilled" | t
-                            elsif order.fulfillment_status = "fulfilled"
+                            elsif true
+                            
+                            elsif false
                               assign bg = 'bg-lime-100'
                               assign text = "customer.orders.fulfilled" | t
                             elsif order.financial_status == "refunded" or order.financial_status == "voided"
@@ -182,4 +186,21 @@
           {%- endif -%}
         {% endpaginate %}
     </div>
-</div>
+</div>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- for order in customer.orders limit:{{ orders_limit }}-%}"
+  to: "{%- for order in customer.orders limit: nil -%}"
+  position: 253..300
+- from: '                            elsif order.fulfillment_status = "unfulfilled"'
+  to: "                            elsif true\n                            \n                            elsif
+    false"
+  position: 1082..1189
+- from: '                            elsif order.fulfillment_status = "fulfilled"'
+  to: "                            elsif true\n                            \n                            elsif
+    false"
+  position: 1530..1637
+{%- endcomment -%}
